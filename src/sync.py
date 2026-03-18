@@ -282,8 +282,9 @@ query RecentTranscripts($limit: Int, $fromDate: DateTime) {
 
 
 def fetch_fireflies() -> list:
-    from_date = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%dT00:00:00Z")
-    resp = fireflies_gql(FIREFLIES_QUERY, {"limit": 50, "fromDate": from_date})
+    from_date = (datetime.now(timezone.utc) - timedelta(days=90)).strftime("%Y-%m-%dT00:00:00Z")
+    print(f"[Fireflies] Querying transcripts from {from_date}")
+    resp = fireflies_gql(FIREFLIES_QUERY, {"limit": 100, "fromDate": from_date})
 
     if resp.get("errors"):
         raise RuntimeError(resp["errors"][0].get("message", "Fireflies API error"))
@@ -357,6 +358,8 @@ def fetch_fireflies() -> list:
             "external_domains": list(external_domains),
         })
 
+    with_ai = sum(1 for t in transcripts if t.get("actionItems"))
+    print(f"[Fireflies] {len(transcripts)} transcripts fetched, {with_ai} have action items")
     return transcripts
 
 
@@ -609,7 +612,10 @@ def build_data(
             latest_tr = max(matched_transcripts, key=lambda x: x.get("date", ""))
             ai = latest_tr.get("actionItems", [])
             if ai:
-                next_steps = ai[0] if isinstance(ai[0], str) else str(ai[0])
+                # Join up to 3 action items
+                items = [s if isinstance(s, str) else str(s) for s in ai[:3]]
+                next_steps = " | ".join(items)
+                print(f"[NextSteps] {company}: matched transcript '{latest_tr.get('title', '')}' → {len(ai)} action items")
 
         # Compute lastDays & lastContactType
         candidates: list[tuple[datetime, str]] = []
