@@ -107,9 +107,13 @@ def fireflies_gql(query: str, variables: dict | None = None) -> dict:
 # ---------------------------------------------------------------------------
 
 
-def _resolve_company_names(record_ids: list[str]) -> dict[str, str]:
-    """Batch-fetch company names from Attio by record IDs."""
+def _resolve_company_records(record_ids: list[str]) -> tuple[dict[str, str], dict[str, list[str]]]:
+    """Batch-fetch company names and domains from Attio by record IDs.
+
+    Returns (names_by_rid, domains_by_rid).
+    """
     names: dict[str, str] = {}
+    domains: dict[str, list[str]] = {}
     for rid in record_ids:
         try:
             resp = attio_api("GET", f"/objects/companies/records/{rid}")
@@ -117,9 +121,12 @@ def _resolve_company_names(record_ids: list[str]) -> dict[str, str]:
             name_list = vals.get("name", [])
             if name_list:
                 names[rid] = name_list[0].get("value", "")
+            dom_list = vals.get("domains", [])
+            if dom_list:
+                domains[rid] = [d.get("domain", "") for d in dom_list if d.get("domain")]
         except Exception:
             pass
-    return names
+    return names, domains
 
 
 def _resolve_person_names(record_ids: list[str]) -> dict[str, str]:
@@ -180,9 +187,9 @@ def fetch_attio() -> list:
             break
         offset = next_offset
 
-    # Step 3: resolve company names via parent_record_id
+    # Step 3: resolve company names + domains via parent_record_id
     company_rids = list({e["parent_record_id"] for e in entries if e.get("parent_record_id")})
-    company_names = _resolve_company_names(company_rids)
+    company_names, company_domains = _resolve_company_records(company_rids)
 
     # Step 4: collect person record IDs for main_point_of_contact
     person_rids = set()
@@ -199,10 +206,12 @@ def fetch_attio() -> list:
     for entry in entries:
         values = entry.get("entry_values", {})
 
-        # Company name from parent record
-        company = company_names.get(entry.get("parent_record_id", ""), "")
+        # Company name and domains from parent record
+        parent_rid = entry.get("parent_record_id", "")
+        company = company_names.get(parent_rid, "")
         if not company:
             continue
+        domains = company_domains.get(parent_rid, [])
 
         # Stage
         stage_raw = ""
@@ -236,6 +245,7 @@ def fetch_attio() -> list:
 
         deals.append({
             "company": str(company),
+            "domains": domains,
             "stage": normalize_stage(stage_raw),
             "lastContactDate": None,  # will be enriched from Gmail/GCal/Fireflies
             "notes": str(notes),
@@ -300,13 +310,23 @@ def fetch_fireflies() -> list:
 
         title = t.get("title") or ""
 
-        # Infer company from title (look for "Company <> Company" pattern or similar)
+        # Extract external participant email domains (exclude byzantine/gaia)
+        external_domains = set()
+        external_emails = []
+        for p in participants:
+            if isinstance(p, str) and "@" in p:
+                domain = p.split("@")[1].lower()
+                if "byzantine" not in domain and "gaia" not in domain and "gmail" not in domain and "google" not in domain:
+                    external_domains.add(domain)
+                    external_emails.append(p)
+
+        # Infer company from title ("Meet – X and Gaia" pattern)
         company = ""
         if "<>" in title:
             parts = title.split("<>")
             for part in parts:
                 part = part.strip()
-                if "byzantine" not in part.lower():
+                if "byzantine" not in part.lower() and "gaia" not in part.lower():
                     company = part
                     break
 
@@ -317,6 +337,7 @@ def fetch_fireflies() -> list:
             "summary": overview[:200],
             "actionItems": action_items[:5],
             "company": company,
+            "external_domains": list(external_domains),
         })
 
     return transcripts
@@ -512,43 +533,66 @@ def build_data(
     for entry in emails_raw:
         email_index[entry["company"].lower()] = entry["emails"]
 
-    # Index transcripts by company (fuzzy)
-    transcript_index: dict[str, list] = {}
-    for t in transcripts_raw:
-        co = (t.get("company") or "").lower()
-        if co:
-            transcript_index.setdefault(co, []).append(t)
-
     all_activities: list[dict] = []
     deals = []
 
     for raw in deals_raw:
         company = raw.get("company", "Unknown")
+        deal_domains = raw.get("domains", [])
         deal_id = slugify(company)
         stage = raw.get("stage", "Qualification")
         notes = raw.get("notes", "") or ""
         next_steps = raw.get("nextSteps", "") or ""
         contact = raw.get("contact") or None
+        confidence = raw.get("confidence")
         attio_date = parse_date(raw.get("lastContactDate"))
 
-        # Match emails
+        # Match emails (fuzzy by company name)
         matched_emails: list = []
         for key, em_list in email_index.items():
             if fuzzy_match(company, key) > 0.6:
                 matched_emails = em_list
                 break
 
-        # Match transcripts
+        # Match transcripts by domain or fuzzy company name
         matched_transcripts: list = []
-        for key, tr_list in transcript_index.items():
-            if fuzzy_match(company, key) > 0.6:
-                matched_transcripts = tr_list
-                break
+        for t in transcripts_raw:
+            # Match by email domain
+            t_domains = t.get("external_domains", [])
+            if deal_domains and t_domains:
+                # Check if any transcript domain matches any deal domain (root domain)
+                for dd in deal_domains:
+                    dd_root = ".".join(dd.split(".")[-2:])
+                    for td in t_domains:
+                        td_root = ".".join(td.split(".")[-2:])
+                        if dd_root == td_root:
+                            matched_transcripts.append(t)
+                            break
+                    if matched_transcripts and matched_transcripts[-1] is t:
+                        break
+                if matched_transcripts and matched_transcripts[-1] is t:
+                    continue
+            # Fallback: fuzzy match on company name in title
+            t_company = t.get("company", "")
+            if t_company and fuzzy_match(company, t_company) > 0.6:
+                matched_transcripts.append(t)
+                continue
+            # Also try matching company name in transcript title
+            t_title = t.get("title", "")
+            if company.lower() in t_title.lower():
+                matched_transcripts.append(t)
 
-        # Match meetings
+        # Match meetings by domain or fuzzy
         matched_meetings = [
             m for m in gcal_raw if fuzzy_match(company, m.get("company", "")) > 0.6
         ]
+
+        # Enrich next_steps from latest transcript action items
+        if not next_steps and matched_transcripts:
+            latest_tr = max(matched_transcripts, key=lambda x: x.get("date", ""))
+            ai = latest_tr.get("actionItems", [])
+            if ai:
+                next_steps = ai[0] if isinstance(ai[0], str) else str(ai[0])
 
         # Compute lastDays & lastContactType
         candidates: list[tuple[datetime, str]] = []
@@ -597,7 +641,7 @@ def build_data(
                 "notes": notes,
                 "nextSteps": next_steps,
                 "contact": contact,
-                "confidence": None,
+                "confidence": confidence,
                 "emails": matched_emails,
                 "transcripts": matched_transcripts,
             }
