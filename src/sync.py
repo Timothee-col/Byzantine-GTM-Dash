@@ -837,12 +837,16 @@ def build_data(
         if not d.get("expected_allocation") or d.get("pct_closing") is None or not d.get("days_to_close")
     ]
 
+    # Active clients portfolio
+    active_allocation = sum(d["expected_allocation"] for d in active_deals if d.get("expected_allocation"))
+
     pipeline_metrics = {
         "pipeline_count": len(pipeline_deals),
         "total_allocation": total_allocation,
         "time_weighted_pipeline_mo": twp,
         "avg_pct_closing": avg_pct_closing,
         "active_count": len(active_deals),
+        "active_allocation": active_allocation,
         "lost_count": len(lost_deals),
         "incomplete_deals": incomplete_deals,
     }
