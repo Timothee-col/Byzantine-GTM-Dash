@@ -14,6 +14,10 @@ const STAGE_COLOR = {
   "Meeting": "#9d6fff",
   "Proposal / Negotiation": "#00d4ff",
   "Testing": "#22d17a",
+  "Active": "#00e68a",
+  "Won": "#22d17a",
+  "Lost": "#f04545",
+  "Paused": "#4d6070",
 };
 
 const STAGE_SHORT = {
@@ -22,6 +26,10 @@ const STAGE_SHORT = {
   "Meeting": "MEETING",
   "Proposal / Negotiation": "PROPOSAL",
   "Testing": "TESTING",
+  "Active": "ACTIVE",
+  "Won": "WON",
+  "Lost": "LOST",
+  "Paused": "PAUSED",
 };
 
 // ─── Business Logic ──────────────────────────────────────────────────────────
@@ -184,7 +192,7 @@ function PipelineTable({ deals, onSelect }) {
   const [tab, setTab] = useState("ALL");
   const [sort, setSort] = useState("URGENCY");
 
-  const stages = ["ALL", "QUALIF", "CONTACT", "MEETING", "PROPOSAL", "TESTING"];
+  const stages = ["ALL", "QUALIF", "CONTACT", "MEETING", "PROPOSAL", "TESTING", "ACTIVE", "WON", "LOST", "PAUSED"];
   const stageMap = Object.fromEntries(Object.entries(STAGE_SHORT).map(([k,v]) => [v, k]));
 
   const filtered = useMemo(() => {
@@ -348,7 +356,7 @@ function ActivityFeed({ feed }) {
 
 // ─── Pipeline by Stage ───────────────────────────────────────────────────────
 function PipelineByStage({ deals, onFilterStage }) {
-  const stageOrder = ["Qualification", "Contacted", "Meeting", "Proposal / Negotiation", "Testing"];
+  const stageOrder = ["Qualification", "Contacted", "Meeting", "Proposal / Negotiation", "Testing", "Active", "Won", "Lost", "Paused"];
 
   return (
     <div className="fade-in" style={{ padding: "20px 24px" }}>

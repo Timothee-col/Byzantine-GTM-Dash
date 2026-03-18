@@ -37,10 +37,13 @@ STAGE_MAP = {
     "proposal / negotiation": "Proposal / Negotiation",
     "negotiation": "Proposal / Negotiation",
     "testing": "Testing",
+    "active": "Active",
+    "won": "Won",
+    "lost": "Lost",
+    "paused": "Paused",
 }
-VALID_STAGES = {"Qualification", "Contacted", "Meeting", "Proposal / Negotiation", "Testing"}
-# Stages to exclude from the dashboard (closed deals)
-EXCLUDED_STAGES = {"Won", "Lost", "Paused"}
+VALID_STAGES = {"Qualification", "Contacted", "Meeting", "Proposal / Negotiation", "Testing", "Active", "Won", "Lost", "Paused"}
+EXCLUDED_STAGES = set()
 
 
 def slugify(name: str) -> str:
