@@ -1,13 +1,13 @@
 {
-  "sync_time": "2026-03-18T14:26:18+00:00",
+  "sync_time": "2026-03-18T15:03:53+00:00",
   "sources": {
     "fireflies": {
       "status": "ok",
       "count": 0
     },
     "gcal": {
-      "status": "error",
-      "error": "<HttpError 403 when requesting https://www.googleapis.com/calendar/v3/calendars/primary/events?timeMin=2026-03-18T14%3A25%3A49.064825%2B00%3A00&timeMax=2026-03-25T14%3A25%3A49.064825%2B00%3A00&maxResu"
+      "status": "ok",
+      "count": 50
     },
     "attio": {
       "status": "ok",
@@ -15,7 +15,7 @@
     },
     "gmail": {
       "status": "ok",
-      "count": 0
+      "count": 25
     }
   },
   "deals": [
@@ -23,15 +23,28 @@
       "id": "titanbay",
       "company": "Titanbay",
       "stage": "Contacted",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 22,
+      "lastContactDate": "2026-02-24",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
       "nextSteps": "",
       "contact": null,
       "confidence": null,
-      "emails": [],
+      "emails": [
+        {
+          "date": "2026-02-24",
+          "subject": "Great speaking with you at IPEM",
+          "direction": "sent",
+          "snippet": "Hi Richard, Hope you are doing well. Just wanted to check whether you had a chance to look at the Byzantine materials I sent over. As a quick reminder, Byzantine&#39;s main features are 5-8% yield,"
+        },
+        {
+          "date": "2026-02-17",
+          "subject": "Great speaking with you at IPEM",
+          "direction": "sent",
+          "snippet": "Hi Richard, It was a pleasure speaking with you at IPEM! As mentioned during our conversation, I am sharing with you some content on Byzantine: • Byzantine Presentation. • Access to the platform,"
+        }
+      ],
       "transcripts": []
     },
     {
@@ -45,7 +58,7 @@
       "notes": "",
       "nextSteps": "",
       "contact": null,
-      "confidence": null,
+      "confidence": 3,
       "emails": [],
       "transcripts": []
     },
@@ -53,15 +66,34 @@
       "id": "jethr",
       "company": "JetHR",
       "stage": "Meeting",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 21,
+      "lastContactDate": "2026-02-25",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
       "nextSteps": "",
       "contact": null,
-      "confidence": null,
-      "emails": [],
+      "confidence": 2,
+      "emails": [
+        {
+          "date": "2026-02-25",
+          "subject": "Re: Byzantine <> Jet HR, recap",
+          "direction": "sent",
+          "snippet": "Ciao Samuel, grazie mille per il tuo feedback e per la sincerità. Capisco perfettamente la vostra posizione e la preferenza per soluzioni più tradizionali. Resto a disposizione per qualsiasi"
+        },
+        {
+          "date": "2026-02-25",
+          "subject": "Re: Byzantine <> Jet HR, recap",
+          "direction": "received",
+          "snippet": "Ciao Gaia, innanzitutto perdonami per l&#39;attesa e per non aver risposto! Siamo stati molto impegnati. Al momento, ti direi che la nostra liquidità sta rendendo bene e preferirei evitare di avere un"
+        },
+        {
+          "date": "2026-02-23",
+          "subject": "Re: Byzantine <> Jet HR, recap",
+          "direction": "sent",
+          "snippet": "Ciao Samuel, ciao Mauro, Spero che tutto proceda bene! Vi scrivo per un follow-up e per condividere con voi il nostro nuovo documento FAQ. Sono passate alcune settimane dal nostro incontro di gennaio."
+        }
+      ],
       "transcripts": []
     },
     {
@@ -83,15 +115,34 @@
       "id": "rebind",
       "company": "Rebind",
       "stage": "Proposal / Negotiation",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 9,
+      "lastContactDate": "2026-03-09",
+      "lastContactType": "email_received",
       "priority": "High",
       "notes": "",
       "nextSteps": "",
       "contact": null,
-      "confidence": null,
-      "emails": [],
+      "confidence": 1,
+      "emails": [
+        {
+          "date": "2026-03-09",
+          "subject": "❗️ Big update: a faster, simpler Rebind",
+          "direction": "received",
+          "snippet": "Here&#39;s what changes and how to migrate your funds A new Rebind is here Hey gaiaferrero, We&#39;ve just released a major update to Rebind. Faster, cleaner, and built around the networks that matter"
+        },
+        {
+          "date": "2026-01-09",
+          "subject": "Document shared with you: ‘Rebind discussion’",
+          "direction": "received",
+          "snippet": "Jonas Bokelmann shared a document Jonas Bokelmann (jonas@byzantine.fi) has invited you to edit the following document: Rebind discussion Open Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA"
+        },
+        {
+          "date": "2025-12-15",
+          "subject": "Invitation: 60 mins: Steven | Rebind and Jonas Bokelmann @ Tue 16 Dec 2025 5pm - 6pm (CET) (Gaia Ferrero Regis)",
+          "direction": "sent",
+          "snippet": "60 mins: Steven | Rebind and Jonas Bokelmann Join with Google Meet – Event Name 60 mins Location: This is a Google Meet web conference. You can join this meeting from your computer, tablet, or"
+        }
+      ],
       "transcripts": []
     },
     {
@@ -120,98 +171,219 @@
       "notes": "",
       "nextSteps": "",
       "contact": null,
-      "confidence": null,
-      "emails": [],
+      "confidence": 4,
+      "emails": [
+        {
+          "date": "",
+          "subject": "Cede Investor Update - May/June.25",
+          "direction": "received",
+          "snippet": "View in browser Investor update - May/June.25 Dear investors, Always a pleasure meeting — even more so on the French Riviera! We&#39;re continuing to execute our go-to-market strategy — faster and"
+        },
+        {
+          "date": "",
+          "subject": "Cede Investor Update - March/April.25",
+          "direction": "received",
+          "snippet": "View in browser Investor update - March/April.25 It was great catching up with many of you in the US and Dubai. Now, let&#39;s crush the market together 🔥🚀 Thanks to some of you for the intros to"
+        },
+        {
+          "date": "",
+          "subject": "Cede Investor Update - Jan/Feb.25",
+          "direction": "received",
+          "snippet": "View in browser Investor update - Jan/Feb.25 Dear investors, With the recent PMF we got with Cede Hub, we can now reasonably aim for the stars . With this product, our clients are token issuers listed"
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "bpifrance",
       "company": "Bpifrance",
       "stage": "Meeting",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 175,
+      "lastContactDate": "2025-09-24",
+      "lastContactType": "email_received",
       "priority": "Med",
       "notes": "Public investment bank. Coffee in Paris. Re-engage all.",
       "nextSteps": "",
       "contact": null,
-      "confidence": null,
-      "emails": [],
+      "confidence": 0,
+      "emails": [
+        {
+          "date": "2025-09-24",
+          "subject": "Action requise : vérifiez les accès de votre équipe sur Bpifrance en ligne",
+          "direction": "received",
+          "snippet": "Assurez vous que la liste et les droits de vos utilisateurs invités sont à jour Si vous ne visualisez pas correctement cet email, suivez ce lien. bpifrance Bonjour, En tant qu&#39;administrateur de l"
+        },
+        {
+          "date": "2025-07-16",
+          "subject": "Lunch with BYZANTINE FINANCE & Bpifrance",
+          "direction": "received",
+          "snippet": "Hello Gaia &amp; Jonas, @Timothee GERFAUD &amp; moi-même sommes ravis de vous rencontrer « en vrai » autour d&#39;un déj la semaine prochaine quand vous rentrez en France ! On viendra jusqu&#39;à vous"
+        },
+        {
+          "date": "2025-07-15",
+          "subject": "Lunch with BYZANTINE FINANCE & Bpifrance",
+          "direction": "received",
+          "snippet": "Hello Gaia &amp; Jonas, @Timothee GERFAUD &amp; moi-même sommes ravis de vous rencontrer « en vrai » autour d&#39;un déj la semaine prochaine quand vous rentrez en France ! On viendra jusqu&#39;à vous"
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "jump",
       "company": "Jump",
       "stage": "Contacted",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 9,
+      "lastContactDate": "2026-03-09",
+      "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
       "nextSteps": "",
       "contact": null,
       "confidence": null,
-      "emails": [],
+      "emails": [
+        {
+          "date": "2026-03-09",
+          "subject": "Re: Byzantine x Jump",
+          "direction": "received",
+          "snippet": "Hello Gaia, Olivier arrive chez Jump le 23 mars - on revient vers toi dans les jours/ semaines qui suivent. Bonne journée, Nicolas On Fri, Mar 6, 2026 at 10:07 AM Gaia Ferrero Regis &lt;gaia@byzantine"
+        },
+        {
+          "date": "2026-03-06",
+          "subject": "Re: Byzantine x Jump",
+          "direction": "sent",
+          "snippet": "Bonjour Nicolas, bonjour Olivier, Olivier, bienvenue dans les fonctions! Nicolas m&#39;avait indiqué que tu serais lead sur ce sujet dès ta prise de poste. De notre côté, les choses bougent vite : on"
+        },
+        {
+          "date": "2026-02-19",
+          "subject": "Re: Byzantine x Jump",
+          "direction": "sent",
+          "snippet": "Hello Nicolas, hello Oliver, Merci pour le retour, c&#39;est bien noté! Concernant les collatéraux acceptés, voici la liste à jour. Pour notre part, on distingue quand même deux catégories: -"
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "cdp-venture-capital",
       "company": "CDP Venture Capital",
       "stage": "Contacted",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 6,
+      "lastContactDate": "2026-03-12",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
       "nextSteps": "",
       "contact": null,
       "confidence": null,
-      "emails": [],
+      "emails": [
+        {
+          "date": "2026-03-12",
+          "subject": "Re: Videocall Levi CDP VC/ Ferrero Regis Byzantine Finance",
+          "direction": "sent",
+          "snippet": "Gentilissima Morgana, Grazie mille per la mail. Confermo la disponibilità per il 24/03 alle 16:30. Resto a disposizione per qualsiasi necessità. Cordialmente, Gaia Ferrero Regis Gaia Ferrero Regis CEO"
+        },
+        {
+          "date": "2026-03-12",
+          "subject": "R: Videocall Levi CDP VC/ Ferrero Regis Byzantine Finance",
+          "direction": "received",
+          "snippet": "Gentilissima, torno da lei per sapere se ha avuto modo di valutare gli slot proposti, così da poter spostare la videocall. Un saluto, Morgana Morgana Mazzulla Executive Assistant dell&#39;"
+        },
+        {
+          "date": "2026-03-10",
+          "subject": "R: Videocall Levi CDP VC/ Ferrero Regis Byzantine Finance",
+          "direction": "received",
+          "snippet": "Gentilissima, torno da lei per comunicarle che purtroppo, a causa di un impegno imprevisto e inderogabile, dovremo spostare la videocall attualmente fissata per il 19 marzo pv. Come alternativa, posso"
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "bernat-family-office-sl",
       "company": "Bernat Family Office S.L.",
       "stage": "Meeting",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 163,
+      "lastContactDate": "2025-10-06",
+      "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
       "nextSteps": "",
       "contact": null,
       "confidence": null,
-      "emails": [],
+      "emails": [
+        {
+          "date": "2025-10-06",
+          "subject": "Aceptada: Bernat <> Byzantine",
+          "direction": "received",
+          "snippet": "ADVERTENCIA LEGAL El contenido de este correo electrónico y de sus anexos es estrictamente confidencial. En el caso de que usted no sea el destinatario y haya recibido este mensaje por equivocación,"
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "request-network",
       "company": "Request Network",
       "stage": "Meeting",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 20,
+      "lastContactDate": "2026-02-26",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
       "nextSteps": "",
       "contact": null,
       "confidence": null,
-      "emails": [],
+      "emails": [
+        {
+          "date": "2026-02-26",
+          "subject": "Re: KYB Request for T3tris Labs",
+          "direction": "sent",
+          "snippet": "Hi, Please find attached the pitch deck of T3tris - it outlines their goals as an innovative startup building infrastructure for digital finance. Best, Jonas Bokelmann COO | Byzantine Finance Book a"
+        },
+        {
+          "date": "2025-11-28",
+          "subject": "Quick Clarification to Ensure We Can Best Support Your Request",
+          "direction": "received",
+          "snippet": "Hi Gaia, Thank you for submitting your request to Consultport! Before we proceed, we&#39;d love to align on a few points to make sure we fully understand your needs and that we are indeed the right"
+        },
+        {
+          "date": "2025-11-25",
+          "subject": "Re: REQUEST FOR INFORMATION_Byzantine Finance SAS",
+          "direction": "sent",
+          "snippet": "Hi, Thanks for getting back to me! There are four relevant service partners here: For on-/off-ramping, we use Bridge. For this, users sign your ToS directly. Clients are able to access insurance"
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "the-moon-investments",
       "company": "The Moon Investments",
       "stage": "Proposal / Negotiation",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 13,
+      "lastContactDate": "2026-03-05",
+      "lastContactType": "email_received",
       "priority": "High",
       "notes": "",
       "nextSteps": "",
       "contact": null,
       "confidence": null,
-      "emails": [],
+      "emails": [
+        {
+          "date": "2026-03-05",
+          "subject": "Accepted: The Moon Investments and Gaia Ferrero Regis @ Thu 19 Mar 2026 2pm - 2:30pm (CET) (gaia@byzantine.fi)",
+          "direction": "received",
+          "snippet": "The Moon Investments and Gaia Ferrero Regis Sebastien Gros has accepted this invitation. Join with Google Meet Meeting link meet.google.com/kuv-saos-vfb Join by phone (FR) +33 1 87 40 29 76 PIN:"
+        },
+        {
+          "date": "2025-08-08",
+          "subject": "Trust the Signal by Silvia Mogas🪐",
+          "direction": "received",
+          "snippet": "BMBWeb3 Ventures | Blockchain Marketing Boutique ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏"
+        },
+        {
+          "date": "2025-05-08",
+          "subject": "Increasing TVL On-Chain & Making Moves in the US!",
+          "direction": "received",
+          "snippet": "Join us for Consensus &amp; Solana Accelerate View this email in your browser This spring, Caladan is making a strong showing across the US, with our team attending key industry events and meeting wit"
+        }
+      ],
       "transcripts": []
     },
     {
@@ -225,7 +397,7 @@
       "notes": "",
       "nextSteps": "",
       "contact": null,
-      "confidence": null,
+      "confidence": 0,
       "emails": [],
       "transcripts": []
     },
@@ -233,45 +405,102 @@
       "id": "blisce",
       "company": "Blisce",
       "stage": "Meeting",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 28,
+      "lastContactDate": "2026-02-18",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
       "nextSteps": "",
       "contact": null,
       "confidence": null,
-      "emails": [],
+      "emails": [
+        {
+          "date": "2026-02-18",
+          "subject": "Re: Intro Blisce <> Byzantine",
+          "direction": "sent",
+          "snippet": "Hi Michael, Thanks for booking, and nice to meet you as well! Unfortunately, I won&#39;t be able to make it before next week. Looking forward to our chat! Best, Gaia Gaia Ferrero Regis CEO | Byzantine"
+        },
+        {
+          "date": "2026-02-17",
+          "subject": "Re: Intro Blisce <> Byzantine",
+          "direction": "received",
+          "snippet": "Thanks Thibaut and Mathilde! Gaia - it&#39;s nice to meet you. I booked us time for next Tuesday through your calendar. Alternatively, I could also do a 30 minute window between 10:30-11:30am EST"
+        },
+        {
+          "date": "2026-02-16",
+          "subject": "Re: Intro Blisce <> Byzantine",
+          "direction": "sent",
+          "snippet": "Hi Michael and Mathilde, Nice to meet you! And thanks Thibaut for the introduction. As Thibaut mentioned, we offer a cash management solution with approximately a 6-8% yield on euros or dollars. I wil"
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "skill-hunter",
       "company": "Skill Hunter",
       "stage": "Testing",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 1,
+      "lastContactDate": "2026-03-17",
+      "lastContactType": "email_received",
       "priority": "High",
       "notes": "",
       "nextSteps": "",
       "contact": null,
-      "confidence": null,
-      "emails": [],
+      "confidence": 4,
+      "emails": [
+        {
+          "date": "2026-03-17",
+          "subject": "Skill Hunter vous invite à signer Conditions_de_presentation_de_candidats_-_Skill_Hunter - Byzantine Finance sur Yousign",
+          "direction": "received",
+          "snippet": "Bonjour Gaia Ferrero Regis, Skill Hunter vous invite à signer : Conditions_de_presentation_de_candidats_-_Skill_Hunter - Byzantine Finance Pour lire et signer le document, cliquez sur le bouton ci-"
+        },
+        {
+          "date": "2026-02-23",
+          "subject": "Re: Byzantine <> Skill Hunter",
+          "direction": "sent",
+          "snippet": "Hello Pierrick, Merci beaucoup pour le document. Nous l&#39;avons bien transmis à notre prestataire de paiement pour validation. De notre côté, je suis personnellement le dossier et je te tiens inform"
+        },
+        {
+          "date": "2026-02-23",
+          "subject": "Re: KYB Onboarding Requirements for SKILL HUNTER",
+          "direction": "sent",
+          "snippet": "Dear Bridge Compliance Team, Please find attached the Corporate Act to emit shares. In Article 1 you will find the exact ownership split. Best, Jonas Bokelmann COO | Byzantine Finance Book a meeting ￼"
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "sopra-steria",
       "company": "Sopra Steria",
       "stage": "Meeting",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 20,
+      "lastContactDate": "2026-02-26",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
       "nextSteps": "",
       "contact": null,
       "confidence": null,
-      "emails": [],
+      "emails": [
+        {
+          "date": "2026-02-26",
+          "subject": "Re: Byzantine & Sopra Steria",
+          "direction": "sent",
+          "snippet": "Bonjour Mung Ki, Bonjour Enzo Merci encore pour votre disponibilité aujourd&#39;hui. Compte tenu de votre organisation, je vous propose, en prochaines étapes, de structurer l&#39;échange autour de la"
+        },
+        {
+          "date": "2026-02-18",
+          "subject": "Byzantine & Sopra Steria",
+          "direction": "received",
+          "snippet": "________________________________________________________________________________ Réunion Microsoft Teams Rejoindre : https://teams.microsoft.com/meet/39568810378718?p=RyVT1PVoFqDvAr4Fwe Numéro de"
+        },
+        {
+          "date": "2026-02-17",
+          "subject": "Annulé: Intro Sopra Steria X Byzantine Finance",
+          "direction": "received",
+          "snippet": "Hello Gaia, Serais-tu dispo pour un échange en février sur ce créneau pour présenter ce que vous faites chez Byzantine ? N&#39;hésite pas si tu as des questions :) Bien à toi, Enzo Melliti"
+        }
+      ],
       "transcripts": []
     },
     {
@@ -323,45 +552,102 @@
       "id": "figment",
       "company": "Figment",
       "stage": "Proposal / Negotiation",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 90,
+      "lastContactDate": "2025-12-18",
+      "lastContactType": "email_received",
       "priority": "High",
       "notes": "",
       "nextSteps": "",
       "contact": null,
-      "confidence": null,
-      "emails": [],
+      "confidence": 2,
+      "emails": [
+        {
+          "date": "2025-12-18",
+          "subject": "Figment.pdf",
+          "direction": "received",
+          "snippet": "New activity in the following document Figment.pdf 4 comments Smart-contract failures, protocol Marc Renell New There is no insurance integrated in the picture. So no additional information thru the"
+        },
+        {
+          "date": "2025-12-12",
+          "subject": "Figment - Deck",
+          "direction": "sent",
+          "snippet": ""
+        },
+        {
+          "date": "2025-07-16",
+          "subject": "The Numbers Are In: Figment’s Q2 Validator Reports Just Dropped",
+          "direction": "received",
+          "snippet": "The latest in new networks and 2025 blockchain trends. The Complete Staking Solution Built For Institutions Figment&#39;s Q2 2025 Solana Validator Report is Live In our latest validator performance"
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "tutornow",
       "company": "Tutornow",
       "stage": "Meeting",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 23,
+      "lastContactDate": "2026-02-23",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
       "nextSteps": "",
       "contact": null,
-      "confidence": null,
-      "emails": [],
+      "confidence": 2,
+      "emails": [
+        {
+          "date": "2026-02-23",
+          "subject": "R: Byzantine <> Tutornow",
+          "direction": "sent",
+          "snippet": "Ciao Andrea, grazie mille per il tuo gentile messaggio e per averci dedicato tempo. Capisco perfettamente la vostra situazione attuale e vi ringrazio per averci tenuti in considerazione. Resto a"
+        },
+        {
+          "date": "2026-02-23",
+          "subject": "R: Byzantine <> Tutornow",
+          "direction": "received",
+          "snippet": "Ciao Gaia, grazie per il tuo aggiornamento. Abbiamo valutato la vostra piattaforma e il vostro prodotto rappresenta sicuramente un&#39;ottima soluzione, che tuttavia dovremo rivalutare in futuro. Al"
+        },
+        {
+          "date": "2026-02-23",
+          "subject": "R: Byzantine <> Tutornow",
+          "direction": "sent",
+          "snippet": "Ciao Andrea, ciao Nicola, Spero che tutto proceda bene! Nel frattempo volevo aggiornarvi con il nostro nuovo FAQ che potrebbe esservi utile. Da parte nostra stiamo strutturando la nostra pipeline per "
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "tulyp",
       "company": "Tulyp",
       "stage": "Proposal / Negotiation",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 1,
+      "lastContactDate": "2026-03-17",
+      "lastContactType": "email_sent",
       "priority": "High",
       "notes": "Partnership meeting on March 6, 2026 with Maxime Girres (max@tulyp.io) and Antonio Sansico (antonio@tulyp.io). Tulyp is a transaction monitoring / compliance platform. Byzantine use case: capital top-up monitoring, subscription pauses, and banking transaction compliance. Tulyp needs to integrate Byzantine's data structure into their schema. October distribution conference is a key milestone. Next steps: Gaia to send compliance docs + blockchain/blue-chip disruption analysis; Maxime to incorporate Byzantine capital top-up use case and develop schema production plans.",
       "nextSteps": "",
       "contact": null,
       "confidence": null,
-      "emails": [],
+      "emails": [
+        {
+          "date": "2026-03-17",
+          "subject": "Byzantine × Tulyp, vérification en attente",
+          "direction": "sent",
+          "snippet": "Bonjour Maxime, Je voulais faire un point sur la vérification du compte Tulyp, le KYB est toujours en attente de quelques documents de votre côté. Vous pouvez les soumettre directement ici : https://"
+        },
+        {
+          "date": "2026-03-09",
+          "subject": "Accepted: Gaia (Byzantine) -- Maxime (Tulyp) @ Wed 25 Mar 2026 2pm - 2:30pm (CET) (gaia@byzantine.fi)",
+          "direction": "received",
+          "snippet": "Gaia (Byzantine) -- Maxime (Tulyp) Antonio Sansico has accepted this invitation. Join with Google Meet Meeting link meet.google.com/ukc-rwfx-icu Join by phone (FR) +33 1 87 40 01 23 PIN: 462365448 Mor"
+        },
+        {
+          "date": "2026-03-06",
+          "subject": "Re: Suite à notre échange: Byzantine × Tulyp",
+          "direction": "received",
+          "snippet": "Merci Gaia, je regarde ça rapidement. Best ______ Maxime Girres Founder &amp; CEO Tulyp Treasury - Plateforme de gestion du risque de change pour PMI et ETI Sécurisez votre EBITDA face à la volatilité"
+        }
+      ],
       "transcripts": []
     },
     {
@@ -383,138 +669,908 @@
       "id": "moonfare",
       "company": "Moonfare",
       "stage": "Proposal / Negotiation",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 2,
+      "lastContactDate": "2026-03-16",
+      "lastContactType": "email_received",
       "priority": "High",
       "notes": "",
       "nextSteps": "",
       "contact": null,
       "confidence": null,
-      "emails": [],
+      "emails": [
+        {
+          "date": "2026-03-16",
+          "subject": "Updated invitation: Byzantine.fi - Product Presentation @ Tue 24 Mar 2026 4pm - 4:30pm (CET) (gaia@byzantine.fi)",
+          "direction": "received",
+          "snippet": "Byzantine.fi - Product Presentation Join with Google Meet – You have been invited by Mehdi Amara to attend an event named Byzantine.fi - Product Presentation on Tuesday 24 Mar 2026 ⋅ 4pm – 4:30pm ("
+        },
+        {
+          "date": "2026-03-16",
+          "subject": "Re: Byzantine.fi - Product Presentation",
+          "direction": "sent",
+          "snippet": "Hi Karran, No problem at all, let&#39;s move it to the same slot the following week. Looking forward to it. Best, Gaia Gaia Ferrero Regis CEO | Byzantine Finance Book a meeting +33 6 22 23 87 79 On Mo"
+        },
+        {
+          "date": "2026-03-16",
+          "subject": "Byzantine.fi - Product Presentation",
+          "direction": "received",
+          "snippet": "Byzantine.fi - Product Presentation Hi all, I do apologize, but I have a meeting conflict at this time that I cannot move. Can we kindly reschedule to the same time the following week? I am very much"
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "lightshift",
       "company": "Lightshift",
       "stage": "Contacted",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 1,
+      "lastContactDate": "2026-03-17",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "Investor. Deal for LP and portfolio companies. Telegram conversation.",
       "nextSteps": "",
       "contact": null,
       "confidence": null,
-      "emails": [],
+      "emails": [
+        {
+          "date": "2026-03-17",
+          "subject": "Byzantine - Lightshift account verification",
+          "direction": "sent",
+          "snippet": "Hi David, Hope you&#39;re well. Just a quick nudge, the verification for the Lightshift account is still pending on our end. I was wondering if you plan to complete it (link) to test the platform."
+        },
+        {
+          "date": "2026-02-25",
+          "subject": "Account deletion - joao.moreira@lightshift.xyz",
+          "direction": "sent",
+          "snippet": "User &quot;João Moreira&quot;, with mail &quot;joao.moreira@lightshift.xyz&quot; deleted their account."
+        },
+        {
+          "date": "2025-11-20",
+          "subject": "Re: Audit Confirmation - FY2025 - Lightshift I Master Fund Limited",
+          "direction": "received",
+          "snippet": "Dear Jonas, Thank you for your feedback, it is greatly appreciated. Kind regards, Wilco van Deijl Senior Accountant This email and any files transmitted with it are confidential and intended solely fo"
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "alain-bloch",
       "company": "Alain Bloch",
       "stage": "Proposal / Negotiation",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 35,
+      "lastContactDate": "2026-02-11",
+      "lastContactType": "email_sent",
       "priority": "High",
       "notes": "Needs to understand, send out docs",
       "nextSteps": "",
       "contact": null,
-      "confidence": null,
-      "emails": [],
+      "confidence": 4,
+      "emails": [
+        {
+          "date": "2026-02-11",
+          "subject": "Re: Alain & Arthur <> Byzantine",
+          "direction": "sent",
+          "snippet": "Aucun souci! à toute à l&#39;heure, Gaia Gaia Ferrero Regis CEO | Byzantine Finance Book a meeting +33 6 22 23 87 79 On Wed, 11 Feb 2026 at 17:48, Alain Bloch &lt;blochalain@gmail.com&gt; wrote: Gaia,"
+        },
+        {
+          "date": "2026-02-11",
+          "subject": "Alain & Arthur <> Byzantine",
+          "direction": "received",
+          "snippet": "Gaia, Arthur Plutôt 18:20 le call j&#39;ai pris du retard À tout à l&#39;heure Pr. Alain BLOCH Ph.D Emeritus Professor HEC Paris Chair Professor (H) CNAM Co-Founder X-HEC Entrepreneurs MSc joint Degre"
+        },
+        {
+          "date": "2026-02-07",
+          "subject": "Accepté : Alain & Arthur <> Byzantine",
+          "direction": "received",
+          "snippet": ""
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "intesa-sanpaolo",
       "company": "Intesa Sanpaolo",
       "stage": "Qualification",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 5,
+      "lastContactDate": "2026-03-13",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
       "nextSteps": "",
       "contact": null,
       "confidence": null,
-      "emails": [],
+      "emails": [
+        {
+          "date": "2026-03-13",
+          "subject": "Re: Bitwise <> Byzantine Financial",
+          "direction": "sent",
+          "snippet": "Ciao Fabio, grazie per aver trovato lo slot! A presto! Gaia Gaia Ferrero Regis CEO | Byzantine Finance Book a meeting +33 6 22 23 87 79 On Fri, Mar 13, 2026 at 8:38 AM Fabio Massellani wrote: Ciao Gai"
+        },
+        {
+          "date": "2026-03-13",
+          "subject": "",
+          "direction": "received",
+          "snippet": "Ciao Filippo, grazie per il riscontro e per aver condiviso il questionario. Lo compilerò e invierò al più presto. Se intanto ci sono ulteriori materiali o dettagli che vi sono utili, fammi sapere. A"
+        },
+        {
+          "date": "2026-03-13",
+          "subject": "RE: HANetf <> Byzantine Financial",
+          "direction": "received",
+          "snippet": "Ciao Gaia, piacere di conoscerti. Organizziamo volentieri una call. Visto però che la vostra attività non rientra esattamente nel nostro target più tipico, vi chiederei di compilare il nostro"
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "goin",
       "company": "GOin",
       "stage": "Meeting",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 35,
+      "lastContactDate": "2026-02-11",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
       "nextSteps": "",
       "contact": null,
       "confidence": null,
-      "emails": [],
+      "emails": [
+        {
+          "date": "2026-02-11",
+          "subject": "GOin <> Byzantine",
+          "direction": "sent",
+          "snippet": "Bonsoir Tangi, Aucun souci, merci pour le message. Profite bien de tes vacances, on se reparle début mars ! Voici mon calendrier: https://calendly.com/d/cm66-47w-t3x/byzantine-30-mins À bientôt, Gaia"
+        },
+        {
+          "date": "2026-02-11",
+          "subject": "GOin <> Byzantine",
+          "direction": "received",
+          "snippet": "Bonsoir Gaia, Je suis désolé, je dois te demander de reporter notre discussion prévue ce soir à 17h. Et je pars ensuite en vacances... Pourrait-on prévoir de se reparler début mars ? A bientôt Tangi"
+        },
+        {
+          "date": "2026-02-02",
+          "subject": "Re: GoIn <> Byzantine meeting Follow-up",
+          "direction": "received",
+          "snippet": "Zut, c&#39;est ma faute... J&#39;arrive From: Gaia Ferrero Regis &lt;gaia@byzantine.fi&gt; Sent: 02 February 2026 5:25 PM To: Tangi Le Calvez &lt;tangi@goin-invest.com&gt; Subject: Re: GoIn &lt;&gt;"
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "charles-grosdidier",
       "company": "Charles Grosdidier",
       "stage": "Testing",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 6,
+      "lastContactDate": "2026-03-12",
+      "lastContactType": "email_sent",
       "priority": "High",
       "notes": "",
       "nextSteps": "",
       "contact": null,
       "confidence": null,
-      "emails": [],
+      "emails": [
+        {
+          "date": "2026-03-12",
+          "subject": "Charles Grosdidier just joined La Grosse Compagnie - Byzantine Finance",
+          "direction": "sent",
+          "snippet": "Dear Charles, Charles Grosdidier just joined La Grosse Compagnie on the Byzantine Finance platform. ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​"
+        },
+        {
+          "date": "2026-03-12",
+          "subject": "Charles Grosdidier invited you to join La Grosse Compagnie - Byzantine Finance",
+          "direction": "sent",
+          "snippet": "Dear Charles, Charles Grosdidier has invited you to join La Grosse Compagnie on the Byzantine Finance platform. Byzantine Finance is ac Charles Grosdidier invited you to join La Grosse Compagnie Dear"
+        },
+        {
+          "date": "2026-03-03",
+          "subject": "Accepté : Charles <> Byzantine review",
+          "direction": "received",
+          "snippet": ""
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "blackfin",
       "company": "BlackFin",
       "stage": "Meeting",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 22,
+      "lastContactDate": "2026-02-24",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
       "nextSteps": "",
       "contact": null,
       "confidence": null,
-      "emails": [],
+      "emails": [
+        {
+          "date": "2026-02-24",
+          "subject": "Byzantine Finance: documenti",
+          "direction": "sent",
+          "snippet": "Ciao Michele, grazie ancora per il tempo di oggi! Come promesso, ti mando un po&#39; di materiale aggiuntivo su Byzantine: - Deck prodotto - Blurb - Byzantine Prime access (non ce limite, quindi se"
+        },
+        {
+          "date": "2026-02-24",
+          "subject": "Accettata: (Tentatively) Michele Foradori and Gaia Ferrero Regis + Matteo Maschio",
+          "direction": "received",
+          "snippet": ""
+        },
+        {
+          "date": "2026-02-24",
+          "subject": "(Tentatively) Michele Foradori and Gaia Ferrero Regis + Matteo Maschio",
+          "direction": "sent",
+          "snippet": "Ciao Michele, perfetto! A dopo, Gaia Gaia Ferrero Regis CEO | Byzantine Finance Book a meeting +33 6 22 23 87 79 On Tue, Feb 24, 2026 at 13:50 PM Michele Foradori wrote: Ciao, Possiamo fare alle 14.30"
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "the-level-group",
       "company": "The Level Group",
       "stage": "Testing",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 14,
+      "lastContactDate": "2026-03-04",
+      "lastContactType": "email_received",
       "priority": "High",
       "notes": "",
       "nextSteps": "",
       "contact": null,
-      "confidence": null,
-      "emails": [],
+      "confidence": 4,
+      "emails": [
+        {
+          "date": "2026-03-04",
+          "subject": "The Art of Raising Capital in 2026: Empowering Insights from 5 Silicon Valley VCs",
+          "direction": "received",
+          "snippet": "Elevate your pitch into a true partnership. What VCs are actively looking for at the Seed stage. ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏"
+        },
+        {
+          "date": "2026-02-19",
+          "subject": "The Capital Is There",
+          "direction": "received",
+          "snippet": "The $181 billion shift: Why moving from “point solutions” to integrated platforms unlocks real opportunity ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏"
+        },
+        {
+          "date": "2026-02-17",
+          "subject": "Web3 Developer Underground Israel: The Hitchhiker's Guide To The Web3 Builder In The Middle East | H1 2026 | Powered by Masterkey VC",
+          "direction": "received",
+          "snippet": "Dear friends and colleagues, It&#39;s shaping up to be an intense and exciting few months for us at Web3 Devs Underground, powered by Masterkey VC. We have been working tirelessly to produce top-tier"
+        }
+      ],
       "transcripts": []
     },
     {
       "id": "fygr",
       "company": "Fygr",
       "stage": "Proposal / Negotiation",
-      "lastDays": null,
-      "lastContactDate": null,
-      "lastContactType": null,
+      "lastDays": 35,
+      "lastContactDate": "2026-02-11",
+      "lastContactType": "email_received",
       "priority": "High",
       "notes": "French fintech. Meeting set for early Feb. Create FOMO.",
       "nextSteps": "",
       "contact": null,
-      "confidence": null,
-      "emails": [],
+      "confidence": 4,
+      "emails": [
+        {
+          "date": "2026-02-11",
+          "subject": "Re: Byzantine & Fygr",
+          "direction": "received",
+          "snippet": "Hello Gaia, Oui, restons sur une visio pour le moment. Bien à toi, Geoffrey Geoffrey Laird Founder &amp; CPO +33 (0) 6 62 39 94 97 Réserver un créneau avec moi www.fygr.io Le mer. 11 févr. 2026 à 10:5"
+        },
+        {
+          "date": "2026-02-11",
+          "subject": "Re: Byzantine & Fygr",
+          "direction": "sent",
+          "snippet": "Hello Geoffrey, Parfait, merci pour le retour ! D&#39;ailleurs, est ce que tu préfères en physique ou en visio ? À très vite, Gaia Gaia Ferrero Regis CEO | Byzantine Finance Book a meeting +33 6 22 23"
+        },
+        {
+          "date": "2026-02-11",
+          "subject": "Re: Byzantine & Fygr",
+          "direction": "received",
+          "snippet": "Top. De notre côté, on finit l&#39;implémentation de Spiko Cash and Carry - pas encore de retour terrain sur ce nouveau produit chez nous. Ravi de creuser un peu plus avec vous le sujet vendredi - je"
+        }
+      ],
       "transcripts": []
     }
   ],
-  "meetings": [],
-  "activity_feed": []
+  "meetings": [
+    {
+      "date": "2026-03-18",
+      "time": "16:00",
+      "title": "Corey Wright and Gaia Ferrero Regis",
+      "company": "",
+      "attendees": [
+        "cwright@fireblocks.com",
+        "gaia@byzantine.fi",
+        "sybirzon@fireblocks.com",
+        "matteo@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-18",
+      "time": "16:30",
+      "title": "[15-minute buffer after 30 Minute Meeting event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-18",
+      "time": "17:00",
+      "title": "Same day follow ups",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-18",
+      "time": "17:30",
+      "title": "CRM Update",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-18",
+      "time": "18:15",
+      "title": "[15-minute buffer before Byzantine 30 mins event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-18",
+      "time": "18:30",
+      "title": "Fabio Massellani and Jonas Bokelmann + Gaia Ferrero Regis",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "fabio@bitwiseinvestments.com",
+        "jonas@byzantine.fi",
+        "matteo@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-18",
+      "time": "19:00",
+      "title": "[15-minute buffer after Byzantine 30 mins event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-19",
+      "time": "09:00",
+      "title": "Matte <> Gaia",
+      "company": "Gaia",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "matteo@byzantine.fi"
+      ],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-19",
+      "time": "09:30",
+      "title": "CRM review",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-19",
+      "time": "10:00",
+      "title": "New outreach",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-19",
+      "time": "11:00",
+      "title": "[15-minute buffer before Byzantine - Demo (30 mins) event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-19",
+      "time": "11:15",
+      "title": "Benoit Payflow and Gaia Ferrero Regis",
+      "company": "",
+      "attendees": [
+        "benoit@payflow.es",
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-19",
+      "time": "11:45",
+      "title": "[15-minute buffer after Byzantine - Demo (30 mins) event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-19",
+      "time": "12:00",
+      "title": "",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-19",
+      "time": "13:00",
+      "title": "Matteo Manzi and Gaia Ferrero Regis",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "matteo@orionfinance.ai"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-19",
+      "time": "13:45",
+      "title": "[15-minute buffer before 30 Minute Meeting event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-19",
+      "time": "14:00",
+      "title": "The Moon Investments and Gaia Ferrero Regis",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "sebastien@themooninvestments.com"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-19",
+      "time": "14:30",
+      "title": "[15-minute buffer after 30 Minute Meeting event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-19",
+      "time": "14:45",
+      "title": "[15-minute buffer before 30 Minute Meeting event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-19",
+      "time": "15:00",
+      "title": "Michael ELALOUF and Gaia Ferrero Regis",
+      "company": "",
+      "attendees": [
+        "michael@tranched.fi",
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-19",
+      "time": "15:30",
+      "title": "[15-minute buffer after 30 Minute Meeting event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-19",
+      "time": "16:00",
+      "title": "Topo x Byzantine",
+      "company": "",
+      "attendees": [
+        "valentin@topo.io",
+        "gaia@byzantine.fi",
+        "matteo@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-19",
+      "time": "16:00",
+      "title": "Followup With Mehdi Amara (mehdi.amara@moonfare.com)",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-19",
+      "time": "16:30",
+      "title": "Bastien <> Gaia",
+      "company": "Gaia",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "bastien.poma@kiln.fi",
+        "matteo@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-19",
+      "time": "17:00",
+      "title": "Same day follow ups",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-19",
+      "time": "17:30",
+      "title": "CRM Update",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-19",
+      "time": "17:45",
+      "title": "[15-minute buffer before Meeting - Byzantine event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-19",
+      "time": "18:00",
+      "title": "GUILLAUME LE DIEU DE VILLE and Gaia Ferrero Regis + Matteo Maschio",
+      "company": "",
+      "attendees": [
+        "Guillaume le Dieu de Ville",
+        "gaia@byzantine.fi",
+        "matteo@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-19",
+      "time": "18:30",
+      "title": "[15-minute buffer after Meeting - Byzantine event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-19",
+      "time": "18:45",
+      "title": "",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-20",
+      "time": "09:00",
+      "title": "Gaia and Jonas - end of week alignment",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "jonas@byzantine.fi"
+      ],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-20",
+      "time": "09:30",
+      "title": "CRM review",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-20",
+      "time": "10:00",
+      "title": "Matte <> Gaia: week review",
+      "company": "Gaia: week review",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "matteo@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-20",
+      "time": "10:45",
+      "title": "Weekly GTM",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "matteo@byzantine.fi",
+        "timothee@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-20",
+      "time": "11:30",
+      "title": "[15-minute buffer before Byzantine - Demo (30 mins) event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-20",
+      "time": "11:45",
+      "title": "Alessandra Cestaro and Gaia Ferrero Regis",
+      "company": "",
+      "attendees": [
+        "alessandra.cestaro@holifya.com",
+        "giorgio.biscotti@holifya.com",
+        "gaia@byzantine.fi",
+        "jonas@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-20",
+      "time": "12:15",
+      "title": "[15-minute buffer after Byzantine - Demo (30 mins) event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-20",
+      "time": "12:45",
+      "title": "[15-minute buffer before 30 Minute Meeting event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-20",
+      "time": "13:00",
+      "title": "Jasper Quinn and Gaia Ferrero Regis",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "jquinn@ripple.com"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-20",
+      "time": "13:30",
+      "title": "[15-minute buffer after 30 Minute Meeting event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-20",
+      "time": "13:45",
+      "title": "",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-20",
+      "time": "14:00",
+      "title": "Samuel <> Gaia",
+      "company": "Gaia",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "samuelrahmine@gmail.com"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-20",
+      "time": "14:30",
+      "title": "Weekly tech review",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "benoit@byzantine.fi",
+        "matteo@byzantine.fi",
+        "alexandre@byzantine.fi",
+        "Jonas Bokelmann",
+        "lin@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-20",
+      "time": "15:00",
+      "title": "Martino <> Gaia",
+      "company": "Gaia",
+      "attendees": [
+        "martino.grasselli@devinci.fr",
+        "gaia@byzantine.fi",
+        "matteo@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-20",
+      "time": "16:00",
+      "title": "Matte <> Gaia: review",
+      "company": "Gaia: review",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "matteo@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-20",
+      "time": "16:00",
+      "title": "Matteo review",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-20",
+      "time": "17:00",
+      "title": "Same day follow ups",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-20",
+      "time": "17:00",
+      "title": "Co-Founder Catchup!",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "benoit@byzantine.fi",
+        "jonas@byzantine.fi",
+        "alexandre@byzantine.fi"
+      ],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-20",
+      "time": "17:30",
+      "title": "CRM Update",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-22",
+      "time": "15:00",
+      "title": "Followup With GRASSELLI Martino (martino.grasselli@devinci.fr)",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    }
+  ],
+  "activity_feed": [
+    {
+      "date": "2026-03-17",
+      "type": "email_received",
+      "company": "Skill Hunter",
+      "summary": "Received: Skill Hunter vous invite à signer Conditions_de_presentation_de_candidats_-_Skill_Hunter - Byzantine Finance sur Yousign"
+    },
+    {
+      "date": "2026-03-17",
+      "type": "email_sent",
+      "company": "Tulyp",
+      "summary": "Sent: Byzantine × Tulyp, vérification en attente"
+    },
+    {
+      "date": "2026-03-17",
+      "type": "email_sent",
+      "company": "Lightshift",
+      "summary": "Sent: Byzantine - Lightshift account verification"
+    },
+    {
+      "date": "2026-03-16",
+      "type": "email_received",
+      "company": "Moonfare",
+      "summary": "Received: Updated invitation: Byzantine.fi - Product Presentation @ Tue 24 Mar 2026 4pm - 4:30pm (CET) (gaia@byzantine.fi)"
+    },
+    {
+      "date": "2026-03-16",
+      "type": "email_sent",
+      "company": "Moonfare",
+      "summary": "Sent: Re: Byzantine.fi - Product Presentation"
+    },
+    {
+      "date": "2026-03-16",
+      "type": "email_received",
+      "company": "Moonfare",
+      "summary": "Received: Byzantine.fi - Product Presentation"
+    },
+    {
+      "date": "2026-03-13",
+      "type": "email_sent",
+      "company": "Intesa Sanpaolo",
+      "summary": "Sent: Re: Bitwise <> Byzantine Financial"
+    },
+    {
+      "date": "2026-03-13",
+      "type": "email_received",
+      "company": "Intesa Sanpaolo",
+      "summary": "Received: "
+    },
+    {
+      "date": "2026-03-13",
+      "type": "email_received",
+      "company": "Intesa Sanpaolo",
+      "summary": "Received: RE: HANetf <> Byzantine Financial"
+    },
+    {
+      "date": "2026-03-12",
+      "type": "email_sent",
+      "company": "CDP Venture Capital",
+      "summary": "Sent: Re: Videocall Levi CDP VC/ Ferrero Regis Byzantine Finance"
+    },
+    {
+      "date": "2026-03-12",
+      "type": "email_received",
+      "company": "CDP Venture Capital",
+      "summary": "Received: R: Videocall Levi CDP VC/ Ferrero Regis Byzantine Finance"
+    },
+    {
+      "date": "2026-03-12",
+      "type": "email_sent",
+      "company": "Charles Grosdidier",
+      "summary": "Sent: Charles Grosdidier just joined La Grosse Compagnie - Byzantine Finance"
+    },
+    {
+      "date": "2026-03-12",
+      "type": "email_sent",
+      "company": "Charles Grosdidier",
+      "summary": "Sent: Charles Grosdidier invited you to join La Grosse Compagnie - Byzantine Finance"
+    },
+    {
+      "date": "2026-03-10",
+      "type": "email_received",
+      "company": "CDP Venture Capital",
+      "summary": "Received: R: Videocall Levi CDP VC/ Ferrero Regis Byzantine Finance"
+    },
+    {
+      "date": "2026-03-09",
+      "type": "email_received",
+      "company": "Rebind",
+      "summary": "Received: ❗️ Big update: a faster, simpler Rebind"
+    }
+  ]
 }
