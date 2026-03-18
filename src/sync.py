@@ -3,6 +3,7 @@
 
 Fetches data from 4 sources (Attio, Fireflies, Gmail, Google Calendar),
 assembles public/data.json for the static war-room dashboard.
+All sources use direct REST APIs — no MCP.
 """
 
 import base64
@@ -15,8 +16,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
+from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 
-import anthropic
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -27,6 +29,17 @@ load_dotenv()
 
 DATA_JSON = Path(__file__).resolve().parent.parent / "public" / "data.json"
 
+STAGE_MAP = {
+    "qualification": "Qualification",
+    "contacted": "Contacted",
+    "meeting": "Meeting",
+    "proposal": "Proposal / Negotiation",
+    "proposal / negotiation": "Proposal / Negotiation",
+    "negotiation": "Proposal / Negotiation",
+    "testing": "Testing",
+}
+VALID_STAGES = {"Qualification", "Contacted", "Meeting", "Proposal / Negotiation", "Testing"}
+
 
 def slugify(name: str) -> str:
     """Lowercase, strip accents, spaces → hyphens."""
@@ -34,21 +47,6 @@ def slugify(name: str) -> str:
     ascii_only = nfkd.encode("ascii", "ignore").decode("ascii")
     slug = re.sub(r"[^\w\s-]", "", ascii_only).strip().lower()
     return re.sub(r"[\s_]+", "-", slug)
-
-
-def extract_json_from_response(response) -> list:
-    """Extract the largest valid JSON array from a Claude MCP response."""
-    full_text = ""
-    for block in response.content:
-        if hasattr(block, "text"):
-            full_text += block.text
-    matches = re.findall(r"\[[\s\S]*?\]", full_text)
-    for candidate in sorted(matches, key=len, reverse=True):
-        try:
-            return json.loads(candidate)
-        except json.JSONDecodeError:
-            continue
-    return []
 
 
 def fuzzy_match(a: str, b: str) -> float:
@@ -64,73 +62,255 @@ def parse_date(d: str | None) -> datetime | None:
         return None
 
 
+def normalize_stage(raw: str) -> str:
+    """Map a raw stage string to one of the 5 canonical stages."""
+    if raw in VALID_STAGES:
+        return raw
+    low = raw.strip().lower()
+    for key, val in STAGE_MAP.items():
+        if key in low:
+            return val
+    return "Qualification"
+
+
+def attio_api(method: str, path: str, body: dict | None = None) -> dict:
+    """Call the Attio REST API v2."""
+    api_key = os.environ["ATTIO_API_KEY"]
+    url = f"https://api.attio.com/v2{path}"
+    data = json.dumps(body).encode() if body else None
+    req = Request(url, data=data, method=method)
+    req.add_header("Authorization", f"Bearer {api_key}")
+    req.add_header("Content-Type", "application/json")
+    with urlopen(req) as resp:
+        return json.loads(resp.read())
+
+
+def fireflies_gql(query: str, variables: dict | None = None) -> dict:
+    """Call the Fireflies GraphQL API."""
+    api_key = os.environ["FIREFLIES_API_KEY"]
+    url = "https://api.fireflies.ai/graphql"
+    payload = {"query": query}
+    if variables:
+        payload["variables"] = variables
+    data = json.dumps(payload).encode()
+    req = Request(url, data=data, method="POST")
+    req.add_header("Authorization", f"Bearer {api_key}")
+    req.add_header("Content-Type", "application/json")
+    with urlopen(req) as resp:
+        return json.loads(resp.read())
+
+
 # ---------------------------------------------------------------------------
-# Source 1 — Attio (via Anthropic MCP)
+# Source 1 — Attio (REST API v2)
 # ---------------------------------------------------------------------------
-
-ATTIO_PROMPT = """Use the Attio MCP tools to fetch all deal data. Steps:
-1. Call list-lists to find the list containing "pipeline" or "gaia" in the name
-2. Call list-records-in-list with that list's slug, limit 500
-3. For each entry extract: company name, deal stage, last interaction date, notes, next steps, champion contact name
-
-Return ONLY a JSON array, no markdown, no explanation:
-[{
-  "company": "...",
-  "stage": "...",
-  "lastContactDate": "YYYY-MM-DD" or null,
-  "notes": "...",
-  "nextSteps": "...",
-  "contact": "..." or null
-}]
-
-Map stages to exactly these values: Qualification, Contacted, Meeting, Proposal / Negotiation, Testing."""
 
 
 def fetch_attio() -> list:
-    client = anthropic.Anthropic()
-    response = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=8000,
-        messages=[{"role": "user", "content": ATTIO_PROMPT}],
-        mcp_servers=[
-            {"type": "url", "url": "https://mcp.attio.com/mcp", "name": "attio"}
-        ],
-    )
-    return extract_json_from_response(response)
+    # Step 1: find the pipeline list
+    lists_resp = attio_api("GET", "/lists")
+    pipeline_list = None
+    for lst in lists_resp.get("data", []):
+        name = (lst.get("name") or "").lower()
+        slug = (lst.get("api_slug") or "").lower()
+        if "pipeline" in name or "gaia" in name or "pipeline" in slug or "gaia" in slug:
+            pipeline_list = lst
+            break
+
+    if not pipeline_list:
+        # Fallback: use the first list
+        if lists_resp.get("data"):
+            pipeline_list = lists_resp["data"][0]
+        else:
+            raise RuntimeError("No lists found in Attio")
+
+    list_slug = pipeline_list["api_slug"]
+
+    # Step 2: fetch all entries from that list
+    entries = []
+    offset = None
+    while True:
+        body = {"limit": 500}
+        if offset:
+            body["offset"] = offset
+        resp = attio_api("POST", f"/lists/{list_slug}/entries/query", body)
+        entries.extend(resp.get("data", []))
+        next_offset = resp.get("next_cursor")
+        if not next_offset or len(resp.get("data", [])) < 500:
+            break
+        offset = next_offset
+
+    # Step 3: extract deal data from each entry
+    deals = []
+    for entry in entries:
+        values = entry.get("entry_values", {})
+
+        # Company name — try common attribute patterns
+        company = ""
+        for key in ("company", "name", "company_name", "account", "organization"):
+            val = values.get(key)
+            if val and isinstance(val, list) and len(val) > 0:
+                item = val[0]
+                company = (
+                    item.get("value", {}).get("name")
+                    or item.get("value", {}).get("title")
+                    or item.get("referenced_actor_id")
+                    or str(item.get("value", ""))
+                )
+                if company:
+                    break
+        if not company:
+            # Try record_values if entry_values didn't work
+            rv = entry.get("record_values", {})
+            for key in ("name", "company", "company_name"):
+                val = rv.get(key)
+                if val and isinstance(val, list) and len(val) > 0:
+                    company = val[0].get("value", {}).get("name") or str(val[0].get("value", ""))
+                    if company:
+                        break
+
+        if not company or company == "{}":
+            continue
+
+        # Stage
+        stage_raw = ""
+        for key in ("stage", "status", "deal_stage", "pipeline_stage"):
+            val = values.get(key)
+            if val and isinstance(val, list) and len(val) > 0:
+                item = val[0]
+                stage_raw = (
+                    item.get("status", {}).get("title", "")
+                    or item.get("value", {}).get("title", "")
+                    or str(item.get("value", ""))
+                )
+                if stage_raw:
+                    break
+
+        # Last interaction date
+        last_date = None
+        for key in ("last_interaction", "last_interaction_date", "last_contact", "last_contacted"):
+            val = values.get(key)
+            if val and isinstance(val, list) and len(val) > 0:
+                last_date = val[0].get("value")
+                if last_date:
+                    break
+
+        # Notes
+        notes = ""
+        for key in ("notes", "description", "note"):
+            val = values.get(key)
+            if val and isinstance(val, list) and len(val) > 0:
+                notes = val[0].get("value") or ""
+                if notes:
+                    break
+
+        # Next steps
+        next_steps = ""
+        for key in ("next_steps", "next_step", "action", "follow_up"):
+            val = values.get(key)
+            if val and isinstance(val, list) and len(val) > 0:
+                next_steps = val[0].get("value") or ""
+                if next_steps:
+                    break
+
+        # Champion contact
+        contact = None
+        for key in ("champion", "contact", "contact_name", "owner"):
+            val = values.get(key)
+            if val and isinstance(val, list) and len(val) > 0:
+                item = val[0]
+                contact = (
+                    item.get("value", {}).get("name")
+                    or item.get("value", {}).get("full_name")
+                    or item.get("referenced_actor_id")
+                )
+                if contact:
+                    break
+
+        deals.append({
+            "company": str(company),
+            "stage": normalize_stage(stage_raw),
+            "lastContactDate": str(last_date)[:10] if last_date else None,
+            "notes": str(notes),
+            "nextSteps": str(next_steps),
+            "contact": str(contact) if contact else None,
+        })
+
+    return deals
 
 
 # ---------------------------------------------------------------------------
-# Source 2 — Fireflies (via Anthropic MCP)
+# Source 2 — Fireflies (GraphQL API)
 # ---------------------------------------------------------------------------
 
-FIREFLIES_PROMPT = """Use the Fireflies MCP tools to fetch all transcripts from the last 30 days.
-
-Return ONLY a JSON array, no markdown, no explanation:
-[{
-  "date": "YYYY-MM-DD",
-  "title": "...",
-  "participants": ["..."],
-  "summary": "..." (max 200 chars),
-  "actionItems": ["...", "..."],
-  "company": "..." (infer from title/participants, or "" if unclear)
-}]"""
+FIREFLIES_QUERY = """
+query RecentTranscripts($limit: Int, $fromDate: DateTime) {
+  transcripts(limit: $limit, fromDate: $fromDate) {
+    id
+    title
+    date
+    participants
+    summary {
+      overview
+      action_items
+    }
+    organizer_email
+  }
+}
+"""
 
 
 def fetch_fireflies() -> list:
-    client = anthropic.Anthropic()
-    response = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=4000,
-        messages=[{"role": "user", "content": FIREFLIES_PROMPT}],
-        mcp_servers=[
-            {
-                "type": "url",
-                "url": "https://api.fireflies.ai/mcp",
-                "name": "fireflies",
-            }
-        ],
-    )
-    return extract_json_from_response(response)
+    from_date = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%dT00:00:00Z")
+    resp = fireflies_gql(FIREFLIES_QUERY, {"limit": 100, "fromDate": from_date})
+
+    transcripts = []
+    for t in resp.get("data", {}).get("transcripts", []) or []:
+        # Parse date (epoch ms or ISO string)
+        raw_date = t.get("date")
+        if raw_date:
+            try:
+                if isinstance(raw_date, (int, float)):
+                    dt = datetime.fromtimestamp(raw_date / 1000 if raw_date > 1e12 else raw_date, tz=timezone.utc)
+                else:
+                    dt = datetime.fromisoformat(str(raw_date).replace("Z", "+00:00"))
+                date_str = dt.strftime("%Y-%m-%d")
+            except (ValueError, TypeError, OSError):
+                date_str = ""
+        else:
+            date_str = ""
+
+        summary_obj = t.get("summary") or {}
+        overview = summary_obj.get("overview") or ""
+        action_items = summary_obj.get("action_items") or []
+        if isinstance(action_items, str):
+            action_items = [s.strip() for s in action_items.split("\n") if s.strip()]
+
+        participants = t.get("participants") or []
+        if isinstance(participants, str):
+            participants = [p.strip() for p in participants.split(",") if p.strip()]
+
+        title = t.get("title") or ""
+
+        # Infer company from title (look for "Company <> Company" pattern or similar)
+        company = ""
+        if "<>" in title:
+            parts = title.split("<>")
+            for part in parts:
+                part = part.strip()
+                if "byzantine" not in part.lower():
+                    company = part
+                    break
+
+        transcripts.append({
+            "date": date_str,
+            "title": title,
+            "participants": participants[:10],
+            "summary": overview[:200],
+            "actionItems": action_items[:5],
+            "company": company,
+        })
+
+    return transcripts
 
 
 # ---------------------------------------------------------------------------
@@ -144,7 +324,7 @@ SCOPES = [
 
 
 def _get_google_creds():
-    from google.auth.transport.requests import Request
+    from google.auth.transport.requests import Request as GRequest
     from google.oauth2.credentials import Credentials
 
     creds = None
@@ -153,12 +333,12 @@ def _get_google_creds():
         token_data = json.loads(base64.b64decode(token_json))
         creds = Credentials.from_authorized_user_info(token_data, SCOPES)
     if creds and creds.expired and creds.refresh_token:
-        creds.refresh(Request())
+        creds.refresh(GRequest())
     return creds
 
 
 # ---------------------------------------------------------------------------
-# Source 3 — Gmail (Google API)
+# Source 3 — Gmail (Google REST API)
 # ---------------------------------------------------------------------------
 
 
@@ -236,7 +416,7 @@ def fetch_gmail(company_names: list[str]) -> list:
 
 
 # ---------------------------------------------------------------------------
-# Source 4 — Google Calendar (Google API)
+# Source 4 — Google Calendar (Google REST API)
 # ---------------------------------------------------------------------------
 
 
@@ -317,7 +497,6 @@ def build_data(
     sources_status: dict,
 ) -> dict:
     now = datetime.now(timezone.utc)
-    today = now.strftime("%Y-%m-%d")
 
     # Index emails by company (fuzzy)
     email_index: dict[str, list] = {}
@@ -492,7 +671,7 @@ def main():
         return "gcal", fetch_gcal()
 
     with ThreadPoolExecutor(max_workers=3) as pool:
-        futures = [pool.submit(fn) for fn in [run_attio, run_fireflies, run_gcal]]
+        futures = {pool.submit(fn): fn.__name__ for fn in [run_attio, run_fireflies, run_gcal]}
         for future in as_completed(futures):
             try:
                 key, data = future.result()
@@ -500,14 +679,12 @@ def main():
                 sources_status[key] = {"status": "ok", "count": len(data)}
                 print(f"[OK] {key}: {len(data)} records")
             except Exception as exc:
-                # Identify which source failed
-                err_str = str(exc)
-                for k in ("attio", "fireflies", "gcal"):
-                    if k not in results and k not in sources_status:
-                        sources_status[k] = {"status": "error", "error": err_str[:200]}
-                        results[k] = []
-                        print(f"[ERROR] {k}: {exc}")
-                        break
+                # Identify which source by function name
+                fn_name = futures[future]
+                key = fn_name.replace("run_", "")
+                sources_status[key] = {"status": "error", "error": str(exc)[:200]}
+                results[key] = []
+                print(f"[ERROR] {key}: {exc}")
 
     # Abort if Attio failed
     if sources_status.get("attio", {}).get("status") != "ok":

@@ -46,7 +46,8 @@ base64 -w0 credentials.json  # → GOOGLE_CREDENTIALS_JSON
 
 Set in `.env` for local dev, and as GitHub Secrets for CI:
 
-- `ANTHROPIC_API_KEY` — Anthropic API key (for Attio + Fireflies MCP)
+- `ATTIO_API_KEY` — Attio API key (Settings → Developers → API keys)
+- `FIREFLIES_API_KEY` — Fireflies API key (Settings → Integrations → API)
 - `GOOGLE_TOKEN_JSON` — base64-encoded `token.json`
 - `GOOGLE_CREDENTIALS_JSON` — base64-encoded `credentials.json`
 
