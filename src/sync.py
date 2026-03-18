@@ -32,11 +32,13 @@ DATA_JSON = Path(__file__).resolve().parent.parent / "public" / "data.json"
 STAGE_MAP = {
     "qualification": "Qualification",
     "contacted": "Contacted",
+    "\u2060\u2060contacted": "Contacted",  # Attio uses invisible chars
     "meeting": "Meeting",
-    "proposal": "Proposal / Negotiation",
     "proposal / negotiation": "Proposal / Negotiation",
+    "proposal": "Proposal / Negotiation",
     "negotiation": "Proposal / Negotiation",
     "testing": "Testing",
+    "\u2060\u2060testing": "Testing",  # Attio uses invisible chars
     "active": "Active",
     "won": "Won",
     "lost": "Lost",
@@ -152,123 +154,107 @@ def _resolve_person_names(record_ids: list[str]) -> dict[str, str]:
 
 
 def fetch_attio() -> list:
-    # Step 1: find the Sales list (prefer "Sales", fall back to first list)
-    lists_resp = attio_api("GET", "/lists")
-    pipeline_list = None
-    for lst in lists_resp.get("data", []):
-        name = (lst.get("name") or "").lower()
-        if name == "sales":
-            pipeline_list = lst
-            break
-    if not pipeline_list:
-        for lst in lists_resp.get("data", []):
-            name = (lst.get("name") or "").lower()
-            slug = (lst.get("api_slug") or "").lower()
-            if "pipeline" in name or "sales" in name or "pipeline" in slug:
-                pipeline_list = lst
-                break
-    if not pipeline_list:
-        if lists_resp.get("data"):
-            pipeline_list = lists_resp["data"][0]
-        else:
-            raise RuntimeError("No lists found in Attio")
+    """Fetch deals from the Attio 'deals' object and resolve associated companies."""
+    print("[Attio] Fetching deals object records...")
 
-    list_slug = pipeline_list["api_slug"]
-    print(f"  Using Attio list: {pipeline_list['name']} ({list_slug})")
-
-    # Step 2: fetch all entries from that list
-    entries = []
+    # Step 1: fetch all deal records
+    records = []
     offset = None
     while True:
         body = {"limit": 500}
         if offset:
             body["offset"] = offset
-        resp = attio_api("POST", f"/lists/{list_slug}/entries/query", body)
-        entries.extend(resp.get("data", []))
+        resp = attio_api("POST", "/objects/deals/records/query", body)
+        records.extend(resp.get("data", []))
         next_offset = resp.get("next_cursor")
         if not next_offset or len(resp.get("data", [])) < 500:
             break
         offset = next_offset
 
-    # Step 3: resolve company names + domains via parent_record_id
-    company_rids = list({e["parent_record_id"] for e in entries if e.get("parent_record_id")})
-    company_names, company_domains = _resolve_company_records(company_rids)
+    print(f"[Attio] {len(records)} deal records fetched")
 
-    # Step 4: collect person record IDs for main_point_of_contact
-    person_rids = set()
-    for entry in entries:
-        mpc = entry.get("entry_values", {}).get("main_point_of_contact", [])
-        if mpc:
-            rid = mpc[0].get("target_record_id")
+    # Step 2: resolve associated company names + domains
+    company_rids = set()
+    for rec in records:
+        vals = rec.get("values", {})
+        ac = vals.get("associated_company", [])
+        if ac:
+            rid = ac[0].get("target_record_id")
             if rid:
-                person_rids.add(rid)
-    person_names = _resolve_person_names(list(person_rids))
+                company_rids.add(rid)
+    company_names, company_domains = _resolve_company_records(list(company_rids))
 
-    # Step 5: extract deal data from each entry
+    # Step 3: extract deal data
     deals = []
-    for entry in entries:
-        values = entry.get("entry_values", {})
+    for rec in records:
+        vals = rec.get("values", {})
 
-        # Company name and domains from parent record
-        parent_rid = entry.get("parent_record_id", "")
-        company = company_names.get(parent_rid, "")
+        # Deal name
+        deal_name = ""
+        name_vals = vals.get("name", [])
+        if name_vals:
+            deal_name = name_vals[0].get("value", "") or ""
+
+        # Associated company
+        company = ""
+        domains = []
+        ac = vals.get("associated_company", [])
+        if ac:
+            rid = ac[0].get("target_record_id")
+            if rid:
+                company = company_names.get(rid, "")
+                domains = company_domains.get(rid, [])
+        if not company:
+            company = deal_name  # fallback to deal name
         if not company:
             continue
-        domains = company_domains.get(parent_rid, [])
 
         # Stage
         stage_raw = ""
-        stage_vals = values.get("stage", [])
+        stage_vals = vals.get("stage", [])
         if stage_vals:
             stage_raw = stage_vals[0].get("status", {}).get("title", "")
 
-        # Skip closed/paused deals
         if stage_raw in EXCLUDED_STAGES:
             continue
 
-        # Notes
-        notes = ""
-        notes_vals = values.get("notes", [])
-        if notes_vals:
-            notes = notes_vals[0].get("value", "") or ""
-
-        # Main point of contact
+        # Primary contact (text field on deals object)
         contact = None
-        mpc = values.get("main_point_of_contact", [])
-        if mpc:
-            rid = mpc[0].get("target_record_id")
-            if rid:
-                contact = person_names.get(rid)
+        pc = vals.get("primary_contact", [])
+        if pc:
+            contact = pc[0].get("value", "") or None
 
-        # Close confidence (rating 1-5)
-        confidence = None
-        cc = values.get("close_confidence", [])
-        if cc:
-            confidence = cc[0].get("value")
+        # Next action (text field on deals object)
+        next_action = ""
+        na = vals.get("next_action", [])
+        if na:
+            next_action = na[0].get("value", "") or ""
 
-        # Financial properties
+        # Expected Allocation (currency)
         expected_allocation = None
-        ea = values.get("expected_allocation", [])
+        ea = vals.get("expected_allocation", [])
         if ea:
             try:
-                v = ea[0].get("value")
+                v = ea[0].get("currency_value")
                 if v is not None:
                     expected_allocation = float(v)
             except (ValueError, TypeError):
                 pass
 
+        # pct_closing (number)
         pct_closing = None
-        pc = values.get("pct_closing", [])
-        if pc:
+        pc_vals = vals.get("pct_closing", [])
+        if pc_vals:
             try:
-                v = pc[0].get("value")
+                v = pc_vals[0].get("value")
                 if v is not None:
                     pct_closing = float(v)
             except (ValueError, TypeError):
                 pass
 
+        # days_to_close (number)
         days_to_close = None
-        dtc = values.get("days_to_close", [])
+        dtc = vals.get("days_to_close", [])
         if dtc:
             try:
                 v = dtc[0].get("value")
@@ -281,11 +267,11 @@ def fetch_attio() -> list:
             "company": str(company),
             "domains": domains,
             "stage": normalize_stage(stage_raw),
-            "lastContactDate": None,  # will be enriched from Gmail/GCal/Fireflies
-            "notes": str(notes),
-            "nextSteps": "",  # Attio doesn't have this field; derived from transcripts
+            "lastContactDate": None,
+            "notes": "",
+            "nextSteps": next_action,
             "contact": str(contact) if contact else None,
-            "confidence": confidence,
+            "confidence": None,
             "expected_allocation": expected_allocation,
             "pct_closing": pct_closing,
             "days_to_close": days_to_close,
