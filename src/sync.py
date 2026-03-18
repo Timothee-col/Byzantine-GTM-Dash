@@ -282,6 +282,9 @@ def fetch_fireflies() -> list:
     from_date = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%dT00:00:00Z")
     resp = fireflies_gql(FIREFLIES_QUERY, {"limit": 100, "fromDate": from_date})
 
+    if resp.get("errors"):
+        raise RuntimeError(resp["errors"][0].get("message", "Fireflies API error"))
+
     transcripts = []
     for t in resp.get("data", {}).get("transcripts", []) or []:
         # Parse date (epoch ms or ISO string)
