@@ -280,7 +280,7 @@ query RecentTranscripts($limit: Int, $fromDate: DateTime) {
 
 def fetch_fireflies() -> list:
     from_date = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%dT00:00:00Z")
-    resp = fireflies_gql(FIREFLIES_QUERY, {"limit": 100, "fromDate": from_date})
+    resp = fireflies_gql(FIREFLIES_QUERY, {"limit": 50, "fromDate": from_date})
 
     if resp.get("errors"):
         raise RuntimeError(resp["errors"][0].get("message", "Fireflies API error"))
@@ -323,7 +323,7 @@ def fetch_fireflies() -> list:
                     external_domains.add(domain)
                     external_emails.append(p)
 
-        # Infer company from title ("Meet – X and Gaia" pattern)
+        # Infer company/person from title
         company = ""
         if "<>" in title:
             parts = title.split("<>")
@@ -332,6 +332,17 @@ def fetch_fireflies() -> list:
                 if "byzantine" not in part.lower() and "gaia" not in part.lower():
                     company = part
                     break
+        elif "\u2013" in title or "-" in title:
+            # "Meet – X and Gaia Ferrero Regis" or "Meet - X and Y"
+            sep = "\u2013" if "\u2013" in title else "-"
+            after = title.split(sep, 1)[1].strip() if sep in title else ""
+            if after:
+                # Remove known internal names and "and" joiners
+                parts = [p.strip() for p in re.split(r"\band\b|,", after, flags=re.IGNORECASE)]
+                for part in parts:
+                    if part and "gaia" not in part.lower() and "byzantine" not in part.lower() and "ferrero" not in part.lower():
+                        company = part
+                        break
 
         transcripts.append({
             "date": date_str,
