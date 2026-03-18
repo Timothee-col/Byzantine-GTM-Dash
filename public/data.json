@@ -1,21 +1,21 @@
 {
-  "sync_time": "2026-03-18T15:03:53+00:00",
+  "sync_time": "2026-03-18T15:22:12+00:00",
   "sources": {
-    "fireflies": {
-      "status": "ok",
-      "count": 0
-    },
     "gcal": {
+      "status": "ok",
+      "count": 50
+    },
+    "fireflies": {
       "status": "ok",
       "count": 50
     },
     "attio": {
       "status": "ok",
-      "count": 33
+      "count": 49
     },
     "gmail": {
       "status": "ok",
-      "count": 25
+      "count": 39
     }
   },
   "deals": [
@@ -43,6 +43,151 @@
           "subject": "Great speaking with you at IPEM",
           "direction": "sent",
           "snippet": "Hi Richard, It was a pleasure speaking with you at IPEM! As mentioned during our conversation, I am sharing with you some content on Byzantine: • Byzantine Presentation. • Access to the platform,"
+        }
+      ],
+      "transcripts": []
+    },
+    {
+      "id": "pennylane",
+      "company": "Pennylane",
+      "stage": "Paused",
+      "lastDays": 20,
+      "lastContactDate": "2026-02-26",
+      "lastContactType": "email_received",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "",
+      "contact": null,
+      "confidence": 0,
+      "emails": [
+        {
+          "date": "2026-02-26",
+          "subject": "Simplifiez la gestion de vos achats et de votre trésorerie",
+          "direction": "received",
+          "snippet": "Retrouvez les dernières actualités Pennylane pour les dirigeant(e)s d&#39;entreprise Retrouvez les dernières actualités Pennylane pour les dirigeant(e)s d&#39;entreprise Plus de flexibilité et de"
+        },
+        {
+          "date": "2026-02-15",
+          "subject": "BYZANTINE FINANCE: Bookkeeping - Documents and supporting documents to provide",
+          "direction": "received",
+          "snippet": "Bookkeeping - February 2026 Hello Gaia, This month, your accountant needs several actions from you to maintain smooth bookkeeping operations. 157 bank transactions require a receipt or clarification."
+        },
+        {
+          "date": "2026-02-07",
+          "subject": "Fraude : Comment signaler une fraude",
+          "direction": "received",
+          "snippet": "Nouveau sur Pennylane Academy ! Suivez notre cours Se protéger des tentatives de fraude et apprenez à réagir efficacement face aux menaces. Une technique courante des fraudeurs consiste à se faire"
+        }
+      ],
+      "transcripts": []
+    },
+    {
+      "id": "sorare",
+      "company": "Sorare",
+      "stage": "Paused",
+      "lastDays": 1,
+      "lastContactDate": "2026-03-17",
+      "lastContactType": "transcript",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "**Gabriel Halm**",
+      "contact": null,
+      "confidence": 1,
+      "emails": [
+        {
+          "date": "2026-02-17",
+          "subject": "Accepted: Ghislain Chassagne and Gaia Ferrero Regis @ Wed 18 Feb 2026 6:30pm - 7pm (CET) (gaia@byzantine.fi)",
+          "direction": "received",
+          "snippet": "Ghislain Chassagne and Gaia Ferrero Regis Ghislain Chassagne has accepted this invitation. Join with Google Meet Meeting link meet.google.com/qcx-ifuv-keg Join by phone (FR) +33 1 87 40 14 81 PIN:"
+        },
+        {
+          "date": "2026-02-11",
+          "subject": "Accepted: Ghislain Chassagne and Gaia Ferrero Regis @ Wed 18 Feb 2026 3:30pm - 4pm (CET) (gaia@byzantine.fi)",
+          "direction": "received",
+          "snippet": "Ghislain Chassagne and Gaia Ferrero Regis Ghislain Chassagne has accepted this invitation. Join with Google Meet Meeting link meet.google.com/dur-etcv-cyv Join by phone (FR) +33 1 87 40 32 90 PIN:"
+        },
+        {
+          "date": "2025-12-03",
+          "subject": "Accepted: Ghislain Chassagne and Gaia Ferrero Regis @ Tue 9 Dec 2025 3:30pm - 4pm (CET) (gaia@byzantine.fi)",
+          "direction": "received",
+          "snippet": "Ghislain Chassagne and Gaia Ferrero Regis Ghislain Chassagne has accepted this invitation. Join with Google Meet Meeting link meet.google.com/zrm-zpxq-tek Join by phone (FR) +33 1 87 40 36 65 PIN:"
+        }
+      ],
+      "transcripts": [
+        {
+          "date": "2026-03-17",
+          "title": "Meet – Sentora and Gaia Ferrero Regis",
+          "participants": [],
+          "summary": "- **Firelight’s insurance model uses independent experts for claims** to streamline payouts, with only 5% needing intervention from the Claims Council.\n\n- **Large assets like XRP and BTC back Fireligh",
+          "actionItems": [
+            "**Gabriel Halm**",
+            "Share Centaura’s strategy page links and risk signal dashboards with Byzantine once available (40:20)",
+            "**Connor Sullivan/Anthony DeMartino Sentora**",
+            "Send over Firelight insurance deck to Byzantine and set up a Telegram group chat for easier communication (40:38)",
+            "**Byzantine**"
+          ],
+          "company": "Sentora",
+          "external_domains": []
+        },
+        {
+          "date": "2026-03-17",
+          "title": "Meet – Sentora and Gaia Ferrero Regis",
+          "participants": [
+            "ademartino@sentora.com",
+            "vmasiello@sentora.com",
+            "csullivan@firelight.finance",
+            "gabriel.halm@sentora.com",
+            "matteo@byzantine.fi"
+          ],
+          "summary": "- **Company Backgrounds:** Byzantine focuses on digital asset management for institutional clients, facing challenges with insurance coverage.\n\n- **Firelight Insurance Model:** Firelight aims for scal",
+          "actionItems": [
+            "**Gabriel Halm**",
+            "Share public resources and dashboards showing Centaura’s risk signals and strategy details for review (40:26)",
+            "Provide additional information and documentation about Centaura strategies to Byzantine under NDA (38:30)",
+            "**Gaia Ferrero Regis**",
+            "Coordinate NDA completion to enable sharing of detailed strategy and insurance requirement information with Centaura (38:30)"
+          ],
+          "company": "Sentora",
+          "external_domains": [
+            "firelight.finance",
+            "sentora.com"
+          ]
+        },
+        {
+          "date": "2026-03-17",
+          "title": "Meet – Sentora and Gaia Ferrero Regis",
+          "participants": [],
+          "summary": "- **On-Chain Coverage Protocol:** Firelight launches a protocol using $100 million in capital from XRP and BTC liquidity providers in May.\n\n- **Claims and Pricing Model:** Firelight processes most cla",
+          "actionItems": [
+            "**Gaia Ferrero Regis**",
+            "Provide Firelight team details about Byzantine’s strategies and insurance needs including potential Euro earned programs once NDA is in place (32:40)",
+            "Schedule follow-up meeting with Firelight and Centaura teams to discuss insurance coverage options and Centaura’s curated strategies in more detail (32:40)",
+            "**Gabriel Halm**",
+            "Share links and documents outlining Centaura’s public risk signals dashboards and details about their smart yield and curated vault strategies with Byzantine and Firelight teams (38:00)"
+          ],
+          "company": "Sentora",
+          "external_domains": []
+        }
+      ]
+    },
+    {
+      "id": "mckenzie-madden-family-office",
+      "company": "McKenzie Madden Family Office",
+      "stage": "Lost",
+      "lastDays": 163,
+      "lastContactDate": "2025-10-06",
+      "lastContactType": "email_received",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "",
+      "contact": null,
+      "confidence": 2,
+      "emails": [
+        {
+          "date": "2025-10-06",
+          "subject": "Aceptada: Bernat <> Byzantine",
+          "direction": "received",
+          "snippet": "ADVERTENCIA LEGAL El contenido de este correo electrónico y de sus anexos es estrictamente confidencial. En el caso de que usted no sea el destinatario y haya recibido este mensaje por equivocación,"
         }
       ],
       "transcripts": []
@@ -97,6 +242,28 @@
       "transcripts": []
     },
     {
+      "id": "sandwell-capital",
+      "company": "Sandwell Capital",
+      "stage": "Paused",
+      "lastDays": 156,
+      "lastContactDate": "2025-10-13",
+      "lastContactType": "email_received",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "",
+      "contact": null,
+      "confidence": null,
+      "emails": [
+        {
+          "date": "2025-10-13",
+          "subject": "Re: Great meeting you today & additional materials",
+          "direction": "received",
+          "snippet": "Great chatting with you also and thanks for sharing the documents. Good luck with the launch and we&#39;ll circle back as things progress. Gurjinder —— Gurjinder Johal | Managing Partner Sandwell"
+        }
+      ],
+      "transcripts": []
+    },
+    {
       "id": "artikle",
       "company": "Artikle",
       "stage": "Meeting",
@@ -143,6 +310,21 @@
           "snippet": "60 mins: Steven | Rebind and Jonas Bokelmann Join with Google Meet – Event Name 60 mins Location: This is a Google Meet web conference. You can join this meeting from your computer, tablet, or"
         }
       ],
+      "transcripts": []
+    },
+    {
+      "id": "mgv",
+      "company": "MGV",
+      "stage": "Lost",
+      "lastDays": null,
+      "lastContactDate": null,
+      "lastContactType": null,
+      "priority": "Med",
+      "notes": "Fintech VC. Intro to partner, Pascal wants to be CC'd.",
+      "nextSteps": "",
+      "contact": null,
+      "confidence": null,
+      "emails": [],
       "transcripts": []
     },
     {
@@ -195,6 +377,40 @@
       "transcripts": []
     },
     {
+      "id": "daedalus",
+      "company": "Daedalus",
+      "stage": "Lost",
+      "lastDays": 264,
+      "lastContactDate": "2025-06-27",
+      "lastContactType": "email_received",
+      "priority": "Med",
+      "notes": "Investor syndicate. Follow up with one of our investors.",
+      "nextSteps": "",
+      "contact": null,
+      "confidence": null,
+      "emails": [
+        {
+          "date": "2025-06-27",
+          "subject": "Registration approved for Daedalus Founders Dinner (Cannes Edition)",
+          "direction": "received",
+          "snippet": "Daedalus Calendar You&#39;ve got a spot at Daedalus Founders Dinner (Cannes Edition) JUL 1 Tuesday, July 1 8:00 PM - 11:00 PM GMT+2 In Person Event Page My Ticket Host your event with Luma ↗"
+        },
+        {
+          "date": "2025-06-26",
+          "subject": "Registration pending approval for Daedalus Founders Dinner (Cannes Edition)",
+          "direction": "received",
+          "snippet": "Daedalus Calendar You are pending approval for Daedalus Founders Dinner (Cannes Edition) JUL 1 Tuesday, July 1 8:00 PM - 11:00 PM GMT+2 In Person Event Page The host needs to approve your registration"
+        },
+        {
+          "date": "2025-04-21",
+          "subject": "Registration approved for Daedalus Private Dinner - Dubai Edition",
+          "direction": "received",
+          "snippet": "Daedalus Calendar You&#39;ve got a spot at Daedalus Private Dinner - Dubai Edition APR 30 Wednesday, April 30 8:00 PM - 11:00 PM GMT+4 In Person Event Page My Ticket Host your event with Luma ↗"
+        }
+      ],
+      "transcripts": []
+    },
+    {
       "id": "bpifrance",
       "company": "Bpifrance",
       "stage": "Meeting",
@@ -224,6 +440,62 @@
           "subject": "Lunch with BYZANTINE FINANCE & Bpifrance",
           "direction": "received",
           "snippet": "Hello Gaia &amp; Jonas, @Timothee GERFAUD &amp; moi-même sommes ravis de vous rencontrer « en vrai » autour d&#39;un déj la semaine prochaine quand vous rentrez en France ! On viendra jusqu&#39;à vous"
+        }
+      ],
+      "transcripts": []
+    },
+    {
+      "id": "nicolas-bacca",
+      "company": "Nicolas Bacca",
+      "stage": "Won",
+      "lastDays": 2,
+      "lastContactDate": "2026-03-16",
+      "lastContactType": "email_sent",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "",
+      "contact": null,
+      "confidence": 3,
+      "emails": [
+        {
+          "date": "2026-03-16",
+          "subject": "Enhanced Due Diligence KYC Request: NICOLAS BACCA",
+          "direction": "sent",
+          "snippet": "Hi There, As part of our ongoing review process, please complete the following request for NICOLAS BACCA (Customer ID:53eb9f0d-7273-4596-8c88-a8248cfb32f7) Please complete the Source of Funds"
+        },
+        {
+          "date": "2026-02-19",
+          "subject": "Accepted: Nicolas<>Gaia, feedback Byzantine @ Thu 19 Feb 2026 2:30pm - 3pm (CET) (Gaia Ferrero Regis)",
+          "direction": "sent",
+          "snippet": "Nicolas&lt;&gt;Gaia, feedback Byzantine Benoît de Dieuleveult has accepted this invitation. Join with Google Meet Meeting link meet.google.com/cvp-wruh-swr Join by phone (FR) +33 1 87 40 38 85 PIN:"
+        },
+        {
+          "date": "2026-02-16",
+          "subject": "Accepted: Nicolas<>Gaia, feedback Byzantine @ Thu 19 Feb 2026 2:30pm - 3pm (CET) (gaia@byzantine.fi)",
+          "direction": "received",
+          "snippet": "Nicolas&lt;&gt;Gaia, feedback Byzantine Nicolas Bacca has accepted this invitation. Join with Google Meet Meeting link meet.google.com/cvp-wruh-swr Join by phone (FR) +33 1 87 40 38 85 PIN: 384990250"
+        }
+      ],
+      "transcripts": []
+    },
+    {
+      "id": "maki-people",
+      "company": "Maki People",
+      "stage": "Paused",
+      "lastDays": 103,
+      "lastContactDate": "2025-12-05",
+      "lastContactType": "email_received",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "",
+      "contact": null,
+      "confidence": 0,
+      "emails": [
+        {
+          "date": "2025-12-05",
+          "subject": "Maki people : - Can the insurance be extented on retu...",
+          "direction": "received",
+          "snippet": "Jonas Bokelmann replied to a comment in the following document Maki people : 1 comment Smart-contract risk → this is the only risk that can impact principal, and it is insured (p.30). Additionally"
         }
       ],
       "transcripts": []
@@ -314,6 +586,127 @@
           "subject": "Aceptada: Bernat <> Byzantine",
           "direction": "received",
           "snippet": "ADVERTENCIA LEGAL El contenido de este correo electrónico y de sus anexos es estrictamente confidencial. En el caso de que usted no sea el destinatario y haya recibido este mensaje por equivocación,"
+        }
+      ],
+      "transcripts": []
+    },
+    {
+      "id": "sibill",
+      "company": "Sibill",
+      "stage": "Paused",
+      "lastDays": 19,
+      "lastContactDate": "2026-02-27",
+      "lastContactType": "email_sent",
+      "priority": "Med",
+      "notes": "Italian cash-flow management. Waiting for roadmap. Use case for freelancers.",
+      "nextSteps": "",
+      "contact": null,
+      "confidence": null,
+      "emails": [
+        {
+          "date": "2026-02-27",
+          "subject": "Re: Milano: caffé?",
+          "direction": "sent",
+          "snippet": "Ciao Mattia, ci si vede sicuramente a Parigi allora! Buon weekend! Gaia Gaia Ferrero Regis CEO | Byzantine Finance Book a meeting +33 6 22 23 87 79 On Fri, Feb 27, 2026 at 7:56 AM Mattia Montepara"
+        },
+        {
+          "date": "2026-02-27",
+          "subject": "Re: Milano: caffé?",
+          "direction": "received",
+          "snippet": "Ciao Gaia, grazie per la mail e per l&#39;invito, ma purtroppo sono fuori milano fino a mercoledì sera. Facciamo alla prossima oppure ci troviamo a Parigi, che preferisco! :) Buon venerdì, Mattia On"
+        },
+        {
+          "date": "2026-02-26",
+          "subject": "Milano: caffé? ",
+          "direction": "sent",
+          "snippet": "Ciao Mattia, spero tutto bene! Martedì e mercoledì sarò a Milano per alcuni incontri con Intesa, e mi farebbe davvero piacere riuscire a vederci di persona. Ci sei per un caffé di catch up? Dimmi"
+        }
+      ],
+      "transcripts": []
+    },
+    {
+      "id": "samuel-mottais",
+      "company": "Samuel Mottais",
+      "stage": "Won",
+      "lastDays": 0,
+      "lastContactDate": "2026-03-18",
+      "lastContactType": "transcript",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "**Gaia Ferrero Regis**",
+      "contact": null,
+      "confidence": 0,
+      "emails": [
+        {
+          "date": "2026-01-12",
+          "subject": "Accepted: Samuel <> Gaia @ Wed 21 Jan 2026 3pm - 3:30pm (CET) (gaia@byzantine.fi)",
+          "direction": "received",
+          "snippet": "Samuel &lt;&gt; Gaia Samuel Mottais has accepted this invitation. Join with Google Meet Meeting link meet.google.com/iip-txpu-cut Join by phone (FR) +33 1 87 40 01 44 PIN: 115217451 More phone numbers"
+        }
+      ],
+      "transcripts": [
+        {
+          "date": "2026-03-18",
+          "title": "Meet – Samuel Rahmine and Gaia Ferrero Regis",
+          "participants": [
+            "samuel.rahmine@oxcps.com"
+          ],
+          "summary": "- **Byzantine et ses produits financiers** : Lancement de 4 produits avec rendements de 4-5% en euros et 7-8% en dollars.\n\n- **Mécanisme de génération des rendements** : Prêts surcollatéralisés à 150%",
+          "actionItems": [
+            "**Gaia Ferrero Regis**",
+            "Envoyer la documentation détaillée et le récapitulatif des rémunérations à Samuel Rahmine (22:32)",
+            "Transmettre l’accès à la plateforme Byzantine pour permettre à Samuel de la tester (22:32)",
+            "Proposer une réunion de suivi après la phase de test (22:32)",
+            "Envoyer une invitation pour la rencontre physique à Paris fixé vendredi à 14h (24:10)"
+          ],
+          "company": "Samuel Rahmine",
+          "external_domains": [
+            "oxcps.com"
+          ]
+        },
+        {
+          "date": "2026-03-11",
+          "title": "Meet – Samuel Rahmine and Gaia Ferrero Regis",
+          "participants": [
+            "samuelrahmine@gmail.com"
+          ],
+          "summary": "",
+          "actionItems": [],
+          "company": "Samuel Rahmine",
+          "external_domains": []
+        }
+      ]
+    },
+    {
+      "id": "dalma",
+      "company": "Dalma.",
+      "stage": "Lost",
+      "lastDays": 44,
+      "lastContactDate": "2026-02-02",
+      "lastContactType": "email_sent",
+      "priority": "Med",
+      "notes": "Pet insurance (French startup). Re-engage interest, check French FAQ.",
+      "nextSteps": "",
+      "contact": null,
+      "confidence": null,
+      "emails": [
+        {
+          "date": "2026-02-02",
+          "subject": "Re: Gaia (Byzantine) <> Alban (Dalma)",
+          "direction": "sent",
+          "snippet": "Bonjour Thibault, Merci pour ton retour et pour avoir étudié le dossier. Je comprends tout à fait votre position. On reste en contact, et je n&#39;hésiterai pas à revenir vers vous si jamais l&#39;"
+        },
+        {
+          "date": "2026-02-02",
+          "subject": "Re: Gaia (Byzantine) <> Alban (Dalma)",
+          "direction": "received",
+          "snippet": "Bonjour Gaia, Après réflexion de notre coté, je prefere ne pas avancer pour le moment sur un modèle dans lequel la perte en capital serait compensée par une demande de sinistre auprès d&#39;un assureu"
+        },
+        {
+          "date": "2026-02-02",
+          "subject": "Re: Gaia (Byzantine) <> Alban (Dalma)",
+          "direction": "sent",
+          "snippet": "Bonjour Thibault et Roxanne, J&#39;espère que tout se passe bien ! Petite mise à jour : nous avons lancé notre produit en euros avec des virements bancaires automatiques, simplifiant considérablement "
         }
       ],
       "transcripts": []
@@ -436,15 +829,49 @@
       "transcripts": []
     },
     {
+      "id": "hercle",
+      "company": "Hercle",
+      "stage": "Lost",
+      "lastDays": 30,
+      "lastContactDate": "2026-02-16",
+      "lastContactType": "email_received",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "",
+      "contact": null,
+      "confidence": 3,
+      "emails": [
+        {
+          "date": "2026-02-16",
+          "subject": "Re: Hercle x Aon - Introduction",
+          "direction": "received",
+          "snippet": "Thanks Jonas (bcc&#39;ed for inbox zen) - ciao Rupert Hercle is under a licensing process in Italy for EMI and CASP license and we have an SRO registration in Switzerland. We trade digital assets with"
+        },
+        {
+          "date": "2026-02-16",
+          "subject": "Hercle x Aon - Introduction",
+          "direction": "sent",
+          "snippet": "Hello Gabriele, hello Rupert, Hope you&#39;re doing well! You both have context for this conversation already: Gabriele co-founded Hercle, an institutional infrastructure for money movement across fia"
+        },
+        {
+          "date": "2025-12-17",
+          "subject": "Hercle product intro.pdf",
+          "direction": "received",
+          "snippet": "New activity in the following document Hercle product intro.pdf 2 comments Marc Renell New I don&#39;t understand how these fees effect the annual revenues on the page before ReplyOpen Marc Renell New"
+        }
+      ],
+      "transcripts": []
+    },
+    {
       "id": "skill-hunter",
       "company": "Skill Hunter",
       "stage": "Testing",
-      "lastDays": 1,
-      "lastContactDate": "2026-03-17",
-      "lastContactType": "email_received",
+      "lastDays": 0,
+      "lastContactDate": "2026-03-18",
+      "lastContactType": "transcript",
       "priority": "High",
       "notes": "",
-      "nextSteps": "",
+      "nextSteps": "**Matteo Maschio**",
       "contact": null,
       "confidence": 4,
       "emails": [
@@ -467,7 +894,27 @@
           "snippet": "Dear Bridge Compliance Team, Please find attached the Corporate Act to emit shares. In Article 1 you will find the exact ownership split. Best, Jonas Bokelmann COO | Byzantine Finance Book a meeting ￼"
         }
       ],
-      "transcripts": []
+      "transcripts": [
+        {
+          "date": "2026-03-18",
+          "title": "Meet – Pierrick and Gaia Ferrero Regis",
+          "participants": [
+            "pierrick@skillhunter.fr",
+            "gaia@byzantine.fi"
+          ],
+          "summary": "- **Modèle d'affaires :** Skillenter recrute pour start-up et grands groupes du CAC 40, avec placement CDI et freelance.  \n- **Trésorerie avant Byzantine :** Manque de solutions efficaces pour la gest",
+          "actionItems": [
+            "**Matteo Maschio**",
+            "Rédiger l'étude de cas basée sur cet entretien et soumettre pour validation à Pierrick (16:06)",
+            "**Pierrick Vela**",
+            "Fournir des informations complémentaires et commentaires pour l’étude de cas si nécessaire (16:09)"
+          ],
+          "company": "Pierrick",
+          "external_domains": [
+            "skillhunter.fr"
+          ]
+        }
+      ]
     },
     {
       "id": "sopra-steria",
@@ -534,6 +981,28 @@
       "transcripts": []
     },
     {
+      "id": "node-capital",
+      "company": "Node Capital",
+      "stage": "Paused",
+      "lastDays": 156,
+      "lastContactDate": "2025-10-13",
+      "lastContactType": "email_received",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "",
+      "contact": null,
+      "confidence": 1,
+      "emails": [
+        {
+          "date": "2025-10-13",
+          "subject": "Re: Great meeting you today & additional materials",
+          "direction": "received",
+          "snippet": "Great chatting with you also and thanks for sharing the documents. Good luck with the launch and we&#39;ll circle back as things progress. Gurjinder —— Gurjinder Johal | Managing Partner Sandwell"
+        }
+      ],
+      "transcripts": []
+    },
+    {
       "id": "checksig",
       "company": "CheckSig",
       "stage": "Qualification",
@@ -546,6 +1015,28 @@
       "contact": null,
       "confidence": null,
       "emails": [],
+      "transcripts": []
+    },
+    {
+      "id": "climb",
+      "company": "Climb",
+      "stage": "Lost",
+      "lastDays": 499,
+      "lastContactDate": "2024-11-04",
+      "lastContactType": "email_received",
+      "priority": "Med",
+      "notes": "French wealth management app.",
+      "nextSteps": "",
+      "contact": null,
+      "confidence": null,
+      "emails": [
+        {
+          "date": "2024-11-04",
+          "subject": "Your Exclusive Promo Code for Climb & Breakfast w/ Ethereum France 🎟️ Don’t Miss Out!",
+          "direction": "received",
+          "snippet": "Hey gaia@byzantine.fi! Great news! You&#39;ve been given exclusive access to a special promo code for Climb &amp; Breakfast w/ Ethereum France. Don&#39;t miss out on this offer! Here is your special"
+        }
+      ],
       "transcripts": []
     },
     {
@@ -836,6 +1327,40 @@
       "transcripts": []
     },
     {
+      "id": "deblock",
+      "company": "Deblock",
+      "stage": "Paused",
+      "lastDays": 98,
+      "lastContactDate": "2025-12-10",
+      "lastContactType": "email_received",
+      "priority": "Med",
+      "notes": "Current account for crypto/euros. Find CPO/COO/CEO for intro.",
+      "nextSteps": "",
+      "contact": null,
+      "confidence": null,
+      "emails": [
+        {
+          "date": "2025-12-10",
+          "subject": "Terms and Conditions",
+          "direction": "received",
+          "snippet": "Hello 👋 Once again, thank you for your trust and interest. We are sending you our General Terms and Conditions and our Fee Information in the attachment. Please do not hesitate to contact our customer"
+        },
+        {
+          "date": "2025-12-10",
+          "subject": "338-618 is your secure signup code",
+          "direction": "received",
+          "snippet": "Your secure signup code expires in 15 min: 338-618 Don&#39;t share this code or forward this email to anyone else. If you didn&#39;t make this request, you can ignore this email. Deblock SAS, Spaces"
+        },
+        {
+          "date": "2025-12-08",
+          "subject": "Accepted: Thomas <> Gaia @ Wed 10 Dec 2025 8:45am - 9am (CET) (gaia@byzantine.fi)",
+          "direction": "received",
+          "snippet": "Thomas &lt;&gt; Gaia Thomas Romain has accepted this invitation. Join with Google Meet Meeting link meet.google.com/avd-oifv-mnn Join by phone (FR) +33 1 87 40 05 94 PIN: 868046938 More phone numbers"
+        }
+      ],
+      "transcripts": []
+    },
+    {
       "id": "charles-grosdidier",
       "company": "Charles Grosdidier",
       "stage": "Testing",
@@ -967,6 +1492,40 @@
           "subject": "Re: Byzantine & Fygr",
           "direction": "received",
           "snippet": "Top. De notre côté, on finit l&#39;implémentation de Spiko Cash and Carry - pas encore de retour terrain sur ce nouveau produit chez nous. Ravi de creuser un peu plus avec vous le sujet vendredi - je"
+        }
+      ],
+      "transcripts": []
+    },
+    {
+      "id": "gaya",
+      "company": "GAYA",
+      "stage": "Paused",
+      "lastDays": -2,
+      "lastContactDate": "2026-03-20",
+      "lastContactType": "meeting",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "",
+      "contact": null,
+      "confidence": 1,
+      "emails": [
+        {
+          "date": "2025-11-19",
+          "subject": "Byzantine <> Gaya... - @gaia@byzantine.fi  What do you thin...",
+          "direction": "received",
+          "snippet": "Umair from Soch Consulting (umair@sochconsulting.com) mentioned you in a comment in the following document Byzantine &lt;&gt; Gaya - Dashboard 1 comment Byzantine Company About Us Umair from Soch"
+        },
+        {
+          "date": "2025-11-18",
+          "subject": "Byzantine <> Gaya... - @gaia@byzantine.fi",
+          "direction": "received",
+          "snippet": "Umair from Soch Consulting (umair@sochconsulting.com) mentioned you in a comment in the following document Byzantine &lt;&gt; Gaya - Dashboard 1 comment While on my way back from the blockwall event, "
+        },
+        {
+          "date": "2025-11-09",
+          "subject": "Byzantine <> Gaya... - @gaia@byzantine.fi  some cold outrea...",
+          "direction": "received",
+          "snippet": "Umair from Soch Consulting (umair@sochconsulting.com) mentioned you in a comment in the following document Byzantine &lt;&gt; Gaya - Dashboard 1 comment Head of Investor Relations Umair from Soch"
         }
       ],
       "transcripts": []
@@ -1483,6 +2042,60 @@
   ],
   "activity_feed": [
     {
+      "date": "2026-03-20",
+      "type": "meeting",
+      "company": "GAYA",
+      "summary": "Samuel <> Gaia"
+    },
+    {
+      "date": "2026-03-20",
+      "type": "meeting",
+      "company": "GAYA",
+      "summary": "Martino <> Gaia"
+    },
+    {
+      "date": "2026-03-19",
+      "type": "meeting",
+      "company": "GAYA",
+      "summary": "Matte <> Gaia"
+    },
+    {
+      "date": "2026-03-19",
+      "type": "meeting",
+      "company": "GAYA",
+      "summary": "Bastien <> Gaia"
+    },
+    {
+      "date": "2026-03-18",
+      "type": "transcript",
+      "company": "Samuel Mottais",
+      "summary": "- **Byzantine et ses produits financiers** : Lancement de 4 produits avec rendements de 4-5% en euros et 7-8% en dollars.\n\n- **Mécanisme de génération des rendements** : Prêts surcollatéralisés à 150%"
+    },
+    {
+      "date": "2026-03-18",
+      "type": "transcript",
+      "company": "Skill Hunter",
+      "summary": "- **Modèle d'affaires :** Skillenter recrute pour start-up et grands groupes du CAC 40, avec placement CDI et freelance.  \n- **Trésorerie avant Byzantine :** Manque de solutions efficaces pour la gest"
+    },
+    {
+      "date": "2026-03-17",
+      "type": "transcript",
+      "company": "Sorare",
+      "summary": "- **Firelight’s insurance model uses independent experts for claims** to streamline payouts, with only 5% needing intervention from the Claims Council.\n\n- **Large assets like XRP and BTC back Fireligh"
+    },
+    {
+      "date": "2026-03-17",
+      "type": "transcript",
+      "company": "Sorare",
+      "summary": "- **Company Backgrounds:** Byzantine focuses on digital asset management for institutional clients, facing challenges with insurance coverage.\n\n- **Firelight Insurance Model:** Firelight aims for scal"
+    },
+    {
+      "date": "2026-03-17",
+      "type": "transcript",
+      "company": "Sorare",
+      "summary": "- **On-Chain Coverage Protocol:** Firelight launches a protocol using $100 million in capital from XRP and BTC liquidity providers in May.\n\n- **Claims and Pricing Model:** Firelight processes most cla"
+    },
+    {
       "date": "2026-03-17",
       "type": "email_received",
       "company": "Skill Hunter",
@@ -1502,6 +2115,12 @@
     },
     {
       "date": "2026-03-16",
+      "type": "email_sent",
+      "company": "Nicolas Bacca",
+      "summary": "Sent: Enhanced Due Diligence KYC Request: NICOLAS BACCA"
+    },
+    {
+      "date": "2026-03-16",
       "type": "email_received",
       "company": "Moonfare",
       "summary": "Received: Updated invitation: Byzantine.fi - Product Presentation @ Tue 24 Mar 2026 4pm - 4:30pm (CET) (gaia@byzantine.fi)"
@@ -1511,66 +2130,6 @@
       "type": "email_sent",
       "company": "Moonfare",
       "summary": "Sent: Re: Byzantine.fi - Product Presentation"
-    },
-    {
-      "date": "2026-03-16",
-      "type": "email_received",
-      "company": "Moonfare",
-      "summary": "Received: Byzantine.fi - Product Presentation"
-    },
-    {
-      "date": "2026-03-13",
-      "type": "email_sent",
-      "company": "Intesa Sanpaolo",
-      "summary": "Sent: Re: Bitwise <> Byzantine Financial"
-    },
-    {
-      "date": "2026-03-13",
-      "type": "email_received",
-      "company": "Intesa Sanpaolo",
-      "summary": "Received: "
-    },
-    {
-      "date": "2026-03-13",
-      "type": "email_received",
-      "company": "Intesa Sanpaolo",
-      "summary": "Received: RE: HANetf <> Byzantine Financial"
-    },
-    {
-      "date": "2026-03-12",
-      "type": "email_sent",
-      "company": "CDP Venture Capital",
-      "summary": "Sent: Re: Videocall Levi CDP VC/ Ferrero Regis Byzantine Finance"
-    },
-    {
-      "date": "2026-03-12",
-      "type": "email_received",
-      "company": "CDP Venture Capital",
-      "summary": "Received: R: Videocall Levi CDP VC/ Ferrero Regis Byzantine Finance"
-    },
-    {
-      "date": "2026-03-12",
-      "type": "email_sent",
-      "company": "Charles Grosdidier",
-      "summary": "Sent: Charles Grosdidier just joined La Grosse Compagnie - Byzantine Finance"
-    },
-    {
-      "date": "2026-03-12",
-      "type": "email_sent",
-      "company": "Charles Grosdidier",
-      "summary": "Sent: Charles Grosdidier invited you to join La Grosse Compagnie - Byzantine Finance"
-    },
-    {
-      "date": "2026-03-10",
-      "type": "email_received",
-      "company": "CDP Venture Capital",
-      "summary": "Received: R: Videocall Levi CDP VC/ Ferrero Regis Byzantine Finance"
-    },
-    {
-      "date": "2026-03-09",
-      "type": "email_received",
-      "company": "Rebind",
-      "summary": "Received: ❗️ Big update: a faster, simpler Rebind"
     }
   ]
 }
