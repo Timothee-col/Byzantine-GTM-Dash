@@ -1,0 +1,32 @@
+name: Sync Dashboard
+
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install -r src/requirements.txt
+
+      - run: python src/sync.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_TOKEN_JSON: ${{ secrets.GOOGLE_TOKEN_JSON }}
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+
+      - name: Commit & push data.json
+        run: |
+          git config user.name "sync-bot"
+          git config user.email "bot@byzantine.fi"
+          git add public/data.json
+          git diff --staged --quiet || git commit -m "🔄 sync $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
