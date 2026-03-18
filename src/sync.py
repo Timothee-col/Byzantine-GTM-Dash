@@ -284,7 +284,7 @@ query RecentTranscripts($limit: Int, $fromDate: DateTime) {
 def fetch_fireflies() -> list:
     from_date = (datetime.now(timezone.utc) - timedelta(days=90)).strftime("%Y-%m-%dT00:00:00Z")
     print(f"[Fireflies] Querying transcripts from {from_date}")
-    resp = fireflies_gql(FIREFLIES_QUERY, {"limit": 100, "fromDate": from_date})
+    resp = fireflies_gql(FIREFLIES_QUERY, {"limit": 50, "fromDate": from_date})
 
     if resp.get("errors"):
         raise RuntimeError(resp["errors"][0].get("message", "Fireflies API error"))
@@ -352,10 +352,11 @@ def fetch_fireflies() -> list:
             "date": date_str,
             "title": title,
             "participants": participants[:10],
-            "summary": overview[:200],
+            "summary": overview[:2000],
             "actionItems": action_items[:5],
             "company": company,
             "external_domains": list(external_domains),
+            "external_emails": list(external_emails),
         })
 
     with_ai = sum(1 for t in transcripts if t.get("actionItems"))
@@ -574,33 +575,73 @@ def build_data(
                 matched_emails = em_list
                 break
 
-        # Match transcripts by domain or fuzzy company name
+        # Match transcripts by domain, company name, or participant emails
         matched_transcripts: list = []
+        company_lower = company.lower()
+        # Only use words long enough to avoid false positives (e.g. "CDP" ok, "The" not)
+        _stop_words = {"the", "and", "group", "family", "office", "capital", "venture", "private", "markets", "network", "investments"}
+        company_words = [w for w in company_lower.split() if len(w) > 3 and w not in _stop_words]
         for t in transcripts_raw:
-            # Match by email domain
+            if t in matched_transcripts:
+                continue
+            # 1) Match by email domain (deal domains vs transcript participant domains)
             t_domains = t.get("external_domains", [])
             if deal_domains and t_domains:
-                # Check if any transcript domain matches any deal domain (root domain)
+                domain_matched = False
                 for dd in deal_domains:
                     dd_root = ".".join(dd.split(".")[-2:])
                     for td in t_domains:
                         td_root = ".".join(td.split(".")[-2:])
                         if dd_root == td_root:
                             matched_transcripts.append(t)
+                            domain_matched = True
+                            break
+                    if domain_matched:
+                        break
+                if domain_matched:
+                    continue
+            # 2) Match by external domain containing company name (e.g. "skillhunter.fr" ↔ "Skill Hunter")
+            if company_words and t_domains:
+                for td in t_domains:
+                    td_name = td.split(".")[0].lower()
+                    # Require strong match: company word IS the domain name or very close
+                    for cw in company_words:
+                        if len(cw) >= 4 and (cw == td_name or td_name.startswith(cw) or cw.startswith(td_name)):
+                            matched_transcripts.append(t)
                             break
                     if matched_transcripts and matched_transcripts[-1] is t:
                         break
                 if matched_transcripts and matched_transcripts[-1] is t:
                     continue
-            # Fallback: fuzzy match on company name in title
+            # 3) Fuzzy match on company name extracted from transcript
             t_company = t.get("company", "")
-            if t_company and fuzzy_match(company, t_company) > 0.6:
+            if t_company and fuzzy_match(company, t_company) > 0.7:
                 matched_transcripts.append(t)
                 continue
-            # Also try matching company name in transcript title
+            # 4) Full company name appears in transcript title, summary, or action items
             t_title = t.get("title", "")
-            if company.lower() in t_title.lower():
+            t_summary = t.get("summary", "")
+            t_actions = " ".join(a if isinstance(a, str) else str(a) for a in t.get("actionItems", []))
+            searchable = (t_title + " " + t_summary + " " + t_actions).lower()
+            if len(company_lower) > 4 and company_lower in searchable:
                 matched_transcripts.append(t)
+                continue
+            # 5) All significant company words appear in title+summary (handles "Intesa Sanpaolo" vs "Intesa San Paolo")
+            if len(company_words) >= 1 and all(w in searchable for w in company_words):
+                matched_transcripts.append(t)
+                continue
+            # 6) Match participant email domains against company name
+            if company_words:
+                ext_emails = t.get("external_emails", [])
+                for em in ext_emails:
+                    em_domain = em.split("@")[-1].split(".")[0].lower() if "@" in em else ""
+                    if em_domain and len(em_domain) >= 4:
+                        for cw in company_words:
+                            if cw == em_domain or em_domain.startswith(cw) or cw.startswith(em_domain):
+                                matched_transcripts.append(t)
+                                break
+                    if matched_transcripts and matched_transcripts[-1] is t:
+                        break
 
         # Match meetings by domain or fuzzy
         matched_meetings = [
