@@ -39,6 +39,8 @@ STAGE_MAP = {
     "testing": "Testing",
 }
 VALID_STAGES = {"Qualification", "Contacted", "Meeting", "Proposal / Negotiation", "Testing"}
+# Stages to exclude from the dashboard (closed deals)
+EXCLUDED_STAGES = {"Won", "Lost", "Paused"}
 
 
 def slugify(name: str) -> str:
@@ -105,25 +107,64 @@ def fireflies_gql(query: str, variables: dict | None = None) -> dict:
 # ---------------------------------------------------------------------------
 
 
+def _resolve_company_names(record_ids: list[str]) -> dict[str, str]:
+    """Batch-fetch company names from Attio by record IDs."""
+    names: dict[str, str] = {}
+    for rid in record_ids:
+        try:
+            resp = attio_api("GET", f"/objects/companies/records/{rid}")
+            vals = resp.get("data", {}).get("values", {})
+            name_list = vals.get("name", [])
+            if name_list:
+                names[rid] = name_list[0].get("value", "")
+        except Exception:
+            pass
+    return names
+
+
+def _resolve_person_names(record_ids: list[str]) -> dict[str, str]:
+    """Fetch person names from Attio by record IDs."""
+    names: dict[str, str] = {}
+    for rid in record_ids:
+        try:
+            resp = attio_api("GET", f"/objects/people/records/{rid}")
+            vals = resp.get("data", {}).get("values", {})
+            parts = []
+            for key in ("first_name", "last_name"):
+                v = vals.get(key, [])
+                if v:
+                    parts.append(v[0].get("value", ""))
+            if parts:
+                names[rid] = " ".join(p for p in parts if p)
+        except Exception:
+            pass
+    return names
+
+
 def fetch_attio() -> list:
-    # Step 1: find the pipeline list
+    # Step 1: find the Sales list (prefer "Sales", fall back to first list)
     lists_resp = attio_api("GET", "/lists")
     pipeline_list = None
     for lst in lists_resp.get("data", []):
         name = (lst.get("name") or "").lower()
-        slug = (lst.get("api_slug") or "").lower()
-        if "pipeline" in name or "gaia" in name or "pipeline" in slug or "gaia" in slug:
+        if name == "sales":
             pipeline_list = lst
             break
-
     if not pipeline_list:
-        # Fallback: use the first list
+        for lst in lists_resp.get("data", []):
+            name = (lst.get("name") or "").lower()
+            slug = (lst.get("api_slug") or "").lower()
+            if "pipeline" in name or "sales" in name or "pipeline" in slug:
+                pipeline_list = lst
+                break
+    if not pipeline_list:
         if lists_resp.get("data"):
             pipeline_list = lists_resp["data"][0]
         else:
             raise RuntimeError("No lists found in Attio")
 
     list_slug = pipeline_list["api_slug"]
+    print(f"  Using Attio list: {pipeline_list['name']} ({list_slug})")
 
     # Step 2: fetch all entries from that list
     entries = []
@@ -139,100 +180,68 @@ def fetch_attio() -> list:
             break
         offset = next_offset
 
-    # Step 3: extract deal data from each entry
+    # Step 3: resolve company names via parent_record_id
+    company_rids = list({e["parent_record_id"] for e in entries if e.get("parent_record_id")})
+    company_names = _resolve_company_names(company_rids)
+
+    # Step 4: collect person record IDs for main_point_of_contact
+    person_rids = set()
+    for entry in entries:
+        mpc = entry.get("entry_values", {}).get("main_point_of_contact", [])
+        if mpc:
+            rid = mpc[0].get("target_record_id")
+            if rid:
+                person_rids.add(rid)
+    person_names = _resolve_person_names(list(person_rids))
+
+    # Step 5: extract deal data from each entry
     deals = []
     for entry in entries:
         values = entry.get("entry_values", {})
 
-        # Company name — try common attribute patterns
-        company = ""
-        for key in ("company", "name", "company_name", "account", "organization"):
-            val = values.get(key)
-            if val and isinstance(val, list) and len(val) > 0:
-                item = val[0]
-                company = (
-                    item.get("value", {}).get("name")
-                    or item.get("value", {}).get("title")
-                    or item.get("referenced_actor_id")
-                    or str(item.get("value", ""))
-                )
-                if company:
-                    break
+        # Company name from parent record
+        company = company_names.get(entry.get("parent_record_id", ""), "")
         if not company:
-            # Try record_values if entry_values didn't work
-            rv = entry.get("record_values", {})
-            for key in ("name", "company", "company_name"):
-                val = rv.get(key)
-                if val and isinstance(val, list) and len(val) > 0:
-                    company = val[0].get("value", {}).get("name") or str(val[0].get("value", ""))
-                    if company:
-                        break
-
-        if not company or company == "{}":
             continue
 
         # Stage
         stage_raw = ""
-        for key in ("stage", "status", "deal_stage", "pipeline_stage"):
-            val = values.get(key)
-            if val and isinstance(val, list) and len(val) > 0:
-                item = val[0]
-                stage_raw = (
-                    item.get("status", {}).get("title", "")
-                    or item.get("value", {}).get("title", "")
-                    or str(item.get("value", ""))
-                )
-                if stage_raw:
-                    break
+        stage_vals = values.get("stage", [])
+        if stage_vals:
+            stage_raw = stage_vals[0].get("status", {}).get("title", "")
 
-        # Last interaction date
-        last_date = None
-        for key in ("last_interaction", "last_interaction_date", "last_contact", "last_contacted"):
-            val = values.get(key)
-            if val and isinstance(val, list) and len(val) > 0:
-                last_date = val[0].get("value")
-                if last_date:
-                    break
+        # Skip closed/paused deals
+        if stage_raw in EXCLUDED_STAGES:
+            continue
 
         # Notes
         notes = ""
-        for key in ("notes", "description", "note"):
-            val = values.get(key)
-            if val and isinstance(val, list) and len(val) > 0:
-                notes = val[0].get("value") or ""
-                if notes:
-                    break
+        notes_vals = values.get("notes", [])
+        if notes_vals:
+            notes = notes_vals[0].get("value", "") or ""
 
-        # Next steps
-        next_steps = ""
-        for key in ("next_steps", "next_step", "action", "follow_up"):
-            val = values.get(key)
-            if val and isinstance(val, list) and len(val) > 0:
-                next_steps = val[0].get("value") or ""
-                if next_steps:
-                    break
-
-        # Champion contact
+        # Main point of contact
         contact = None
-        for key in ("champion", "contact", "contact_name", "owner"):
-            val = values.get(key)
-            if val and isinstance(val, list) and len(val) > 0:
-                item = val[0]
-                contact = (
-                    item.get("value", {}).get("name")
-                    or item.get("value", {}).get("full_name")
-                    or item.get("referenced_actor_id")
-                )
-                if contact:
-                    break
+        mpc = values.get("main_point_of_contact", [])
+        if mpc:
+            rid = mpc[0].get("target_record_id")
+            if rid:
+                contact = person_names.get(rid)
+
+        # Close confidence (rating 1-5)
+        confidence = None
+        cc = values.get("close_confidence", [])
+        if cc:
+            confidence = cc[0].get("value")
 
         deals.append({
             "company": str(company),
             "stage": normalize_stage(stage_raw),
-            "lastContactDate": str(last_date)[:10] if last_date else None,
+            "lastContactDate": None,  # will be enriched from Gmail/GCal/Fireflies
             "notes": str(notes),
-            "nextSteps": str(next_steps),
+            "nextSteps": "",  # Attio doesn't have this field; derived from transcripts
             "contact": str(contact) if contact else None,
+            "confidence": confidence,
         })
 
     return deals

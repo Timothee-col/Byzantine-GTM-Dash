@@ -17,11 +17,11 @@ const STAGE_COLOR = {
 };
 
 const STAGE_SHORT = {
-  "Qualification": "QUALI",
-  "Contacted": "CONTA",
-  "Meeting": "MEETI",
-  "Proposal / Negotiation": "PROPO",
-  "Testing": "TESTI",
+  "Qualification": "QUALIF",
+  "Contacted": "CONTACT",
+  "Meeting": "MEETING",
+  "Proposal / Negotiation": "PROPOSAL",
+  "Testing": "TESTING",
 };
 
 // ─── Business Logic ──────────────────────────────────────────────────────────
@@ -184,7 +184,7 @@ function PipelineTable({ deals, onSelect }) {
   const [tab, setTab] = useState("ALL");
   const [sort, setSort] = useState("URGENCY");
 
-  const stages = ["ALL", "QUALI", "CONTA", "MEETI", "PROPO", "TESTI"];
+  const stages = ["ALL", "QUALIF", "CONTACT", "MEETING", "PROPOSAL", "TESTING"];
   const stageMap = Object.fromEntries(Object.entries(STAGE_SHORT).map(([k,v]) => [v, k]));
 
   const filtered = useMemo(() => {
