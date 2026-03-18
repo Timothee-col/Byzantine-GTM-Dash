@@ -741,6 +741,34 @@ def build_data(
                 }
             )
 
+    # Identify unmatched transcripts (not linked to any deal)
+    matched_transcript_ids = set()
+    for deal in deals:
+        for tr in deal.get("transcripts", []):
+            matched_transcript_ids.add(id(tr))
+
+    unmatched_transcripts = []
+    for tr in transcripts_raw:
+        if id(tr) not in matched_transcript_ids and tr.get("actionItems"):
+            unmatched_transcripts.append({
+                "date": tr.get("date", ""),
+                "title": tr.get("title", ""),
+                "participants": tr.get("participants", []),
+                "summary": tr.get("summary", "")[:500],
+                "actionItems": tr.get("actionItems", []),
+                "company": tr.get("company", ""),
+                "external_domains": tr.get("external_domains", []),
+            })
+            # Also add to activity feed
+            all_activities.append({
+                "date": tr.get("date", ""),
+                "type": "transcript",
+                "company": tr.get("company", "") or tr.get("title", ""),
+                "summary": tr.get("summary", "")[:200],
+            })
+
+    unmatched_transcripts.sort(key=lambda x: x.get("date", ""), reverse=True)
+
     # Sort activities by date desc, keep 15
     all_activities.sort(key=lambda x: x.get("date", ""), reverse=True)
     activity_feed = all_activities[:15]
@@ -764,6 +792,7 @@ def build_data(
         "sources": sources_status,
         "deals": deals,
         "meetings": meetings_out,
+        "unmatched_transcripts": unmatched_transcripts,
         "activity_feed": activity_feed,
     }
 

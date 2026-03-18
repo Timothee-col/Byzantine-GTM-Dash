@@ -354,6 +354,35 @@ function ActivityFeed({ feed }) {
   );
 }
 
+// ─── Unmatched Transcripts (Action Items not linked to a deal) ───────────────
+function UnmatchedTranscripts({ transcripts }) {
+  const items = transcripts || [];
+  if (items.length === 0) return null;
+
+  return (
+    <div className="fade-in" style={{ padding: "20px 24px" }}>
+      <SectionLabel>Meeting Action Items (No Deal Linked)</SectionLabel>
+      <div style={{ display: "flex", flexDirection: "column", gap: 8, maxHeight: 400, overflowY: "auto" }}>
+        {items.map((tr, i) => (
+          <div key={i} style={{ background: T.card, border: `1px solid ${T.border}`, borderRadius: 4, padding: "12px 14px" }}>
+            <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 6, flexWrap: "wrap" }}>
+              <span className="mono" style={{ fontSize: 10, color: T.muted }}>{tr.date}</span>
+              <span style={{ fontSize: 13, fontWeight: 600 }}>{tr.title}</span>
+              {tr.company && <Badge bg={T.purple + "22"} color={T.purple}>{tr.company}</Badge>}
+            </div>
+            {tr.summary && <div style={{ fontSize: 12, color: T.muted, marginBottom: 6 }}>{tr.summary}</div>}
+            {tr.actionItems && tr.actionItems.length > 0 && (
+              <ul style={{ margin: "0 0 0 16px", fontSize: 12, color: T.accent }}>
+                {tr.actionItems.map((ai, j) => <li key={j} style={{ marginBottom: 2 }}>{ai}</li>)}
+              </ul>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 // ─── Pipeline by Stage ───────────────────────────────────────────────────────
 function PipelineByStage({ deals, onFilterStage }) {
   const stageOrder = ["Qualification", "Contacted", "Meeting", "Proposal / Negotiation", "Testing", "Active", "Won", "Lost", "Paused"];
@@ -593,6 +622,7 @@ function App() {
             </div>
 
             <ActivityFeed feed={data.activity_feed} />
+            <UnmatchedTranscripts transcripts={data.unmatched_transcripts} />
             <PipelineByStage deals={data.deals || []} onFilterStage={handleFilterStage} />
 
             <DealModal deal={selectedDeal} meetings={data.meetings || []} onClose={() => setSelectedDeal(null)} />
