@@ -246,6 +246,37 @@ def fetch_attio() -> list:
         if cc:
             confidence = cc[0].get("value")
 
+        # Financial properties
+        expected_allocation = None
+        ea = values.get("expected_allocation", [])
+        if ea:
+            try:
+                v = ea[0].get("value")
+                if v is not None:
+                    expected_allocation = float(v)
+            except (ValueError, TypeError):
+                pass
+
+        pct_closing = None
+        pc = values.get("pct_closing", [])
+        if pc:
+            try:
+                v = pc[0].get("value")
+                if v is not None:
+                    pct_closing = float(v)
+            except (ValueError, TypeError):
+                pass
+
+        days_to_close = None
+        dtc = values.get("days_to_close", [])
+        if dtc:
+            try:
+                v = dtc[0].get("value")
+                if v is not None:
+                    days_to_close = float(v)
+            except (ValueError, TypeError):
+                pass
+
         deals.append({
             "company": str(company),
             "domains": domains,
@@ -255,6 +286,9 @@ def fetch_attio() -> list:
             "nextSteps": "",  # Attio doesn't have this field; derived from transcripts
             "contact": str(contact) if contact else None,
             "confidence": confidence,
+            "expected_allocation": expected_allocation,
+            "pct_closing": pct_closing,
+            "days_to_close": days_to_close,
         })
 
     return deals
@@ -566,6 +600,9 @@ def build_data(
         next_steps = raw.get("nextSteps", "") or ""
         contact = raw.get("contact") or None
         confidence = raw.get("confidence")
+        expected_allocation = raw.get("expected_allocation")
+        pct_closing = raw.get("pct_closing")
+        days_to_close = raw.get("days_to_close")
         attio_date = parse_date(raw.get("lastContactDate"))
 
         # Match emails (fuzzy by company name)
@@ -706,6 +743,10 @@ def build_data(
                 "nextSteps": next_steps,
                 "contact": contact,
                 "confidence": confidence,
+                "expected_allocation": expected_allocation,
+                "pct_closing": pct_closing,
+                "days_to_close": days_to_close,
+                "weighted_value": round(expected_allocation * pct_closing / 100, 2) if expected_allocation and pct_closing else None,
                 "emails": matched_emails,
                 "transcripts": matched_transcripts,
             }
@@ -787,10 +828,44 @@ def build_data(
             }
         )
 
+    # Pipeline metrics (exclude Active, Won, Lost, Paused)
+    pipeline_stages = {"Qualification", "Contacted", "Meeting", "Proposal / Negotiation", "Testing"}
+    pipeline_deals = [d for d in deals if d["stage"] in pipeline_stages]
+    active_deals = [d for d in deals if d["stage"] == "Active"]
+    lost_deals = [d for d in deals if d["stage"] == "Lost"]
+
+    total_allocation = sum(d["expected_allocation"] for d in pipeline_deals if d.get("expected_allocation"))
+    pct_values = [d["pct_closing"] for d in pipeline_deals if d.get("pct_closing") is not None]
+    avg_pct_closing = round(sum(pct_values) / len(pct_values), 1) if pct_values else None
+
+    # Time-Weighted Pipeline (/mo) = sum of (allocation × pct_closing/100 / days_to_close × 30)
+    twp = 0.0
+    for d in pipeline_deals:
+        if d.get("expected_allocation") and d.get("pct_closing") and d.get("days_to_close") and d["days_to_close"] > 0:
+            twp += d["expected_allocation"] * (d["pct_closing"] / 100) / d["days_to_close"] * 30
+    twp = round(twp, 2)
+
+    # Deals missing financial data
+    incomplete_deals = [
+        d["company"] for d in pipeline_deals
+        if not d.get("expected_allocation") or d.get("pct_closing") is None or not d.get("days_to_close")
+    ]
+
+    pipeline_metrics = {
+        "pipeline_count": len(pipeline_deals),
+        "total_allocation": total_allocation,
+        "time_weighted_pipeline_mo": twp,
+        "avg_pct_closing": avg_pct_closing,
+        "active_count": len(active_deals),
+        "lost_count": len(lost_deals),
+        "incomplete_deals": incomplete_deals,
+    }
+
     return {
         "sync_time": now.strftime("%Y-%m-%dT%H:%M:%S+00:00"),
         "sources": sources_status,
         "deals": deals,
+        "pipeline_metrics": pipeline_metrics,
         "meetings": meetings_out,
         "unmatched_transcripts": unmatched_transcripts,
         "activity_feed": activity_feed,

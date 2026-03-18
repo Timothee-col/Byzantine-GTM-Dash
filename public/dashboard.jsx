@@ -158,10 +158,20 @@ function Header({ data, loading }) {
   );
 }
 
+// ─── Format currency ─────────────────────────────────────────────────────────
+function fmtCurrency(v) {
+  if (v === null || v === undefined) return "—";
+  if (v >= 1e9) return "$" + (v / 1e9).toFixed(1) + "B";
+  if (v >= 1e6) return "$" + (v / 1e6).toFixed(1) + "M";
+  if (v >= 1e3) return "$" + (v / 1e3).toFixed(0) + "K";
+  return "$" + v.toFixed(0);
+}
+
 // ─── Stats Bar ───────────────────────────────────────────────────────────────
 function StatsBar({ data }) {
   const deals = data?.deals || [];
   const meetings = data?.meetings || [];
+  const pm = data?.pipeline_metrics || {};
   const countRag = (c) => deals.filter(d => getRag(d) === c).length;
   const meetingsToday = meetings.filter(m => isToday(m.date)).length;
   const meetingsWeek = meetings.filter(m => isThisWeek(m.date)).length;
@@ -183,6 +193,53 @@ function StatsBar({ data }) {
           <div className="label" style={{ marginTop: 4 }}>{s.label}</div>
         </div>
       ))}
+    </div>
+  );
+}
+
+// ─── Pipeline Financial Summary ──────────────────────────────────────────────
+function PipelineFinancials({ data }) {
+  const pm = data?.pipeline_metrics || {};
+  const incomplete = pm.incomplete_deals || [];
+
+  const metrics = [
+    { label: "Pipeline Deals", value: pm.pipeline_count ?? "—", color: T.accent, fmt: false },
+    { label: "Total Allocation", value: pm.total_allocation, color: T.accent, fmt: true },
+    { label: "Weighted Pipeline /mo", value: pm.time_weighted_pipeline_mo, color: T.green, fmt: true },
+    { label: "Avg. % Closing", value: pm.avg_pct_closing !== null && pm.avg_pct_closing !== undefined ? pm.avg_pct_closing + "%" : "—", color: T.blue, fmt: false },
+    { label: "Active Clients", value: pm.active_count ?? "—", color: T.green, fmt: false },
+    { label: "Lost Deals", value: pm.lost_count ?? "—", color: T.red, fmt: false },
+  ];
+
+  return (
+    <div className="fade-in" style={{ padding: "20px 24px" }}>
+      <SectionLabel>Pipeline Financials</SectionLabel>
+      <div className="stats-grid" style={{ display: "grid", gridTemplateColumns: "repeat(6, 1fr)", gap: 1, background: T.border, borderRadius: 6, overflow: "hidden" }}>
+        {metrics.map((m, i) => (
+          <div key={i} style={{ background: T.card, padding: "16px 12px", textAlign: "center" }}>
+            <div style={{ fontSize: 22, fontWeight: 700, color: m.color, lineHeight: 1 }}>
+              {m.fmt ? fmtCurrency(m.value) : m.value}
+            </div>
+            <div className="label" style={{ marginTop: 6 }}>{m.label}</div>
+          </div>
+        ))}
+      </div>
+      {incomplete.length > 0 && (
+        <div style={{ marginTop: 12, background: T.red + "11", border: `1px solid ${T.red}33`, borderRadius: 6, padding: "12px 16px" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 8 }}>
+            <span style={{ fontSize: 14 }}>&#9888;</span>
+            <span className="label" style={{ color: T.red }}>Missing Financial Data ({incomplete.length} deals)</span>
+          </div>
+          <div style={{ fontSize: 11, color: T.muted, lineHeight: 1.6 }}>
+            Fill in <span className="mono" style={{ color: T.amber }}>expected_allocation</span>, <span className="mono" style={{ color: T.amber }}>pct_closing</span>, and <span className="mono" style={{ color: T.amber }}>days_to_close</span> in Attio for:
+          </div>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 8 }}>
+            {incomplete.map((name, i) => (
+              <Badge key={i} bg={T.red + "22"} color={T.red}>{name}</Badge>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -226,7 +283,7 @@ function PipelineTable({ deals, onSelect }) {
         <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
           <thead>
             <tr style={{ borderBottom: `1px solid ${T.border}` }}>
-              {["", "Company", "Stage", "Last", "Contact", "Next Steps", "Health", "Pri"].map((h, i) => (
+              {["", "Company", "Stage", "Last", "Allocation", "% Close", "Weighted", "Next Steps", "Health"].map((h, i) => (
                 <th key={i} className="label" style={{ textAlign: "left", padding: "8px 8px", fontWeight: 700, whiteSpace: "nowrap" }}>{h}</th>
               ))}
             </tr>
@@ -235,6 +292,7 @@ function PipelineTable({ deals, onSelect }) {
             {filtered.map(d => {
               const rag = getRag(d);
               const ragColor = rag === "red" ? T.red : rag === "amber" ? T.amber : T.green;
+              const missingFinancials = !d.expected_allocation || d.pct_closing === null || d.pct_closing === undefined || !d.days_to_close;
               return (
                 <tr key={d.id} onClick={() => onSelect(d)} style={{ borderBottom: `1px solid ${T.border}`, cursor: "pointer" }}
                   onMouseEnter={e => e.currentTarget.style.background = T.dim}
@@ -247,10 +305,23 @@ function PipelineTable({ deals, onSelect }) {
                       {d.lastDays !== null && d.lastDays !== undefined ? d.lastDays + "d" : "—"}
                     </span>
                   </td>
-                  <td className="hm" style={{ padding: "8px 8px", color: T.muted, fontSize: 12 }}>{d.contact || "—"}</td>
+                  <td className="hm" style={{ padding: "8px 8px" }}>
+                    <span className="mono" style={{ fontSize: 12, color: d.expected_allocation ? T.text : T.red }}>
+                      {d.expected_allocation ? fmtCurrency(d.expected_allocation) : "—"}
+                    </span>
+                  </td>
+                  <td className="hm" style={{ padding: "8px 8px" }}>
+                    <span className="mono" style={{ fontSize: 12, color: d.pct_closing != null ? T.text : T.red }}>
+                      {d.pct_closing != null ? d.pct_closing + "%" : "—"}
+                    </span>
+                  </td>
+                  <td className="hm" style={{ padding: "8px 8px" }}>
+                    <span className="mono" style={{ fontSize: 12, color: d.weighted_value ? T.green : T.muted }}>
+                      {d.weighted_value ? fmtCurrency(d.weighted_value) : "—"}
+                    </span>
+                  </td>
                   <td className="hm" style={{ padding: "8px 8px", color: T.muted, fontSize: 12, maxWidth: 190, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{d.nextSteps || "—"}</td>
                   <td style={{ padding: "8px 8px" }}><HealthBars score={getHealth(d)} /></td>
-                  <td style={{ padding: "8px 8px" }}><Badge bg={d.priority === "High" ? T.red + "22" : T.dim} color={d.priority === "High" ? T.red : T.muted}>{d.priority === "High" ? "HI" : "MD"}</Badge></td>
                 </tr>
               );
             })}
@@ -453,6 +524,23 @@ function DealModal({ deal, meetings, onClose }) {
             </div>
           </div>
 
+          {/* Financial metrics */}
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 12 }}>
+            {[
+              { label: "Allocation", value: deal.expected_allocation ? fmtCurrency(deal.expected_allocation) : null, color: T.accent },
+              { label: "% Closing", value: deal.pct_closing != null ? deal.pct_closing + "%" : null, color: T.blue },
+              { label: "Days to Close", value: deal.days_to_close != null ? Math.round(deal.days_to_close) + "d" : null, color: T.purple },
+              { label: "Weighted Value", value: deal.weighted_value ? fmtCurrency(deal.weighted_value) : null, color: T.green },
+            ].map((m, i) => (
+              <div key={i} style={{ background: m.value ? T.card : T.red + "11", border: `1px solid ${m.value ? T.border : T.red + "33"}`, borderRadius: 6, padding: 12, textAlign: "center" }}>
+                <div className="label" style={{ marginBottom: 4 }}>{m.label}</div>
+                <div className="mono" style={{ fontSize: 18, fontWeight: 700, color: m.value ? m.color : T.red }}>
+                  {m.value || "MISSING"}
+                </div>
+              </div>
+            ))}
+          </div>
+
           {/* Last contact */}
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
             <div className="mono" style={{ fontSize: 11, color: ragColor }}>
@@ -610,6 +698,7 @@ function App() {
         {data && !error && (
           <React.Fragment>
             <StatsBar data={data} />
+            <PipelineFinancials data={data} />
             <PipelineTable deals={data.deals || []} onSelect={setSelectedDeal} />
 
             <div className="two-col" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 0, padding: "0 24px 0 24px" }}>
