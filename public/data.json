@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-03-25T07:54:59+00:00",
+  "sync_time": "2026-03-26T08:03:21+00:00",
   "sources": {
     "fireflies": {
       "status": "ok",
@@ -24,8 +24,8 @@
       "company": "Skill Hunter",
       "stage": "Active",
       "lastDays": 1,
-      "lastContactDate": "2026-03-24",
-      "lastContactType": "email_sent",
+      "lastContactDate": "2026-03-25",
+      "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
       "nextSteps": "Organise call in 1 week to reviw how much they have earned and how did it go",
@@ -37,22 +37,22 @@
       "weighted_value": 225000.0,
       "emails": [
         {
-          "date": "2026-03-24",
-          "subject": "Re: Skill Hunter - (1) Développeur Backend RUST - Jean-Benoît GRIESNER",
-          "direction": "sent",
-          "snippet": "Hello Pierrick, Désolé pour le temps de réponse un peu long, ces derniers jours ont été assez chargés. J&#39;aime beaucoup le profil de Jean-Benoît et je pense que techniquement parlant il correspond "
-        },
-        {
-          "date": "2026-03-23",
-          "subject": "Re: Skill Hunter - (1) Développeur Backend RUST - Jean-Benoît GRIESNER",
+          "date": "2026-03-25",
+          "subject": "",
           "direction": "received",
-          "snippet": "Hello Alexandre, J&#39;espère que tu vas bien. Est-ce que tu as pu regarder le profil de Jean-Benoît ? N&#39;hésite pas si tu as des questions. À bientôt, Pierrick Vela Co-Founder Skill Hunter 06 13 7"
+          "snippet": "Hello Pierrick, Merci pour le partage du profil, très intéressant ! Je reviens vers Alexandre pour qu&#39;on valide ensemble si on souhaite avancer avec Sylvain. Si c&#39;est ok, on te tient au couran"
         },
         {
-          "date": "2026-03-20",
-          "subject": "Fwd: Skill Hunter - (1) Développeur Backend RUST - Jean-Benoît GRIESNER",
+          "date": "2026-03-25",
+          "subject": "Skill Hunter - (2) Développeur Backend RUST - Sylvain DELHOMME",
+          "direction": "received",
+          "snippet": "Hello Gaia, Alexandre, Voici une seconde candidature pour le poste de Développeur Backend Rust : Sylvain Delhomme Le profil LinkedIn de Sylvain n&#39;est pas encore à jour. Senior Rust Developer"
+        },
+        {
+          "date": "2026-03-25",
+          "subject": "Re: Skill Hunter - (1) Développeur Backend RUST - Jean-Benoît GRIESNER",
           "direction": "sent",
-          "snippet": "Gaia Ferrero Regis CEO | Byzantine Finance Book a meeting +33 6 22 23 87 79 ---------- Forwarded message --------- From: Pierrick Vela &lt;pierrick@skillhunter.fr&gt; Date: Fri, 20 Mar 2026 at 17:50"
+          "snippet": "Hello hello, trop bien! Je loop in Matteo, c&#39;est lui qui va prendre le premier appel de screen :) Je te laisse organiser @Matteo Maschio Merci beaucoup Pierrick! Gaia Gaia Ferrero Regis CEO |"
         }
       ],
       "transcripts": [
@@ -104,7 +104,7 @@
       "id": "thibault-coulon",
       "company": "Thibault Coulon",
       "stage": "Proposal / Negotiation",
-      "lastDays": 16,
+      "lastDays": 17,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "High",
@@ -142,7 +142,7 @@
       "id": "jeremy-giraud",
       "company": "Jeremy Giraud",
       "stage": "Qualification",
-      "lastDays": 14,
+      "lastDays": 15,
       "lastContactDate": "2026-03-11",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -180,7 +180,7 @@
       "id": "athletico-ventures",
       "company": "Athletico Ventures",
       "stage": "Active",
-      "lastDays": 8,
+      "lastDays": 9,
       "lastContactDate": "2026-03-17",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -218,7 +218,7 @@
       "id": "the-level-group",
       "company": "The Level Group",
       "stage": "Paused",
-      "lastDays": 6,
+      "lastDays": 7,
       "lastContactDate": "2026-03-19",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -302,7 +302,7 @@
       "id": "nicolas-bacca",
       "company": "Nicolas Bacca",
       "stage": "Active",
-      "lastDays": 9,
+      "lastDays": 10,
       "lastContactDate": "2026-03-16",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -359,7 +359,7 @@
       "id": "node-capital",
       "company": "Node Capital",
       "stage": "Paused",
-      "lastDays": 66,
+      "lastDays": 67,
       "lastContactDate": "2026-01-18",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -397,7 +397,7 @@
       "id": "jean-david-curiel",
       "company": "Jean-David Curiel",
       "stage": "Meeting",
-      "lastDays": 31,
+      "lastDays": 32,
       "lastContactDate": "2026-02-22",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -423,8 +423,8 @@
       "id": "tulyp",
       "company": "Tulyp",
       "stage": "Proposal / Negotiation",
-      "lastDays": 2,
-      "lastContactDate": "2026-03-23",
+      "lastDays": 1,
+      "lastContactDate": "2026-03-25",
       "lastContactType": "email_sent",
       "priority": "High",
       "notes": "",
@@ -437,31 +437,82 @@
       "weighted_value": 103500.0,
       "emails": [
         {
+          "date": "2026-03-25",
+          "subject": "Re: Suite à notre échange: Byzantine × Tulyp",
+          "direction": "sent",
+          "snippet": "Hello Maxime, Super le call aujourd&#39;hui. &quot;Plus on va comprendre, plus on saura le vendre&quot; : challenge accepted. Voici tout ce qu&#39;il te faut sur une page Notion dédiée : Tulyp x"
+        },
+        {
+          "date": "2026-03-25",
+          "subject": "Accepted: Gaia (Byzantine) -- Maxime (Tulyp) @ Wed 25 Mar 2026 2pm - 2:30pm (CET) (Gaia Ferrero Regis)",
+          "direction": "sent",
+          "snippet": "Gaia (Byzantine) -- Maxime (Tulyp) Jonas Bokelmann has accepted this invitation. Join with Google Meet Meeting link meet.google.com/ukc-rwfx-icu Join by phone (FR) +33 1 87 40 01 23 PIN: 462365448 Mor"
+        },
+        {
           "date": "2026-03-23",
           "subject": "Re: Suite à notre échange: Byzantine × Tulyp",
           "direction": "sent",
           "snippet": "Hello Maxime, J&#39;espère que tout roule de ton côté ! Je voulais te faire un petit update sur le compte Tulyp, j&#39;ai bien vu que tu avais complété le KYB, merci ! C&#39;est actuellement en cours"
-        },
-        {
-          "date": "2026-03-09",
-          "subject": "Accepted: Gaia (Byzantine) -- Maxime (Tulyp) @ Wed 25 Mar 2026 2pm - 2:30pm (CET) (gaia@byzantine.fi)",
-          "direction": "received",
-          "snippet": "Gaia (Byzantine) -- Maxime (Tulyp) Antonio Sansico has accepted this invitation. Join with Google Meet Meeting link meet.google.com/ukc-rwfx-icu Join by phone (FR) +33 1 87 40 01 23 PIN: 462365448 Mor"
-        },
-        {
-          "date": "2026-03-06",
-          "subject": "Re: Suite à notre échange: Byzantine × Tulyp",
-          "direction": "received",
-          "snippet": "Merci Gaia, je regarde ça rapidement. Best ______ Maxime Girres Founder &amp; CEO Tulyp Treasury - Plateforme de gestion du risque de change pour PMI et ETI Sécurisez votre EBITDA face à la volatilité"
         }
       ],
-      "transcripts": []
+      "transcripts": [
+        {
+          "date": "2026-03-25",
+          "title": "Meet – Gaia (Byzantine) -- Maxime (Tulyp)",
+          "participants": [
+            "max@tulyp.io",
+            "antonio@tulyp.io",
+            "jonas@byzantine.fi"
+          ],
+          "summary": "- **Opportunité d’améliorer les rendements FX:** Placement de **14 millions de dollars** à **8,5% net** pourrait générer **1,19 million de dollars** de gains.\n\n- **Confiance client sur cryptomonnaies:** Clientèle méfiante face aux stablecoins malgré rendements attractifs, nécessitant efforts pédagogiques et partenariats.\n\n- **Stratégie ciblant Wealth Managers:** Approche pour convaincre CGP, avec supports explicatifs et chatbot, pour faciliter l’adoption des produits crypto.\n\n- **Intégration technique fluide:** Plateforme avec dashboard API complète et options personnalisables, pour respecter compliance KYB/KYC.\n\n- **Gestion des flux bancaires:** Utilisation de SEPA pour euros et ACH pour dollars; système SWIFT opérationnel mi-juin.\n\n- **Validation du modèle avec client clé:** Test imminent avec potentiel placement de **20 millions de dollars**; communications à ajuster selon retours.",
+          "actionItems": [
+            "**Maxime Girres**",
+            "Examiner la documentation Byzantine envoyée par Gaia pour approfondir la compréhension du produit et du discours commercial (19:28)",
+            "Attendre le retour client tech sur leur intérêt à utiliser le produit, attendu d’ici la fin de semaine ou début semaine prochaine (19:28)",
+            "Tester la plateforme Byzantine dès acceptation du cas Kiwibee (25:29)",
+            "**Gaia Ferrero Regis**"
+          ],
+          "company": "",
+          "external_domains": [
+            "tulyp.io"
+          ],
+          "external_emails": [
+            "max@tulyp.io",
+            "antonio@tulyp.io"
+          ]
+        },
+        {
+          "date": "2026-03-25",
+          "title": "Meet – Gaia (Byzantine) -- Maxime (Tulyp)",
+          "participants": [
+            "max@tulyp.io",
+            "gaia@byzantine.fi",
+            "antonio@tulyp.io"
+          ],
+          "summary": "- **Project Background Clarification:** Team aligned on project status, objectives, and challenges for effective next steps and resource planning.\n\n- **Financing Process Review:** Current financing method outlined, ensuring timely resource allocation with decision workflows to support project launch.\n\n- **Product Positioning Discussion:** Explored white-label and processor solutions based on market demand and customization needs for product direction.\n\n- **Flexible Positioning Strategy:** Emphasized adaptability to market feedback and technical constraints for maximizing reach and client adoption.\n\n- **Team Alignment Confirmation:** Consensus achieved on strategies discussed, ensuring coordinated efforts and clear communication moving forward.",
+          "actionItems": [
+            "**Maxime Girres**",
+            "Clarify and provide detailed pitch use case and opportunity analysis involving named stakeholders (02:25)",
+            "Detail the financing process and next steps for review (15:18)",
+            "Expand on the white label proposal and features like Mojote for further discussion (17:08)",
+            "Finalize processor positioning and related decisions for team feedback (18:27)"
+          ],
+          "company": "",
+          "external_domains": [
+            "tulyp.io"
+          ],
+          "external_emails": [
+            "max@tulyp.io",
+            "antonio@tulyp.io"
+          ]
+        }
+      ]
     },
     {
       "id": "hugues-de-braucourt",
       "company": "Hugues de Braucourt",
       "stage": "Lost",
-      "lastDays": 44,
+      "lastDays": 45,
       "lastContactDate": "2026-02-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -499,7 +550,7 @@
       "id": "jonathan-jean-baptiste",
       "company": "Jonathan JEAN-BAPTISTE",
       "stage": "Meeting",
-      "lastDays": 58,
+      "lastDays": 59,
       "lastContactDate": "2026-01-26",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -525,7 +576,7 @@
       "id": "martino-grasselli",
       "company": "Martino Grasselli",
       "stage": "Qualification",
-      "lastDays": 5,
+      "lastDays": 6,
       "lastContactDate": "2026-03-20",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -587,7 +638,7 @@
       "id": "cyrille-jerabek",
       "company": "Cyrille Jerabek",
       "stage": "Meeting",
-      "lastDays": 36,
+      "lastDays": 37,
       "lastContactDate": "2026-02-17",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -625,7 +676,7 @@
       "id": "ox-capital-partners",
       "company": "OX Capital Partners",
       "stage": "Proposal / Negotiation",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-03-24",
       "lastContactType": "transcript",
       "priority": "High",
@@ -890,8 +941,8 @@
           ],
           "company": "Sentora",
           "external_domains": [
-            "sentora.com",
-            "firelight.finance"
+            "firelight.finance",
+            "sentora.com"
           ],
           "external_emails": [
             "ademartino@sentora.com",
@@ -938,7 +989,7 @@
       "id": "the-moon-investments",
       "company": "The Moon Investments",
       "stage": "Meeting",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-03-24",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -1049,7 +1100,7 @@
       "id": "thomas-rebaud",
       "company": "Thomas Rebaud",
       "stage": "Proposal / Negotiation",
-      "lastDays": 22,
+      "lastDays": 23,
       "lastContactDate": "2026-03-03",
       "lastContactType": "email_received",
       "priority": "High",
@@ -1087,7 +1138,7 @@
       "id": "priscille-raynaud",
       "company": "Priscille Raynaud",
       "stage": "Meeting",
-      "lastDays": 25,
+      "lastDays": 26,
       "lastContactDate": "2026-02-28",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1125,7 +1176,7 @@
       "id": "mehdi-amara",
       "company": "Mehdi Amara",
       "stage": "Active",
-      "lastDays": 16,
+      "lastDays": 17,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1182,7 +1233,7 @@
       "id": "tutornow",
       "company": "Tutornow",
       "stage": "Paused",
-      "lastDays": 30,
+      "lastDays": 31,
       "lastContactDate": "2026-02-23",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1220,7 +1271,7 @@
       "id": "hercle",
       "company": "Hercle",
       "stage": "Paused",
-      "lastDays": 37,
+      "lastDays": 38,
       "lastContactDate": "2026-02-16",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1258,7 +1309,7 @@
       "id": "bpifrance",
       "company": "Bpifrance",
       "stage": "Meeting",
-      "lastDays": 182,
+      "lastDays": 183,
       "lastContactDate": "2025-09-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1353,7 +1404,7 @@
       "id": "rebind",
       "company": "Rebind",
       "stage": "Lost",
-      "lastDays": 16,
+      "lastDays": 17,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1391,7 +1442,7 @@
       "id": "bizaway",
       "company": "BizAway",
       "stage": "Meeting",
-      "lastDays": 29,
+      "lastDays": 30,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1429,7 +1480,7 @@
       "id": "banca-sella",
       "company": "Banca Sella",
       "stage": "Proposal / Negotiation",
-      "lastDays": 2,
+      "lastDays": 3,
       "lastContactDate": "2026-03-23",
       "lastContactType": "transcript",
       "priority": "High",
@@ -1490,7 +1541,7 @@
       "id": "moonfare",
       "company": "Moonfare",
       "stage": "Proposal / Negotiation",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-03-24",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -1598,7 +1649,7 @@
       "id": "etienne-variot",
       "company": "Etienne Variot",
       "stage": "Active",
-      "lastDays": 25,
+      "lastDays": 26,
       "lastContactDate": "2026-02-28",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1636,7 +1687,7 @@
       "id": "goin",
       "company": "GOin",
       "stage": "Meeting",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-03-24",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -1793,8 +1844,8 @@
           ],
           "company": "Sentora",
           "external_domains": [
-            "sentora.com",
-            "firelight.finance"
+            "firelight.finance",
+            "sentora.com"
           ],
           "external_emails": [
             "ademartino@sentora.com",
@@ -1809,7 +1860,7 @@
       "id": "blackfin",
       "company": "BlackFin",
       "stage": "Meeting",
-      "lastDays": 29,
+      "lastDays": 30,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1847,7 +1898,7 @@
       "id": "ponder",
       "company": "Ponder",
       "stage": "Lost",
-      "lastDays": 5,
+      "lastDays": 6,
       "lastContactDate": "2026-03-20",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -1890,7 +1941,7 @@
       "id": "blisce",
       "company": "Blisce",
       "stage": "Meeting",
-      "lastDays": 35,
+      "lastDays": 36,
       "lastContactDate": "2026-02-18",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1928,7 +1979,7 @@
       "id": "sorare",
       "company": "Sorare",
       "stage": "Paused",
-      "lastDays": 36,
+      "lastDays": 37,
       "lastContactDate": "2026-02-17",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1966,7 +2017,7 @@
       "id": "bitpanda",
       "company": "Bitpanda",
       "stage": "Lost",
-      "lastDays": 2,
+      "lastDays": 3,
       "lastContactDate": "2026-03-23",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -2018,7 +2069,7 @@
       "id": "simon-hulin",
       "company": "Simon Hulin",
       "stage": "Testing",
-      "lastDays": 12,
+      "lastDays": 13,
       "lastContactDate": "2026-03-13",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2056,7 +2107,7 @@
       "id": "sopra-steria",
       "company": "Sopra Steria",
       "stage": "Meeting",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-03-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2113,7 +2164,7 @@
       "id": "bernat-family-office-sl",
       "company": "Bernat Family Office S.L.",
       "stage": "Meeting",
-      "lastDays": 170,
+      "lastDays": 171,
       "lastContactDate": "2025-10-06",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2139,7 +2190,7 @@
       "id": "alain-arthur-bloch",
       "company": "Alain & Arthur Bloch",
       "stage": "Proposal / Negotiation",
-      "lastDays": 42,
+      "lastDays": 43,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -2177,7 +2228,7 @@
       "id": "jump",
       "company": "Jump",
       "stage": "Meeting",
-      "lastDays": 6,
+      "lastDays": 7,
       "lastContactDate": "2026-03-19",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -2238,7 +2289,7 @@
       "id": "dalma",
       "company": "Dalma.",
       "stage": "Lost",
-      "lastDays": 51,
+      "lastDays": 52,
       "lastContactDate": "2026-02-02",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2276,7 +2327,7 @@
       "id": "sandwell-capital",
       "company": "Sandwell Capital",
       "stage": "Meeting",
-      "lastDays": 66,
+      "lastDays": 67,
       "lastContactDate": "2026-01-18",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2314,7 +2365,7 @@
       "id": "michael-osullivan",
       "company": "Michael OSullivan",
       "stage": "Proposal / Negotiation",
-      "lastDays": 37,
+      "lastDays": 38,
       "lastContactDate": "2026-02-16",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2346,7 +2397,7 @@
       "id": "fygr",
       "company": "Fygr",
       "stage": "Proposal / Negotiation",
-      "lastDays": 42,
+      "lastDays": 43,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2384,8 +2435,8 @@
       "id": "gaya",
       "company": "GAYA",
       "stage": "Meeting",
-      "lastDays": -2,
-      "lastContactDate": "2026-03-27",
+      "lastDays": -4,
+      "lastContactDate": "2026-03-30",
       "lastContactType": "meeting",
       "priority": "Med",
       "notes": "",
@@ -2441,7 +2492,7 @@
       "id": "jona-hauch",
       "company": "Jona Hauch",
       "stage": "Lost",
-      "lastDays": 29,
+      "lastDays": 30,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2467,7 +2518,7 @@
       "id": "cdp",
       "company": "CDP",
       "stage": "Meeting",
-      "lastDays": 13,
+      "lastDays": 14,
       "lastContactDate": "2026-03-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2524,7 +2575,7 @@
       "id": "charles-grosdidier",
       "company": "Charles Grosdidier",
       "stage": "Active",
-      "lastDays": 13,
+      "lastDays": 14,
       "lastContactDate": "2026-03-12",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2562,9 +2613,9 @@
       "id": "bitvavo",
       "company": "Bitvavo",
       "stage": "Proposal / Negotiation",
-      "lastDays": 1,
-      "lastContactDate": "2026-03-24",
-      "lastContactType": "email_received",
+      "lastDays": 0,
+      "lastContactDate": "2026-03-26",
+      "lastContactType": "email_sent",
       "priority": "High",
       "notes": "",
       "nextSteps": "Follow-up Friday 10-11am: send detailed docs on fund flow, infrastructure, rights management & hedge setup. Coen to run internal risk analysis on BTC/ETH vault strategy (4-4.5% target yield)",
@@ -2576,6 +2627,12 @@
       "weighted_value": 25000000.0,
       "emails": [
         {
+          "date": "2026-03-26",
+          "subject": "Docs from Tuesday + April 2 deep-dive",
+          "direction": "sent",
+          "snippet": "Hi Coen, Really valued the depth of the risk questions on Tuesday — that&#39;s not something every exchange pushes on, and it&#39;s exactly the kind of rigour that makes this work long-term. As"
+        },
+        {
           "date": "2026-03-24",
           "subject": "gaia@byzantine.fi viewed the document BitVavo full EUR fund flow",
           "direction": "received",
@@ -2586,12 +2643,6 @@
           "subject": "Accepted: Bitvavo <> Byzantine @ Thu 2 Apr 2026 10:30am - 11:30am (CEST) (Gaia Ferrero Regis)",
           "direction": "sent",
           "snippet": "Bitvavo &lt;&gt; Byzantine Matteo Maschio has accepted this invitation. Join with Google Meet Meeting link meet.google.com/pve-gwwy-qym Join by phone (FR) +33 1 87 40 36 21 PIN: 123641379 More phone"
-        },
-        {
-          "date": "2026-03-24",
-          "subject": "Accepted: Bitvavo <> Byzantine @ Thu 2 Apr 2026 10:30am - 11:30am (CEST) (Gaia Ferrero Regis)",
-          "direction": "sent",
-          "snippet": "Bitvavo &lt;&gt; Byzantine Jonas Bokelmann has accepted this invitation. Join with Google Meet Meeting link meet.google.com/pve-gwwy-qym Join by phone (FR) +33 1 87 40 36 21 PIN: 123641379 More phone"
         }
       ],
       "transcripts": [
@@ -2705,25 +2756,6 @@
             "david.salvatella@keyrock.eu",
             "gustav.liblik@bitvavo.com"
           ]
-        },
-        {
-          "date": "2026-03-17",
-          "title": "Meet – Valentin Hamida  and Gaia Ferrero Regis",
-          "participants": [
-            "valentinhmd@gmail.com",
-            "matteo@byzantine.fi"
-          ],
-          "summary": "- **Lancement des Produits:** Quatre produits débutent en janvier avec 30 millions d’AUM, objectif de 100 millions d’ici juin.  \n- **Partenariats Clés:** Collaboration avec Bitvavo pour earn program et Intesa Sanpaolo pour lending/borrowing.  \n- **Structure d’Assurance:** Assurance technique par ION couvre hacking et smart contracts, offrant sécurité aux investisseurs.  \n- **Pipeline Client:** Clients segmentés en trois tiers, sans minimum d’entrée, pour toucher divers segments d’investissement.  \n- **Recherche de Profil Sales:** Recherché pour marché suisse et français, visant à apporter des millions en AUM.  \n- **Expérience Utilisateur:** Interface simple avec onboarding personnalisé, dépôts rapides, et support client via WhatsApp.",
-          "actionItems": [
-            "**Gaia Ferrero Regis**",
-            "Examiner les disponibilités pour organiser un rendez-vous en présentiel à Paris avec Valentin et confirmer les frais de déplacement (26:41)",
-            "**Matteo Maschio**",
-            "Expliquer plus en détail la flexibilité possible dans les tâches de prospection et clarifier les alternatives en cas de changement de stratégie commerciale sur les CGP (23:27)",
-            "**Valentin Hamida**"
-          ],
-          "company": "Valentin Hamida",
-          "external_domains": [],
-          "external_emails": []
         }
       ]
     },
@@ -2731,7 +2763,7 @@
       "id": "bitcoin-suisse",
       "company": "Bitcoin Suisse",
       "stage": "Proposal / Negotiation",
-      "lastDays": 19,
+      "lastDays": 20,
       "lastContactDate": "2026-03-06",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -2757,7 +2789,7 @@
       "id": "titanbay",
       "company": "Titanbay",
       "stage": "Contacted",
-      "lastDays": 29,
+      "lastDays": 30,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2808,7 +2840,7 @@
       "id": "sibill",
       "company": "Sibill",
       "stage": "Proposal / Negotiation",
-      "lastDays": 26,
+      "lastDays": 27,
       "lastContactDate": "2026-02-27",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -2846,7 +2878,7 @@
       "id": "eric-bouanich",
       "company": "Eric Bouanich",
       "stage": "Proposal / Negotiation",
-      "lastDays": 6,
+      "lastDays": 7,
       "lastContactDate": "2026-03-19",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -2884,9 +2916,9 @@
       "id": "request-network",
       "company": "Request Network",
       "stage": "Proposal / Negotiation",
-      "lastDays": 27,
-      "lastContactDate": "2026-02-26",
-      "lastContactType": "email_sent",
+      "lastDays": 1,
+      "lastContactDate": "2026-03-25",
+      "lastContactType": "transcript",
       "priority": "High",
       "notes": "",
       "nextSteps": "Send blurb!",
@@ -2916,13 +2948,38 @@
           "snippet": "Hi, Thanks for getting back to me! There are four relevant service partners here: For on-/off-ramping, we use Bridge. For this, users sign your ToS directly. Clients are able to access insurance"
         }
       ],
-      "transcripts": []
+      "transcripts": [
+        {
+          "date": "2026-03-25",
+          "title": "Meet – William He and Gaia Ferrero Regis",
+          "participants": [
+            "william@gocanopy.tech",
+            "denis@gocanopy.tech"
+          ],
+          "summary": "- **Product Overview:** Byzantine offers insured treasury products with **4%-6%** returns, **24/7 liquidity**, and no deposit fees.\n\n- **Collateral and Risk:** Loans backed by **150% collateral** to ensure full coverage, targeting low-volatility assets like USDC.\n\n- **Security Measures:** Users benefit from EON insurance covering **100% of principal and interest** against various risks.\n\n- **Distribution Strategy:** Byzantine collaborates with **100 large distributors**, managing **€10-20 million** each to reach institutional clients.\n\n- **User Experience:** Simplifies transactions with blockchain tech and features like **€5** minimum investment for new users.\n\n- **Funding and Regulation:** Raised **€3.7 million** with plans for future funding rounds, operating under compliant financial licenses.",
+          "actionItems": [
+            "**Denis Shen**",
+            "Discuss Byzantine’s product details and risks with William He and decide on proceeding (41:06)",
+            "Initiate account creation, KYC, and conduct initial deposit test on Byzantine platform (41:06)",
+            "Request additional materials or clarification from Gaia as needed post-discussion (41:06)",
+            "**Gaia Ferrero Regis**"
+          ],
+          "company": "William He",
+          "external_domains": [
+            "gocanopy.tech"
+          ],
+          "external_emails": [
+            "william@gocanopy.tech",
+            "denis@gocanopy.tech"
+          ]
+        }
+      ]
     },
     {
       "id": "samuel-mottais",
       "company": "Samuel Mottais",
       "stage": "Active",
-      "lastDays": 72,
+      "lastDays": 73,
       "lastContactDate": "2026-01-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2948,12 +3005,12 @@
       "id": "intesa-sanpaolo",
       "company": "Intesa Sanpaolo",
       "stage": "Proposal / Negotiation",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-03-24",
       "lastContactType": "email_sent",
       "priority": "High",
       "notes": "",
-      "nextSteps": "**Gaia Ferrero Regis** | Examiner les disponibilités pour organiser un rendez-vous en présentiel à Paris avec Valentin et confirmer les frais de déplacement (26:41) | **Matteo Maschio**",
+      "nextSteps": "",
       "contact": null,
       "confidence": null,
       "expected_allocation": 15000000.0,
@@ -2980,33 +3037,13 @@
           "snippet": "Ciao Gaia, ottimo tempismo! Volentieri ritagliamoci un momento assieme, ti blocco un momento su calendly (ma poi ti mando un teams 🙂)! Marco From: Gaia Ferrero Regis &lt;gaia@byzantine.fi&gt; Sent:"
         }
       ],
-      "transcripts": [
-        {
-          "date": "2026-03-17",
-          "title": "Meet – Valentin Hamida  and Gaia Ferrero Regis",
-          "participants": [
-            "valentinhmd@gmail.com",
-            "matteo@byzantine.fi"
-          ],
-          "summary": "- **Lancement des Produits:** Quatre produits débutent en janvier avec 30 millions d’AUM, objectif de 100 millions d’ici juin.  \n- **Partenariats Clés:** Collaboration avec Bitvavo pour earn program et Intesa Sanpaolo pour lending/borrowing.  \n- **Structure d’Assurance:** Assurance technique par ION couvre hacking et smart contracts, offrant sécurité aux investisseurs.  \n- **Pipeline Client:** Clients segmentés en trois tiers, sans minimum d’entrée, pour toucher divers segments d’investissement.  \n- **Recherche de Profil Sales:** Recherché pour marché suisse et français, visant à apporter des millions en AUM.  \n- **Expérience Utilisateur:** Interface simple avec onboarding personnalisé, dépôts rapides, et support client via WhatsApp.",
-          "actionItems": [
-            "**Gaia Ferrero Regis**",
-            "Examiner les disponibilités pour organiser un rendez-vous en présentiel à Paris avec Valentin et confirmer les frais de déplacement (26:41)",
-            "**Matteo Maschio**",
-            "Expliquer plus en détail la flexibilité possible dans les tâches de prospection et clarifier les alternatives en cas de changement de stratégie commerciale sur les CGP (23:27)",
-            "**Valentin Hamida**"
-          ],
-          "company": "Valentin Hamida",
-          "external_domains": [],
-          "external_emails": []
-        }
-      ]
+      "transcripts": []
     },
     {
       "id": "jethr",
       "company": "JetHR",
       "stage": "Lost",
-      "lastDays": 28,
+      "lastDays": 29,
       "lastContactDate": "2026-02-25",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3044,7 +3081,7 @@
       "id": "arthur-bloch",
       "company": "Arthur Bloch",
       "stage": "Active",
-      "lastDays": 42,
+      "lastDays": 43,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3082,7 +3119,7 @@
       "id": "thibault-gimenez",
       "company": "Thibault Gimenez",
       "stage": "Qualification",
-      "lastDays": 16,
+      "lastDays": 17,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3131,172 +3168,6 @@
     ]
   },
   "meetings": [
-    {
-      "date": "2026-03-25",
-      "time": "08:45",
-      "title": "Send doc to Morgan",
-      "company": "",
-      "attendees": [],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-03-25",
-      "time": "09:30",
-      "title": "New outreach",
-      "company": "",
-      "attendees": [],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-03-25",
-      "time": "09:30",
-      "title": "CRM review",
-      "company": "",
-      "attendees": [],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-03-25",
-      "time": "11:00",
-      "title": "Coach",
-      "company": "",
-      "attendees": [],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-03-25",
-      "time": "12:45",
-      "title": "[15-minute buffer before 30 Minute Meeting event]",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-03-25",
-      "time": "13:00",
-      "title": "William He and Gaia Ferrero Regis",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi",
-        "william@gocanopy.tech",
-        "denis@gocanopy.tech"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-03-25",
-      "time": "13:30",
-      "title": "[15-minute buffer after 30 Minute Meeting event]",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-03-25",
-      "time": "14:00",
-      "title": "Gaia (Byzantine) -- Maxime (Tulyp)",
-      "company": "",
-      "attendees": [
-        "max@tulyp.io",
-        "gaia@byzantine.fi",
-        "antonio@tulyp.io"
-      ],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-03-25",
-      "time": "15:15",
-      "title": "[15-minute buffer before 30 Minute Meeting event]",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-03-25",
-      "time": "15:30",
-      "title": "Zacharie Labib and Gaia Ferrero Regis",
-      "company": "",
-      "attendees": [
-        "zacharie.labib@datadoghq.com",
-        "gaia@byzantine.fi"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-03-25",
-      "time": "16:00",
-      "title": "[15-minute buffer after 30 Minute Meeting event]",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-03-25",
-      "time": "17:00",
-      "title": "Same day follow ups",
-      "company": "",
-      "attendees": [],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-03-25",
-      "time": "17:30",
-      "title": "CRM Update",
-      "company": "",
-      "attendees": [],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-03-25",
-      "time": "18:00",
-      "title": "[15-minute buffer before Byzantine - Demo (30 mins) event]",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-03-25",
-      "time": "18:15",
-      "title": "Alessandra Cestaro and Gaia Ferrero Regis",
-      "company": "",
-      "attendees": [
-        "alessandra.cestaro@holifya.com",
-        "giorgio.biscotti@holifya.com",
-        "gaia@byzantine.fi"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-03-25",
-      "time": "18:45",
-      "title": "[15-minute buffer after Byzantine - Demo (30 mins) event]",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-03-25",
-      "time": "19:00",
-      "title": "Day review",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi",
-        "matteo@byzantine.fi"
-      ],
-      "prepNeeded": false
-    },
     {
       "date": "2026-03-26",
       "time": "09:00",
@@ -3382,6 +3253,14 @@
         "gaia@byzantine.fi"
       ],
       "prepNeeded": false
+    },
+    {
+      "date": "2026-03-26",
+      "time": "15:15",
+      "title": "",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
     },
     {
       "date": "2026-03-26",
@@ -3634,9 +3513,215 @@
         "alexis.valentin@outlook.com"
       ],
       "prepNeeded": false
+    },
+    {
+      "date": "2026-03-27",
+      "time": "17:00",
+      "title": "Co-Founder Catchup!",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "benoit@byzantine.fi",
+        "jonas@byzantine.fi",
+        "alexandre@byzantine.fi"
+      ],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-27",
+      "time": "17:30",
+      "title": "CRM Update",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-27",
+      "time": "19:00",
+      "title": "Day review",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "matteo@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-28",
+      "time": "11:00",
+      "title": "Stablewatch Build Your Yield Token Simulation",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-29",
+      "time": "09:00",
+      "title": "1 Day To SKL - Journée gratuite de masterclass avec Éric Larchevêque",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-29",
+      "time": "12:00",
+      "title": "Institutions Onchain",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-29",
+      "time": "18:00",
+      "title": "Cofounder SPECIAL alignment",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "benoit@byzantine.fi",
+        "alexandre@byzantine.fi",
+        "jonas@byzantine.fi"
+      ],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-29",
+      "time": "19:30",
+      "title": "[reminder schedule] Gaia <> Freddie catch-up in Cannes",
+      "company": "Freddie catch-up in Cannes",
+      "attendees": [
+        "frederick@stripe.com",
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-30",
+      "time": "08:00",
+      "title": "Cover the Distance 5K | EthCC Cannes 🇫🇷",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-30",
+      "time": "09:00",
+      "title": "Builders Breakfast: Canton x Zenith",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-30",
+      "time": "09:00",
+      "title": "Proof of Run 5K | EthCC9 Cannes 🇫🇷",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-30",
+      "time": "09:30",
+      "title": "CRM review",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-30",
+      "time": "09:30",
+      "title": "ByzFi standup  - start the week strong",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "benoit@byzantine.fi",
+        "lin@byzantine.fi",
+        "jonas@byzantine.fi",
+        "alexandre@byzantine.fi",
+        "matteo@byzantine.fi"
+      ],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-30",
+      "time": "10:00",
+      "title": "Matte <> Gaia",
+      "company": "Gaia",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "matteo@byzantine.fi"
+      ],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-03-30",
+      "time": "10:00",
+      "title": "Cryptography & Compute Cafe @ EthCC Cannes",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-03-30",
+      "time": "11:00",
+      "title": "GTM review: Givanni <> Byzantine",
+      "company": "Byzantine",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "matteo@byzantine.fi",
+        "giovanni.ruggiero10@gmail.com"
+      ],
+      "prepNeeded": true
     }
   ],
   "unmatched_transcripts": [
+    {
+      "date": "2026-03-25",
+      "title": "Meet – Zacharie Labib and Gaia Ferrero Regis",
+      "participants": [
+        "zacharie.labib@datadoghq.com"
+      ],
+      "summary": "- **Croissance rapide de Datadog** : L'entreprise a évolué d'une start-up à une multinationale en huit ans, avec 24 commerciaux en France.  \n- **Expansion des bureaux** : Le siège français passera de 550 postes à 1500 l'année prochaine, montrant la forte demande.  \n- **Potentiel de vente client** : Les opportunités chez les clients passent de 2 millions à 20 millions, justifiant une stratégie d'approfondissement des relations.  \n- **Approche \"lend and expand\"** : Offre initiale SaaS simple rédui",
+      "actionItems": [
+        "**Regis Ferrero**",
+        "Intégrer la stratégie « lend and expand », commencer par un déploiement SaaS rapide pour générer du chiffre d’affaires tout en consolidant la relation client (07:40)",
+        "Affiner la qualification des prospects en appliquant rigoureusement une ICP pour optimiser le temps investi dans les opportunités (09:30)",
+        "Développer un ciblage personnalisé des interlocuteurs clés en s’appuyant sur LinkedIn et autres sources pour identifier les champions potentiels (14:10)",
+        "Renforcer la relation avec les champions par des interactions régulières et personnalisées (18:00)"
+      ],
+      "company": "Zacharie Labib",
+      "external_domains": [
+        "datadoghq.com"
+      ]
+    },
+    {
+      "date": "2026-03-25",
+      "title": "Meet – ptp-pghv-udu",
+      "participants": [],
+      "summary": "- **Gestione del Patrimonio Familiare:** Obiettivo di coprire una maxi-rata finale di 15.000 euro con disponibilità liquida di 5.000 euro.\n\n- **Situazione Finanziaria:** Liquidità insufficiente con solo 13.000 euro nel conto comune; integrazione con fondi personali e un versamento di 2.000 euro dalla moglie.\n\n- **Valutazione del Patrimonio:** Patrimonio familiare di circa 500.000 euro; presenza di immobili e beni di valore, incluso oro e gioielli.\n\n- **Difficoltà di Leadership:** Gaia sente fati",
+      "actionItems": [
+        "**Gaia**",
+        "Effettuare bonifico di 2.000 euro dal proprio conto privato per completare il deposito del fondo per maxirata (03:45)",
+        "Parlare con Jonas delle paure relative alla fine del progetto lavorativo e all’impatto sulla relazione personale (01:00:00)",
+        "Riflettere e riportare riconoscimenti personali sulle cose fatte bene nella settimana, contrastando la tendenza all’autocritica negativa (27:36)",
+        "Organizzare la propria agenda con più focus sul contatto diretto con clienti e lead per la pipeline di vendite (32:09)"
+      ],
+      "company": "ptp-pghv-udu",
+      "external_domains": []
+    },
     {
       "date": "2026-03-24",
       "title": "Meet – Jonas Bokelmann et Anis Maalej",
@@ -3858,43 +3943,15 @@
       ],
       "company": "Sentora",
       "external_domains": []
-    },
-    {
-      "date": "2026-03-17",
-      "title": "Meet – Greg Feibus and Gaia Ferrero Regis",
-      "participants": [],
-      "summary": "- **Byzantine's DeFi Strategy:** Focus on customizable institutional DeFi products for European markets, balancing regulation and innovation.\n\n- **Core Lending Strategies Launched:** Offering two Euro and two USD strategies with insured and uninsured options using blue-chip protocols.\n\n- **EARN Program Launch:** Finalizing approval to launch EARN program on European exchanges, integrating DeFi into major Italian banks.\n\n- **Midas Tokenization Framework:** Provides regulated tokenization for debt",
-      "actionItems": [
-        "**Greg Feibus**",
-        "Provide documentation and bullet points detailing Midas’s Luxembourg securitization vehicle structure for Byzantine’s review (29:45)",
-        "**Gaia Ferrero Regis**",
-        "Send Greg links to Byzantine’s existing Kirok vault strategy for review (21:00)",
-        "**Jonas Bokelmann**"
-      ],
-      "company": "Greg Feibus",
-      "external_domains": []
-    },
-    {
-      "date": "2026-03-17",
-      "title": "Meet – Sales: Byzantine Finance",
-      "participants": [
-        "achanpeng614@gmail.com",
-        "matteo@byzantine.fi",
-        "timothee@byzantine.fi"
-      ],
-      "summary": "- **Byzantine vise 100 millions d’euros d’actifs d’ici juin 2025**, avec une levée de fonds de 3,7 millions en janvier 2025.  \n- **Produits financiers proposent un rendement compétitif** : 8% en dollars, 7% en euros, intérêts versés toutes les six heures.  \n- **Sécurité et conformité épurées** : premier produit on-chain assuré, respectant la réglementation européenne MICA.  \n- **Tests commerciaux ciblés avec CGP indépendants** pour valider le modèle avant d'élargir la clientèle.  \n- **Système CR",
-      "actionItems": [
-        "**Gaïa Ferrero Regis**",
-        "Partager un document complet avec pitch, réponses aux objections et caractéristiques de la cible prioritaire (00:09)",
-        "Fournir des listes qualifiées de CGP indépendants avec numéros de téléphone pour démarrage appels (20:20)",
-        "Mettre en place les outils nécessaires pour la mission d’Arnaud (call, CRM, documentation) (20:50)",
-        "Être disponible pour accompagner Arnaud sur les premiers appels et ajuster le pitch (18:50)"
-      ],
-      "company": "",
-      "external_domains": []
     }
   ],
   "activity_feed": [
+    {
+      "date": "2026-03-30",
+      "type": "meeting",
+      "company": "GAYA",
+      "summary": "Matte <> Gaia"
+    },
     {
       "date": "2026-03-27",
       "type": "meeting",
@@ -3908,82 +3965,76 @@
       "summary": "Matte <> Gaia"
     },
     {
-      "date": "2026-03-24",
+      "date": "2026-03-26",
+      "type": "email_sent",
+      "company": "Bitvavo",
+      "summary": "Sent: Docs from Tuesday + April 2 deep-dive"
+    },
+    {
+      "date": "2026-03-25",
+      "type": "email_received",
+      "company": "Skill Hunter",
+      "summary": "Received: "
+    },
+    {
+      "date": "2026-03-25",
+      "type": "email_received",
+      "company": "Skill Hunter",
+      "summary": "Received: Skill Hunter - (2) Développeur Backend RUST - Sylvain DELHOMME"
+    },
+    {
+      "date": "2026-03-25",
       "type": "email_sent",
       "company": "Skill Hunter",
       "summary": "Sent: Re: Skill Hunter - (1) Développeur Backend RUST - Jean-Benoît GRIESNER"
+    },
+    {
+      "date": "2026-03-25",
+      "type": "email_sent",
+      "company": "Tulyp",
+      "summary": "Sent: Re: Suite à notre échange: Byzantine × Tulyp"
+    },
+    {
+      "date": "2026-03-25",
+      "type": "email_sent",
+      "company": "Tulyp",
+      "summary": "Sent: Accepted: Gaia (Byzantine) -- Maxime (Tulyp) @ Wed 25 Mar 2026 2pm - 2:30pm (CET) (Gaia Ferrero Regis)"
+    },
+    {
+      "date": "2026-03-25",
+      "type": "transcript",
+      "company": "Tulyp",
+      "summary": "- **Opportunité d’améliorer les rendements FX:** Placement de **14 millions de dollars** à **8,5% net** pourrait générer **1,19 million de dollars** de gains.\n\n- **Confiance client sur cryptomonnaies:"
+    },
+    {
+      "date": "2026-03-25",
+      "type": "transcript",
+      "company": "Tulyp",
+      "summary": "- **Project Background Clarification:** Team aligned on project status, objectives, and challenges for effective next steps and resource planning.\n\n- **Financing Process Review:** Current financing me"
+    },
+    {
+      "date": "2026-03-25",
+      "type": "transcript",
+      "company": "Request Network",
+      "summary": "- **Product Overview:** Byzantine offers insured treasury products with **4%-6%** returns, **24/7 liquidity**, and no deposit fees.\n\n- **Collateral and Risk:** Loans backed by **150% collateral** to e"
+    },
+    {
+      "date": "2026-03-25",
+      "type": "transcript",
+      "company": "Zacharie Labib",
+      "summary": "- **Croissance rapide de Datadog** : L'entreprise a évolué d'une start-up à une multinationale en huit ans, avec 24 commerciaux en France.  \n- **Expansion des bureaux** : Le siège français passera de "
+    },
+    {
+      "date": "2026-03-25",
+      "type": "transcript",
+      "company": "ptp-pghv-udu",
+      "summary": "- **Gestione del Patrimonio Familiare:** Obiettivo di coprire una maxi-rata finale di 15.000 euro con disponibilità liquida di 5.000 euro.\n\n- **Situazione Finanziaria:** Liquidità insufficiente con so"
     },
     {
       "date": "2026-03-24",
       "type": "transcript",
       "company": "OX Capital Partners",
       "summary": "- **Private Credit Advisory Success:** Generated $1 million revenue in 9 months, aiding Web3 startups with credit lines of $20M-$100M.\n\n- **Transaction Structure:** Typically ranges from $5 million to"
-    },
-    {
-      "date": "2026-03-24",
-      "type": "transcript",
-      "company": "OX Capital Partners",
-      "summary": "- **Company Shift:** Byzantine transitioned from restaking to simpler DeFi yields, raising $4 million for this in 2024.  \n- **Target Market:** Focus narrowed from broad segments to high-net-worth indi"
-    },
-    {
-      "date": "2026-03-24",
-      "type": "transcript",
-      "company": "OX Capital Partners",
-      "summary": "- **Partnership Opportunities:** Ripple and Byzantine discussed integrating XRP collateral and RL USD into Byzantine’s yield strategies.  \n- **Custody Solutions:** Byzantine offers white-label earn pr"
-    },
-    {
-      "date": "2026-03-24",
-      "type": "transcript",
-      "company": "The Moon Investments",
-      "summary": "- **Product Offering:** Byzantine aims to reduce cash drag with higher-yield, flexible investments that offer instant liquidity.\n\n- **Yield Rates:** Flagship products offer **4-5% fully insured** and "
-    },
-    {
-      "date": "2026-03-24",
-      "type": "transcript",
-      "company": "The Moon Investments",
-      "summary": "- **Moonfare Strategy Overview:** Focus on delivering higher returns than traditional funds, aligning product lockups with capital call periods.  \n\n- **Byzantine’s Vision:** Create flexible, liquid in"
-    },
-    {
-      "date": "2026-03-24",
-      "type": "email_sent",
-      "company": "Moonfare",
-      "summary": "Sent: Accepted: Moonfare <> Byzantine @ Tue 16 Jun 2026 11am - 11:30am (CEST) (Gaia Ferrero Regis)"
-    },
-    {
-      "date": "2026-03-24",
-      "type": "email_received",
-      "company": "Moonfare",
-      "summary": "Received: Accepted: Moonfare <> Byzantine @ Tue 16 Jun 2026 11am - 11:30am (CEST) (gaia@byzantine.fi)"
-    },
-    {
-      "date": "2026-03-24",
-      "type": "transcript",
-      "company": "Moonfare",
-      "summary": "- **Product Offering:** Byzantine aims to reduce cash drag with higher-yield, flexible investments that offer instant liquidity.\n\n- **Yield Rates:** Flagship products offer **4-5% fully insured** and "
-    },
-    {
-      "date": "2026-03-24",
-      "type": "transcript",
-      "company": "Moonfare",
-      "summary": "- **Moonfare Strategy Overview:** Focus on delivering higher returns than traditional funds, aligning product lockups with capital call periods.  \n\n- **Byzantine’s Vision:** Create flexible, liquid in"
-    },
-    {
-      "date": "2026-03-24",
-      "type": "transcript",
-      "company": "GOin",
-      "summary": "- **Risk Controls Prevent Losses:** Strong risk management prevented losses during the Resolve hack, maintaining vault integrity.\n\n- **Liquidity Management During Attack:** Vault maintained 25% liquid"
-    },
-    {
-      "date": "2026-03-24",
-      "type": "email_received",
-      "company": "Sopra Steria",
-      "summary": "Received: RE: Byzantine & Sopra Steria"
-    },
-    {
-      "date": "2026-03-24",
-      "type": "email_received",
-      "company": "Bitvavo",
-      "summary": "Received: gaia@byzantine.fi viewed the document BitVavo full EUR fund flow"
     }
   ]
 }
