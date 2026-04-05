@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-04-04T07:50:00+00:00",
+  "sync_time": "2026-04-05T07:55:57+00:00",
   "sources": {
     "gcal": {
       "status": "ok",
@@ -23,7 +23,7 @@
       "id": "skill-hunter",
       "company": "Skill Hunter",
       "stage": "Active",
-      "lastDays": 5,
+      "lastDays": 6,
       "lastContactDate": "2026-03-30",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -61,7 +61,7 @@
       "id": "thibault-coulon",
       "company": "Thibault Coulon",
       "stage": "Proposal / Negotiation",
-      "lastDays": 26,
+      "lastDays": 27,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "High",
@@ -99,7 +99,7 @@
       "id": "jeremy-giraud",
       "company": "Jeremy Giraud",
       "stage": "Qualification",
-      "lastDays": 24,
+      "lastDays": 25,
       "lastContactDate": "2026-03-11",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -137,7 +137,7 @@
       "id": "athletico-ventures",
       "company": "Athletico Ventures",
       "stage": "Active",
-      "lastDays": 18,
+      "lastDays": 19,
       "lastContactDate": "2026-03-17",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -175,7 +175,7 @@
       "id": "the-level-group",
       "company": "The Level Group",
       "stage": "Paused",
-      "lastDays": 5,
+      "lastDays": 6,
       "lastContactDate": "2026-03-30",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -259,7 +259,7 @@
       "id": "nicolas-bacca",
       "company": "Nicolas Bacca",
       "stage": "Active",
-      "lastDays": 3,
+      "lastDays": 4,
       "lastContactDate": "2026-04-01",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -316,7 +316,7 @@
       "id": "node-capital",
       "company": "Node Capital",
       "stage": "Paused",
-      "lastDays": 76,
+      "lastDays": 77,
       "lastContactDate": "2026-01-18",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -354,7 +354,7 @@
       "id": "jean-david-curiel",
       "company": "Jean-David Curiel",
       "stage": "Meeting",
-      "lastDays": 41,
+      "lastDays": 42,
       "lastContactDate": "2026-02-22",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -380,7 +380,7 @@
       "id": "tulyp",
       "company": "Tulyp",
       "stage": "Proposal / Negotiation",
-      "lastDays": 8,
+      "lastDays": 9,
       "lastContactDate": "2026-03-27",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -469,7 +469,7 @@
       "id": "hugues-de-braucourt",
       "company": "Hugues de Braucourt",
       "stage": "Lost",
-      "lastDays": 54,
+      "lastDays": 55,
       "lastContactDate": "2026-02-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -507,7 +507,7 @@
       "id": "jonathan-jean-baptiste",
       "company": "Jonathan JEAN-BAPTISTE",
       "stage": "Meeting",
-      "lastDays": 68,
+      "lastDays": 69,
       "lastContactDate": "2026-01-26",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -533,7 +533,7 @@
       "id": "martino-grasselli",
       "company": "Martino Grasselli",
       "stage": "Qualification",
-      "lastDays": 22,
+      "lastDays": 23,
       "lastContactDate": "2026-03-13",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -571,7 +571,7 @@
       "id": "cyrille-jerabek",
       "company": "Cyrille Jerabek",
       "stage": "Meeting",
-      "lastDays": 46,
+      "lastDays": 47,
       "lastContactDate": "2026-02-17",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -609,7 +609,7 @@
       "id": "ox-capital-partners",
       "company": "OX Capital Partners",
       "stage": "Proposal / Negotiation",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-04-03",
       "lastContactType": "transcript",
       "priority": "High",
@@ -842,7 +842,7 @@
       "company": "Holifya",
       "stage": "Meeting",
       "lastDays": 1,
-      "lastContactDate": "2026-04-03",
+      "lastContactDate": "2026-04-04",
       "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
@@ -855,22 +855,22 @@
       "weighted_value": null,
       "emails": [
         {
+          "date": "2026-04-04",
+          "subject": "Collegati al tuo consulto medico gratuito! Ecco il link 🔗",
+          "direction": "received",
+          "snippet": "Ciao Gaia Ferrero Regis , La tua consulenza medica sta iniziando accedi alla chiamata tramite il link: 🔗 Clicca qui per entrare: https://meet.google.com/rua-qvwz-waz Vuoi riprogrammare: https://holify"
+        },
+        {
+          "date": "2026-04-04",
+          "subject": "Tra 1 ora ci vediamo! Ecco il link 🔗",
+          "direction": "received",
+          "snippet": "Ciao Gaia Ferrero Regis , La tua consulenza medica inizia tra un&#39;ora. ⏰ Oggi alle sabato 4 aprile 2026 14:00 🔗 Clicca qui per entrare: https://meet.google.com/rua-qvwz-waz Vuoi riprogrammare: http"
+        },
+        {
           "date": "2026-04-03",
           "subject": "Ci vediamo domani alle 14:00 👋",
           "direction": "received",
           "snippet": "Ciao Gaia Ferrero Regis , Ti ricordiamo la tua consulenza medica gratuita domani. 📅 sabato 4 aprile 202614:00 📍 https://meet.google.com/rua-qvwz-waz 👤 Con: Dott.ssa Valentina Berna Vuoi riprogrammare:"
-        },
-        {
-          "date": "2026-04-02",
-          "subject": "Hai già aspettato abbastanza",
-          "direction": "received",
-          "snippet": "Prenota la tua consulenza gratuita → E se questo fosse il momento giusto? Hai letto dei farmaci GLP-1, hai visto i risultati. Ogni settimana che passa è una settimana in cui il tuo corpo aspetta il"
-        },
-        {
-          "date": "2026-03-31",
-          "subject": "Holifya <> Byzantine: documenti e accesso app",
-          "direction": "sent",
-          "snippet": "Ciao Alessandra, ciao Giorgio, Grazie per il tempo oggi, è stato un piacere conoscervi! Come promesso, vi allego: La scheda prodotto di Byzantine Prime EUR con tutti i numeri. Accesso, potete creare i"
         }
       ],
       "transcripts": [
@@ -904,9 +904,9 @@
       "id": "the-moon-investments",
       "company": "The Moon Investments",
       "stage": "Meeting",
-      "lastDays": 11,
-      "lastContactDate": "2026-03-24",
-      "lastContactType": "transcript",
+      "lastDays": 31,
+      "lastContactDate": "2026-03-05",
+      "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
       "nextSteps": "Meeting tuesday, have him test",
@@ -936,39 +936,13 @@
           "snippet": "Join us for Consensus &amp; Solana Accelerate View this email in your browser This spring, Caladan is making a strong showing across the US, with our team attending key industry events and meeting wit"
         }
       ],
-      "transcripts": [
-        {
-          "date": "2026-03-24",
-          "title": "Meet – Byzantine.fi - Product Presentation",
-          "participants": [
-            "karran.kent@moonfare.com",
-            "mehdi.amara@moonfare.com",
-            "jonas@byzantine.fi"
-          ],
-          "summary": "- **Product Offering:** Byzantine aims to reduce cash drag with higher-yield, flexible investments that offer instant liquidity.\n\n- **Yield Rates:** Flagship products offer **4-5% fully insured** and **5-6% non-insured in euros**, and **6-7% fully insured** and **7-8% non-insured in dollars**.\n\n- **Infrastructure:** Supports white-label integration with API for account setup, deposits, and withdrawals, ensuring non-custodial compliance with regulations.\n\n- **Fees:** Standard **10% performance fee** with options for customized fee arrangements to match partner needs.\n\n- **Next Steps:** Schedule a follow-up meeting on **June 16th at 11 am** to review product details and team integration.",
-          "actionItems": [
-            "**Karran Kent**",
-            "Circulate the Byzantine product documentation including fee schedules to internal team for review (13:09)",
-            "Schedule and coordinate an internal meeting with Moonfare colleagues around mid-June for deeper evaluation of Byzantine’s offering (18:33)",
-            "Confirm the June 16th, 11 AM follow-up meeting and coordinate calendar invites with relevant participants (20:07)",
-            "**Gaia Ferrero Regis**"
-          ],
-          "company": "",
-          "external_domains": [
-            "moonfare.com"
-          ],
-          "external_emails": [
-            "karran.kent@moonfare.com",
-            "mehdi.amara@moonfare.com"
-          ]
-        }
-      ]
+      "transcripts": []
     },
     {
       "id": "thomas-rebaud",
       "company": "Thomas Rebaud",
       "stage": "Proposal / Negotiation",
-      "lastDays": 32,
+      "lastDays": 33,
       "lastContactDate": "2026-03-03",
       "lastContactType": "email_received",
       "priority": "High",
@@ -1006,7 +980,7 @@
       "id": "priscille-raynaud",
       "company": "Priscille Raynaud",
       "stage": "Meeting",
-      "lastDays": 35,
+      "lastDays": 36,
       "lastContactDate": "2026-02-28",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1044,7 +1018,7 @@
       "id": "mehdi-amara",
       "company": "Mehdi Amara",
       "stage": "Active",
-      "lastDays": 2,
+      "lastDays": 3,
       "lastContactDate": "2026-04-02",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1101,7 +1075,7 @@
       "id": "tutornow",
       "company": "Tutornow",
       "stage": "Paused",
-      "lastDays": 40,
+      "lastDays": 41,
       "lastContactDate": "2026-02-23",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1158,7 +1132,7 @@
       "id": "hercle",
       "company": "Hercle",
       "stage": "Paused",
-      "lastDays": 47,
+      "lastDays": 48,
       "lastContactDate": "2026-02-16",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1196,7 +1170,7 @@
       "id": "bpifrance",
       "company": "Bpifrance",
       "stage": "Meeting",
-      "lastDays": 192,
+      "lastDays": 193,
       "lastContactDate": "2025-09-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1291,7 +1265,7 @@
       "id": "rebind",
       "company": "Rebind",
       "stage": "Lost",
-      "lastDays": 26,
+      "lastDays": 27,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1329,7 +1303,7 @@
       "id": "bizaway",
       "company": "BizAway",
       "stage": "Meeting",
-      "lastDays": 39,
+      "lastDays": 40,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1386,7 +1360,7 @@
       "id": "moonfare",
       "company": "Moonfare",
       "stage": "Proposal / Negotiation",
-      "lastDays": 8,
+      "lastDays": 9,
       "lastContactDate": "2026-03-27",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -1418,33 +1392,7 @@
           "snippet": "Moonfare &lt;&gt; Byzantine Karran Kent has accepted this invitation. Join with Google Meet Meeting link meet.google.com/kez-xwpt-hzg Join by phone (FR) +33 1 87 40 40 13 PIN: 630536791 More phone"
         }
       ],
-      "transcripts": [
-        {
-          "date": "2026-03-24",
-          "title": "Meet – Byzantine.fi - Product Presentation",
-          "participants": [
-            "karran.kent@moonfare.com",
-            "mehdi.amara@moonfare.com",
-            "jonas@byzantine.fi"
-          ],
-          "summary": "- **Product Offering:** Byzantine aims to reduce cash drag with higher-yield, flexible investments that offer instant liquidity.\n\n- **Yield Rates:** Flagship products offer **4-5% fully insured** and **5-6% non-insured in euros**, and **6-7% fully insured** and **7-8% non-insured in dollars**.\n\n- **Infrastructure:** Supports white-label integration with API for account setup, deposits, and withdrawals, ensuring non-custodial compliance with regulations.\n\n- **Fees:** Standard **10% performance fee** with options for customized fee arrangements to match partner needs.\n\n- **Next Steps:** Schedule a follow-up meeting on **June 16th at 11 am** to review product details and team integration.",
-          "actionItems": [
-            "**Karran Kent**",
-            "Circulate the Byzantine product documentation including fee schedules to internal team for review (13:09)",
-            "Schedule and coordinate an internal meeting with Moonfare colleagues around mid-June for deeper evaluation of Byzantine’s offering (18:33)",
-            "Confirm the June 16th, 11 AM follow-up meeting and coordinate calendar invites with relevant participants (20:07)",
-            "**Gaia Ferrero Regis**"
-          ],
-          "company": "",
-          "external_domains": [
-            "moonfare.com"
-          ],
-          "external_emails": [
-            "karran.kent@moonfare.com",
-            "mehdi.amara@moonfare.com"
-          ]
-        }
-      ]
+      "transcripts": []
     },
     {
       "id": "mgv",
@@ -1469,7 +1417,7 @@
       "id": "etienne-variot",
       "company": "Etienne Variot",
       "stage": "Active",
-      "lastDays": 35,
+      "lastDays": 36,
       "lastContactDate": "2026-02-28",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1507,7 +1455,7 @@
       "id": "goin",
       "company": "GOin",
       "stage": "Meeting",
-      "lastDays": 2,
+      "lastDays": 3,
       "lastContactDate": "2026-04-02",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -1660,7 +1608,7 @@
       "id": "blackfin",
       "company": "BlackFin",
       "stage": "Meeting",
-      "lastDays": 39,
+      "lastDays": 40,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1698,7 +1646,7 @@
       "id": "ponder",
       "company": "Ponder",
       "stage": "Lost",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-04-03",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -1754,7 +1702,7 @@
       "id": "blisce",
       "company": "Blisce",
       "stage": "Meeting",
-      "lastDays": 45,
+      "lastDays": 46,
       "lastContactDate": "2026-02-18",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1792,7 +1740,7 @@
       "id": "sorare",
       "company": "Sorare",
       "stage": "Paused",
-      "lastDays": 46,
+      "lastDays": 47,
       "lastContactDate": "2026-02-17",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1830,7 +1778,7 @@
       "id": "bitpanda",
       "company": "Bitpanda",
       "stage": "Lost",
-      "lastDays": 2,
+      "lastDays": 3,
       "lastContactDate": "2026-04-02",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -1952,7 +1900,7 @@
       "id": "simon-hulin",
       "company": "Simon Hulin",
       "stage": "Testing",
-      "lastDays": 22,
+      "lastDays": 23,
       "lastContactDate": "2026-03-13",
       "lastContactType": "email_received",
       "priority": "High",
@@ -1990,7 +1938,7 @@
       "id": "sopra-steria",
       "company": "Sopra Steria",
       "stage": "Meeting",
-      "lastDays": 11,
+      "lastDays": 12,
       "lastContactDate": "2026-03-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2028,7 +1976,7 @@
       "id": "bernat-family-office-sl",
       "company": "Bernat Family Office S.L.",
       "stage": "Meeting",
-      "lastDays": 180,
+      "lastDays": 181,
       "lastContactDate": "2025-10-06",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2054,7 +2002,7 @@
       "id": "alain-arthur-bloch",
       "company": "Alain & Arthur Bloch",
       "stage": "Proposal / Negotiation",
-      "lastDays": 52,
+      "lastDays": 53,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -2092,7 +2040,7 @@
       "id": "jump",
       "company": "Jump",
       "stage": "Meeting",
-      "lastDays": 26,
+      "lastDays": 27,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2130,7 +2078,7 @@
       "id": "dalma",
       "company": "Dalma.",
       "stage": "Lost",
-      "lastDays": 5,
+      "lastDays": 6,
       "lastContactDate": "2026-03-30",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2168,7 +2116,7 @@
       "id": "sandwell-capital",
       "company": "Sandwell Capital",
       "stage": "Meeting",
-      "lastDays": 76,
+      "lastDays": 77,
       "lastContactDate": "2026-01-18",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2206,7 +2154,7 @@
       "id": "michael-osullivan",
       "company": "Michael OSullivan",
       "stage": "Proposal / Negotiation",
-      "lastDays": 47,
+      "lastDays": 48,
       "lastContactDate": "2026-02-16",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2238,7 +2186,7 @@
       "id": "fygr",
       "company": "Fygr",
       "stage": "Proposal / Negotiation",
-      "lastDays": 52,
+      "lastDays": 53,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2276,7 +2224,7 @@
       "id": "coinhouse",
       "company": "Coinhouse",
       "stage": "Meeting",
-      "lastDays": 3,
+      "lastDays": 4,
       "lastContactDate": "2026-04-01",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2314,7 +2262,7 @@
       "id": "gaya",
       "company": "GAYA",
       "stage": "Meeting",
-      "lastDays": -3,
+      "lastDays": -2,
       "lastContactDate": "2026-04-07",
       "lastContactType": "meeting",
       "priority": "Med",
@@ -2371,7 +2319,7 @@
       "id": "jona-hauch",
       "company": "Jona Hauch",
       "stage": "Lost",
-      "lastDays": 39,
+      "lastDays": 40,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2397,7 +2345,7 @@
       "id": "cdp",
       "company": "CDP",
       "stage": "Meeting",
-      "lastDays": 23,
+      "lastDays": 24,
       "lastContactDate": "2026-03-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2454,7 +2402,7 @@
       "id": "charles-grosdidier",
       "company": "Charles Grosdidier",
       "stage": "Active",
-      "lastDays": 23,
+      "lastDays": 24,
       "lastContactDate": "2026-03-12",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2492,8 +2440,8 @@
       "id": "bitvavo",
       "company": "Bitvavo",
       "stage": "Proposal / Negotiation",
-      "lastDays": 2,
-      "lastContactDate": "2026-04-02",
+      "lastDays": 1,
+      "lastContactDate": "2026-04-04",
       "lastContactType": "email_received",
       "priority": "High",
       "notes": "",
@@ -2506,6 +2454,12 @@
       "weighted_value": 25000000.0,
       "emails": [
         {
+          "date": "2026-04-04",
+          "subject": "",
+          "direction": "received",
+          "snippet": "Hi Nikola, Gustav, Coen, Just checking in on the two calls we proposed: Legal call with your counsel and our MiCA expert Product/risk session with the Keyrock asset management team Could you share you"
+        },
+        {
           "date": "2026-04-02",
           "subject": "Declined: Bitvavo <> Byzantine @ Thu 2 Apr 2026 10:30am - 11:30am (CEST) (gaia@byzantine.fi)",
           "direction": "received",
@@ -2516,12 +2470,6 @@
           "subject": "Re: Bitvavo x Byzantine: docs + platform access",
           "direction": "sent",
           "snippet": "Hi Nikola, Gustav, Coen, Thanks for today, great to get into the details together. As discussed, here are the documents for your review: Strategy proposals Risk management framework Legal opinion on"
-        },
-        {
-          "date": "2026-04-01",
-          "subject": "Accepted: Bitvavo <> Byzantine @ Thu 2 Apr 2026 10:30am - 11:30am (CEST) (gaia@byzantine.fi)",
-          "direction": "received",
-          "snippet": "Bitvavo &lt;&gt; Byzantine Nikola Stevanovic has accepted this invitation. Join with Google Meet Meeting link meet.google.com/pve-gwwy-qym Join by phone (FR) +33 1 87 40 36 21 PIN: 123641379 More phon"
         }
       ],
       "transcripts": [
@@ -2548,8 +2496,8 @@
           ],
           "company": "Meet – Bitvavo",
           "external_domains": [
-            "keyrock.eu",
-            "bitvavo.com"
+            "bitvavo.com",
+            "keyrock.eu"
           ],
           "external_emails": [
             "coen.van.der.zanden@bitvavo.com",
@@ -2583,8 +2531,8 @@
           ],
           "company": "Meet – Bitvavo",
           "external_domains": [
-            "keyrock.eu",
-            "bitvavo.com"
+            "bitvavo.com",
+            "keyrock.eu"
           ],
           "external_emails": [
             "coen.van.der.zanden@bitvavo.com",
@@ -2618,8 +2566,8 @@
           ],
           "company": "Meet – Bitvavo",
           "external_domains": [
-            "keyrock.eu",
-            "bitvavo.com"
+            "bitvavo.com",
+            "keyrock.eu"
           ],
           "external_emails": [
             "coen.van.der.zanden@bitvavo.com",
@@ -2658,7 +2606,7 @@
       "id": "bitcoin-suisse",
       "company": "Bitcoin Suisse",
       "stage": "Proposal / Negotiation",
-      "lastDays": 3,
+      "lastDays": 4,
       "lastContactDate": "2026-04-01",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2696,7 +2644,7 @@
       "id": "titanbay",
       "company": "Titanbay",
       "stage": "Contacted",
-      "lastDays": 3,
+      "lastDays": 4,
       "lastContactDate": "2026-04-01",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2753,9 +2701,9 @@
       "id": "sibill",
       "company": "Sibill",
       "stage": "Proposal / Negotiation",
-      "lastDays": 36,
-      "lastContactDate": "2026-02-27",
-      "lastContactType": "email_sent",
+      "lastDays": 1,
+      "lastContactDate": "2026-04-04",
+      "lastContactType": "transcript",
       "priority": "High",
       "notes": "",
       "nextSteps": "Send integration Sandbox",
@@ -2785,13 +2733,32 @@
           "snippet": "Ciao Mattia, spero tutto bene! Martedì e mercoledì sarò a Milano per alcuni incontri con Intesa, e mi farebbe davvero piacere riuscire a vederci di persona. Ci sei per un caffé di catch up? Dimmi"
         }
       ],
-      "transcripts": []
+      "transcripts": [
+        {
+          "date": "2026-04-04",
+          "title": "Meet – Consulto gratuito Dott.ssa Valentina Berna e Gaia Ferrero Regis ",
+          "participants": [
+            "valentinaberna4@gmail.com"
+          ],
+          "summary": "- **Accesso al farmaco**: BMI minimo di 30 richiesto, specialmente per chi ha comorbidità come glicemia alta o colesterolo alto.\n\n- **Calcolo peso soglia**: Circa 73-75 kg per un'altezza di 1,52 metri; monitoraggio del peso suggerito ogni mese.\n\n- **Esami del sangue necessari**: Analisi complete richieste prima della prescrizione per valutare controindicazioni.\n\n- **Costi mensili**: Farmaci come Wegovy costano tra 200 e 400 euro, somministrazione sottocutanea autogestita.\n\n- **Supporto nutrizionale**: Pacchetto mensile di 79 euro include visite mediche e con nutrizionista per seguire il percorso terapeutico.\n\n- **Effetti collaterali**: Esercizio di effetti gastrointestinali comuni. Raro rischio di pancreatite, ma bisogna monitorare attentamente.",
+          "actionItems": [
+            "**Gaia Ferrero Regis**",
+            "Fare gli esami del sangue completi prescritti dal medico di base necessari per valutare la possibilità di iniziare il percorso medico-nutrizionale (09:30)",
+            "Monitorare il peso nella prossima mensilità e ricontattare per aggiornare il BMI e valutare l’eventuale accesso al farmaco (06:35)",
+            "Contattare Sibilla del customer care per confermare appuntamenti e avviare il percorso sulla piattaforma (12:35)",
+            "**Valentina Berna**"
+          ],
+          "company": "",
+          "external_domains": [],
+          "external_emails": []
+        }
+      ]
     },
     {
       "id": "eric-bouanich",
       "company": "Eric Bouanich",
       "stage": "Proposal / Negotiation",
-      "lastDays": 4,
+      "lastDays": 5,
       "lastContactDate": "2026-03-31",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2829,7 +2796,7 @@
       "id": "request-network",
       "company": "Request Network",
       "stage": "Proposal / Negotiation",
-      "lastDays": 9,
+      "lastDays": 10,
       "lastContactDate": "2026-03-26",
       "lastContactType": "transcript",
       "priority": "High",
@@ -2915,7 +2882,7 @@
       "id": "gocanopy",
       "company": "GoCanopy",
       "stage": "Meeting",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-04-03",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -3014,7 +2981,7 @@
       "id": "samuel-mottais",
       "company": "Samuel Mottais",
       "stage": "Active",
-      "lastDays": 82,
+      "lastDays": 83,
       "lastContactDate": "2026-01-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3040,7 +3007,7 @@
       "id": "intesa-sanpaolo",
       "company": "Intesa Sanpaolo",
       "stage": "Proposal / Negotiation",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-04-03",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -3143,7 +3110,7 @@
       "id": "payflow",
       "company": "Payflow",
       "stage": "Meeting",
-      "lastDays": 30,
+      "lastDays": 31,
       "lastContactDate": "2026-03-05",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3169,7 +3136,7 @@
       "id": "jethr",
       "company": "JetHR",
       "stage": "Lost",
-      "lastDays": 38,
+      "lastDays": 39,
       "lastContactDate": "2026-02-25",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3207,7 +3174,7 @@
       "id": "arthur-bloch",
       "company": "Arthur Bloch",
       "stage": "Active",
-      "lastDays": 52,
+      "lastDays": 53,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3245,7 +3212,7 @@
       "id": "thibault-gimenez",
       "company": "Thibault Gimenez",
       "stage": "Qualification",
-      "lastDays": 26,
+      "lastDays": 27,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3299,25 +3266,6 @@
     ]
   },
   "meetings": [
-    {
-      "date": "2026-04-04",
-      "time": "10:30",
-      "title": "Followup With  (gijs.handgraaf@bitvavo.com)",
-      "company": "",
-      "attendees": [],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-04-04",
-      "time": "14:00",
-      "title": "Consulto gratuito Dott.ssa Valentina Berna e Gaia Ferrero Regis ",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi",
-        "valentinaberna4@gmail.com"
-      ],
-      "prepNeeded": false
-    },
     {
       "date": "2026-04-06",
       "time": "09:30",
@@ -3800,6 +3748,22 @@
       "company": "",
       "attendees": [],
       "prepNeeded": true
+    },
+    {
+      "date": "2026-04-08",
+      "time": "17:30",
+      "title": "CRM Update",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-04-08",
+      "time": "18:00",
+      "title": "Event ",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
     }
   ],
   "unmatched_transcripts": [
@@ -4138,6 +4102,30 @@
       "summary": "Roman <> Gaia"
     },
     {
+      "date": "2026-04-04",
+      "type": "email_received",
+      "company": "Holifya",
+      "summary": "Received: Collegati al tuo consulto medico gratuito! Ecco il link 🔗"
+    },
+    {
+      "date": "2026-04-04",
+      "type": "email_received",
+      "company": "Holifya",
+      "summary": "Received: Tra 1 ora ci vediamo! Ecco il link 🔗"
+    },
+    {
+      "date": "2026-04-04",
+      "type": "email_received",
+      "company": "Bitvavo",
+      "summary": "Received: "
+    },
+    {
+      "date": "2026-04-04",
+      "type": "transcript",
+      "company": "Sibill",
+      "summary": "- **Accesso al farmaco**: BMI minimo di 30 richiesto, specialmente per chi ha comorbidità come glicemia alta o colesterolo alto.\n\n- **Calcolo peso soglia**: Circa 73-75 kg per un'altezza di 1,52 metri"
+    },
+    {
       "date": "2026-04-03",
       "type": "transcript",
       "company": "OX Capital Partners",
@@ -4166,30 +4154,6 @@
       "type": "email_sent",
       "company": "Intesa Sanpaolo",
       "summary": "Sent: Re: 21Shares <> Byzantine Finance"
-    },
-    {
-      "date": "2026-04-03",
-      "type": "email_received",
-      "company": "Intesa Sanpaolo",
-      "summary": "Received: Re: 21Shares <> Byzantine Finance"
-    },
-    {
-      "date": "2026-04-03",
-      "type": "transcript",
-      "company": "Catch up",
-      "summary": "- **Outreach Follow-up Steps:** Clear marketing follow-up actions and task delegation established to enhance prospect engagement.\n\n- **Introducer Tracking System:** Implemented a tracking system for i"
-    },
-    {
-      "date": "2026-04-03",
-      "type": "transcript",
-      "company": "WATTINNE BENJAMIN",
-      "summary": "- **Produits attractifs:** Byzantine propose deux investissements en euros avec rendements nets de 4 à 6 %, accessibles rapidement.  \n- **Liquidité 24/7:** Retraits en 100 secondes pour petits montant"
-    },
-    {
-      "date": "2026-04-03",
-      "type": "transcript",
-      "company": "Nicolas Constantin",
-      "summary": "- **Produits avec rendement compétitif :** Byzantine offre des produits à capital garanti avec rendements entre 4,5% et 5,6%, accessibles 24/7.  \n- **Utilisation de la blockchain :** La technologie bl"
     }
   ]
 }
