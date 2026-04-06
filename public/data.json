@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-04-05T07:55:57+00:00",
+  "sync_time": "2026-04-06T08:23:44+00:00",
   "sources": {
     "gcal": {
       "status": "ok",
@@ -23,7 +23,7 @@
       "id": "skill-hunter",
       "company": "Skill Hunter",
       "stage": "Active",
-      "lastDays": 6,
+      "lastDays": 7,
       "lastContactDate": "2026-03-30",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -61,7 +61,7 @@
       "id": "thibault-coulon",
       "company": "Thibault Coulon",
       "stage": "Proposal / Negotiation",
-      "lastDays": 27,
+      "lastDays": 28,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "High",
@@ -99,7 +99,7 @@
       "id": "jeremy-giraud",
       "company": "Jeremy Giraud",
       "stage": "Qualification",
-      "lastDays": 25,
+      "lastDays": 26,
       "lastContactDate": "2026-03-11",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -137,7 +137,7 @@
       "id": "athletico-ventures",
       "company": "Athletico Ventures",
       "stage": "Active",
-      "lastDays": 19,
+      "lastDays": 20,
       "lastContactDate": "2026-03-17",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -175,8 +175,8 @@
       "id": "the-level-group",
       "company": "The Level Group",
       "stage": "Paused",
-      "lastDays": 6,
-      "lastContactDate": "2026-03-30",
+      "lastDays": 1,
+      "lastContactDate": "2026-04-05",
       "lastContactType": "transcript",
       "priority": "Med",
       "notes": "",
@@ -208,6 +208,24 @@
         }
       ],
       "transcripts": [
+        {
+          "date": "2026-04-05",
+          "title": "Apr 05, 05:35 PM",
+          "participants": [
+            "gaia@byzantine.fi"
+          ],
+          "summary": "- **Sostituzione o formazione interna:** Sostituzione richiede circa 18 mila euro e tre mesi, qualità del lavoro incerta.\n\n- **Formazione di Matteo:** Opzione più economica, necessità di un piano formativo mirato e valutazione graduale delle competenze.\n\n- **Competenze di Matteo:** Alta nel settore AI, ma lacune in gestione dettagli operativi e attenzione necessaria a migliorare.\n\n- **Potenziale come chief of staff:** Capacità di leadership messa in discussione, necessità di sviluppo ulteriore per ruoli responsabilità.\n\n- **Vincoli di ruolo:** Cambiamenti di posizione complicati a livello C-level, rischio di perdita del collaboratore.\n\n- **Investimento formativo vs. nuovo hiring:** Risparmio di 18 mila euro con rischi, formazione qualitativa fondamentale per performance sostenibili.",
+          "actionItems": [
+            "**Gaia**",
+            "Parlare con Matteo per capire se è disposto a investire nella sua formazione e definire un percorso di formazione graduale in sales e operazioni (02:25)",
+            "Informarsi su possibili corsi di formazione operazionale e sales di qualità da proporre a Matteo (03:30)",
+            "Coinvolgere uno degli advisor per un mentoring intensivo su sales con Matteo, finalizzato a generare valore concreto (04:10)",
+            "Monitorare l’utilizzo di strumenti organizzativi (come to-do list) da parte di Matteo e spingerlo a migliorare in questo ambito (05:30)"
+          ],
+          "company": "",
+          "external_domains": [],
+          "external_emails": []
+        },
         {
           "date": "2026-03-30",
           "title": "Meet – Marco Schoisinger and Gaia Ferrero Regis",
@@ -259,7 +277,7 @@
       "id": "nicolas-bacca",
       "company": "Nicolas Bacca",
       "stage": "Active",
-      "lastDays": 4,
+      "lastDays": 5,
       "lastContactDate": "2026-04-01",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -316,7 +334,7 @@
       "id": "node-capital",
       "company": "Node Capital",
       "stage": "Paused",
-      "lastDays": 77,
+      "lastDays": 78,
       "lastContactDate": "2026-01-18",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -354,7 +372,7 @@
       "id": "jean-david-curiel",
       "company": "Jean-David Curiel",
       "stage": "Meeting",
-      "lastDays": 42,
+      "lastDays": 43,
       "lastContactDate": "2026-02-22",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -380,7 +398,7 @@
       "id": "tulyp",
       "company": "Tulyp",
       "stage": "Proposal / Negotiation",
-      "lastDays": 9,
+      "lastDays": 10,
       "lastContactDate": "2026-03-27",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -469,7 +487,7 @@
       "id": "hugues-de-braucourt",
       "company": "Hugues de Braucourt",
       "stage": "Lost",
-      "lastDays": 55,
+      "lastDays": 56,
       "lastContactDate": "2026-02-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -507,7 +525,7 @@
       "id": "jonathan-jean-baptiste",
       "company": "Jonathan JEAN-BAPTISTE",
       "stage": "Meeting",
-      "lastDays": 69,
+      "lastDays": 70,
       "lastContactDate": "2026-01-26",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -533,7 +551,7 @@
       "id": "martino-grasselli",
       "company": "Martino Grasselli",
       "stage": "Qualification",
-      "lastDays": 23,
+      "lastDays": 24,
       "lastContactDate": "2026-03-13",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -571,7 +589,7 @@
       "id": "cyrille-jerabek",
       "company": "Cyrille Jerabek",
       "stage": "Meeting",
-      "lastDays": 47,
+      "lastDays": 48,
       "lastContactDate": "2026-02-17",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -609,7 +627,7 @@
       "id": "ox-capital-partners",
       "company": "OX Capital Partners",
       "stage": "Proposal / Negotiation",
-      "lastDays": 2,
+      "lastDays": 3,
       "lastContactDate": "2026-04-03",
       "lastContactType": "transcript",
       "priority": "High",
@@ -810,30 +828,6 @@
             "christoph.scholze@keyrock.eu",
             "tim.federspiel@keyrock.eu"
           ]
-        },
-        {
-          "date": "2026-03-24",
-          "title": "Meet – Draupnir Capital and Gaia Ferrero Regis",
-          "participants": [
-            "boris@draupnir.capital",
-            "seb@draupnir.capital"
-          ],
-          "summary": "- **Private Credit Advisory Success:** Generated $1 million revenue in 9 months, aiding Web3 startups with credit lines of $20M-$100M.\n\n- **Transaction Structure:** Typically ranges from $5 million to $500 million, utilizing a three-month cash retainer and success fees of 75-250 basis points.\n\n- **Blockchain Transactions:** Exclusively uses Avalanche blockchain for private credit deals, enabling on-chain booking and client credit enhancements.\n\n- **Byzantine's Product Launch:** Introduced four yield products since November 2025 for banks, blending on-chain and off-chain assets, managing around €40 million.\n\n- **Market Demand:** Private credit sector is growing, with increasing demand for innovative blockchain-enabled credit solutions targeting high returns. \n\n- **Strategic Partnership:** Potential collaboration aims to combine private credit advisory with Byzantine’s offerings, enhancing market reach and product integration.",
-          "actionItems": [
-            "**Boris Redfern**",
-            "Review and evaluate Byzantine’s credit product materials under NDA (20:44)",
-            "Make introductions to family office network contacts including Emilian Gega and Cat Herbert (22:08)",
-            "Facilitate an introductory connection to Saranac Partners and Key Rock (21:47)",
-            "Confirm and coordinate meeting logistics for Cannes event and April 1 meeting with Byzantine and Avalanche Institutional Finance (25:02)"
-          ],
-          "company": "Draupnir Capital",
-          "external_domains": [
-            "draupnir.capital"
-          ],
-          "external_emails": [
-            "boris@draupnir.capital",
-            "seb@draupnir.capital"
-          ]
         }
       ]
     },
@@ -841,7 +835,7 @@
       "id": "holifya",
       "company": "Holifya",
       "stage": "Meeting",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-04-04",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -904,7 +898,7 @@
       "id": "the-moon-investments",
       "company": "The Moon Investments",
       "stage": "Meeting",
-      "lastDays": 31,
+      "lastDays": 32,
       "lastContactDate": "2026-03-05",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -942,7 +936,7 @@
       "id": "thomas-rebaud",
       "company": "Thomas Rebaud",
       "stage": "Proposal / Negotiation",
-      "lastDays": 33,
+      "lastDays": 34,
       "lastContactDate": "2026-03-03",
       "lastContactType": "email_received",
       "priority": "High",
@@ -980,7 +974,7 @@
       "id": "priscille-raynaud",
       "company": "Priscille Raynaud",
       "stage": "Meeting",
-      "lastDays": 36,
+      "lastDays": 37,
       "lastContactDate": "2026-02-28",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1018,7 +1012,7 @@
       "id": "mehdi-amara",
       "company": "Mehdi Amara",
       "stage": "Active",
-      "lastDays": 3,
+      "lastDays": 4,
       "lastContactDate": "2026-04-02",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1075,7 +1069,7 @@
       "id": "tutornow",
       "company": "Tutornow",
       "stage": "Paused",
-      "lastDays": 41,
+      "lastDays": 42,
       "lastContactDate": "2026-02-23",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1132,7 +1126,7 @@
       "id": "hercle",
       "company": "Hercle",
       "stage": "Paused",
-      "lastDays": 48,
+      "lastDays": 49,
       "lastContactDate": "2026-02-16",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1170,7 +1164,7 @@
       "id": "bpifrance",
       "company": "Bpifrance",
       "stage": "Meeting",
-      "lastDays": 193,
+      "lastDays": 194,
       "lastContactDate": "2025-09-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1265,7 +1259,7 @@
       "id": "rebind",
       "company": "Rebind",
       "stage": "Lost",
-      "lastDays": 27,
+      "lastDays": 28,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1303,7 +1297,7 @@
       "id": "bizaway",
       "company": "BizAway",
       "stage": "Meeting",
-      "lastDays": 40,
+      "lastDays": 41,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1360,7 +1354,7 @@
       "id": "moonfare",
       "company": "Moonfare",
       "stage": "Proposal / Negotiation",
-      "lastDays": 9,
+      "lastDays": 10,
       "lastContactDate": "2026-03-27",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -1417,7 +1411,7 @@
       "id": "etienne-variot",
       "company": "Etienne Variot",
       "stage": "Active",
-      "lastDays": 36,
+      "lastDays": 37,
       "lastContactDate": "2026-02-28",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1455,7 +1449,7 @@
       "id": "goin",
       "company": "GOin",
       "stage": "Meeting",
-      "lastDays": 3,
+      "lastDays": 4,
       "lastContactDate": "2026-04-02",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -1608,7 +1602,7 @@
       "id": "blackfin",
       "company": "BlackFin",
       "stage": "Meeting",
-      "lastDays": 40,
+      "lastDays": 41,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1646,7 +1640,7 @@
       "id": "ponder",
       "company": "Ponder",
       "stage": "Lost",
-      "lastDays": 2,
+      "lastDays": 3,
       "lastContactDate": "2026-04-03",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -1702,7 +1696,7 @@
       "id": "blisce",
       "company": "Blisce",
       "stage": "Meeting",
-      "lastDays": 46,
+      "lastDays": 47,
       "lastContactDate": "2026-02-18",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1740,7 +1734,7 @@
       "id": "sorare",
       "company": "Sorare",
       "stage": "Paused",
-      "lastDays": 47,
+      "lastDays": 48,
       "lastContactDate": "2026-02-17",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1778,7 +1772,7 @@
       "id": "bitpanda",
       "company": "Bitpanda",
       "stage": "Lost",
-      "lastDays": 3,
+      "lastDays": 4,
       "lastContactDate": "2026-04-02",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -1900,7 +1894,7 @@
       "id": "simon-hulin",
       "company": "Simon Hulin",
       "stage": "Testing",
-      "lastDays": 23,
+      "lastDays": 24,
       "lastContactDate": "2026-03-13",
       "lastContactType": "email_received",
       "priority": "High",
@@ -1938,7 +1932,7 @@
       "id": "sopra-steria",
       "company": "Sopra Steria",
       "stage": "Meeting",
-      "lastDays": 12,
+      "lastDays": 13,
       "lastContactDate": "2026-03-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1976,7 +1970,7 @@
       "id": "bernat-family-office-sl",
       "company": "Bernat Family Office S.L.",
       "stage": "Meeting",
-      "lastDays": 181,
+      "lastDays": 182,
       "lastContactDate": "2025-10-06",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2002,7 +1996,7 @@
       "id": "alain-arthur-bloch",
       "company": "Alain & Arthur Bloch",
       "stage": "Proposal / Negotiation",
-      "lastDays": 53,
+      "lastDays": 54,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -2040,7 +2034,7 @@
       "id": "jump",
       "company": "Jump",
       "stage": "Meeting",
-      "lastDays": 27,
+      "lastDays": 28,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2078,7 +2072,7 @@
       "id": "dalma",
       "company": "Dalma.",
       "stage": "Lost",
-      "lastDays": 6,
+      "lastDays": 7,
       "lastContactDate": "2026-03-30",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2116,7 +2110,7 @@
       "id": "sandwell-capital",
       "company": "Sandwell Capital",
       "stage": "Meeting",
-      "lastDays": 77,
+      "lastDays": 78,
       "lastContactDate": "2026-01-18",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2154,7 +2148,7 @@
       "id": "michael-osullivan",
       "company": "Michael OSullivan",
       "stage": "Proposal / Negotiation",
-      "lastDays": 48,
+      "lastDays": 49,
       "lastContactDate": "2026-02-16",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2186,7 +2180,7 @@
       "id": "fygr",
       "company": "Fygr",
       "stage": "Proposal / Negotiation",
-      "lastDays": 53,
+      "lastDays": 54,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2224,7 +2218,7 @@
       "id": "coinhouse",
       "company": "Coinhouse",
       "stage": "Meeting",
-      "lastDays": 4,
+      "lastDays": 5,
       "lastContactDate": "2026-04-01",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2262,7 +2256,7 @@
       "id": "gaya",
       "company": "GAYA",
       "stage": "Meeting",
-      "lastDays": -2,
+      "lastDays": -1,
       "lastContactDate": "2026-04-07",
       "lastContactType": "meeting",
       "priority": "Med",
@@ -2319,7 +2313,7 @@
       "id": "jona-hauch",
       "company": "Jona Hauch",
       "stage": "Lost",
-      "lastDays": 40,
+      "lastDays": 41,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2345,7 +2339,7 @@
       "id": "cdp",
       "company": "CDP",
       "stage": "Meeting",
-      "lastDays": 24,
+      "lastDays": 25,
       "lastContactDate": "2026-03-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2402,7 +2396,7 @@
       "id": "charles-grosdidier",
       "company": "Charles Grosdidier",
       "stage": "Active",
-      "lastDays": 24,
+      "lastDays": 25,
       "lastContactDate": "2026-03-12",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2440,7 +2434,7 @@
       "id": "bitvavo",
       "company": "Bitvavo",
       "stage": "Proposal / Negotiation",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-04-04",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2496,8 +2490,8 @@
           ],
           "company": "Meet – Bitvavo",
           "external_domains": [
-            "bitvavo.com",
-            "keyrock.eu"
+            "keyrock.eu",
+            "bitvavo.com"
           ],
           "external_emails": [
             "coen.van.der.zanden@bitvavo.com",
@@ -2531,8 +2525,8 @@
           ],
           "company": "Meet – Bitvavo",
           "external_domains": [
-            "bitvavo.com",
-            "keyrock.eu"
+            "keyrock.eu",
+            "bitvavo.com"
           ],
           "external_emails": [
             "coen.van.der.zanden@bitvavo.com",
@@ -2566,8 +2560,8 @@
           ],
           "company": "Meet – Bitvavo",
           "external_domains": [
-            "bitvavo.com",
-            "keyrock.eu"
+            "keyrock.eu",
+            "bitvavo.com"
           ],
           "external_emails": [
             "coen.van.der.zanden@bitvavo.com",
@@ -2606,7 +2600,7 @@
       "id": "bitcoin-suisse",
       "company": "Bitcoin Suisse",
       "stage": "Proposal / Negotiation",
-      "lastDays": 4,
+      "lastDays": 5,
       "lastContactDate": "2026-04-01",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2644,7 +2638,7 @@
       "id": "titanbay",
       "company": "Titanbay",
       "stage": "Contacted",
-      "lastDays": 4,
+      "lastDays": 5,
       "lastContactDate": "2026-04-01",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2701,7 +2695,7 @@
       "id": "sibill",
       "company": "Sibill",
       "stage": "Proposal / Negotiation",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-04-04",
       "lastContactType": "transcript",
       "priority": "High",
@@ -2758,7 +2752,7 @@
       "id": "eric-bouanich",
       "company": "Eric Bouanich",
       "stage": "Proposal / Negotiation",
-      "lastDays": 5,
+      "lastDays": 6,
       "lastContactDate": "2026-03-31",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2796,7 +2790,7 @@
       "id": "request-network",
       "company": "Request Network",
       "stage": "Proposal / Negotiation",
-      "lastDays": 10,
+      "lastDays": 11,
       "lastContactDate": "2026-03-26",
       "lastContactType": "transcript",
       "priority": "High",
@@ -2882,7 +2876,7 @@
       "id": "gocanopy",
       "company": "GoCanopy",
       "stage": "Meeting",
-      "lastDays": 2,
+      "lastDays": 3,
       "lastContactDate": "2026-04-03",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -2981,7 +2975,7 @@
       "id": "samuel-mottais",
       "company": "Samuel Mottais",
       "stage": "Active",
-      "lastDays": 83,
+      "lastDays": 84,
       "lastContactDate": "2026-01-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3007,7 +3001,7 @@
       "id": "intesa-sanpaolo",
       "company": "Intesa Sanpaolo",
       "stage": "Proposal / Negotiation",
-      "lastDays": 2,
+      "lastDays": 3,
       "lastContactDate": "2026-04-03",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -3110,7 +3104,7 @@
       "id": "payflow",
       "company": "Payflow",
       "stage": "Meeting",
-      "lastDays": 31,
+      "lastDays": 32,
       "lastContactDate": "2026-03-05",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3136,7 +3130,7 @@
       "id": "jethr",
       "company": "JetHR",
       "stage": "Lost",
-      "lastDays": 39,
+      "lastDays": 40,
       "lastContactDate": "2026-02-25",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3174,7 +3168,7 @@
       "id": "arthur-bloch",
       "company": "Arthur Bloch",
       "stage": "Active",
-      "lastDays": 53,
+      "lastDays": 54,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3212,7 +3206,7 @@
       "id": "thibault-gimenez",
       "company": "Thibault Gimenez",
       "stage": "Qualification",
-      "lastDays": 27,
+      "lastDays": 28,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3268,14 +3262,6 @@
   "meetings": [
     {
       "date": "2026-04-06",
-      "time": "09:30",
-      "title": "CRM review",
-      "company": "",
-      "attendees": [],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-04-06",
       "time": "10:00",
       "title": "Matte <> Gaia",
       "company": "Gaia",
@@ -3307,37 +3293,6 @@
     },
     {
       "date": "2026-04-06",
-      "time": "13:00",
-      "title": "[15-minute buffer before 30 Minute Meeting event]",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-04-06",
-      "time": "13:15",
-      "title": "Hugo and Gaia Ferrero Regis",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi",
-        "arzur.hugo@gmail.com"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-04-06",
-      "time": "13:45",
-      "title": "[15-minute buffer after 30 Minute Meeting event]",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-04-06",
       "time": "14:00",
       "title": "[15-minute buffer before 30 Minute Meeting event]",
       "company": "",
@@ -3363,17 +3318,6 @@
       "title": "[15-minute buffer after 30 Minute Meeting event]",
       "company": "",
       "attendees": [
-        "gaia@byzantine.fi"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-04-06",
-      "time": "15:30",
-      "title": "Gaia Ferrero Regis and Paul Taylor",
-      "company": "",
-      "attendees": [
-        "paultaylorchess@gmail.com",
         "gaia@byzantine.fi"
       ],
       "prepNeeded": false
@@ -3764,6 +3708,55 @@
       "company": "",
       "attendees": [],
       "prepNeeded": true
+    },
+    {
+      "date": "2026-04-08",
+      "time": "18:00",
+      "title": "Rodolphe Baroukh <> Gaia Ferrero (Byzantine Finance)",
+      "company": "Gaia Ferrero (Byzantine Finance)",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "rodolphe.baroukh@bpce.fr"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-04-08",
+      "time": "19:00",
+      "title": "Day review",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "matteo@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-04-09",
+      "time": "08:45",
+      "title": "Jean-Yves LOUIS <> Gaia Ferrero Regis",
+      "company": "Gaia Ferrero Regis",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "jylouis@elljyconseilpatrimoine.fr"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-04-09",
+      "time": "09:30",
+      "title": "CRM review",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-04-09",
+      "time": "10:00",
+      "title": "New outreach",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
     }
   ],
   "unmatched_transcripts": [
@@ -4102,6 +4095,12 @@
       "summary": "Roman <> Gaia"
     },
     {
+      "date": "2026-04-05",
+      "type": "transcript",
+      "company": "The Level Group",
+      "summary": "- **Sostituzione o formazione interna:** Sostituzione richiede circa 18 mila euro e tre mesi, qualità del lavoro incerta.\n\n- **Formazione di Matteo:** Opzione più economica, necessità di un piano form"
+    },
+    {
       "date": "2026-04-04",
       "type": "email_received",
       "company": "Holifya",
@@ -4148,12 +4147,6 @@
       "type": "transcript",
       "company": "GoCanopy",
       "summary": "- **Strategia di Vendita:** Ottimizzazione delle liste prospect su Notion e Actio è in corso per migliorare il monitoraggio e il deal tracking.\n\n- **Campagne Mirate:** Focus su 6GP e aziende crypto co"
-    },
-    {
-      "date": "2026-04-03",
-      "type": "email_sent",
-      "company": "Intesa Sanpaolo",
-      "summary": "Sent: Re: 21Shares <> Byzantine Finance"
     }
   ]
 }
