@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-04-07T12:52:26+00:00",
+  "sync_time": "2026-04-07T15:36:20+00:00",
   "sources": {
     "gcal": {
       "status": "ok",
@@ -11,11 +11,11 @@
     },
     "attio": {
       "status": "ok",
-      "count": 73
+      "count": 79
     },
     "gmail": {
       "status": "ok",
-      "count": 60
+      "count": 64
     }
   },
   "deals": [
@@ -91,6 +91,44 @@
           "subject": "Accepted: Tentatively) Thibault Coulon and Gaia Ferrero Regis @ Thu 5 Mar 2026 2pm - 2:30pm (CET) (gaia@byzantine.fi)",
           "direction": "received",
           "snippet": "Tentatively) Thibault Coulon and Gaia Ferrero Regis Thibault COULON has accepted this invitation. Join with Google Meet Meeting link meet.google.com/amz-dbrz-pci Join by phone (FR) +33 1 87 40 42 67"
+        }
+      ],
+      "transcripts": []
+    },
+    {
+      "id": "bleap-finance",
+      "company": "Bleap Finance",
+      "stage": "Meeting",
+      "lastDays": 195,
+      "lastContactDate": "2025-09-24",
+      "lastContactType": "email_received",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "Bleap = wallet non-custodial blockchain (Solana + Arbitrum). 2-3k users/mois. Intéressés par intégration vault Byzantine en EUR sur Arbitrum. Gaia a envoyé docs + accès DApp. Prochaine étape: attendre déploiement Byzantine sur Base (~2-3 mois depuis jan), puis reprendre contact pour intégration Arbitrum. Pas d'email de suivi trouvé — relancer Joao.",
+      "contact": "Joao Alves",
+      "confidence": null,
+      "expected_allocation": null,
+      "pct_closing": null,
+      "days_to_close": null,
+      "weighted_value": null,
+      "emails": [
+        {
+          "date": "2025-09-24",
+          "subject": "Action requise : vérifiez les accès de votre équipe sur Bpifrance en ligne",
+          "direction": "received",
+          "snippet": "Assurez vous que la liste et les droits de vos utilisateurs invités sont à jour Si vous ne visualisez pas correctement cet email, suivez ce lien. bpifrance Bonjour, En tant qu&#39;administrateur de l"
+        },
+        {
+          "date": "2025-07-16",
+          "subject": "Lunch with BYZANTINE FINANCE & Bpifrance",
+          "direction": "received",
+          "snippet": "Hello Gaia &amp; Jonas, @Timothee GERFAUD &amp; moi-même sommes ravis de vous rencontrer « en vrai » autour d&#39;un déj la semaine prochaine quand vous rentrez en France ! On viendra jusqu&#39;à vous"
+        },
+        {
+          "date": "2025-07-15",
+          "subject": "Lunch with BYZANTINE FINANCE & Bpifrance",
+          "direction": "received",
+          "snippet": "Hello Gaia &amp; Jonas, @Timothee GERFAUD &amp; moi-même sommes ravis de vous rencontrer « en vrai » autour d&#39;un déj la semaine prochaine quand vous rentrez en France ! On viendra jusqu&#39;à vous"
         }
       ],
       "transcripts": []
@@ -406,10 +444,10 @@
       "nextSteps": "Envoyer documentation compliance + analyse blockchain blue-chips",
       "contact": "Maxime Girres – max@tulyp.io",
       "confidence": null,
-      "expected_allocation": 207000.0,
+      "expected_allocation": 5000000.0,
       "pct_closing": 50.0,
       "days_to_close": 60.0,
-      "weighted_value": 103500.0,
+      "weighted_value": 2500000.0,
       "emails": [
         {
           "date": "2026-03-27",
@@ -535,6 +573,25 @@
       "transcripts": []
     },
     {
+      "id": "lequipage",
+      "company": "L'Équipage",
+      "stage": "Meeting",
+      "lastDays": null,
+      "lastContactDate": null,
+      "lastContactType": null,
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "Meeting 6 fév (~10 min, Thibaut était en rush actionnaires, avait demandé de reporter). Todoist: Gaia a assigné follow up Thibaut Brocart à Matteo (16 fév). Pas de transcript Fireflies exploitable. L'Équipage = startup, Thibaut est le fondateur. Relancer Thibaut pour reprendre la conversation.",
+      "contact": "Thibaut Brocart",
+      "confidence": null,
+      "expected_allocation": 500000.0,
+      "pct_closing": null,
+      "days_to_close": null,
+      "weighted_value": null,
+      "emails": [],
+      "transcripts": []
+    },
+    {
       "id": "cyrille-jerabek",
       "company": "Cyrille Jerabek",
       "stage": "Meeting",
@@ -584,12 +641,57 @@
       "nextSteps": "Meet him in Paris",
       "contact": "Samuel",
       "confidence": null,
-      "expected_allocation": null,
+      "expected_allocation": 5000000.0,
       "pct_closing": null,
       "days_to_close": null,
       "weighted_value": null,
       "emails": [],
       "transcripts": [
+        {
+          "date": "2026-04-07",
+          "title": "Meet – Gaia Ferrero Regis and Corey Wright",
+          "participants": [
+            "cwright@fireblocks.com",
+            "gaia@byzantine.fi"
+          ],
+          "summary": "- **Bridge challenges impact operations:** Delays in large transactions and unclear KYC/KYB processes hurt customer experience.\n\n- **Current vendor dependencies limit flexibility:** Byzantine relies on Bridge for fiat conversion, missing alternatives due to time constraints.\n\n- **Interest in Fireblocks’ integrated solutions:** Smooth integration with Turnkey wallets could motivate migration away from Bridge.\n\n- **Unified platform benefits scalability:** Reducing vendor complexity can enhance efficiency, speed to market, and broader market access for Byzantine.\n\n- **Fireblocks enhances financial reporting:** Integration with Trace can improve compliance and reporting accuracy for institutional clients.\n\n- **Cost-conscious but open to investments:** Byzantine plans to raise funds soon, with the on-ramp issue a potential justification for immediate changes.",
+          "actionItems": [
+            "**Corey Wright**",
+            "Research and present alternate on-ramp/off-ramp providers within Fireblocks network to address Byzantine’s Bridge-related pain points (18:09)",
+            "Investigate integration compatibility between Fireblocks solutions and Byzantine’s existing Turnkey wallet infrastructure (18:09)",
+            "Follow up with Byzantine on usage of Anchorage and treasury management platforms through contact with Jonas (19:10)",
+            "Prepare and send a summary email detailing the potential distribution partnership idea for review by Gaia and Byzantine team (19:50)"
+          ],
+          "company": "Corey Wright",
+          "external_domains": [
+            "fireblocks.com"
+          ],
+          "external_emails": [
+            "cwright@fireblocks.com"
+          ]
+        },
+        {
+          "date": "2026-04-07",
+          "title": "Meet – Anthony Danon and Gaia Ferrero Regis",
+          "participants": [
+            "anthony@rerail.vc"
+          ],
+          "summary": "- **Fund Model:** Unique $25 million fund model focuses on fintech with checks between $200K and $700K in rounds of $1M to $10M. \n\n- **Byzantine Revenue Products:** Byzantine offers four flagship products combining Web3 yield with institutional safety and insurance up to €20 million per client.\n\n- **Market Traction:** €40 million currently deposited, with a pipeline exceeding €200 million, including key partnerships with Bitvavo and Banco San Paolo.\n\n- **Regulatory Expertise:** Byzantine leverages legal knowledge from MiCa regulation authors to create compliant, institutional-grade products for DeFi exposure.\n\n- **Growth Strategy:** Plans to triple returns by issuing new products, targeting underserved markets, and launching an Exchange Traded Product (ETP) to broaden distribution. \n\n- **Partnership Expansion:** Emphasis on leveraging networks in banking and fintech to enhance distribution, onboarding partners familiar with regulatory complexities.",
+          "actionItems": [
+            "**Gaia Ferrero Regis**",
+            "Add Anthony Danon to Byzantine’s investor update list and share contact details for further engagement (32:43)",
+            "Provide Anthony with concrete company profiles of brokers, new banks, or FX hedging companies for introductions (34:19)",
+            "**Anthony Danon**",
+            "Add Gaia on WhatsApp or preferred messaging app and follow up with introductions and potential strategic contacts in fintech and private banking sectors (33:23)"
+          ],
+          "company": "Anthony Danon",
+          "external_domains": [
+            "rerail.vc"
+          ],
+          "external_emails": [
+            "anthony@rerail.vc"
+          ]
+        },
         {
           "date": "2026-04-07",
           "title": "Meet – Ron Hasgall and Gaia Ferrero Regis",
@@ -786,7 +888,7 @@
       "nextSteps": "Gaia: provide detailed capital gains tax info for Italy + send insurance docs (ION/Realm). Alessandra: send additional questions on operational and fiscal model offline.",
       "contact": "Alessandra Cestaro, Giorgio Biscotti",
       "confidence": null,
-      "expected_allocation": null,
+      "expected_allocation": 500000.0,
       "pct_closing": null,
       "days_to_close": null,
       "weighted_value": null,
@@ -849,7 +951,7 @@
       "nextSteps": "Materiali inviati il 3 apr dopo call mattutina — attendere risposta o follow up entro fine settimana",
       "contact": "Benjamin (benjamin@sowefund.com)",
       "confidence": null,
-      "expected_allocation": null,
+      "expected_allocation": 1000000.0,
       "pct_closing": null,
       "days_to_close": null,
       "weighted_value": null,
@@ -876,6 +978,32 @@
       "transcripts": []
     },
     {
+      "id": "capslock-global",
+      "company": "Capslock Global",
+      "stage": "Meeting",
+      "lastDays": 68,
+      "lastContactDate": "2026-01-29",
+      "lastContactType": "email_received",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "Meeting 12 fév (27 min). Capslock = family office. Jose intéressé par produit cash-plus, a posé des questions sur allocation (cash/credit/crypto), insured vs non-insured. AUM Byzantine à 30M$, objectif 100M$ en juin. Gaia a envoyé docs post-call. Jose devait revenir fin mars pour réévaluer inclusion dans portefeuille. Relancer Jose maintenant (avril).",
+      "contact": "Jose Carlos Jaime (j.jaime@capslock.global)",
+      "confidence": null,
+      "expected_allocation": 10000000.0,
+      "pct_closing": null,
+      "days_to_close": null,
+      "weighted_value": null,
+      "emails": [
+        {
+          "date": "2026-01-29",
+          "subject": "Invitation to Jose Carlos Jaime and Gaia Ferrero Regis + Matteo Maschio accepted by j.jaime@capslock.global",
+          "direction": "received",
+          "snippet": "Event invitation accepted j.jaime@capslock.global has accepted your invitation. Event title Jose Carlos Jaime and Gaia Ferrero Regis + Matteo Maschio Date and time Thu Feb 12, 2026 12:00 pm - 12:30 pm"
+        }
+      ],
+      "transcripts": []
+    },
+    {
       "id": "the-moon-investments",
       "company": "The Moon Investments",
       "stage": "Meeting",
@@ -887,7 +1015,7 @@
       "nextSteps": "Meeting tuesday, have him test",
       "contact": null,
       "confidence": null,
-      "expected_allocation": null,
+      "expected_allocation": 2000000.0,
       "pct_closing": null,
       "days_to_close": null,
       "weighted_value": null,
@@ -993,8 +1121,8 @@
       "id": "mehdi-amara",
       "company": "Mehdi Amara",
       "stage": "Active",
-      "lastDays": 5,
-      "lastContactDate": "2026-04-02",
+      "lastDays": 0,
+      "lastContactDate": "2026-04-07",
       "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
@@ -1007,6 +1135,12 @@
       "weighted_value": 45000.0,
       "emails": [
         {
+          "date": "2026-04-07",
+          "subject": "Accepted: Mehdi <> Gaia @ Tue 7 Apr 2026 6:30pm - 7pm (CEST) (gaia@byzantine.fi)",
+          "direction": "received",
+          "snippet": "Mehdi &lt;&gt; Gaia Mehdi Amara has accepted this invitation. When Tuesday 7 Apr 2026 ⋅ 6:30pm – 7pm (Central European Time - Paris) Location 40 Rue du Colisée, 75008 Paris, France View map Guests gai"
+        },
+        {
           "date": "2026-04-02",
           "subject": "Accepted: Mehdi <> Gaia @ Tue 7 Apr 2026 6pm - 6:45pm (CEST) (gaia@byzantine.fi)",
           "direction": "received",
@@ -1017,12 +1151,6 @@
           "subject": "Accepted: GTM review: Mehdi <> Gaia @ Fri 13 Mar 2026 5pm - 6pm (CET) (gaia@byzantine.fi)",
           "direction": "received",
           "snippet": "GTM review: Mehdi &lt;&gt; Gaia Mehdi Amara has accepted this invitation. Join with Google Meet Meeting link meet.google.com/vbm-jbqp-qnb Join by phone (FR) +33 1 87 40 17 30 PIN: 182127085 More phone"
-        },
-        {
-          "date": "2026-01-28",
-          "subject": "Invitation: Gaia <> Mehdi | Advisory @ Fri 30 Jan 2026 10:30am - 11am (CET) (gaia@byzantine.fi)",
-          "direction": "received",
-          "snippet": "Gaia &lt;&gt; Mehdi | Advisory You have been invited by Mehdi Amara to attend an event named Gaia &lt;&gt; Mehdi | Advisory on Friday 30 Jan 2026 ⋅ 10:30am – 11am (Central European Time - Paris). When"
         }
       ],
       "transcripts": []
@@ -1058,7 +1186,7 @@
       "nextSteps": "Follow up",
       "contact": "Andrea Fraccaro",
       "confidence": null,
-      "expected_allocation": null,
+      "expected_allocation": 500000.0,
       "pct_closing": null,
       "days_to_close": null,
       "weighted_value": null,
@@ -1096,7 +1224,7 @@
       "nextSteps": "Gaia to send detailed Byzantine product docs to Simon. Follow up after lunch meeting (Mar 13).",
       "contact": "Simon Hulin",
       "confidence": null,
-      "expected_allocation": null,
+      "expected_allocation": 1000000.0,
       "pct_closing": null,
       "days_to_close": null,
       "weighted_value": null,
@@ -1741,7 +1869,7 @@
       "nextSteps": "Materiali inviati il 19 mar dopo call — follow up in corso. Intro via Etienne Variot (elips.ai)",
       "contact": "Guillaume Siffelet (guillaume.siffelet@tomcat.eu)",
       "confidence": null,
-      "expected_allocation": null,
+      "expected_allocation": 1000000.0,
       "pct_closing": null,
       "days_to_close": null,
       "weighted_value": null,
@@ -2079,7 +2207,7 @@
       "nextSteps": "Re-engage in 3 months, or when we have an insurance client",
       "contact": "Thibault Guillaume",
       "confidence": null,
-      "expected_allocation": null,
+      "expected_allocation": 2000000.0,
       "pct_closing": null,
       "days_to_close": null,
       "weighted_value": null,
@@ -2222,10 +2350,10 @@
       "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
-      "nextSteps": "No Fireflies transcript available. Follow up with Nicolas Louvet on next steps from Apr 1 meeting.",
+      "nextSteps": "Warm intro via Damien (Blockwall). Meeting 29 jan (33 min) con Nicolas Louvet + Ugo Cathelina. Coinhouse studia strutturazione prodotti DeFi per clienti — interessati a capire come Byzantine funziona come layer di yield. Nicolas doveva testare la piattaforma e discutere con avvocati sulla struttura regolamentare. Gaia ha inviato docs post-call. Nessuna email di follow-up trovata dopo jan. Meeting Apr 1 (nessun transcript). Relancer Nicolas per update su test e struttura legale.",
       "contact": "Nicolas Louvet (CEO)",
       "confidence": null,
-      "expected_allocation": null,
+      "expected_allocation": 10000000.0,
       "pct_closing": null,
       "days_to_close": null,
       "weighted_value": null,
@@ -2306,6 +2434,44 @@
       "days_to_close": 0.0,
       "weighted_value": 90000.0,
       "emails": [],
+      "transcripts": []
+    },
+    {
+      "id": "carbone-farmers",
+      "company": "Carbone Farmers",
+      "stage": "Lost",
+      "lastDays": 54,
+      "lastContactDate": "2026-02-12",
+      "lastContactType": "email_sent",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "DEAL PERDU. Meeting 29 jan (38 min). Carbone Farmers = crédits carbone, transition agricole, 11M€ vendus. Thibaut intéressé mais associés pas prêts pour placement tréso crypto. Email 12 fév: 'Mes associés ne sont pas prêts pour ce type de placement.' Thibaut intéressé si augmentation de capital Byzantine. Garder au chaud.",
+      "contact": "Thibaut Savoye",
+      "confidence": null,
+      "expected_allocation": null,
+      "pct_closing": null,
+      "days_to_close": null,
+      "weighted_value": null,
+      "emails": [
+        {
+          "date": "2026-02-12",
+          "subject": "RE: Suite à notre échange - Byzantine",
+          "direction": "sent",
+          "snippet": "Bonjour Thibaut, Merci pour votre retour et pour avoir étudié la solution avec vos associés. Je ne manquerai pas de vous tenir informé en cas d&#39;augmentation de capital à venir. Belle journée à vou"
+        },
+        {
+          "date": "2026-02-12",
+          "subject": "RE: Suite à notre échange - Byzantine",
+          "direction": "received",
+          "snippet": "Bonjour, Mes associés ne sont pas prêts pour ce type de placement de trésorerie par contre, tenez moi au courant si vous faites une augmentation de capital. Je serai intéressé A bientôt Thibaut SAVOYE"
+        },
+        {
+          "date": "2026-02-05",
+          "subject": "Re: Suite à notre échange - Byzantine",
+          "direction": "sent",
+          "snippet": "Bonjour Thibaut, J&#39;espère que tout va bien ! Avez-vous eu l&#39;occasion d&#39;évaluer Byzantine en interne ? Comme convenu, je vous partage également notre investor factsheet avec plus de détails"
+        }
+      ],
       "transcripts": []
     },
     {
@@ -2433,8 +2599,8 @@
       "id": "bitvavo",
       "company": "Bitvavo",
       "stage": "Proposal / Negotiation",
-      "lastDays": 1,
-      "lastContactDate": "2026-04-06",
+      "lastDays": 0,
+      "lastContactDate": "2026-04-07",
       "lastContactType": "transcript",
       "priority": "High",
       "notes": "",
@@ -2466,6 +2632,28 @@
         }
       ],
       "transcripts": [
+        {
+          "date": "2026-04-07",
+          "title": "Meet – Anthony Danon and Gaia Ferrero Regis",
+          "participants": [
+            "anthony@rerail.vc"
+          ],
+          "summary": "- **Fund Model:** Unique $25 million fund model focuses on fintech with checks between $200K and $700K in rounds of $1M to $10M. \n\n- **Byzantine Revenue Products:** Byzantine offers four flagship products combining Web3 yield with institutional safety and insurance up to €20 million per client.\n\n- **Market Traction:** €40 million currently deposited, with a pipeline exceeding €200 million, including key partnerships with Bitvavo and Banco San Paolo.\n\n- **Regulatory Expertise:** Byzantine leverages legal knowledge from MiCa regulation authors to create compliant, institutional-grade products for DeFi exposure.\n\n- **Growth Strategy:** Plans to triple returns by issuing new products, targeting underserved markets, and launching an Exchange Traded Product (ETP) to broaden distribution. \n\n- **Partnership Expansion:** Emphasis on leveraging networks in banking and fintech to enhance distribution, onboarding partners familiar with regulatory complexities.",
+          "actionItems": [
+            "**Gaia Ferrero Regis**",
+            "Add Anthony Danon to Byzantine’s investor update list and share contact details for further engagement (32:43)",
+            "Provide Anthony with concrete company profiles of brokers, new banks, or FX hedging companies for introductions (34:19)",
+            "**Anthony Danon**",
+            "Add Gaia on WhatsApp or preferred messaging app and follow up with introductions and potential strategic contacts in fintech and private banking sectors (33:23)"
+          ],
+          "company": "Anthony Danon",
+          "external_domains": [
+            "rerail.vc"
+          ],
+          "external_emails": [
+            "anthony@rerail.vc"
+          ]
+        },
         {
           "date": "2026-04-06",
           "title": "Meet – Quentin de Châteaubriant and Jonas Bokelmann",
@@ -2507,8 +2695,8 @@
           ],
           "company": "Meet – Bitvavo",
           "external_domains": [
-            "bitvavo.com",
-            "keyrock.eu"
+            "keyrock.eu",
+            "bitvavo.com"
           ],
           "external_emails": [
             "coen.van.der.zanden@bitvavo.com",
@@ -2542,8 +2730,8 @@
           ],
           "company": "Meet – Bitvavo",
           "external_domains": [
-            "bitvavo.com",
-            "keyrock.eu"
+            "keyrock.eu",
+            "bitvavo.com"
           ],
           "external_emails": [
             "coen.van.der.zanden@bitvavo.com",
@@ -2577,8 +2765,8 @@
           ],
           "company": "Meet – Bitvavo",
           "external_domains": [
-            "bitvavo.com",
-            "keyrock.eu"
+            "keyrock.eu",
+            "bitvavo.com"
           ],
           "external_emails": [
             "coen.van.der.zanden@bitvavo.com",
@@ -2612,6 +2800,44 @@
           ]
         }
       ]
+    },
+    {
+      "id": "flag-finance",
+      "company": "Flag Finance",
+      "stage": "Meeting",
+      "lastDays": 89,
+      "lastContactDate": "2026-01-08",
+      "lastContactType": "email_received",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "FLAG en train de recruter pour BU DAF — Morgane estime la personne opérationnelle début juin. Relancer début juin pour reprendre le partenariat. Docs Byzantine envoyés le 18 fév. Partenariat apport d'affaires envisagé (revenue share). FLAG = 15 pers à Toulouse, aide startups/PME sur financements non dilutifs + levées.",
+      "contact": "Morgane Mousnier, Benoit Jeanvoine",
+      "confidence": null,
+      "expected_allocation": 1000000.0,
+      "pct_closing": null,
+      "days_to_close": null,
+      "weighted_value": null,
+      "emails": [
+        {
+          "date": "2026-01-08",
+          "subject": "morgane.mousnier@flag.finance viewed the video file Onboarding video I",
+          "direction": "received",
+          "snippet": "DocSend Hey GaiaFerrero, morgane.mousnier@flag.finance viewed the video file Onboarding video I! Mo morgane.mousnier@flag.finance Flag Finance Saint-Jory, France VIEWED Onboarding video I Flag Finance"
+        },
+        {
+          "date": "2026-01-08",
+          "subject": "morgane.mousnier@flag.finance viewed the video file Platform video",
+          "direction": "received",
+          "snippet": "DocSend Hey GaiaFerrero, morgane.mousnier@flag.finance viewed the video file Platform video! Mo morgane.mousnier@flag.finance Flag Finance Saint-Jory, France VIEWED Platform video Flag Finance 0​ View"
+        },
+        {
+          "date": "2026-01-08",
+          "subject": "benoit.jeanvoine@flag.finance viewed the document Byzantine Product overview Factsheet",
+          "direction": "received",
+          "snippet": "DocSend Hey GaiaFerrero, benoit.jeanvoine@flag.finance viewed the document Byzantine Product overview Factsheet! Be benoit.jeanvoine@flag.finance Flag Finance Toulouse, France VIEWED Byzantine Product"
+        }
+      ],
+      "transcripts": []
     },
     {
       "id": "bitcoin-suisse",
@@ -2701,7 +2927,7 @@
       "nextSteps": "",
       "contact": "Patrick Chautard",
       "confidence": null,
-      "expected_allocation": null,
+      "expected_allocation": 5000000.0,
       "pct_closing": null,
       "days_to_close": null,
       "weighted_value": null,
@@ -2766,12 +2992,50 @@
       ]
     },
     {
+      "id": "welara",
+      "company": "Welara",
+      "stage": "Meeting",
+      "lastDays": 46,
+      "lastContactDate": "2026-02-20",
+      "lastContactType": "email_received",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "Welara intéressé par produits yield plus élevé (~10%). Gaia a relancé le 18 fév (pas de réponse). Todoist: Gaia a assigné à Matteo de contacter Hugo Welara pour call sur structuration yield product. 2 meetings (2 et 9 fév). LOI envisagée pour stratégie personnalisée. Relancer Yann-Leo ou Hugo.",
+      "contact": "Yann-Leo Berthou, Louis Hospital",
+      "confidence": null,
+      "expected_allocation": 2000000.0,
+      "pct_closing": null,
+      "days_to_close": null,
+      "weighted_value": null,
+      "emails": [
+        {
+          "date": "2026-02-20",
+          "subject": "",
+          "direction": "received",
+          "snippet": "Hi Yann-Leo, Petit dernier follow-up au cas où tu n&#39;aurais pas eu le temps de répondre. On serait super contents d&#39;avoir ton feedback sur les produits à yield plus élevé et de caler un call si"
+        },
+        {
+          "date": "2026-02-18",
+          "subject": "Re: Suite à notre conversation, Welara <> Byzantine",
+          "direction": "sent",
+          "snippet": "Hello Yann-Leo, Petit rappel au cas où mon message t&#39;aurait échappé. On serait super heureux d&#39;avoir ton feedback sur les produits à yield plus élevé et de voir si un call cette semaine"
+        },
+        {
+          "date": "2026-02-17",
+          "subject": "Matteo M. completed “Write Hugo Welara to ask him for a call, we want to unserstand how to structure the yield product” in Byzantine Business Team",
+          "direction": "received",
+          "snippet": "Write Hugo Welara to ask him for a call, we want to unserstand how to structure the yield product ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎"
+        }
+      ],
+      "transcripts": []
+    },
+    {
       "id": "eric-bouanich",
       "company": "Eric Bouanich",
       "stage": "Proposal / Negotiation",
-      "lastDays": 7,
-      "lastContactDate": "2026-03-31",
-      "lastContactType": "email_received",
+      "lastDays": 0,
+      "lastContactDate": "2026-04-07",
+      "lastContactType": "transcript",
       "priority": "High",
       "notes": "",
       "nextSteps": "follow up",
@@ -2801,7 +3065,30 @@
           "snippet": "Request signed Your signature has been taken into account. Please download a copy of the document as it has been fully signed: Download document Best, Byzantine Finance Yousign Does this email look"
         }
       ],
-      "transcripts": []
+      "transcripts": [
+        {
+          "date": "2026-04-07",
+          "title": "Meet – Eric <> Gaia",
+          "participants": [
+            "eric_bouanich@yahoo.com"
+          ],
+          "summary": "- **Taux de rendement variable :** Basé sur l'offre et la demande, reflète les prêts en cours sur le marché de crédit.\n\n- **Transparence des frais :** Nouvelle fonctionnalité pour afficher les commissions des CGP, activée dès cette semaine pour plus de clarté.\n\n- **Gestion des frais CGP :** Intégration d’un système personnalisable pour CGP, augmentant la motivation et la transparence des offres.\n\n- **Module multi-devises :** Proposition d'un module FX pour réduire le risque de change, visant à attirer des clients corporate.\n\n- **Suivi des paiements :** Mise en place d'alertes pour des retards de paiement; objectif d'assurer la fluidité des transactions.\n\n- **Adaptation aux besoins clients :** Volonté d’améliorer la plateforme selon les retours des utilisateurs pour accélérer la croissance.",
+          "actionItems": [
+            "**Gaia Ferrero Regis**",
+            "Pousser en production la fonctionnalité permettant d'ajouter une commission de gestion (management fee) visible par les clients sur la plateforme Byzantine, et l'activer sur le compte d'Eric (06:08)",
+            "Discuter avec l'équipe technique et les fournisseurs d'infrastructure pour étudier la faisabilité d'un module FX multi-devises flexible basé sur le dollar (11:15)",
+            "Poursuivre le projet d'intégration de Byzantine avec VanEck pour un ETP et communiquer l'état d'avancement à Eric (15:47)",
+            "**Eric Bouanich**"
+          ],
+          "company": "Meet – Eric",
+          "external_domains": [
+            "yahoo.com"
+          ],
+          "external_emails": [
+            "eric_bouanich@yahoo.com"
+          ]
+        }
+      ]
     },
     {
       "id": "request-network",
@@ -2853,7 +3140,7 @@
       "nextSteps": "Denis Shen: discuss Byzantine details with William, initiate account creation + KYC + initial deposit test. Gaia: send presentation and docs to Denis, support onboarding.",
       "contact": "William He, Denis Shen",
       "confidence": null,
-      "expected_allocation": null,
+      "expected_allocation": 2000000.0,
       "pct_closing": null,
       "days_to_close": null,
       "weighted_value": null,
@@ -2910,7 +3197,7 @@
       "nextSteps": "Follow up su email del 17 mar (articolo SG Forge) — in attesa di risposta da 3 settimane",
       "contact": "Paul-Louis Caylar (plc@makipeople.com), Chris Miyouna (chris.miyouna@makipeople.com)",
       "confidence": null,
-      "expected_allocation": null,
+      "expected_allocation": 2000000.0,
       "pct_closing": null,
       "days_to_close": null,
       "weighted_value": null,
@@ -3061,7 +3348,7 @@
       "nextSteps": "Gaia: send forwardable email explaining Byzantine products for internal presentation + provide access credentials for personal testing. Benoit: register and test platform personally, share materials internally to reopen conversation with investors.",
       "contact": "Benoit Menardo",
       "confidence": null,
-      "expected_allocation": null,
+      "expected_allocation": 3000000.0,
       "pct_closing": null,
       "days_to_close": null,
       "weighted_value": null,
@@ -3087,7 +3374,7 @@
       "nextSteps": "",
       "contact": "Samuel Mouhadab",
       "confidence": null,
-      "expected_allocation": null,
+      "expected_allocation": 1000000.0,
       "pct_closing": null,
       "days_to_close": null,
       "weighted_value": null,
@@ -3191,21 +3478,26 @@
     }
   ],
   "pipeline_metrics": {
-    "pipeline_count": 47,
-    "total_allocation": 184856007.0,
-    "time_weighted_pipeline_mo": 27532134.26,
+    "pipeline_count": 52,
+    "total_allocation": 230649007.0,
+    "time_weighted_pipeline_mo": 28730384.26,
     "avg_pct_closing": 37.4,
     "active_count": 9,
     "active_allocation": 4130000.0,
-    "lost_count": 11,
+    "lost_count": 12,
     "incomplete_deals": [
+      "Bleap Finance",
+      "L'Équipage",
       "OX Capital Partners",
       "Holifya",
       "Sowefund",
+      "Capslock Global",
       "The Moon Investments",
       "Marius Renovation",
       "Tomcat",
       "Coinhouse",
+      "Flag Finance",
+      "Welara",
       "GoCanopy",
       "Maki People",
       "CentraleSupélec",
@@ -3213,71 +3505,6 @@
     ]
   },
   "meetings": [
-    {
-      "date": "2026-04-07",
-      "time": "14:45",
-      "title": "[15-minute buffer before 30 Minute Meeting event]",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-04-07",
-      "time": "15:00",
-      "title": "Anthony Danon and Gaia Ferrero Regis",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi",
-        "anthony@rerail.vc"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-04-07",
-      "time": "15:30",
-      "title": "[15-minute buffer after 30 Minute Meeting event]",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-04-07",
-      "time": "16:00",
-      "title": "Roman <> Gaia",
-      "company": "Gaia",
-      "attendees": [
-        "roman@adamik.io",
-        "gaia@byzantine.fi"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-04-07",
-      "time": "17:00",
-      "title": "Eric <> Gaia",
-      "company": "Gaia",
-      "attendees": [
-        "gaia@byzantine.fi",
-        "eric_bouanich@yahoo.com"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-04-07",
-      "time": "17:00",
-      "title": "Gaia Ferrero Regis and Corey Wright",
-      "company": "",
-      "attendees": [
-        "cwright@fireblocks.com",
-        "gaia@byzantine.fi",
-        "matteo@byzantine.fi"
-      ],
-      "prepNeeded": false
-    },
     {
       "date": "2026-04-07",
       "time": "17:30",
@@ -3288,7 +3515,7 @@
     },
     {
       "date": "2026-04-07",
-      "time": "18:00",
+      "time": "18:30",
       "title": "Mehdi <> Gaia",
       "company": "Gaia",
       "attendees": [
@@ -3718,9 +3945,123 @@
         "arzur.hugo@gmail.com"
       ],
       "prepNeeded": false
+    },
+    {
+      "date": "2026-04-10",
+      "time": "11:45",
+      "title": "[15-minute buffer before 30 Minute Meeting event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-04-10",
+      "time": "12:00",
+      "title": "Marc and Gaia Ferrero Regis",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "marc@renell.capital"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-04-10",
+      "time": "12:30",
+      "title": "[15-minute buffer after 30 Minute Meeting event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-04-10",
+      "time": "12:45",
+      "title": "[15-minute buffer before 30 Minute Meeting event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-04-10",
+      "time": "13:00",
+      "title": "Geraldine WALLEZ and Gaia Ferrero Regis",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "geraldinewallez@gmail.com"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-04-10",
+      "time": "13:30",
+      "title": "[15-minute buffer after 30 Minute Meeting event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
     }
   ],
   "all_transcripts": [
+    {
+      "date": "2026-04-07",
+      "title": "Meet – Gaia Ferrero Regis and Corey Wright",
+      "participants": [
+        "cwright@fireblocks.com",
+        "gaia@byzantine.fi"
+      ],
+      "summary": "- **Bridge challenges impact operations:** Delays in large transactions and unclear KYC/KYB processes hurt customer experience.\n\n- **Current vendor dependencies limit flexibility:** Byzantine relies on Bridge for fiat conversion, missing alternatives due to time constraints.\n\n- **Interest in Fireblocks’ integrated solutions:** Smooth integration with Turnkey wallets could motivate migration away from Bridge.\n\n- **Unified platform benefits scalability:** Reducing vendor complexity can enhance eff",
+      "actionItems": [
+        "**Corey Wright**",
+        "Research and present alternate on-ramp/off-ramp providers within Fireblocks network to address Byzantine’s Bridge-related pain points (18:09)",
+        "Investigate integration compatibility between Fireblocks solutions and Byzantine’s existing Turnkey wallet infrastructure (18:09)",
+        "Follow up with Byzantine on usage of Anchorage and treasury management platforms through contact with Jonas (19:10)",
+        "Prepare and send a summary email detailing the potential distribution partnership idea for review by Gaia and Byzantine team (19:50)"
+      ],
+      "company": "Corey Wright",
+      "linked_deal": "OX Capital Partners"
+    },
+    {
+      "date": "2026-04-07",
+      "title": "Meet – Eric <> Gaia",
+      "participants": [
+        "eric_bouanich@yahoo.com"
+      ],
+      "summary": "- **Taux de rendement variable :** Basé sur l'offre et la demande, reflète les prêts en cours sur le marché de crédit.\n\n- **Transparence des frais :** Nouvelle fonctionnalité pour afficher les commissions des CGP, activée dès cette semaine pour plus de clarté.\n\n- **Gestion des frais CGP :** Intégration d’un système personnalisable pour CGP, augmentant la motivation et la transparence des offres.\n\n- **Module multi-devises :** Proposition d'un module FX pour réduire le risque de change, visant à a",
+      "actionItems": [
+        "**Gaia Ferrero Regis**",
+        "Pousser en production la fonctionnalité permettant d'ajouter une commission de gestion (management fee) visible par les clients sur la plateforme Byzantine, et l'activer sur le compte d'Eric (06:08)",
+        "Discuter avec l'équipe technique et les fournisseurs d'infrastructure pour étudier la faisabilité d'un module FX multi-devises flexible basé sur le dollar (11:15)",
+        "Poursuivre le projet d'intégration de Byzantine avec VanEck pour un ETP et communiquer l'état d'avancement à Eric (15:47)",
+        "**Eric Bouanich**"
+      ],
+      "company": "Meet – Eric",
+      "linked_deal": "Eric Bouanich"
+    },
+    {
+      "date": "2026-04-07",
+      "title": "Meet – Anthony Danon and Gaia Ferrero Regis",
+      "participants": [
+        "anthony@rerail.vc"
+      ],
+      "summary": "- **Fund Model:** Unique $25 million fund model focuses on fintech with checks between $200K and $700K in rounds of $1M to $10M. \n\n- **Byzantine Revenue Products:** Byzantine offers four flagship products combining Web3 yield with institutional safety and insurance up to €20 million per client.\n\n- **Market Traction:** €40 million currently deposited, with a pipeline exceeding €200 million, including key partnerships with Bitvavo and Banco San Paolo.\n\n- **Regulatory Expertise:** Byzantine leverag",
+      "actionItems": [
+        "**Gaia Ferrero Regis**",
+        "Add Anthony Danon to Byzantine’s investor update list and share contact details for further engagement (32:43)",
+        "Provide Anthony with concrete company profiles of brokers, new banks, or FX hedging companies for introductions (34:19)",
+        "**Anthony Danon**",
+        "Add Gaia on WhatsApp or preferred messaging app and follow up with introductions and potential strategic contacts in fintech and private banking sectors (33:23)"
+      ],
+      "company": "Anthony Danon",
+      "linked_deal": "OX Capital Partners"
+    },
     {
       "date": "2026-04-07",
       "title": "Meet – Gaia Ferrero Regis and Philippe Roche",
@@ -4430,76 +4771,21 @@
       ],
       "company": "Weekly tech review",
       "linked_deal": "The Level Group"
-    },
-    {
-      "date": "2026-03-27",
-      "title": "Meet – Weekly tech review",
-      "participants": [
-        "benoit@byzantine.fi",
-        "matteo@byzantine.fi",
-        "lin@byzantine.fi",
-        "alexandre@byzantine.fi",
-        "jonas@byzantine.fi"
-      ],
-      "summary": "- **KYC/KYB Updates:** Core features are complete; KYC questionnaires now require monthly deposit amounts. Migration plans are underway.\n\n- **Document Tagging Issues:** Business formation documents are mis-tagged, impacting compliance. A ticket is in place to fix this.\n\n- **Integrator App Finished:** The app is ready for use, will soon integrate new API endpoints to improve workflows.\n\n- **Dashboard Enhancements:** Bugs fixed; mobile optimization completed. Need further refinement for hourly ear",
-      "actionItems": [
-        "**Alexandre Sanson**",
-        "Complete final testing of new KYB/KYC API features and push updates for production migration (05:00)",
-        "Plan and execute user data migration strategy for new KYB/KYC version including handling of missing data (06:30)",
-        "Implement Ethereum blockchain migration after KYB/KYC migration (07:50)",
-        "**Benoît de Dieuleveult**"
-      ],
-      "company": "Weekly tech review",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-03-27",
-      "title": "37611090-97ea-4561-80f7-601a41ce24a7-1774535699463.mp3",
-      "participants": [],
-      "summary": "- **Produit de placement liquide et sécurisé :** Byzantine Finance offre un rendement élevé, avec liquidité garantie en deux minutes et capital assuré.\n\n- **Partage des bénéfices :** 90% des profits pour le client et 10% pour Byzantine Finance, avec un investissement minimum de 50 000 euros.\n\n- **Rendements attractifs :** Taux jusqu'à 8% en USD et 7% en EUR, largement au-dessus des fonds monétaires traditionnels.\n\n- **Inquiétudes du prospect :** Doutes sur la sécurité du produit et manque de cla",
-      "actionItems": [
-        "**Byzantine Finance**",
-        "Organiser un rendez-vous avec un spécialiste du produit pour expliquer plus en détail la solution et répondre aux questions du prospect (01:52)"
-      ],
-      "company": "97ea-4561-80f7-601a41ce24a7-1774535699463.mp3",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-03-27",
-      "title": "c9669c08cc42d6009355ba5438613d8a-1774536933113.mp3",
-      "participants": [],
-      "summary": "- **Offre de Byzantine Finance :** Aide les CGP à placer la trésorerie des clients dans des solutions rapides et sécurisées offrant un rendement supérieur à **3%**.\n\n- **Prise de rendez-vous :** Préférence fixée pour le **mardi 7 à 8h30**, avec flexibilité pour s'adapter aux disponibilités.\n\n- **Coordination des contacts :** Confirmation de l'adresse **m.pierrecaglia@ingessence.fr** pour un suivi professionnel efficace.\n\n- **Documentation envoyée :** Invitation officielle et plaquette commercial",
-      "actionItems": [
-        "**Byzantine Finance**",
-        "Envoyer une plaquette descriptive de l’offre à m.pierrecaglia@ingessence.fr (02:21)",
-        "Envoyer une invitation au rendez-vous fixé pour le mardi 7 à 08h30 à m.pierrecaglia@ingessence.fr (02:21)",
-        "**M. Pierre Caglia**",
-        "Participer à la démonstration du produit le mardi 7 à 08h30 (02:21)"
-      ],
-      "company": "1774536933113.mp3",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-03-27",
-      "title": "Meet – Giacomo Weiss and Gaia Ferrero Regis",
-      "participants": [
-        "giacomo.vella@polimi.it",
-        "gaia@byzantine.fi",
-        "giacomo.weiss@polimi.it"
-      ],
-      "summary": "- **Launch of Stablecoin Proof of Concept** will explore blockchain integration and new financial models.  \n- **Integration of Legal and Insurance Tech Startups** supports risk management and regulatory alignment for stablecoin.  \n- **Investor Insights** highlighted the need for quality controls to build trust and reduce operational risks.  \n- **Target Market** includes B2B clients like Neo banks and family offices to boost product adoption.  \n- **Blockchain Transparency and Trust** is essential",
-      "actionItems": [
-        "**Giacomo Weiss**",
-        "Provide detailed input on digital innovation business model involving stablecoin and global market integration (00:51)",
-        "Confirm interest areas related to ministerial startup initiatives and potential collaborations (23:35)",
-        "**Matteo Maschio**",
-        "Clarify investor involvement specifics and infrastructure deployment for restaking products (11:35)"
-      ],
-      "company": "Giacomo Weiss",
-      "linked_deal": null
     }
   ],
   "activity_feed": [
+    {
+      "date": "2026-04-07",
+      "type": "transcript",
+      "company": "OX Capital Partners",
+      "summary": "- **Bridge challenges impact operations:** Delays in large transactions and unclear KYC/KYB processes hurt customer experience.\n\n- **Current vendor dependencies limit flexibility:** Byzantine relies o"
+    },
+    {
+      "date": "2026-04-07",
+      "type": "transcript",
+      "company": "OX Capital Partners",
+      "summary": "- **Fund Model:** Unique $25 million fund model focuses on fintech with checks between $200K and $700K in rounds of $1M to $10M. \n\n- **Byzantine Revenue Products:** Byzantine offers four flagship prod"
+    },
     {
       "date": "2026-04-07",
       "type": "transcript",
@@ -4520,6 +4806,12 @@
     },
     {
       "date": "2026-04-07",
+      "type": "email_received",
+      "company": "Mehdi Amara",
+      "summary": "Received: Accepted: Mehdi <> Gaia @ Tue 7 Apr 2026 6:30pm - 7pm (CEST) (gaia@byzantine.fi)"
+    },
+    {
+      "date": "2026-04-07",
       "type": "transcript",
       "company": "Banca Sella",
       "summary": "- **Tioga Capital Fund:** Over €100 million fund for crypto, with ticket sizes between €3 million and €5 million. \n\n- **Byzantine’s Products:** Tailored insured yield products for European markets; cl"
@@ -4528,19 +4820,13 @@
       "date": "2026-04-07",
       "type": "meeting",
       "company": "GAYA",
-      "summary": "Roman <> Gaia"
-    },
-    {
-      "date": "2026-04-07",
-      "type": "meeting",
-      "company": "GAYA",
-      "summary": "Eric <> Gaia"
-    },
-    {
-      "date": "2026-04-07",
-      "type": "meeting",
-      "company": "GAYA",
       "summary": "Mehdi <> Gaia"
+    },
+    {
+      "date": "2026-04-07",
+      "type": "transcript",
+      "company": "Bitvavo",
+      "summary": "- **Fund Model:** Unique $25 million fund model focuses on fintech with checks between $200K and $700K in rounds of $1M to $10M. \n\n- **Byzantine Revenue Products:** Byzantine offers four flagship prod"
     },
     {
       "date": "2026-04-07",
@@ -4553,6 +4839,12 @@
       "type": "email_received",
       "company": "Sibill",
       "summary": "Received: Re: Milano: caffé?"
+    },
+    {
+      "date": "2026-04-07",
+      "type": "transcript",
+      "company": "Eric Bouanich",
+      "summary": "- **Taux de rendement variable :** Basé sur l'offre et la demande, reflète les prêts en cours sur le marché de crédit.\n\n- **Transparence des frais :** Nouvelle fonctionnalité pour afficher les commiss"
     },
     {
       "date": "2026-04-07",
@@ -4571,24 +4863,6 @@
       "type": "transcript",
       "company": "Passkey Samuel",
       "summary": "- **User Account Security:** Integration of Google and Apple keychain security enhances user account recovery and safety measures.\n\n- **Telecom Security Measures:** Comprehensive telecom parameters en"
-    },
-    {
-      "date": "2026-04-07",
-      "type": "transcript",
-      "company": "azo-bztt-kyj",
-      "summary": "- **Next Testing Call Scheduled:** Testing confirmed for tomorrow at 10:00am to ensure readiness and avoid confusion.  \n- **Today’s Meeting Canceled:** No meeting at 11:00am today to focus on tomorrow"
-    },
-    {
-      "date": "2026-04-07",
-      "type": "transcript",
-      "company": "Mathieu PIERRE-QUAGLIA",
-      "summary": "- **Produit principal : Byzantine Prime** a levé 3,7 millions d'euros, visant le rendement supérieur à l'inflation.  \n- **Produits en euros :** capital garanti avec rendement 4-5% et option plus risqu"
-    },
-    {
-      "date": "2026-04-06",
-      "type": "transcript",
-      "company": "Bitvavo",
-      "summary": "- **Byzantine's focus**: Bridging Web2 and Web3 with low-risk, over-collateralized digital credit products through user-friendly interfaces.  \n- **Institutional integrations**: Planned collaborations "
     }
   ]
 }
