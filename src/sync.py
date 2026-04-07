@@ -774,19 +774,32 @@ def build_data(
         for tr in deal.get("transcripts", []):
             matched_transcript_ids.add(id(tr))
 
-    unmatched_transcripts = []
+    # Build all transcripts list (matched + unmatched) with deal info
+    all_transcripts = []
     for tr in transcripts_raw:
-        if id(tr) not in matched_transcript_ids and tr.get("actionItems"):
-            unmatched_transcripts.append({
-                "date": tr.get("date", ""),
-                "title": tr.get("title", ""),
-                "participants": tr.get("participants", []),
-                "summary": tr.get("summary", "")[:500],
-                "actionItems": tr.get("actionItems", []),
-                "company": tr.get("company", ""),
-                "external_domains": tr.get("external_domains", []),
-            })
-            # Also add to activity feed
+        if not tr.get("actionItems"):
+            continue
+        # Find which deal this transcript is matched to
+        linked_deal = None
+        if id(tr) in matched_transcript_ids:
+            for deal in deals:
+                for dtr in deal.get("transcripts", []):
+                    if dtr is tr:
+                        linked_deal = deal["company"]
+                        break
+                if linked_deal:
+                    break
+        all_transcripts.append({
+            "date": tr.get("date", ""),
+            "title": tr.get("title", ""),
+            "participants": tr.get("participants", []),
+            "summary": tr.get("summary", "")[:500],
+            "actionItems": tr.get("actionItems", []),
+            "company": tr.get("company", ""),
+            "linked_deal": linked_deal,
+        })
+        # Add unmatched to activity feed too
+        if id(tr) not in matched_transcript_ids:
             all_activities.append({
                 "date": tr.get("date", ""),
                 "type": "transcript",
@@ -794,7 +807,7 @@ def build_data(
                 "summary": tr.get("summary", "")[:200],
             })
 
-    unmatched_transcripts.sort(key=lambda x: x.get("date", ""), reverse=True)
+    all_transcripts.sort(key=lambda x: x.get("date", ""), reverse=True)
 
     # Sort activities by date desc, keep 15
     all_activities.sort(key=lambda x: x.get("date", ""), reverse=True)
@@ -857,7 +870,7 @@ def build_data(
         "deals": deals,
         "pipeline_metrics": pipeline_metrics,
         "meetings": meetings_out,
-        "unmatched_transcripts": unmatched_transcripts,
+        "all_transcripts": all_transcripts,
         "activity_feed": activity_feed,
     }
 

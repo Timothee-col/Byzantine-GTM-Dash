@@ -487,21 +487,22 @@ function ActivityFeed({ feed }) {
   );
 }
 
-// ─── Unmatched Transcripts ──────────────────────────────────────────────────
-function UnmatchedTranscripts({ transcripts }) {
+// ─── All Meeting Transcripts + Action Items ─────────────────────────────────
+function MeetingTranscripts({ transcripts }) {
   const items = transcripts || [];
   if (items.length === 0) return null;
 
   return (
     <div className="fade-in" style={{ padding: "0 28px 20px" }}>
-      <SectionLabel>Meeting Action Items (No Deal Linked)</SectionLabel>
-      <div style={{ display: "flex", flexDirection: "column", gap: 8, maxHeight: 400, overflowY: "auto" }}>
+      <SectionLabel>Meeting Notes & Action Items</SectionLabel>
+      <div style={{ display: "flex", flexDirection: "column", gap: 8, maxHeight: 500, overflowY: "auto" }}>
         {items.map((tr, i) => (
-          <div key={i} style={{ background: T.surface, border: `1px solid ${T.border}`, borderRadius: 8, padding: "12px 14px" }}>
+          <div key={i} style={{ background: T.surface, border: `1px solid ${T.border}`, borderRadius: 8, padding: "12px 14px", borderLeft: tr.linked_deal ? `3px solid ${T.green}` : `3px solid ${T.border}` }}>
             <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 6, flexWrap: "wrap" }}>
               <span className="mono" style={{ fontSize: 10, color: T.muted }}>{tr.date}</span>
               <span style={{ fontSize: 13, fontWeight: 600 }}>{tr.title}</span>
-              {tr.company && <Badge bg={T.accent + "12"} color={T.accent}>{tr.company}</Badge>}
+              {tr.linked_deal && <Badge bg={T.green + "12"} color={T.green}>{tr.linked_deal}</Badge>}
+              {!tr.linked_deal && tr.company && <Badge bg={T.muted + "15"} color={T.muted}>{tr.company}</Badge>}
             </div>
             {tr.summary && <div style={{ fontSize: 12, color: T.muted, marginBottom: 6 }}>{tr.summary}</div>}
             {tr.actionItems && tr.actionItems.length > 0 && (
@@ -743,7 +744,7 @@ function App() {
             <div style={{ padding: "20px 0 0" }}>
               <ActivityFeed feed={data.activity_feed} />
             </div>
-            <UnmatchedTranscripts transcripts={data.unmatched_transcripts} />
+            <MeetingTranscripts transcripts={data.all_transcripts} />
             <PipelineByStage deals={data.deals || []} />
 
             <DealModal deal={selectedDeal} meetings={data.meetings || []} onClose={() => setSelectedDeal(null)} />
