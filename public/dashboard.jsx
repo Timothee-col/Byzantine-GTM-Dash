@@ -762,16 +762,19 @@ const CGP_STAGE_COLOR = {
   "Stalling - to be re engaged": T.muted,
   "Agreement signed": T.green,
 };
-const CGP_STAGES_ORDER = ["Asked materials via email", "Demo", "2nd call", "Stalling - to be re engaged", "Agreement signed", "Rejected demo"];
+const CGP_STAGES_ORDER = ["Asked materials via email", "Demo", "2nd call", "Stalling - to be re engaged", "Agreement signed"];
 
 function CGPTable({ cgps }) {
   const [tab, setTab] = useState("ALL");
   const [sort, setSort] = useState("STAGE");
 
+  // Hide rejected CGPs from the table entirely — their count stays visible in the Rejected card
+  const visible = useMemo(() => cgps.filter(c => c.stage !== "Rejected demo"), [cgps]);
+
   const tabs = ["ALL", ...CGP_STAGES_ORDER];
 
   const filtered = useMemo(() => {
-    let list = [...cgps];
+    let list = [...visible];
     if (tab !== "ALL") list = list.filter(c => c.stage === tab);
     if (sort === "STAGE") {
       list.sort((a, b) => CGP_STAGES_ORDER.indexOf(a.stage) - CGP_STAGES_ORDER.indexOf(b.stage));
@@ -781,7 +784,7 @@ function CGPTable({ cgps }) {
       list.sort((a, b) => (b.pct_closing || 0) - (a.pct_closing || 0));
     }
     return list;
-  }, [cgps, tab, sort]);
+  }, [visible, tab, sort]);
 
   return (
     <div className="fade-in" style={{ padding: "24px 28px" }}>
@@ -829,7 +832,7 @@ function CGPTable({ cgps }) {
                       <Badge bg={stageColor + "15"} color={stageColor}>{c.stage}</Badge>
                     </td>
                     <td style={{ padding: "10px 10px" }}>
-                      {c.priority ? <Badge bg={c.priority === "High" ? T.red + "15" : c.priority === "Medium" ? T.amber + "15" : T.dim} color={c.priority === "High" ? T.red : c.priority === "Medium" ? T.amber : T.muted}>{c.priority}</Badge> : <span style={{ color: T.muted, fontSize: 12 }}>\u2014</span>}
+                      {c.priority ? <Badge bg={c.priority === "High" ? T.red + "15" : c.priority === "Medium" ? T.amber + "15" : T.dim} color={c.priority === "High" ? T.red : c.priority === "Medium" ? T.amber : T.muted}>{c.priority}</Badge> : <span style={{ color: T.muted, fontSize: 12 }}>{"\u2014"}</span>}
                     </td>
                     <td style={{ padding: "10px 10px", color: T.muted, fontSize: 12 }}>{c.contact || "\u2014"}</td>
                     <td style={{ padding: "10px 10px" }}>
