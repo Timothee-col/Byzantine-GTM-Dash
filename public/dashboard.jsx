@@ -952,7 +952,7 @@ function App() {
 
   const tabs = [
     { id: "pipeline", label: "Pipeline", count: data?.deals?.length },
-    { id: "cgps", label: "CGPs", count: data?.cgps?.length },
+    { id: "cgps", label: "CGPs", count: (data?.cgps || []).filter(c => c.stage !== "Rejected demo").length },
   ];
 
   return (
