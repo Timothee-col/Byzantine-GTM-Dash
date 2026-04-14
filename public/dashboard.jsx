@@ -674,6 +674,216 @@ function DealModal({ deal, meetings, onClose }) {
   );
 }
 
+// ─── CGP Pipeline Financial Summary ─────────────────────────────────────────
+function CGPFinancials({ data }) {
+  const cm = data?.cgp_metrics || {};
+  const incomplete = cm.incomplete_deals || [];
+
+  return (
+    <div className="fade-in" style={{ padding: "24px 28px 0" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 16 }}>
+        <div style={{ background: T.surface, border: `1px solid ${T.border}`, borderRadius: 10, padding: "20px", boxShadow: "0 1px 3px rgba(0,0,0,0.04)" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 16 }}>
+            <span style={{ background: T.accent + "15", color: T.accent, padding: "4px 10px", borderRadius: 4, fontSize: 11, fontWeight: 700, letterSpacing: "0.03em" }}>CGP PIPELINE</span>
+            <span style={{ fontSize: 11, color: T.muted }}>active prospects</span>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
+              <span style={{ fontSize: 13, color: T.muted }}>Active CGPs</span>
+              <span className="mono" style={{ fontSize: 20, fontWeight: 700, color: T.text }}>{cm.active_count ?? "\u2014"}</span>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
+              <span style={{ fontSize: 13, color: T.muted }}>Total Allocation</span>
+              <span className="mono" style={{ fontSize: 20, fontWeight: 700, color: T.text }}>{fmtNumber(cm.total_allocation)}</span>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
+              <span style={{ fontSize: 13, color: T.muted }}>Weighted /mo</span>
+              <span className="mono" style={{ fontSize: 20, fontWeight: 700, color: T.accent }}>{fmtNumber(cm.time_weighted_pipeline_mo)}</span>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
+              <span style={{ fontSize: 13, color: T.muted }}>Avg. % Closing</span>
+              <span className="mono" style={{ fontSize: 20, fontWeight: 700, color: T.text }}>{cm.avg_pct_closing != null ? cm.avg_pct_closing + "%" : "\u2014"}</span>
+            </div>
+          </div>
+        </div>
+
+        <div style={{ background: T.surface, border: `1px solid ${T.green}33`, borderRadius: 10, padding: "20px", boxShadow: "0 1px 3px rgba(0,0,0,0.04)" }}>
+          <div style={{ marginBottom: 16 }}>
+            <span style={{ background: T.green + "15", color: T.green, padding: "4px 10px", borderRadius: 4, fontSize: 11, fontWeight: 700, letterSpacing: "0.03em" }}>AGREEMENT SIGNED</span>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
+              <span style={{ fontSize: 13, color: T.muted }}>CGPs signed</span>
+              <span className="mono" style={{ fontSize: 20, fontWeight: 700, color: T.green }}>{cm.signed_count ?? "\u2014"}</span>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
+              <span style={{ fontSize: 13, color: T.muted }}>Signed AUM</span>
+              <span className="mono" style={{ fontSize: 20, fontWeight: 700, color: T.green }}>{fmtNumber(cm.signed_allocation)}</span>
+            </div>
+          </div>
+        </div>
+
+        <div style={{ background: T.surface, border: `1px solid ${T.red}22`, borderRadius: 10, padding: "20px", boxShadow: "0 1px 3px rgba(0,0,0,0.04)" }}>
+          <div style={{ marginBottom: 16 }}>
+            <span style={{ background: T.red + "12", color: T.red, padding: "4px 10px", borderRadius: 4, fontSize: 11, fontWeight: 700, letterSpacing: "0.03em" }}>REJECTED</span>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
+              <span style={{ fontSize: 13, color: T.muted }}>Rejected demo</span>
+              <span className="mono" style={{ fontSize: 20, fontWeight: 700, color: T.red }}>{cm.rejected_count ?? "\u2014"}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {incomplete.length > 0 && (
+        <div style={{ marginTop: 14, background: T.red + "08", border: `1px solid ${T.red}22`, borderRadius: 8, padding: "12px 16px" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
+            <span style={{ color: T.red, fontWeight: 700, fontSize: 13 }}>Missing data</span>
+            <span style={{ fontSize: 11, color: T.muted }}>({incomplete.length} CGPs need allocation, close confidence or projected close date in Attio)</span>
+          </div>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+            {incomplete.map((name, i) => (
+              <Badge key={i} bg={T.red + "12"} color={T.red}>{name}</Badge>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ─── CGP Pipeline Table ─────────────────────────────────────────────────────
+const CGP_STAGE_COLOR = {
+  "Rejected demo": T.red,
+  "Asked materials via email": T.amber,
+  "Demo": T.blue,
+  "2nd call": T.purple,
+  "Stalling - to be re engaged": T.muted,
+  "Agreement signed": T.green,
+};
+const CGP_STAGES_ORDER = ["Asked materials via email", "Demo", "2nd call", "Stalling - to be re engaged", "Agreement signed", "Rejected demo"];
+
+function CGPTable({ cgps }) {
+  const [tab, setTab] = useState("ALL");
+  const [sort, setSort] = useState("STAGE");
+
+  const tabs = ["ALL", ...CGP_STAGES_ORDER];
+
+  const filtered = useMemo(() => {
+    let list = [...cgps];
+    if (tab !== "ALL") list = list.filter(c => c.stage === tab);
+    if (sort === "STAGE") {
+      list.sort((a, b) => CGP_STAGES_ORDER.indexOf(a.stage) - CGP_STAGES_ORDER.indexOf(b.stage));
+    } else if (sort === "ALLOCATION") {
+      list.sort((a, b) => (b.expected_allocation || 0) - (a.expected_allocation || 0));
+    } else if (sort === "CLOSING") {
+      list.sort((a, b) => (b.pct_closing || 0) - (a.pct_closing || 0));
+    }
+    return list;
+  }, [cgps, tab, sort]);
+
+  return (
+    <div className="fade-in" style={{ padding: "24px 28px" }}>
+      <SectionLabel>CGP Prospects</SectionLabel>
+      <div style={{ display: "flex", gap: 6, marginBottom: 12, flexWrap: "wrap" }}>
+        {tabs.map(s => (
+          <button key={s} onClick={() => setTab(s)} style={{
+            background: tab === s ? T.accent : T.surface, color: tab === s ? "#fff" : T.muted,
+            border: `1px solid ${tab === s ? T.accent : T.border}`, borderRadius: 5, padding: "5px 12px",
+            cursor: "pointer", fontSize: 10, fontWeight: 600, fontFamily: "'IBM Plex Mono', monospace",
+            letterSpacing: "0.05em", transition: "all 0.15s",
+          }}>{s.toUpperCase()}</button>
+        ))}
+        <span style={{ flex: 1 }} />
+        {["STAGE", "ALLOCATION", "CLOSING"].map(s => (
+          <button key={s} onClick={() => setSort(s)} style={{
+            background: sort === s ? T.dim : "transparent", color: sort === s ? T.text : T.muted,
+            border: `1px solid ${T.border}`, borderRadius: 5, padding: "5px 10px",
+            cursor: "pointer", fontSize: 9, fontWeight: 600, fontFamily: "'IBM Plex Mono', monospace",
+          }}>{s}</button>
+        ))}
+      </div>
+      <div style={{ background: T.surface, border: `1px solid ${T.border}`, borderRadius: 10, overflow: "hidden", boxShadow: "0 1px 3px rgba(0,0,0,0.04)" }}>
+        <div style={{ overflowX: "auto" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
+            <thead>
+              <tr style={{ background: T.dim }}>
+                {["Company", "Stage", "Priority", "Contact", "Allocation", "% Close", "Days", "Close Date"].map((h, i) => (
+                  <th key={i} className="label" style={{ textAlign: "left", padding: "10px 10px", fontWeight: 700, whiteSpace: "nowrap" }}>{h}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {filtered.length === 0 && (
+                <tr><td colSpan={8} style={{ padding: "20px", textAlign: "center", color: T.muted, fontSize: 13 }}>No CGPs in this stage</td></tr>
+              )}
+              {filtered.map(c => {
+                const stageColor = CGP_STAGE_COLOR[c.stage] || T.muted;
+                return (
+                  <tr key={c.id} style={{ borderBottom: `1px solid ${T.border}` }}
+                    onMouseEnter={e => e.currentTarget.style.background = T.dim}
+                    onMouseLeave={e => e.currentTarget.style.background = "transparent"}>
+                    <td style={{ padding: "10px 10px", fontWeight: 600 }}>{c.company}</td>
+                    <td style={{ padding: "10px 10px" }}>
+                      <Badge bg={stageColor + "15"} color={stageColor}>{c.stage}</Badge>
+                    </td>
+                    <td style={{ padding: "10px 10px" }}>
+                      {c.priority ? <Badge bg={c.priority === "High" ? T.red + "15" : c.priority === "Medium" ? T.amber + "15" : T.dim} color={c.priority === "High" ? T.red : c.priority === "Medium" ? T.amber : T.muted}>{c.priority}</Badge> : <span style={{ color: T.muted, fontSize: 12 }}>\u2014</span>}
+                    </td>
+                    <td style={{ padding: "10px 10px", color: T.muted, fontSize: 12 }}>{c.contact || "\u2014"}</td>
+                    <td style={{ padding: "10px 10px" }}>
+                      <span className="mono" style={{ fontSize: 12, color: c.expected_allocation ? T.text : T.red + "88" }}>
+                        {c.expected_allocation ? fmtCurrency(c.expected_allocation) : "\u2014"}
+                      </span>
+                    </td>
+                    <td style={{ padding: "10px 10px" }}>
+                      <span className="mono" style={{ fontSize: 12, color: c.pct_closing != null ? T.text : T.red + "88" }}>
+                        {c.pct_closing != null ? c.pct_closing + "%" : "\u2014"}
+                      </span>
+                    </td>
+                    <td style={{ padding: "10px 10px" }}>
+                      <span className="mono" style={{ fontSize: 12, color: c.days_to_close ? T.text : T.muted }}>
+                        {c.days_to_close ? Math.round(c.days_to_close) + "d" : "\u2014"}
+                      </span>
+                    </td>
+                    <td style={{ padding: "10px 10px" }}>
+                      <span className="mono" style={{ fontSize: 11, color: T.muted }}>{c.close_date || "\u2014"}</span>
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ─── CGP by Stage Cards ─────────────────────────────────────────────────────
+function CGPByStage({ cgps }) {
+  return (
+    <div className="fade-in" style={{ padding: "0 28px 24px" }}>
+      <SectionLabel>CGPs by Stage</SectionLabel>
+      <div style={{ display: "flex", gap: 10, overflowX: "auto", paddingBottom: 4 }}>
+        {CGP_STAGES_ORDER.map(stage => {
+          const sd = cgps.filter(c => c.stage === stage);
+          const stageAlloc = sd.reduce((sum, c) => sum + (c.expected_allocation || 0), 0);
+          const color = CGP_STAGE_COLOR[stage] || T.muted;
+          return (
+            <div key={stage} style={{ background: T.surface, border: `1px solid ${T.border}`, borderRadius: 10, padding: "16px 18px", minWidth: 180, flex: "0 0 auto", boxShadow: "0 1px 3px rgba(0,0,0,0.04)", borderTop: `3px solid ${color}` }}>
+              <div className="label" style={{ color: color, marginBottom: 8, fontSize: 10 }}>{stage}</div>
+              <div style={{ fontSize: 28, fontWeight: 700, color: T.text }}>{sd.length}</div>
+              {stageAlloc > 0 && <div className="mono" style={{ fontSize: 11, color: T.muted, marginTop: 4 }}>{fmtCurrency(stageAlloc)}</div>}
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
 // ─── Loading State ──────────────────────────────────────────────────────────
 function LoadingShimmer() {
   return (
@@ -693,12 +903,38 @@ function LoadingShimmer() {
   );
 }
 
+// ─── Tab Navigation ─────────────────────────────────────────────────────────
+function TabNav({ active, onChange, tabs }) {
+  return (
+    <div style={{ background: T.surface, borderBottom: `1px solid ${T.border}`, padding: "0 28px", display: "flex", gap: 0 }}>
+      {tabs.map(t => (
+        <button key={t.id} onClick={() => onChange(t.id)} style={{
+          background: "transparent",
+          border: "none",
+          padding: "12px 20px",
+          cursor: "pointer",
+          fontSize: 13,
+          fontWeight: 600,
+          color: active === t.id ? T.accent : T.muted,
+          borderBottom: active === t.id ? `2px solid ${T.accent}` : "2px solid transparent",
+          marginBottom: -1,
+          transition: "all 0.15s",
+        }}>
+          {t.label}
+          {t.count != null && <span style={{ marginLeft: 6, background: active === t.id ? T.accent + "20" : T.dim, color: active === t.id ? T.accent : T.muted, padding: "1px 7px", borderRadius: 10, fontSize: 11, fontWeight: 600 }}>{t.count}</span>}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 // ─── App Root ───────────────────────────────────────────────────────────────
 function App() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [selectedDeal, setSelectedDeal] = useState(null);
+  const [activeTab, setActiveTab] = useState("pipeline");
 
   const loadData = () => {
     setLoading(true);
@@ -711,11 +947,18 @@ function App() {
 
   useEffect(loadData, []);
 
+  const tabs = [
+    { id: "pipeline", label: "Pipeline", count: data?.deals?.length },
+    { id: "cgps", label: "CGPs", count: data?.cgps?.length },
+  ];
+
   return (
     <React.Fragment>
       <style>{GLOBAL_CSS}</style>
       <div style={{ minHeight: "100vh", background: T.bg }}>
         <Header data={data} loading={loading} onRefresh={loadData} />
+
+        {data && !error && <TabNav active={activeTab} onChange={setActiveTab} tabs={tabs} />}
 
         {error && (
           <div style={{ textAlign: "center", padding: 60 }}>
@@ -726,7 +969,7 @@ function App() {
 
         {loading && !error && <LoadingShimmer />}
 
-        {data && !error && (
+        {data && !error && activeTab === "pipeline" && (
           <React.Fragment>
             <StatsBar data={data} />
             <PipelineFinancials data={data} />
@@ -748,6 +991,14 @@ function App() {
             <PipelineByStage deals={data.deals || []} />
 
             <DealModal deal={selectedDeal} meetings={data.meetings || []} onClose={() => setSelectedDeal(null)} />
+          </React.Fragment>
+        )}
+
+        {data && !error && activeTab === "cgps" && (
+          <React.Fragment>
+            <CGPFinancials data={data} />
+            <CGPTable cgps={data.cgps || []} />
+            <CGPByStage cgps={data.cgps || []} />
           </React.Fragment>
         )}
 

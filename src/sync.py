@@ -280,6 +280,139 @@ def fetch_attio() -> list:
     return deals
 
 
+CGP_STAGES = ["Rejected demo", "Asked materials via email", "Demo", "2nd call", "Stalling - to be re engaged", "Agreement signed"]
+
+
+def fetch_attio_cgps() -> list:
+    """Fetch CGP prospects from the Attio 'CGPs' list (sales_12)."""
+    print("[Attio CGPs] Fetching CGP list entries...")
+
+    # Fetch all entries from the CGPs list
+    entries = []
+    offset = None
+    while True:
+        body = {"limit": 500}
+        if offset:
+            body["offset"] = offset
+        resp = attio_api("POST", "/lists/sales_12/entries/query", body)
+        entries.extend(resp.get("data", []))
+        next_offset = resp.get("next_cursor")
+        if not next_offset or len(resp.get("data", [])) < 500:
+            break
+        offset = next_offset
+
+    print(f"[Attio CGPs] {len(entries)} entries fetched")
+
+    # Resolve company names and domains
+    company_rids = list({e["parent_record_id"] for e in entries if e.get("parent_record_id")})
+    company_names, company_domains = _resolve_company_records(company_rids)
+
+    # Resolve person names for main_point_of_contact
+    person_rids = set()
+    for entry in entries:
+        mpc = entry.get("entry_values", {}).get("main_point_of_contact", [])
+        if mpc:
+            rid = mpc[0].get("target_record_id")
+            if rid:
+                person_rids.add(rid)
+    person_names = _resolve_person_names(list(person_rids))
+
+    now = datetime.now(timezone.utc)
+    cgps = []
+    for entry in entries:
+        values = entry.get("entry_values", {})
+        parent_rid = entry.get("parent_record_id", "")
+        company = company_names.get(parent_rid, "")
+        if not company:
+            continue
+        domains = company_domains.get(parent_rid, [])
+
+        # Stage
+        stage = ""
+        stage_vals = values.get("stage", [])
+        if stage_vals:
+            stage = stage_vals[0].get("status", {}).get("title", "")
+
+        # Priority
+        priority = None
+        pr = values.get("priority", [])
+        if pr:
+            priority = pr[0].get("value", {}).get("title") if isinstance(pr[0].get("value"), dict) else str(pr[0].get("value", ""))
+
+        # Notes
+        notes = ""
+        notes_vals = values.get("notes", [])
+        if notes_vals:
+            notes = notes_vals[0].get("value", "") or ""
+
+        # Main point of contact
+        contact = None
+        mpc = values.get("main_point_of_contact", [])
+        if mpc:
+            rid = mpc[0].get("target_record_id")
+            if rid:
+                contact = person_names.get(rid)
+
+        # Estimated contract value
+        allocation = None
+        ecv = values.get("estimated_contract_value", [])
+        if ecv:
+            try:
+                v = ecv[0].get("currency_value")
+                if v is not None:
+                    allocation = float(v)
+            except (ValueError, TypeError):
+                pass
+
+        # Close confidence (rating 1-5) → pct_closing (20/40/60/80/100)
+        confidence = None
+        pct_closing = None
+        cc = values.get("close_confidence", [])
+        if cc:
+            try:
+                confidence = cc[0].get("value")
+                if confidence is not None:
+                    pct_closing = float(confidence) * 20
+            except (ValueError, TypeError):
+                pass
+
+        # Projected close date → days_to_close
+        days_to_close = None
+        close_date = None
+        pcd = values.get("projected_close_date", [])
+        if pcd:
+            try:
+                date_str = pcd[0].get("value")
+                if date_str:
+                    close_dt = datetime.strptime(date_str[:10], "%Y-%m-%d").replace(tzinfo=timezone.utc)
+                    days_to_close = max(1, (close_dt - now).days)
+                    close_date = date_str[:10]
+            except (ValueError, TypeError):
+                pass
+
+        weighted_value = None
+        if allocation and pct_closing is not None:
+            weighted_value = round(allocation * pct_closing / 100, 2)
+
+        cgps.append({
+            "id": slugify(company),
+            "company": str(company),
+            "domains": domains,
+            "stage": stage or "Asked materials via email",
+            "priority": priority,
+            "notes": str(notes),
+            "contact": str(contact) if contact else None,
+            "confidence": confidence,
+            "expected_allocation": allocation,
+            "pct_closing": pct_closing,
+            "days_to_close": days_to_close,
+            "close_date": close_date,
+            "weighted_value": weighted_value,
+        })
+
+    return cgps
+
+
 # ---------------------------------------------------------------------------
 # Source 2 — Fireflies (GraphQL API)
 # ---------------------------------------------------------------------------
@@ -566,7 +699,9 @@ def build_data(
     gcal_raw: list,
     transcripts_raw: list,
     sources_status: dict,
+    cgps_raw: list | None = None,
 ) -> dict:
+    cgps_raw = cgps_raw or []
     now = datetime.now(timezone.utc)
 
     # Index emails by company (fuzzy)
@@ -864,11 +999,44 @@ def build_data(
         "incomplete_deals": incomplete_deals,
     }
 
+    # CGP metrics
+    cgp_active_stages = {"Asked materials via email", "Demo", "2nd call", "Stalling - to be re engaged"}
+    cgp_active = [c for c in cgps_raw if c.get("stage") in cgp_active_stages]
+    cgp_signed = [c for c in cgps_raw if c.get("stage") == "Agreement signed"]
+    cgp_rejected = [c for c in cgps_raw if c.get("stage") == "Rejected demo"]
+    cgp_total_allocation = sum(c["expected_allocation"] for c in cgp_active if c.get("expected_allocation"))
+    cgp_signed_allocation = sum(c["expected_allocation"] for c in cgp_signed if c.get("expected_allocation"))
+    cgp_pct_values = [c["pct_closing"] for c in cgp_active if c.get("pct_closing") is not None]
+    cgp_avg_pct = round(sum(cgp_pct_values) / len(cgp_pct_values), 1) if cgp_pct_values else None
+    cgp_twp = 0.0
+    for c in cgp_active:
+        if c.get("expected_allocation") and c.get("pct_closing") and c.get("days_to_close") and c["days_to_close"] > 0:
+            cgp_twp += c["expected_allocation"] * (c["pct_closing"] / 100) / c["days_to_close"] * 30
+    cgp_twp = round(cgp_twp, 2)
+    cgp_incomplete = [
+        c["company"] for c in cgp_active
+        if not c.get("expected_allocation") or c.get("pct_closing") is None or not c.get("days_to_close")
+    ]
+
+    cgp_metrics = {
+        "total_count": len(cgps_raw),
+        "active_count": len(cgp_active),
+        "signed_count": len(cgp_signed),
+        "rejected_count": len(cgp_rejected),
+        "total_allocation": cgp_total_allocation,
+        "signed_allocation": cgp_signed_allocation,
+        "time_weighted_pipeline_mo": cgp_twp,
+        "avg_pct_closing": cgp_avg_pct,
+        "incomplete_deals": cgp_incomplete,
+    }
+
     return {
         "sync_time": now.strftime("%Y-%m-%dT%H:%M:%S+00:00"),
         "sources": sources_status,
         "deals": deals,
         "pipeline_metrics": pipeline_metrics,
+        "cgps": cgps_raw,
+        "cgp_metrics": cgp_metrics,
         "meetings": meetings_out,
         "all_transcripts": all_transcripts,
         "activity_feed": activity_feed,
@@ -884,9 +1052,12 @@ def main():
     sources_status = {}
     results = {}
 
-    # Phase 1 — Attio + Fireflies + GCal in parallel (Gmail needs company names from Attio)
+    # Phase 1 — Attio + Fireflies + GCal + CGPs in parallel (Gmail needs company names from Attio)
     def run_attio():
         return "attio", fetch_attio()
+
+    def run_attio_cgps():
+        return "cgps", fetch_attio_cgps()
 
     def run_fireflies():
         return "fireflies", fetch_fireflies()
@@ -894,8 +1065,8 @@ def main():
     def run_gcal():
         return "gcal", fetch_gcal()
 
-    with ThreadPoolExecutor(max_workers=3) as pool:
-        futures = {pool.submit(fn): fn.__name__ for fn in [run_attio, run_fireflies, run_gcal]}
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        futures = {pool.submit(fn): fn.__name__ for fn in [run_attio, run_attio_cgps, run_fireflies, run_gcal]}
         for future in as_completed(futures):
             try:
                 key, data = future.result()
@@ -934,6 +1105,7 @@ def main():
         gcal_raw=results.get("gcal", []),
         transcripts_raw=results.get("fireflies", []),
         sources_status=sources_status,
+        cgps_raw=results.get("cgps", []),
     )
 
     DATA_JSON.parent.mkdir(parents=True, exist_ok=True)
