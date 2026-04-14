@@ -633,8 +633,9 @@ def fetch_gcal() -> list:
     service = build("calendar", "v3", credentials=creds)
 
     now = datetime.now(timezone.utc)
-    time_min = now.isoformat()
-    time_max = (now + timedelta(days=7)).isoformat()
+    # Fetch past 60 days + next 14 days so we can cross-reference with Fireflies
+    time_min = (now - timedelta(days=60)).isoformat()
+    time_max = (now + timedelta(days=14)).isoformat()
 
     events_result = (
         service.events()
@@ -642,7 +643,7 @@ def fetch_gcal() -> list:
             calendarId="primary",
             timeMin=time_min,
             timeMax=time_max,
-            maxResults=50,
+            maxResults=500,
             singleEvents=True,
             orderBy="startTime",
         )
@@ -662,9 +663,13 @@ def fetch_gcal() -> list:
             time_str = ""
 
         attendees = []
+        attendee_emails = []
         for a in event.get("attendees", []):
-            name = a.get("displayName", a.get("email", ""))
+            email = a.get("email", "")
+            name = a.get("displayName") or email
             attendees.append(name)
+            if email:
+                attendee_emails.append(email)
 
         description = event.get("description", "") or ""
         title = event.get("summary", "")
@@ -681,6 +686,7 @@ def fetch_gcal() -> list:
                 "time": time_str,
                 "title": title,
                 "attendees": attendees,
+                "attendee_emails": attendee_emails,
                 "description": description,
                 "company": company,
             }
@@ -708,6 +714,59 @@ def build_data(
     email_index: dict[str, list] = {}
     for entry in emails_raw:
         email_index[entry["company"].lower()] = entry["emails"]
+
+    # Cross-reference: enrich Fireflies transcripts with GCal attendee data
+    # Fireflies often misses participant emails; the GCal event at the same
+    # time usually has them. Match by date + title similarity.
+    enriched = 0
+    for tr in transcripts_raw:
+        tr_date = tr.get("date", "")
+        tr_title = (tr.get("title") or "").lower()
+        if not tr_date or not tr_title:
+            continue
+        # Find best matching gcal event on the same date
+        best = None
+        best_score = 0.0
+        for m in gcal_raw:
+            if m.get("date") != tr_date:
+                continue
+            m_title = (m.get("title") or "").lower()
+            if not m_title:
+                continue
+            score = fuzzy_match(tr_title, m_title)
+            # Also boost score if titles share a keyword
+            tr_words = {w for w in tr_title.split() if len(w) > 3}
+            m_words = {w for w in m_title.split() if len(w) > 3}
+            if tr_words & m_words:
+                score += 0.2
+            if score > best_score:
+                best_score = score
+                best = m
+        if best and best_score > 0.35:
+            # Merge attendee emails/domains into transcript
+            existing_emails = set(tr.get("external_emails", []))
+            existing_domains = set(tr.get("external_domains", []))
+            added = False
+            for email in best.get("attendee_emails", []):
+                if not email or "@" not in email:
+                    continue
+                domain = email.split("@")[1].lower()
+                if "byzantine" in domain or "gaia" in domain or "gmail" in domain or "google" in domain:
+                    continue
+                if email not in existing_emails:
+                    existing_emails.add(email)
+                    added = True
+                if domain not in existing_domains:
+                    existing_domains.add(domain)
+                    added = True
+            if added:
+                tr["external_emails"] = list(existing_emails)
+                tr["external_domains"] = list(existing_domains)
+                tr["gcal_linked"] = True
+                tr["gcal_attendees"] = best.get("attendees", [])
+                enriched += 1
+    if enriched:
+        print(f"[GCal<>Fireflies] Enriched {enriched} transcripts with calendar attendee data")
 
     all_activities: list[dict] = []
     deals = []
@@ -948,12 +1007,17 @@ def build_data(
     all_activities.sort(key=lambda x: x.get("date", ""), reverse=True)
     activity_feed = all_activities[:15]
 
-    # Meetings with prepNeeded
+    # Meetings with prepNeeded — only keep upcoming events (today..+14 days)
+    today_str = now.strftime("%Y-%m-%d")
+    max_date = (now + timedelta(days=14)).strftime("%Y-%m-%d")
     meetings_out = []
     for m in gcal_raw:
+        m_date = m.get("date", "")
+        if not m_date or m_date < today_str or m_date > max_date:
+            continue
         meetings_out.append(
             {
-                "date": m["date"],
+                "date": m_date,
                 "time": m.get("time", ""),
                 "title": m.get("title", ""),
                 "company": m.get("company", ""),
