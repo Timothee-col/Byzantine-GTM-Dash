@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-04-16T08:28:32+00:00",
+  "sync_time": "2026-04-17T08:27:51+00:00",
   "sources": {
     "gcal": {
       "status": "ok",
@@ -27,7 +27,7 @@
       "id": "skill-hunter",
       "company": "Skill Hunter",
       "stage": "Active",
-      "lastDays": 17,
+      "lastDays": 18,
       "lastContactDate": "2026-03-30",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -65,7 +65,7 @@
       "id": "thibault-coulon",
       "company": "Thibault Coulon",
       "stage": "Proposal / Negotiation",
-      "lastDays": 38,
+      "lastDays": 39,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "High",
@@ -103,7 +103,7 @@
       "id": "bleap-finance",
       "company": "Bleap Finance",
       "stage": "Meeting",
-      "lastDays": 204,
+      "lastDays": 205,
       "lastContactDate": "2025-09-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -141,7 +141,7 @@
       "id": "jeremy-giraud",
       "company": "Jeremy Giraud",
       "stage": "Qualification",
-      "lastDays": 36,
+      "lastDays": 37,
       "lastContactDate": "2026-03-11",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -179,7 +179,7 @@
       "id": "athletico-ventures",
       "company": "Athletico Ventures",
       "stage": "Active",
-      "lastDays": 30,
+      "lastDays": 31,
       "lastContactDate": "2026-03-17",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -217,8 +217,8 @@
       "id": "the-level-group",
       "company": "The Level Group",
       "stage": "Paused",
-      "lastDays": 7,
-      "lastContactDate": "2026-04-09",
+      "lastDays": 1,
+      "lastContactDate": "2026-04-16",
       "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
@@ -231,6 +231,12 @@
       "weighted_value": 0.05,
       "emails": [
         {
+          "date": "2026-04-16",
+          "subject": "Deadline approaching: shine on the global treasury stage",
+          "direction": "received",
+          "snippet": "Final call for nominations: Submit your 2026 entry before the May 8th deadline for our revamped Barcelona ceremony. Read in browser The benchmark of treasury excellence Hello Gaia, The clock is tickin"
+        },
+        {
           "date": "2026-04-09",
           "subject": "\"You're Asking Me to Be Better Than the Average of What I Was Trained On\"",
           "direction": "received",
@@ -241,12 +247,6 @@
           "subject": "Democracy Index 2025: Spot the warning signs for global investment",
           "direction": "received",
           "snippet": "Exploring the critical political shifts shaping the global landscape in 2026. Read in browser Economist Intelligence Unit April 9th 2026 Dear Gaia After nearly a decade of continuous decline, global"
-        },
-        {
-          "date": "2026-03-19",
-          "subject": "Nvidia's $1T Bet + The Great Chip Crunch + Cybersecurity's Billion-Dollar Week",
-          "direction": "received",
-          "snippet": "$1T in Nvidia chip orders. A memory shortage through 2030. An AI hacker that costs $5K and beats 99% of humans. ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ "
         }
       ],
       "transcripts": []
@@ -255,7 +255,7 @@
       "id": "pennylane",
       "company": "Pennylane",
       "stage": "Meeting",
-      "lastDays": 49,
+      "lastDays": 50,
       "lastContactDate": "2026-02-26",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -293,7 +293,7 @@
       "id": "nicolas-bacca",
       "company": "Nicolas Bacca",
       "stage": "Active",
-      "lastDays": 15,
+      "lastDays": 16,
       "lastContactDate": "2026-04-01",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -350,7 +350,7 @@
       "id": "node-capital",
       "company": "Node Capital",
       "stage": "Paused",
-      "lastDays": 9,
+      "lastDays": 10,
       "lastContactDate": "2026-04-07",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -388,7 +388,7 @@
       "id": "jean-david-curiel",
       "company": "Jean-David Curiel",
       "stage": "Meeting",
-      "lastDays": 53,
+      "lastDays": 54,
       "lastContactDate": "2026-02-22",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -414,7 +414,7 @@
       "id": "tulyp",
       "company": "Tulyp",
       "stage": "Proposal / Negotiation",
-      "lastDays": 8,
+      "lastDays": 9,
       "lastContactDate": "2026-04-08",
       "lastContactType": "email_received",
       "priority": "High",
@@ -452,7 +452,7 @@
       "id": "hugues-de-braucourt",
       "company": "Hugues de Braucourt",
       "stage": "Lost",
-      "lastDays": 66,
+      "lastDays": 67,
       "lastContactDate": "2026-02-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -490,7 +490,7 @@
       "id": "jonathan-jean-baptiste",
       "company": "Jonathan JEAN-BAPTISTE",
       "stage": "Meeting",
-      "lastDays": 80,
+      "lastDays": 81,
       "lastContactDate": "2026-01-26",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -516,7 +516,7 @@
       "id": "martino-grasselli",
       "company": "Martino Grasselli",
       "stage": "Qualification",
-      "lastDays": 34,
+      "lastDays": 35,
       "lastContactDate": "2026-03-13",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -573,7 +573,7 @@
       "id": "cyrille-jerabek",
       "company": "Cyrille Jerabek",
       "stage": "Meeting",
-      "lastDays": 58,
+      "lastDays": 59,
       "lastContactDate": "2026-02-17",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -612,7 +612,7 @@
       "company": "OX Capital Partners",
       "stage": "Proposal / Negotiation",
       "lastDays": 1,
-      "lastContactDate": "2026-04-15",
+      "lastContactDate": "2026-04-16",
       "lastContactType": "transcript",
       "priority": "High",
       "notes": "",
@@ -644,6 +644,30 @@
         }
       ],
       "transcripts": [
+        {
+          "date": "2026-04-16",
+          "title": "Meet – Samuel x Byzantine - plateforme CGP",
+          "participants": [
+            "gaia@byzantine.fi",
+            "benoit@byzantine.fi",
+            "samuel.rahmine@oxcps.com"
+          ],
+          "summary": "- **Paris Blockchain Week Attendance:** Key event for market presence to boost visibility and connect with industry leaders and clients.\n\n- **Subscription Models Discussion:** Focus on commercial subscriptions for steady revenue, including white-label offerings aligned with market trends.\n\n- **Function Flow Platform Development:** Ongoing development aims to improve user workflows with a blend of automated and manual processes.\n\n- **Self-Custody Wallet Features:** Integrating Lam Sismo to enhance security, increase user control, and differentiate from custodial competitors.\n\n- **Stripe Integration for Payments:** Clarified processes to reduce deposit validation errors, improving user trust and operational efficiency.\n\n- **Human Compliance Checks:** Integrating manual oversight into compliance to adapt to regulatory changes while supporting scalable operations.",
+          "actionItems": [
+            "**Benoît de Dieuleveult**",
+            "Develop and refine the partial function flow platform incorporating face-to-face elements as introduced in the discussion (01:50)",
+            "Address and improve validation mechanisms to prevent wrong validation cases as discussed (11:56)",
+            "Lead debugging processes incorporating team feedback according to the planned timelines to ensure system reliability (16:27)",
+            "**Samuel Rahmine**"
+          ],
+          "company": "",
+          "external_domains": [
+            "oxcps.com"
+          ],
+          "external_emails": [
+            "samuel.rahmine@oxcps.com"
+          ]
+        },
         {
           "date": "2026-04-15",
           "title": "Meet – Gaia Ferrero and Luke Hajdukiewicz",
@@ -709,8 +733,8 @@
           ],
           "company": "Byz Onboarding - Chiara El Rikabi",
           "external_domains": [
-            "21shares.com",
-            "intesasanpaolo.com"
+            "intesasanpaolo.com",
+            "21shares.com"
           ],
           "external_emails": [
             "massimo.siano@21shares.com",
@@ -738,8 +762,8 @@
           ],
           "company": "Byz Onboarding - Chiara El Rikabi",
           "external_domains": [
-            "21shares.com",
-            "intesasanpaolo.com"
+            "intesasanpaolo.com",
+            "21shares.com"
           ],
           "external_emails": [
             "massimo.siano@21shares.com",
@@ -835,7 +859,7 @@
       "company": "Holifya",
       "stage": "Meeting",
       "lastDays": 1,
-      "lastContactDate": "2026-04-15",
+      "lastContactDate": "2026-04-16",
       "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
@@ -848,22 +872,22 @@
       "weighted_value": null,
       "emails": [
         {
+          "date": "2026-04-16",
+          "subject": "KYB in progress - Byzantine Finance",
+          "direction": "sent",
+          "snippet": "Your identity verification request has been submitted. Our team is reviewing your request and will get back to you shortly. ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿"
+        },
+        {
+          "date": "2026-04-16",
+          "subject": "Giorgio Biscotti invited you to join Holifya - Byzantine Finance",
+          "direction": "sent",
+          "snippet": "Dear Alessandra, Giorgio Biscotti has invited you to join Holifya on the Byzantine Finance platform. Byzantine Finance is ac Giorgio Biscotti invited you to join Holifya Dear Alessandra, Giorgio"
+        },
+        {
           "date": "2026-04-15",
           "subject": "Re: Holifya <> Byzantine: documenti e accesso app",
           "direction": "sent",
           "snippet": "Ciao Giorgio, grazie mille per la fiducia e per il feedback positivo! Perfetto, appena avete definito l&#39;importo potete procedere con la registrazione sulla piattaforma: Vi basterà andare su https:"
-        },
-        {
-          "date": "2026-04-15",
-          "subject": "Re: Holifya <> Byzantine: documenti e accesso app",
-          "direction": "received",
-          "snippet": "Ciao Gaia, Abbiamo analizzato Byzantine Prime in dettaglio e il prodotto ci piace - l&#39;approccio è innovativo, il meccanismo è solido ei ritorni sono interessanti. Procediamo: apriremo un conto."
-        },
-        {
-          "date": "2026-04-15",
-          "subject": "Re: Holifya <> Byzantine: documenti e accesso app",
-          "direction": "sent",
-          "snippet": "Ciao Giorgio, grazie, sono tutte ottime domande! Rispondo in dettaglio di seguito, ma proporrei una chiamata per poterti spiegare in dettaglio ogni punto: Sulla responsabilità: - Byzantine Finance è i"
         }
       ],
       "transcripts": []
@@ -872,7 +896,7 @@
       "id": "sowefund",
       "company": "Sowefund",
       "stage": "Meeting",
-      "lastDays": 3,
+      "lastDays": 4,
       "lastContactDate": "2026-04-13",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -910,7 +934,7 @@
       "id": "capslock-global",
       "company": "Capslock Global",
       "stage": "Meeting",
-      "lastDays": 77,
+      "lastDays": 78,
       "lastContactDate": "2026-01-29",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -936,7 +960,7 @@
       "id": "the-moon-investments",
       "company": "The Moon Investments",
       "stage": "Meeting",
-      "lastDays": 42,
+      "lastDays": 43,
       "lastContactDate": "2026-03-05",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -974,7 +998,7 @@
       "id": "thomas-rebaud",
       "company": "Thomas Rebaud",
       "stage": "Proposal / Negotiation",
-      "lastDays": 44,
+      "lastDays": 45,
       "lastContactDate": "2026-03-03",
       "lastContactType": "email_received",
       "priority": "High",
@@ -1012,7 +1036,7 @@
       "id": "priscille-raynaud",
       "company": "Priscille Raynaud",
       "stage": "Meeting",
-      "lastDays": 47,
+      "lastDays": 48,
       "lastContactDate": "2026-02-28",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1050,7 +1074,7 @@
       "id": "mehdi-amara",
       "company": "Mehdi Amara",
       "stage": "Active",
-      "lastDays": 9,
+      "lastDays": 10,
       "lastContactDate": "2026-04-07",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1107,7 +1131,7 @@
       "id": "tutornow",
       "company": "Tutornow",
       "stage": "Paused",
-      "lastDays": 52,
+      "lastDays": 53,
       "lastContactDate": "2026-02-23",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1164,7 +1188,7 @@
       "id": "hercle",
       "company": "Hercle",
       "stage": "Paused",
-      "lastDays": 59,
+      "lastDays": 60,
       "lastContactDate": "2026-02-16",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1202,7 +1226,7 @@
       "id": "bpifrance",
       "company": "Bpifrance",
       "stage": "Meeting",
-      "lastDays": 204,
+      "lastDays": 205,
       "lastContactDate": "2025-09-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1297,7 +1321,7 @@
       "id": "rebind",
       "company": "Rebind",
       "stage": "Meeting",
-      "lastDays": 7,
+      "lastDays": 8,
       "lastContactDate": "2026-04-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1335,7 +1359,7 @@
       "id": "bizaway",
       "company": "BizAway",
       "stage": "Meeting",
-      "lastDays": 51,
+      "lastDays": 52,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1373,7 +1397,7 @@
       "id": "banca-sella",
       "company": "Banca Sella",
       "stage": "Proposal / Negotiation",
-      "lastDays": 3,
+      "lastDays": 4,
       "lastContactDate": "2026-04-13",
       "lastContactType": "email_received",
       "priority": "High",
@@ -1405,7 +1429,7 @@
       "id": "moonfare",
       "company": "Moonfare",
       "stage": "Proposal / Negotiation",
-      "lastDays": 20,
+      "lastDays": 21,
       "lastContactDate": "2026-03-27",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -1462,7 +1486,7 @@
       "id": "etienne-variot",
       "company": "Etienne Variot",
       "stage": "Active",
-      "lastDays": 47,
+      "lastDays": 48,
       "lastContactDate": "2026-02-28",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1500,12 +1524,12 @@
       "id": "goin",
       "company": "GOin",
       "stage": "Meeting",
-      "lastDays": 6,
-      "lastContactDate": "2026-04-10",
+      "lastDays": 1,
+      "lastContactDate": "2026-04-16",
       "lastContactType": "transcript",
       "priority": "Med",
       "notes": "",
-      "nextSteps": "**Benoît de Dieuleveult** | Finish implementing the logic to exclude €100 referral bonuses for all referrals made by Matteo (06:23) | Finalize setting all referral bonus rules and prepare smart contract integration for referral payouts (05:06)",
+      "nextSteps": "**Benoît de Dieuleveult** | Develop and refine the partial function flow platform incorporating face-to-face elements as introduced in the discussion (01:50) | Address and improve validation mechanisms to prevent wrong validation cases as discussed (11:56)",
       "contact": "Tangi Le Calvez",
       "confidence": null,
       "expected_allocation": 1.0,
@@ -1533,6 +1557,30 @@
         }
       ],
       "transcripts": [
+        {
+          "date": "2026-04-16",
+          "title": "Meet – Samuel x Byzantine - plateforme CGP",
+          "participants": [
+            "gaia@byzantine.fi",
+            "benoit@byzantine.fi",
+            "samuel.rahmine@oxcps.com"
+          ],
+          "summary": "- **Paris Blockchain Week Attendance:** Key event for market presence to boost visibility and connect with industry leaders and clients.\n\n- **Subscription Models Discussion:** Focus on commercial subscriptions for steady revenue, including white-label offerings aligned with market trends.\n\n- **Function Flow Platform Development:** Ongoing development aims to improve user workflows with a blend of automated and manual processes.\n\n- **Self-Custody Wallet Features:** Integrating Lam Sismo to enhance security, increase user control, and differentiate from custodial competitors.\n\n- **Stripe Integration for Payments:** Clarified processes to reduce deposit validation errors, improving user trust and operational efficiency.\n\n- **Human Compliance Checks:** Integrating manual oversight into compliance to adapt to regulatory changes while supporting scalable operations.",
+          "actionItems": [
+            "**Benoît de Dieuleveult**",
+            "Develop and refine the partial function flow platform incorporating face-to-face elements as introduced in the discussion (01:50)",
+            "Address and improve validation mechanisms to prevent wrong validation cases as discussed (11:56)",
+            "Lead debugging processes incorporating team feedback according to the planned timelines to ensure system reliability (16:27)",
+            "**Samuel Rahmine**"
+          ],
+          "company": "",
+          "external_domains": [
+            "oxcps.com"
+          ],
+          "external_emails": [
+            "samuel.rahmine@oxcps.com"
+          ]
+        },
         {
           "date": "2026-04-10",
           "title": "Meet – Referral rewards - check-in and pay out",
@@ -1564,44 +1612,6 @@
           "company": "",
           "external_domains": [],
           "external_emails": []
-        },
-        {
-          "date": "2026-04-08",
-          "title": "Meet – Actually pay out rewards",
-          "participants": [
-            "benoit@byzantine.fi",
-            "jonas@byzantine.fi"
-          ],
-          "summary": "- **Rewards Payout Decision:** Payment timing on user rewards postponed until dashboard updates; potential early payout for Xavier discussed.  \n- **Monthly Review Proposal:** Regular checks on reward distributions are suggested; clear rules for extra rewards are needed.  \n- **Vault System Review:** User-specific vault access exists; fund migration functions clarify reward tracking.  \n- **Referral Reward Mechanics:** Discussion ongoing about simplifying referral rewards; potential shift from automatic rewards acknowledged.  \n- **White-Label Platform Request:** Key client seeks unbranded platform; strategic implications for customization options noted.  \n- **Follow-Up Meeting Scheduled:** Coordinated effort to finalize payout processes; clearer roles established for smoother operations.",
-          "actionItems": [
-            "**Jonas Bokelmann**",
-            "Schedule a follow-up meeting in about two days to discuss updates on reward payout strategy and referral page improvements (04:49)",
-            "Set a meeting for Friday late morning to further discuss how to pay rewards going forward (06:06)",
-            "**Matteo Maschio**",
-            "Monitor and take ownership of monthly reward status checks and help define rules around payout frequency and exceptions (04:24)"
-          ],
-          "company": "Actually pay out rewards",
-          "external_domains": [],
-          "external_emails": []
-        },
-        {
-          "date": "2026-04-08",
-          "title": "Meet – Actually pay out rewards",
-          "participants": [
-            "benoit@byzantine.fi",
-            "matteo@byzantine.fi"
-          ],
-          "summary": "- **Referral Rewards Management:** €5,000 deposit triggers €100 rewards; fee-free rewards depend on three-month tracking and visibility.\n\n- **Complexity Handling:** Specific referrals like Matteo's don't qualify for €100 bonuses; clarity on payouts is essential to avoid confusion.\n\n- **Payout Flexibility:** Current system lacks partial payments; enhancements needed for monthly fee-free payouts and diverse reward timelines.\n\n- **Payment Tracking:** Manual system with binary status limits accuracy; proposed timestamp tracking would enable better ongoing eligibility checks.\n\n- **Payment Processing Security:** Multi-signature wallet proposed for reward payouts to enhance security, control, and simplify accounting practices.\n\n- **Dashboard Improvements:** Sorting by payout amount desired; removing incorrect bonuses and supporting partial payments would improve user experience.",
-          "actionItems": [
-            "**Benoît de Dieuleveult**",
-            "Provide Jonas with access link to the referral rewards dashboard for visibility and review (03:37)",
-            "Track and mark referral rewards as paid in the database, updating logic to handle payment flags per user and support full payment marking (10:35)",
-            "Develop a simple pop-up payment interface integrated into the rewards dashboard to facilitate manual reward disbursal with prefilled wallet addresses (16:25)",
-            "Ensure wallet address tracking integrates with the transactions list and verify indexer configuration supports this linkage for accurate payment tracking (19:30)"
-          ],
-          "company": "Actually pay out rewards",
-          "external_domains": [],
-          "external_emails": []
         }
       ]
     },
@@ -1609,7 +1619,7 @@
       "id": "blackfin",
       "company": "BlackFin",
       "stage": "Meeting",
-      "lastDays": 51,
+      "lastDays": 52,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1666,7 +1676,7 @@
       "id": "blisce",
       "company": "Blisce",
       "stage": "Meeting",
-      "lastDays": 57,
+      "lastDays": 58,
       "lastContactDate": "2026-02-18",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1704,7 +1714,7 @@
       "id": "sorare",
       "company": "Sorare",
       "stage": "Paused",
-      "lastDays": 58,
+      "lastDays": 59,
       "lastContactDate": "2026-02-17",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1742,7 +1752,7 @@
       "id": "tomcat",
       "company": "Tomcat",
       "stage": "Meeting",
-      "lastDays": 28,
+      "lastDays": 29,
       "lastContactDate": "2026-03-19",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1780,7 +1790,7 @@
       "id": "bitpanda",
       "company": "Bitpanda",
       "stage": "Meeting",
-      "lastDays": 3,
+      "lastDays": 4,
       "lastContactDate": "2026-04-13",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -1851,8 +1861,8 @@
           ],
           "company": "Byz Onboarding - Chiara El Rikabi",
           "external_domains": [
-            "21shares.com",
-            "intesasanpaolo.com"
+            "intesasanpaolo.com",
+            "21shares.com"
           ],
           "external_emails": [
             "massimo.siano@21shares.com",
@@ -1866,7 +1876,7 @@
       "id": "simon-hulin",
       "company": "Simon Hulin",
       "stage": "Testing",
-      "lastDays": 34,
+      "lastDays": 35,
       "lastContactDate": "2026-03-13",
       "lastContactType": "email_received",
       "priority": "High",
@@ -1904,7 +1914,7 @@
       "id": "sopra-steria",
       "company": "Sopra Steria",
       "stage": "Meeting",
-      "lastDays": 23,
+      "lastDays": 24,
       "lastContactDate": "2026-03-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1942,7 +1952,7 @@
       "id": "bernat-family-office-sl",
       "company": "Bernat Family Office S.L.",
       "stage": "Meeting",
-      "lastDays": 192,
+      "lastDays": 193,
       "lastContactDate": "2025-10-06",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1968,7 +1978,7 @@
       "id": "alain-arthur-bloch",
       "company": "Alain & Arthur Bloch",
       "stage": "Proposal / Negotiation",
-      "lastDays": 64,
+      "lastDays": 65,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -2006,7 +2016,7 @@
       "id": "jump",
       "company": "Jump",
       "stage": "Meeting",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-04-15",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2091,7 +2101,7 @@
       "id": "nilos",
       "company": "Nilos",
       "stage": "Meeting",
-      "lastDays": 114,
+      "lastDays": 115,
       "lastContactDate": "2025-12-23",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2117,7 +2127,7 @@
       "id": "dalma",
       "company": "Dalma.",
       "stage": "Lost",
-      "lastDays": 17,
+      "lastDays": 18,
       "lastContactDate": "2026-03-30",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2155,7 +2165,7 @@
       "id": "sandwell-capital",
       "company": "Sandwell Capital",
       "stage": "Meeting",
-      "lastDays": 9,
+      "lastDays": 10,
       "lastContactDate": "2026-04-07",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2193,7 +2203,7 @@
       "id": "michael-osullivan",
       "company": "Michael OSullivan",
       "stage": "Proposal / Negotiation",
-      "lastDays": 59,
+      "lastDays": 60,
       "lastContactDate": "2026-02-16",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2225,7 +2235,7 @@
       "id": "fygr",
       "company": "Fygr",
       "stage": "Proposal / Negotiation",
-      "lastDays": 64,
+      "lastDays": 65,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2263,7 +2273,7 @@
       "id": "whitebit",
       "company": "WhiteBIT",
       "stage": "Qualification",
-      "lastDays": 652,
+      "lastDays": 653,
       "lastContactDate": "2024-07-03",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2295,7 +2305,7 @@
       "id": "coinhouse",
       "company": "Coinhouse",
       "stage": "Meeting",
-      "lastDays": 3,
+      "lastDays": 4,
       "lastContactDate": "2026-04-13",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -2353,7 +2363,7 @@
       "id": "gaya",
       "company": "GAYA",
       "stage": "Meeting",
-      "lastDays": 14,
+      "lastDays": 15,
       "lastContactDate": "2026-04-02",
       "lastContactType": "meeting",
       "priority": "Med",
@@ -2410,7 +2420,7 @@
       "id": "carbone-farmers",
       "company": "Carbone Farmers",
       "stage": "Lost",
-      "lastDays": 63,
+      "lastDays": 64,
       "lastContactDate": "2026-02-12",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2448,7 +2458,7 @@
       "id": "jona-hauch",
       "company": "Jona Hauch",
       "stage": "Lost",
-      "lastDays": 51,
+      "lastDays": 52,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2474,8 +2484,8 @@
       "id": "cdp",
       "company": "CDP",
       "stage": "Meeting",
-      "lastDays": 8,
-      "lastContactDate": "2026-04-08",
+      "lastDays": 1,
+      "lastContactDate": "2026-04-16",
       "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
@@ -2488,22 +2498,22 @@
       "weighted_value": 15000.0,
       "emails": [
         {
-          "date": "2026-04-08",
-          "subject": "Accepted: Byzantine Prime - per CDP VC @ Thu 16 Apr 2026 11am - 12pm (CEST) (Gaia Ferrero Regis)",
+          "date": "2026-04-16",
+          "subject": "Accepted: Byzantine Prime - per CDP VC @ Mon 20 Apr 2026 9am - 10am (CEST) (Gaia Ferrero Regis)",
           "direction": "sent",
           "snippet": "Byzantine Prime - per CDP VC Gaia Ferrero Regis has accepted this invitation. ________________________________________________________________________________ Riunione di Microsoft Teams Partecipa a:"
         },
         {
-          "date": "2026-04-08",
+          "date": "2026-04-16",
+          "subject": "R: Videocall Levi CDP VC/ Ferrero Regis Byzantine Finance",
+          "direction": "sent",
+          "snippet": "Ciao Laura, perfetto, ci vediamo lunedì alle 9:00. Grazie l&#39;invito in calendario. A presto! Gaia Gaia Ferrero Regis CEO | Byzantine Finance Book a meeting +33 6 22 23 87 79 On Thu, Apr 16, 2026 at"
+        },
+        {
+          "date": "2026-04-16",
           "subject": "Byzantine Prime - per CDP VC",
           "direction": "received",
           "snippet": "________________________________________________________________________________ Riunione di Microsoft Teams Partecipa a: https://teams.microsoft.com/meet/311051325362094?p=gSFhcmGL1boIU1EgwJ ID"
-        },
-        {
-          "date": "2026-04-08",
-          "subject": "R: Videocall Levi CDP VC/ Ferrero Regis Byzantine Finance",
-          "direction": "received",
-          "snippet": "Mando io un Teams allora. A presto, Laura Da: Gaia Ferrero Regis &lt;gaia@byzantine.fi&gt; Inviato: mercoledì 8 aprile 2026 12:51 A: Laura Scaramella &lt;laura.scaramella@cdpventurecapital.it&gt; Cc:"
         }
       ],
       "transcripts": []
@@ -2531,7 +2541,7 @@
       "id": "charles-grosdidier",
       "company": "Charles Grosdidier",
       "stage": "Active",
-      "lastDays": 35,
+      "lastDays": 36,
       "lastContactDate": "2026-03-12",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2569,8 +2579,8 @@
       "id": "bitvavo",
       "company": "Bitvavo",
       "stage": "Proposal / Negotiation",
-      "lastDays": 2,
-      "lastContactDate": "2026-04-14",
+      "lastDays": 1,
+      "lastContactDate": "2026-04-16",
       "lastContactType": "email_received",
       "priority": "High",
       "notes": "",
@@ -2583,6 +2593,12 @@
       "weighted_value": 25000000.0,
       "emails": [
         {
+          "date": "2026-04-16",
+          "subject": "Accepted: Ramin (Bitvavo) <> Gaia (Byzantine) @ Thu 16 Apr 2026 5pm - 5:30pm (CEST) (gaia@byzantine.fi)",
+          "direction": "received",
+          "snippet": "Ramin (Bitvavo) &lt;&gt; Gaia (Byzantine) Ramin Kader has accepted this invitation. When Thursday 16 Apr 2026 ⋅ 5pm – 5:30pm (Central European Time - Paris) Location Café Ruc, 159 Rue Saint-Honoré,"
+        },
+        {
           "date": "2026-04-14",
           "subject": "Re: April 2, quick thought",
           "direction": "received",
@@ -2593,12 +2609,6 @@
           "subject": "Re: April 2, quick thought",
           "direction": "sent",
           "snippet": "Hi all, Thanks Coen for looping everyone in - and Ramin, would be great to connect at PBW if you have a window. Gijs, Gustav, thanks for offering to host in Amsterdam. I&#39;ll be there on the 28th, s"
-        },
-        {
-          "date": "2026-04-14",
-          "subject": "Re: April 2, quick thought",
-          "direction": "received",
-          "snippet": "Hi Gaia, I won&#39;t be in PBW myself, but Ramin (in copy), our Head of Business Development, will be there. I know he has a packed schedule, but it would be great for you guys to connect, as the DeFi"
         }
       ],
       "transcripts": [
@@ -2640,8 +2650,8 @@
           ],
           "company": "Byz Onboarding - Chiara El Rikabi",
           "external_domains": [
-            "21shares.com",
-            "intesasanpaolo.com"
+            "intesasanpaolo.com",
+            "21shares.com"
           ],
           "external_emails": [
             "massimo.siano@21shares.com",
@@ -2678,7 +2688,7 @@
       "id": "flag-finance",
       "company": "Flag Finance",
       "stage": "Meeting",
-      "lastDays": 98,
+      "lastDays": 99,
       "lastContactDate": "2026-01-08",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2716,7 +2726,7 @@
       "id": "bitcoin-suisse",
       "company": "Bitcoin Suisse",
       "stage": "Meeting",
-      "lastDays": 15,
+      "lastDays": 16,
       "lastContactDate": "2026-04-01",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2754,7 +2764,7 @@
       "id": "titanbay",
       "company": "Titanbay",
       "stage": "Contacted",
-      "lastDays": 15,
+      "lastDays": 16,
       "lastContactDate": "2026-04-01",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2811,7 +2821,7 @@
       "id": "sibill",
       "company": "Sibill",
       "stage": "Proposal / Negotiation",
-      "lastDays": 9,
+      "lastDays": 10,
       "lastContactDate": "2026-04-07",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -2849,7 +2859,7 @@
       "id": "welara",
       "company": "Welara",
       "stage": "Meeting",
-      "lastDays": 55,
+      "lastDays": 56,
       "lastContactDate": "2026-02-20",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2887,7 +2897,7 @@
       "id": "eric-bouanich",
       "company": "Eric Bouanich",
       "stage": "Proposal / Negotiation",
-      "lastDays": 16,
+      "lastDays": 17,
       "lastContactDate": "2026-03-31",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2925,7 +2935,7 @@
       "id": "request-network",
       "company": "Request Network",
       "stage": "Proposal / Negotiation",
-      "lastDays": 6,
+      "lastDays": 7,
       "lastContactDate": "2026-04-10",
       "lastContactType": "transcript",
       "priority": "High",
@@ -3002,25 +3012,6 @@
           "external_emails": [
             "scohen@tranzworldns.com"
           ]
-        },
-        {
-          "date": "2026-04-08",
-          "title": "Meet – Actually pay out rewards",
-          "participants": [
-            "benoit@byzantine.fi",
-            "jonas@byzantine.fi"
-          ],
-          "summary": "- **Rewards Payout Decision:** Payment timing on user rewards postponed until dashboard updates; potential early payout for Xavier discussed.  \n- **Monthly Review Proposal:** Regular checks on reward distributions are suggested; clear rules for extra rewards are needed.  \n- **Vault System Review:** User-specific vault access exists; fund migration functions clarify reward tracking.  \n- **Referral Reward Mechanics:** Discussion ongoing about simplifying referral rewards; potential shift from automatic rewards acknowledged.  \n- **White-Label Platform Request:** Key client seeks unbranded platform; strategic implications for customization options noted.  \n- **Follow-Up Meeting Scheduled:** Coordinated effort to finalize payout processes; clearer roles established for smoother operations.",
-          "actionItems": [
-            "**Jonas Bokelmann**",
-            "Schedule a follow-up meeting in about two days to discuss updates on reward payout strategy and referral page improvements (04:49)",
-            "Set a meeting for Friday late morning to further discuss how to pay rewards going forward (06:06)",
-            "**Matteo Maschio**",
-            "Monitor and take ownership of monthly reward status checks and help define rules around payout frequency and exceptions (04:24)"
-          ],
-          "company": "Actually pay out rewards",
-          "external_domains": [],
-          "external_emails": []
         }
       ]
     },
@@ -3028,7 +3019,7 @@
       "id": "gocanopy",
       "company": "GoCanopy",
       "stage": "Meeting",
-      "lastDays": 22,
+      "lastDays": 23,
       "lastContactDate": "2026-03-25",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3066,7 +3057,7 @@
       "id": "maki-people",
       "company": "Maki People",
       "stage": "Proposal / Negotiation",
-      "lastDays": 132,
+      "lastDays": 133,
       "lastContactDate": "2025-12-05",
       "lastContactType": "email_received",
       "priority": "High",
@@ -3092,7 +3083,7 @@
       "id": "samuel-mottais",
       "company": "Samuel Mottais",
       "stage": "Active",
-      "lastDays": 94,
+      "lastDays": 95,
       "lastContactDate": "2026-01-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3137,7 +3128,7 @@
       "id": "intesa-sanpaolo",
       "company": "Intesa Sanpaolo",
       "stage": "Proposal / Negotiation",
-      "lastDays": 2,
+      "lastDays": 3,
       "lastContactDate": "2026-04-14",
       "lastContactType": "email_received",
       "priority": "High",
@@ -3212,8 +3203,8 @@
           ],
           "company": "Byz Onboarding - Chiara El Rikabi",
           "external_domains": [
-            "21shares.com",
-            "intesasanpaolo.com"
+            "intesasanpaolo.com",
+            "21shares.com"
           ],
           "external_emails": [
             "massimo.siano@21shares.com",
@@ -3241,8 +3232,8 @@
           ],
           "company": "Byz Onboarding - Chiara El Rikabi",
           "external_domains": [
-            "21shares.com",
-            "intesasanpaolo.com"
+            "intesasanpaolo.com",
+            "21shares.com"
           ],
           "external_emails": [
             "massimo.siano@21shares.com",
@@ -3281,7 +3272,7 @@
       "id": "payflow",
       "company": "Payflow",
       "stage": "Meeting",
-      "lastDays": 42,
+      "lastDays": 43,
       "lastContactDate": "2026-03-05",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3307,7 +3298,7 @@
       "id": "jethr",
       "company": "JetHR",
       "stage": "Lost",
-      "lastDays": 50,
+      "lastDays": 51,
       "lastContactDate": "2026-02-25",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3345,7 +3336,7 @@
       "id": "arthur-bloch",
       "company": "Arthur Bloch",
       "stage": "Active",
-      "lastDays": 64,
+      "lastDays": 65,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3383,7 +3374,7 @@
       "id": "thibault-gimenez",
       "company": "Thibault Gimenez",
       "stage": "Qualification",
-      "lastDays": 38,
+      "lastDays": 39,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3460,7 +3451,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3475,7 +3466,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3490,7 +3481,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3505,7 +3496,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -3520,7 +3511,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3535,7 +3526,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -3550,7 +3541,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3565,7 +3556,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3580,7 +3571,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3595,7 +3586,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -3610,7 +3601,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -3625,7 +3616,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -3640,7 +3631,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -3655,7 +3646,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3670,7 +3661,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3685,7 +3676,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3700,7 +3691,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3715,7 +3706,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3730,7 +3721,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3745,7 +3736,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -3760,7 +3751,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -3775,7 +3766,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3790,7 +3781,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -3805,7 +3796,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -3820,7 +3811,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3837,7 +3828,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -3852,7 +3843,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3867,7 +3858,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3882,7 +3873,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3897,7 +3888,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3912,7 +3903,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3927,7 +3918,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3942,7 +3933,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3957,7 +3948,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3972,7 +3963,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -3987,7 +3978,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4002,7 +3993,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4017,7 +4008,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4032,7 +4023,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4047,7 +4038,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4062,7 +4053,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4079,7 +4070,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4094,7 +4085,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4109,7 +4100,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4124,7 +4115,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4139,7 +4130,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4156,7 +4147,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 4,
+      "days_to_close": 3,
       "close_date": "2026-04-21",
       "weighted_value": null
     },
@@ -4171,7 +4162,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4186,7 +4177,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4201,7 +4192,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4216,7 +4207,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4231,7 +4222,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4246,7 +4237,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4261,7 +4252,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4276,7 +4267,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4291,7 +4282,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4306,7 +4297,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4321,7 +4312,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4336,7 +4327,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4351,7 +4342,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4366,7 +4357,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4381,7 +4372,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4396,7 +4387,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4411,7 +4402,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4426,7 +4417,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4441,7 +4432,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4456,7 +4447,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4473,7 +4464,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4488,7 +4479,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4503,7 +4494,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4518,7 +4509,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4533,7 +4524,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4548,7 +4539,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4563,7 +4554,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4578,7 +4569,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4593,7 +4584,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4608,7 +4599,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4623,7 +4614,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4638,7 +4629,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4653,7 +4644,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4668,7 +4659,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4683,7 +4674,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4698,7 +4689,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4713,7 +4704,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4728,7 +4719,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4743,7 +4734,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4758,7 +4749,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4773,7 +4764,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4790,7 +4781,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4805,7 +4796,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4820,7 +4811,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4835,7 +4826,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4850,7 +4841,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4865,7 +4856,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4880,7 +4871,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4895,7 +4886,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4910,7 +4901,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4925,7 +4916,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     },
@@ -4940,7 +4931,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 7,
+      "days_to_close": 6,
       "close_date": "2026-04-24",
       "weighted_value": null
     },
@@ -4955,7 +4946,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 2,
+      "days_to_close": 1,
       "close_date": "2026-04-19",
       "weighted_value": null
     }
@@ -4996,6 +4987,90 @@
   },
   "meetings": [],
   "all_transcripts": [
+    {
+      "date": "2026-04-16",
+      "title": "Meet – Jonas / Kyle",
+      "participants": [
+        "kylemilley@bridge.xyz"
+      ],
+      "summary": "- **Contract Agreement:** One-year contract set at $6,000 minimum with a 25 basis points processing fee negotiated.  \n- **Retroactive Terms Discussion:** Potential retroactive application to March for credits discussed, but not guaranteed.  \n- **Flexibility in Contract Length:** A possible 13-14 month agreement discussed to accommodate retroactive adjustments.  \n- **Processing Fee Structure:** Discounts tied to minimum monthly volume of $6 million or more to lower effective costs.  \n- **Quick Tu",
+      "actionItems": [
+        "**Kyle Milley**",
+        "Push finance team to approve one-year extension deal with 6k minimum and reduced basis points around 25bps (05:53)",
+        "Attempt to secure retroactive application of new terms for March or at least for April, possibly as credit toward future invoices (08:26)",
+        "Confirm with finance the possibility of unusual contract lengths extending beyond one year to accommodate retroactive adjustment (09:59)",
+        "Notify Jonas by Slack around noon/twelve-thirty with finance approval status and draft addendum details (10:54)"
+      ],
+      "company": "Jonas / Kyle",
+      "linked_deal": null
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Meet – Samuel x Byzantine - plateforme CGP",
+      "participants": [
+        "gaia@byzantine.fi",
+        "benoit@byzantine.fi",
+        "samuel.rahmine@oxcps.com"
+      ],
+      "summary": "- **Paris Blockchain Week Attendance:** Key event for market presence to boost visibility and connect with industry leaders and clients.\n\n- **Subscription Models Discussion:** Focus on commercial subscriptions for steady revenue, including white-label offerings aligned with market trends.\n\n- **Function Flow Platform Development:** Ongoing development aims to improve user workflows with a blend of automated and manual processes.\n\n- **Self-Custody Wallet Features:** Integrating Lam Sismo to enhanc",
+      "actionItems": [
+        "**Benoît de Dieuleveult**",
+        "Develop and refine the partial function flow platform incorporating face-to-face elements as introduced in the discussion (01:50)",
+        "Address and improve validation mechanisms to prevent wrong validation cases as discussed (11:56)",
+        "Lead debugging processes incorporating team feedback according to the planned timelines to ensure system reliability (16:27)",
+        "**Samuel Rahmine**"
+      ],
+      "company": "",
+      "linked_deal": "OX Capital Partners"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "meet-jean-yves-byzantine-2026-04-15_xnoGgeCt.mp3",
+      "participants": [],
+      "summary": "- **Réinitialisation du Passkey:** Nouveau processus sécurisé avec envoi d'un code par mail pour validation d'identité.\n\n- **Problème d'accès initial résolu:** Le Passkey peut être stocké sur plusieurs appareils, solution avec double vérification rapide.\n\n- **Création de comptes clients simplifiée:** Comptes professionnels créés via l'interface et particuliers par lien de parrainage.\n\n- **Support utilisateur maintenu:** Communication rapide par email et WhatsApp pour répondre aux questions et re",
+      "actionItems": [
+        "**Benoît (CPO)**",
+        "Assister activement à la réinitialisation du Passkey avec partage d’écran pour guider l'utilisateur (03:00)",
+        "**Jean-Yves**",
+        "Copier/coller le code d’identification reçu par mail dans le champ prévu sur la page de récupération pour valider la réinitialisation (07:32)",
+        "Finaliser la création du Passkey en suivant les étapes proposées sur le navigateur et retenter la procédure si nécessaire (09:00)"
+      ],
+      "company": "",
+      "linked_deal": null
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Meet – Stefan Peter and Matteo Maschio",
+      "participants": [],
+      "summary": "- **Product Yield:** Investment yields between **4% and 8%**, depending on currency and insurance options, with instant liquidity.  \n- **Collateral and Loans:** Loans to borrowers require **150% collateral**; maintained liquidity ensures funds for instant withdrawal.  \n- **User-Friendly Experience:** Onboarding via email and bank transfer eliminates complexity; no minimum investment attracts more users.  \n- **Regulatory Compliance:** Managed by **Kirok**, compliant with European regulations, ens",
+      "actionItems": [
+        "**Matteo Maschio**",
+        "Review European Private Wealth Excellence Forum details and discuss participation and budget approval with Gaia, CEO (18:24)",
+        "Follow up with Stefan Peter regarding next steps and fit of forum participation with Byzantine budget (18:43)",
+        "**Stefan Peter**",
+        "Send detailed information about the European Private Wealth Excellence Forum to Matteo for internal review (18:37)"
+      ],
+      "company": "Stefan Peter",
+      "linked_deal": null
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Meet – Vincent Belloc and Gaia Ferrero Regis",
+      "participants": [
+        "vbelloc@hotmail.fr",
+        "nathalie@mangosteen.ltd"
+      ],
+      "summary": "- **Expertise variée:** Les intervenants ont une forte expérience dans les paiements, fintech et crypto, reliant innovation et tradition.\n\n- **Produits Byzantine:** Propose des produits financiers avec rendements de 4-6% et garantie de capital jusqu'à 20 millions par client.\n\n- **Pipeline structuré:** Segmentation par taille d'actifs pour cibler efficacement CGP, entreprises et banques, avec un potentiel de 50 à 300 millions d'euros.\n\n- **Défis d'adoption:** Confiance et connaissance du produit ",
+      "actionItems": [
+        "**Gaia Ferrero Regis**",
+        "Continuer de réfléchir à l’intégration potentielle de l’aide de Mangosteen pour réduire le cycle de vente et augmenter les allocations client (32:16)",
+        "Préparer des documents ou outils pour mieux expliquer comment Byzantine s’aligne avec les besoins commerciaux (36:41)",
+        "**Vincent Belloc**",
+        "Élaborer une proposition structurée pour expliquer comment Mangosteen peut aider Byzantine à améliorer son go-to-market et stratégie commerciale (36:41)"
+      ],
+      "company": "Vincent Belloc",
+      "linked_deal": null
+    },
     {
       "date": "2026-04-15",
       "title": "Meet – Gaia Ferrero and Luke Hajdukiewicz",
@@ -5642,96 +5717,87 @@
       ],
       "company": "",
       "linked_deal": "OX Capital Partners"
-    },
-    {
-      "date": "2026-04-08",
-      "title": "Patrizia",
-      "participants": [],
-      "summary": "- **Gravi ritardi e responsabilità:** Ritardi e mancanza di responsabilità nel team causano stress, specialmente per Gaia che gestisce quasi tutto.\n\n- **Dinamiche disfunzionali:** Gaia è vista come capro espiatorio, mentre Jonas e Benoit non si assumono responsabilità adeguate.\n\n- **Burnout di Gaia:** Pressione e solitudine aumentano il rischio di burnout, rendendo insostenibile la sua situazione lavorativa.\n\n- **Comunicazione inefficace:** Messaggi tardivi e conflitti peggiorano la situazione, ",
-      "actionItems": [
-        "**Gaia**",
-        "Monitorare costantemente lo sviluppo prodotto e sollecitare rispetto delle scadenze (00:09)",
-        "Gestire le comunicazioni con i cofondatori, cercando di stabilire un dialogo costruttivo nonostante le critiche ricevute (03:05)",
-        "Rivedere il modello di relazione interna nel team per evitare il ruolo di capro espiatorio e promuovere una maggiore assunzione di responsabilità da parte di tutti (22:28)",
-        "Prendere consapevolezza delle proprie emozioni, cercando di trasformare la rabbia in un’energia positiva e funzionale alla gestione del lavoro (19:32)"
-      ],
-      "company": "",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-08",
-      "title": "Meet – Actually pay out rewards",
-      "participants": [
-        "benoit@byzantine.fi",
-        "matteo@byzantine.fi"
-      ],
-      "summary": "- **Delay in reward payouts**: Payouts postponed until referral dashboard updates; planned review in two days for better clarity.\n\n- **Monthly reward review plan**: Matteo will oversee monthly checks on reward distribution; follow-up meeting to align on payment rules.\n\n- **Referral system inconsistencies**: Manual adjustments are needed for visibility and rewards; fund migration is possible after deposits for flexibility.\n\n- **Interest in white label platform**: Potential client seeks a version ",
-      "actionItems": [
-        "**Jonas Bokelmann**",
-        "Schedule a follow-up meeting in two days to discuss updates to the referral page and finalize the payout strategy (04:47)",
-        "Organize another meeting on Friday late morning to further discuss reward payouts and related topics (05:55)",
-        "**Matteo Maschio**",
-        "Take ownership of monthly reviews and monitoring of reward payouts once payout rules and frequency are defined (03:50)"
-      ],
-      "company": "Actually pay out rewards",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-08",
-      "title": "Meet – Actually pay out rewards",
-      "participants": [
-        "benoit@byzantine.fi",
-        "jonas@byzantine.fi"
-      ],
-      "summary": "- **Rewards Payout Decision:** Payment timing on user rewards postponed until dashboard updates; potential early payout for Xavier discussed.  \n- **Monthly Review Proposal:** Regular checks on reward distributions are suggested; clear rules for extra rewards are needed.  \n- **Vault System Review:** User-specific vault access exists; fund migration functions clarify reward tracking.  \n- **Referral Reward Mechanics:** Discussion ongoing about simplifying referral rewards; potential shift from auto",
-      "actionItems": [
-        "**Jonas Bokelmann**",
-        "Schedule a follow-up meeting in about two days to discuss updates on reward payout strategy and referral page improvements (04:49)",
-        "Set a meeting for Friday late morning to further discuss how to pay rewards going forward (06:06)",
-        "**Matteo Maschio**",
-        "Monitor and take ownership of monthly reward status checks and help define rules around payout frequency and exceptions (04:24)"
-      ],
-      "company": "Actually pay out rewards",
-      "linked_deal": "GOin"
-    },
-    {
-      "date": "2026-04-08",
-      "title": "Meet – Actually pay out rewards",
-      "participants": [
-        "benoit@byzantine.fi",
-        "jonas@byzantine.fi"
-      ],
-      "summary": "- **Referral Reward Process Clarified:** Dashboard shows status; €100 bonus paid after referee deposits over €5,000 monthly.  \n\n- **Payment Complexity Discussed:** Bonuses require careful validation; placeholders can complicate payouts; distinct timeframes exist for reward types.  \n\n- **System Limitations Identified:** No support for partial payments, only full payouts; manual workarounds necessary for complex scenarios.  \n\n- **Enhancements Needed for Tracking:** Payments should come from a spec",
-      "actionItems": [
-        "**Benoît de Dieuleveult**",
-        "Provide Jonas Bokelmann with access link to the referral rewards admin dashboard to enable proper data viewing and management (02:59)",
-        "Enable the functionality to mark referral bonuses as paid in the database once payouts are completed, improving tracking of reward statuses (10:48)",
-        "Continue work on CGP project tasks including fixing the PDF for Xavier and developing an accordion feature for earnings lines in table directions (13:58)",
-        "Investigate and improve the tracking of rewards payout transactions, ensuring payments are sent from a specific wallet to allow proper tracking and reconciliation (15:32)"
-      ],
-      "company": "Actually pay out rewards",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-08",
-      "title": "Meet – Actually pay out rewards",
-      "participants": [
-        "benoit@byzantine.fi",
-        "matteo@byzantine.fi"
-      ],
-      "summary": "- **Referral Rewards Management:** €5,000 deposit triggers €100 rewards; fee-free rewards depend on three-month tracking and visibility.\n\n- **Complexity Handling:** Specific referrals like Matteo's don't qualify for €100 bonuses; clarity on payouts is essential to avoid confusion.\n\n- **Payout Flexibility:** Current system lacks partial payments; enhancements needed for monthly fee-free payouts and diverse reward timelines.\n\n- **Payment Tracking:** Manual system with binary status limits accuracy",
-      "actionItems": [
-        "**Benoît de Dieuleveult**",
-        "Provide Jonas with access link to the referral rewards dashboard for visibility and review (03:37)",
-        "Track and mark referral rewards as paid in the database, updating logic to handle payment flags per user and support full payment marking (10:35)",
-        "Develop a simple pop-up payment interface integrated into the rewards dashboard to facilitate manual reward disbursal with prefilled wallet addresses (16:25)",
-        "Ensure wallet address tracking integrates with the transactions list and verify indexer configuration supports this linkage for accurate payment tracking (19:30)"
-      ],
-      "company": "Actually pay out rewards",
-      "linked_deal": "GOin"
     }
   ],
   "activity_feed": [
+    {
+      "date": "2026-04-16",
+      "type": "email_received",
+      "company": "The Level Group",
+      "summary": "Received: Deadline approaching: shine on the global treasury stage"
+    },
+    {
+      "date": "2026-04-16",
+      "type": "transcript",
+      "company": "OX Capital Partners",
+      "summary": "- **Paris Blockchain Week Attendance:** Key event for market presence to boost visibility and connect with industry leaders and clients.\n\n- **Subscription Models Discussion:** Focus on commercial subs"
+    },
+    {
+      "date": "2026-04-16",
+      "type": "email_sent",
+      "company": "Holifya",
+      "summary": "Sent: KYB in progress - Byzantine Finance"
+    },
+    {
+      "date": "2026-04-16",
+      "type": "email_sent",
+      "company": "Holifya",
+      "summary": "Sent: Giorgio Biscotti invited you to join Holifya - Byzantine Finance"
+    },
+    {
+      "date": "2026-04-16",
+      "type": "transcript",
+      "company": "GOin",
+      "summary": "- **Paris Blockchain Week Attendance:** Key event for market presence to boost visibility and connect with industry leaders and clients.\n\n- **Subscription Models Discussion:** Focus on commercial subs"
+    },
+    {
+      "date": "2026-04-16",
+      "type": "email_sent",
+      "company": "CDP",
+      "summary": "Sent: Accepted: Byzantine Prime - per CDP VC @ Mon 20 Apr 2026 9am - 10am (CEST) (Gaia Ferrero Regis)"
+    },
+    {
+      "date": "2026-04-16",
+      "type": "email_sent",
+      "company": "CDP",
+      "summary": "Sent: R: Videocall Levi CDP VC/ Ferrero Regis Byzantine Finance"
+    },
+    {
+      "date": "2026-04-16",
+      "type": "email_received",
+      "company": "CDP",
+      "summary": "Received: Byzantine Prime - per CDP VC"
+    },
+    {
+      "date": "2026-04-16",
+      "type": "email_received",
+      "company": "Bitvavo",
+      "summary": "Received: Accepted: Ramin (Bitvavo) <> Gaia (Byzantine) @ Thu 16 Apr 2026 5pm - 5:30pm (CEST) (gaia@byzantine.fi)"
+    },
+    {
+      "date": "2026-04-16",
+      "type": "transcript",
+      "company": "Jonas / Kyle",
+      "summary": "- **Contract Agreement:** One-year contract set at $6,000 minimum with a 25 basis points processing fee negotiated.  \n- **Retroactive Terms Discussion:** Potential retroactive application to March for"
+    },
+    {
+      "date": "2026-04-16",
+      "type": "transcript",
+      "company": "meet-jean-yves-byzantine-2026-04-15_xnoGgeCt.mp3",
+      "summary": "- **Réinitialisation du Passkey:** Nouveau processus sécurisé avec envoi d'un code par mail pour validation d'identité.\n\n- **Problème d'accès initial résolu:** Le Passkey peut être stocké sur plusieur"
+    },
+    {
+      "date": "2026-04-16",
+      "type": "transcript",
+      "company": "Stefan Peter",
+      "summary": "- **Product Yield:** Investment yields between **4% and 8%**, depending on currency and insurance options, with instant liquidity.  \n- **Collateral and Loans:** Loans to borrowers require **150% colla"
+    },
+    {
+      "date": "2026-04-16",
+      "type": "transcript",
+      "company": "Vincent Belloc",
+      "summary": "- **Expertise variée:** Les intervenants ont une forte expérience dans les paiements, fintech et crypto, reliant innovation et tradition.\n\n- **Produits Byzantine:** Propose des produits financiers ave"
+    },
     {
       "date": "2026-04-15",
       "type": "transcript",
@@ -5743,84 +5809,6 @@
       "type": "email_sent",
       "company": "Holifya",
       "summary": "Sent: Re: Holifya <> Byzantine: documenti e accesso app"
-    },
-    {
-      "date": "2026-04-15",
-      "type": "email_received",
-      "company": "Holifya",
-      "summary": "Received: Re: Holifya <> Byzantine: documenti e accesso app"
-    },
-    {
-      "date": "2026-04-15",
-      "type": "email_sent",
-      "company": "Holifya",
-      "summary": "Sent: Re: Holifya <> Byzantine: documenti e accesso app"
-    },
-    {
-      "date": "2026-04-15",
-      "type": "email_sent",
-      "company": "Jump",
-      "summary": "Sent: Re: Byzantine x Jump"
-    },
-    {
-      "date": "2026-04-15",
-      "type": "transcript",
-      "company": "Call - Jonas Bokelmann + Jorge Schnura",
-      "summary": "- **Euro-Denominated Product Proposal:** Aims for 60% low-yield liquidity and 40% yield kicker, targeting 10-15% yields.\n\n- **Current Kirok Product Landscape:** Includes Q Absolute Alpha Fund (16.6% A"
-    },
-    {
-      "date": "2026-04-15",
-      "type": "transcript",
-      "company": "ptp-pghv-udu",
-      "summary": "- **Uscita di Jonas:** Decisione personale senza proposte costruttive; relazione disfunzionale creata dalle sue incapacità, non da Gaia.\n\n- **Dinamica tossica:** Manipolazione emotiva da parte di Jona"
-    },
-    {
-      "date": "2026-04-14",
-      "type": "transcript",
-      "company": "OX Capital Partners",
-      "summary": "- **Client Engagement Focus:** Strengthening relationships with partners to improve collaboration; Marco and Milan leading advocacy efforts.  \n- **Bitwav Re-engagement:** Active discussions resumed fo"
-    },
-    {
-      "date": "2026-04-14",
-      "type": "email_sent",
-      "company": "Jump",
-      "summary": "Sent: Accepted: Oliver (Jump) <> Gaia (Byzantine Finance) @ Thu 23 Apr 2026 4:30pm - 5pm (CEST) (Gaia Ferrero Regis)"
-    },
-    {
-      "date": "2026-04-14",
-      "type": "email_received",
-      "company": "Jump",
-      "summary": "Received: Accepted: Oliver (Jump) <> Gaia (Byzantine Finance) @ Thu 23 Apr 2026 4:30pm - 5pm (CEST) (gaia@byzantine.fi)"
-    },
-    {
-      "date": "2026-04-14",
-      "type": "transcript",
-      "company": "Jump",
-      "summary": "- **Client Engagement Focus:** Strengthening relationships with partners to improve collaboration; Marco and Milan leading advocacy efforts.  \n- **Bitwav Re-engagement:** Active discussions resumed fo"
-    },
-    {
-      "date": "2026-04-14",
-      "type": "transcript",
-      "company": "Jump",
-      "summary": "- **Proposition de valeur de Byzantine** : Flexibilité du capital et sécurité des produits de trésorerie avec rendements nets de 4-6%.\n\n- **Produits assurés** : Euro et dollar, jusqu'à 20 millions d'e"
-    },
-    {
-      "date": "2026-04-14",
-      "type": "email_received",
-      "company": "Bitvavo",
-      "summary": "Received: Re: April 2, quick thought"
-    },
-    {
-      "date": "2026-04-14",
-      "type": "email_sent",
-      "company": "Bitvavo",
-      "summary": "Sent: Re: April 2, quick thought"
-    },
-    {
-      "date": "2026-04-14",
-      "type": "email_received",
-      "company": "Bitvavo",
-      "summary": "Received: Re: April 2, quick thought"
     }
   ]
 }
