@@ -1,13 +1,13 @@
 {
-  "sync_time": "2026-04-29T09:12:17+00:00",
+  "sync_time": "2026-04-30T09:13:47+00:00",
   "sources": {
-    "fireflies": {
-      "status": "ok",
-      "count": 50
-    },
     "gcal": {
       "status": "ok",
       "count": 500
+    },
+    "fireflies": {
+      "status": "ok",
+      "count": 14
     },
     "attio": {
       "status": "ok",
@@ -27,7 +27,7 @@
       "id": "skill-hunter",
       "company": "Skill Hunter",
       "stage": "Active",
-      "lastDays": 30,
+      "lastDays": 31,
       "lastContactDate": "2026-03-30",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -65,7 +65,7 @@
       "id": "thibault-coulon",
       "company": "Thibault Coulon",
       "stage": "Proposal / Negotiation",
-      "lastDays": 51,
+      "lastDays": 52,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "High",
@@ -103,7 +103,7 @@
       "id": "bleap-finance",
       "company": "Bleap Finance",
       "stage": "Meeting",
-      "lastDays": 16,
+      "lastDays": 17,
       "lastContactDate": "2026-04-13",
       "lastContactType": "meeting",
       "priority": "Med",
@@ -141,7 +141,7 @@
       "id": "jeremy-giraud",
       "company": "Jeremy Giraud",
       "stage": "Qualification",
-      "lastDays": 49,
+      "lastDays": 50,
       "lastContactDate": "2026-03-11",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -179,7 +179,7 @@
       "id": "athletico-ventures",
       "company": "Athletico Ventures",
       "stage": "Active",
-      "lastDays": 43,
+      "lastDays": 44,
       "lastContactDate": "2026-03-17",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -217,8 +217,8 @@
       "id": "the-level-group",
       "company": "The Level Group",
       "stage": "Paused",
-      "lastDays": 2,
-      "lastContactDate": "2026-04-27",
+      "lastDays": 77,
+      "lastContactDate": "2026-02-12",
       "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
@@ -231,116 +231,32 @@
       "weighted_value": 0.05,
       "emails": [
         {
-          "date": "2026-04-27",
-          "subject": "GPT-5.5 \"Spud\" Arrives + Google's $40B Anthropic Bet + The Sovereign AI Era",
+          "date": "2026-02-12",
+          "subject": "antonino.molino@thelevelgroup.com viewed the document The Level Group",
           "direction": "received",
-          "snippet": "Join me at Startup Grind with 5000+ founders, investors &amp; operators in Redwood City! ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌"
+          "snippet": "DocSend Hey GaiaFerrero, antonino.molino@thelevelgroup.com viewed the document The Level Group! An antonino.molino@thelevelgroup.com TLG Milan, Italy VIEWED The Level Group TLG 0​ View all stats Don"
         },
         {
-          "date": "2026-04-22",
-          "subject": "The Valley Is Buzzing. Here's Why......",
+          "date": "2026-02-04",
+          "subject": "The Daily Spin - Feb 4 is out! 🔥",
           "direction": "received",
-          "snippet": "Startup Grind - Silicon Valley, San Francisco Bay Area View in browser Startup Grind Silicon Valley, San Francisco Bay Area Hey there Bay Area folks, Greetings from Redwood City - the whole SG HQ has"
+          "snippet": "Display in browser Get ready for IPEM Wealth 2026 IPEM Wealth 2026 The Daily Spin - Feb. 4 🔥 Doors open at 8:30 AM! IPEM Wealth 2026 The Daily Spin - Feb. 4 🔥 Doors open at 8:30 AM! Hello Gaia, Good"
         },
         {
-          "date": "2026-04-16",
-          "subject": "Deadline approaching: shine on the global treasury stage",
+          "date": "2025-12-09",
+          "subject": "🚀 Join the biggest crypto and Web3 event of 2026 – 20,000+ attendees expected",
           "direction": "received",
-          "snippet": "Final call for nominations: Submit your 2026 entry before the May 8th deadline for our revamped Barcelona ceremony. Read in browser The benchmark of treasury excellence Hello Gaia, The clock is tickin"
+          "snippet": "Hi team, My name is Matt, and I&#39;m reaching out from the Blockchain Forum 2026 team - the leading blockchain and Web3 event taking place in Moscow, April 14–15, 2026. We&#39;re now finalizing our"
         }
       ],
-      "transcripts": [
-        {
-          "date": "2026-04-27",
-          "title": "Meet – Arnaud x Byzantine",
-          "participants": [
-            "gaia@byzantine.fi",
-            "achanpeng614@gmail.com"
-          ],
-          "summary": "- **Compensation Model:** Proposed €2000 monthly base plus increased revenue share to motivate proactive sales and improve forecasts.  \n\n- **Risk Sharing:** Variable pay linked to revenue aims to balance fixed security with incentives for proactive follow-ups.  \n\n- **Sales Triggers:** Focus on demo completions and signatures as key sales milestones to drive compensation and performance evaluation.  \n\n- **Revenue Sharing Transparency:** Clear revenue share terms and visibility on compensation necessary to build trust and motivate sales reps.  \n\n- **Incentives for Engagement:** Linking demos to compensation aims to enhance pipeline activity and overall revenue generation.  \n\n- **Need for Direct Communication:** In-person discussions prioritized to resolve complex compensation terms and clarify expectations efficiently.",
-          "actionItems": [
-            "**Gaia Ferrero Regis**",
-            "Confirm the final compensation structure incorporating base salary and variable components to clarify risk levels and incentives (02:40)",
-            "Follow up on details related to customer success upgrades and volume management to ensure service adjustments are properly handled (12:10)",
-            "Clarify and promote the messaging strategy for product or service names as discussed to align marketing efforts (19:52)",
-            "**Arnaud Chan Peng**"
-          ],
-          "company": "",
-          "external_domains": [],
-          "external_emails": []
-        },
-        {
-          "date": "2026-04-24",
-          "title": "Meet – Erik Ferrarese and Matteo Maschio",
-          "participants": [
-            "erik.ferrarese.ft@gmail.com"
-          ],
-          "summary": "- **Blockchain's Role:** Blockchain enhances risk management and asset placement in crypto and alternative investments, linked to wealth management.  \n- **Investment Placement Structure:** A three-tier structure for investment managers ensures regulatory alignment and includes family offices as key stakeholders.  \n- **Certification Process:** A three-level certification is vital for investment managers in crypto to ensure compliance and investor confidence.  \n- **Fundraising Mechanisms:** Certified managers are essential for fundraising, attracting family offices and private clients while maintaining legal standards.  \n- **Market Expansion:** Focus on Italy and France highlights opportunities in European markets, necessitating compliance with local regulations.  \n- **Cross-Border Strategies:** Multi-jurisdictional planning supports diverse investment strategies and requires complex risk management across regulations.",
-          "actionItems": [
-            "**Matteo Maschio**",
-            "Provide a detailed overview on blockchain and risk management protocols, including Holy protocol and trading desk specifics (01:45)",
-            "Outline broker and financial advisor functions with focus on blockchain and alternative investments minima (12:28)",
-            "**Erik Ferrarese**",
-            "Clarify alternative investment concepts and expand on roles of family offices and venture capitals linked to digital assets (07:50)"
-          ],
-          "company": "Erik Ferrarese",
-          "external_domains": [],
-          "external_emails": []
-        },
-        {
-          "date": "2026-04-23",
-          "title": "Meet – Bitstack review",
-          "participants": [
-            "jonas@byzantine.fi",
-            "matteo@byzantine.fi"
-          ],
-          "summary": "- **Contract Draft Development:** New contract draft needs legal review; balancing speed and compliance for client response and legal safety.  \n- **Service Level Agreement:** Proposed 48-hour notification limit for lost money clarified; safeguards clients and limits liability.  \n- **Client Document Clarity:** Improved formatting in documents essential for client understanding; using italics for answers to enhance readability.  \n- **Phased Integration Approach:** Starting with Pactol for early issue identification; reduces risk before onboarding key clients.  \n- **Regulatory Language Management:** Ambiguous phrasing on partner launches protects from regulatory scrutiny while maintaining progress perception.  \n- **Enhanced Communication Strategy:** Direct email responses preferred for clarity; ensures professional interaction despite reliance on shared documents.",
-          "actionItems": [
-            "**Jonas Bokelmann**",
-            "Draft contract for CGPA and send intern’s draft with lawyer review before finalizing (05:33)",
-            "Clarify and send NDA signer details for Bancacella with name, email, and company info (06:29)",
-            "Review and finalize responses document refinements with Gaia’s input, ensuring question-answer clarity in italics (10:24)",
-            "Incorporate updated insurance limit language indicating potential increase from June (13:25)"
-          ],
-          "company": "Bitstack review",
-          "external_domains": [],
-          "external_emails": []
-        },
-        {
-          "date": "2026-04-23",
-          "title": "Meet – Byzantine <> Hodli",
-          "participants": [
-            "gianluca.sommariva@hodli.com",
-            "filippo.anania@hodli.com",
-            "matteo.tamagno@hodli.com",
-            "jonas@byzantine.fi"
-          ],
-          "summary": "- **Custody and Liquidity Model:** Confirmed dual-step custody model for managing liquidity with Vulture tokens as proof of deposit.\n\n- **API-driven Wallet Management:** API support for creating subaccounts enhances compliance and segregates client assets for flexibility.\n\n- **Risk Mitigation Measures:** Technical failures covered by audits and a bug bounty; insurance protects against hacks and exploits.\n\n- **Portfolio Management Strategy:** AI-driven asset allocation across risk levels; diversified exposure to optimize yield without concentration risk.\n\n- **Regulatory Compliance Timeline:** MICA licensing expected by June 2024; current custody at exchanges while moving towards in-house solutions.\n\n- **Next Steps for Integration:** Retail onboarding recommended; legal teams to align early for smoother integration and compliance.",
-          "actionItems": [
-            "**Lorenzo Maffia**",
-            "Review Byzantine API documentation and risk fact sheets with Hodli's legal and risk teams to ensure compliance and understand integration requirements (41:10)",
-            "Provide real-time feedback and questions from Hodli's legal team regarding MICA licensing and compliance issues to Byzantine (02:00)",
-            "Decide on custody solution preference between Byzantine turnkey wallet and Fireblocks institutional solution after internal discussion (43:40)",
-            "Assess necessity and feasibility of client wallet segregation to comply with AML and licensing requirements (23:45)"
-          ],
-          "company": "Hodli",
-          "external_domains": [
-            "hodli.com"
-          ],
-          "external_emails": [
-            "gianluca.sommariva@hodli.com",
-            "filippo.anania@hodli.com",
-            "matteo.tamagno@hodli.com"
-          ]
-        }
-      ]
+      "transcripts": []
     },
     {
       "id": "pennylane",
       "company": "Pennylane",
       "stage": "Meeting",
-      "lastDays": 9,
-      "lastContactDate": "2026-04-20",
+      "lastDays": 63,
+      "lastContactDate": "2026-02-26",
       "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
@@ -353,22 +269,22 @@
       "weighted_value": null,
       "emails": [
         {
-          "date": "2026-04-20",
-          "subject": "Protégez votre compte Pennylane",
-          "direction": "received",
-          "snippet": "Chez Pennylane, nous mettons tout en œuvre pour assurer la sécurité de vos données. Pour renforcer cette protection, voici les gestes simples et efficaces qui vous permettront de sécuriser au maximum"
-        },
-        {
-          "date": "2026-04-18",
-          "subject": "Fraude : Comment identifier une arnaque en un coup d'œil ? 🧐",
-          "direction": "received",
-          "snippet": "Nouveau sur Pennylane Academy ! Suivez notre cours Se protéger des tentatives de fraude et apprenez à réagir efficacement face aux menaces. Un email frauduleux ou un SMS malveillant ressemble souvent "
-        },
-        {
           "date": "2026-02-26",
           "subject": "Simplifiez la gestion de vos achats et de votre trésorerie",
           "direction": "received",
           "snippet": "Retrouvez les dernières actualités Pennylane pour les dirigeant(e)s d&#39;entreprise Retrouvez les dernières actualités Pennylane pour les dirigeant(e)s d&#39;entreprise Plus de flexibilité et de"
+        },
+        {
+          "date": "2026-02-15",
+          "subject": "BYZANTINE FINANCE: Bookkeeping - Documents and supporting documents to provide",
+          "direction": "received",
+          "snippet": "Bookkeeping - February 2026 Hello Gaia, This month, your accountant needs several actions from you to maintain smooth bookkeeping operations. 157 bank transactions require a receipt or clarification."
+        },
+        {
+          "date": "2026-02-07",
+          "subject": "Fraude : Comment signaler une fraude",
+          "direction": "received",
+          "snippet": "Nouveau sur Pennylane Academy ! Suivez notre cours Se protéger des tentatives de fraude et apprenez à réagir efficacement face aux menaces. Une technique courante des fraudeurs consiste à se faire"
         }
       ],
       "transcripts": []
@@ -377,7 +293,7 @@
       "id": "nicolas-bacca",
       "company": "Nicolas Bacca",
       "stage": "Active",
-      "lastDays": 28,
+      "lastDays": 29,
       "lastContactDate": "2026-04-01",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -434,7 +350,7 @@
       "id": "node-capital",
       "company": "Node Capital",
       "stage": "Paused",
-      "lastDays": 22,
+      "lastDays": 23,
       "lastContactDate": "2026-04-07",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -472,7 +388,7 @@
       "id": "jean-david-curiel",
       "company": "Jean-David Curiel",
       "stage": "Meeting",
-      "lastDays": 66,
+      "lastDays": 67,
       "lastContactDate": "2026-02-22",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -498,7 +414,7 @@
       "id": "tulyp",
       "company": "Tulyp",
       "stage": "Proposal / Negotiation",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-04-28",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -530,13 +446,38 @@
           "snippet": "Hello Maxime, Petit update de notre côté : on a pas mal avancé avec les CGP ces dernières semaines et le retour qu&#39;on a, c&#39;est que le pitch &quot;prêt surcollatéralisé / Lombard&quot; permet d"
         }
       ],
-      "transcripts": []
+      "transcripts": [
+        {
+          "date": "2026-03-06",
+          "title": "Meet – Gaia (Byzantine) -- Maxime (Tulyp)",
+          "participants": [
+            "max@tulyp.io",
+            "antonio@tulyp.io"
+          ],
+          "summary": "- **Language preference set for smoother communication.** Maxime chose French, enhancing the discussion flow among participants.  \n\n- **Focus on monitoring capital top-ups and subscriptions.** Emphasized need for precise tracking of financial transactions for compliance.  \n\n- **Blockchain disruption identified as key market influence.** Strategies will align to address blockchain impacts and evolving asset trends.  \n\n- **October conference noted as a critical distribution milestone.** Important for showcasing solutions and building partnerships in the market.  \n\n- **User interface design and volume handling discussed.** Ensuring scalability for user adoption during high-traffic periods is essential.  \n\n- **Ongoing collaboration on product features and usability.** Active efforts in refining UI/UX to enhance overall product effectiveness.",
+          "actionItems": [
+            "**Gaia Ferrero Regis**",
+            "Provide detailed compliance documentation as discussed during the meeting (05:27)",
+            "Share updates on blockchain impact on blue-chip disruption for further analysis (12:57)",
+            "Confirm front-end design specifications and collaborate with Maxime on implementation (26:38)",
+            "Prepare materials or summaries related to the October distribution conference participation (23:15)"
+          ],
+          "company": "",
+          "external_domains": [
+            "tulyp.io"
+          ],
+          "external_emails": [
+            "max@tulyp.io",
+            "antonio@tulyp.io"
+          ]
+        }
+      ]
     },
     {
       "id": "hugues-de-braucourt",
       "company": "Hugues de Braucourt",
       "stage": "Lost",
-      "lastDays": 79,
+      "lastDays": 80,
       "lastContactDate": "2026-02-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -574,7 +515,7 @@
       "id": "jonathan-jean-baptiste",
       "company": "Jonathan JEAN-BAPTISTE",
       "stage": "Meeting",
-      "lastDays": 93,
+      "lastDays": 94,
       "lastContactDate": "2026-01-26",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -600,7 +541,7 @@
       "id": "martino-grasselli",
       "company": "Martino Grasselli",
       "stage": "Qualification",
-      "lastDays": 47,
+      "lastDays": 48,
       "lastContactDate": "2026-03-13",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -657,7 +598,7 @@
       "id": "cyrille-jerabek",
       "company": "Cyrille Jerabek",
       "stage": "Meeting",
-      "lastDays": 71,
+      "lastDays": 72,
       "lastContactDate": "2026-02-17",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -695,9 +636,9 @@
       "id": "ox-capital-partners",
       "company": "OX Capital Partners",
       "stage": "Proposal / Negotiation",
-      "lastDays": 2,
-      "lastContactDate": "2026-04-27",
-      "lastContactType": "transcript",
+      "lastDays": 23,
+      "lastContactDate": "2026-04-07",
+      "lastContactType": "email_sent",
       "priority": "High",
       "notes": "",
       "nextSteps": "Meet him in Paris",
@@ -729,127 +670,124 @@
       ],
       "transcripts": [
         {
-          "date": "2026-04-27",
-          "title": "Meet – GTM review: Givanni <> Byzantine",
+          "date": "2026-03-13",
+          "title": "Meet – Weekly GTM",
           "participants": [
-            "matteo@byzantine.fi",
-            "giovanni.ruggiero10@gmail.com"
+            "gaia@byzantine.fi",
+            "timothee@byzantine.fi"
           ],
-          "summary": "- **Sviluppo Partnership:** Collaborazioni con integratori chiave per espandere il mercato, impegno di **20 milioni di euro** in corso.\n\n- **Integrazioni Attive:** Collaborazione con Bitstack e incontri con Young Platform, Bitvavo e Bitpanda per aumentare le partnership.\n\n- **Gestione Rischi DeFi:** Zero esposizione a eventi recenti, stabilità del prodotto evidenziata come vantaggio competitivo.\n\n- **Strategia di Vendita:** Focus su call decisive con partner qualificati, obiettivo di finalizzare accordi con Bitvavo e Ted Republic.\n\n- **Networking Strategico:** Utilizzo di contatti personali per accedere a opportunità di mercato, incontri a Amsterdam e Vienna programmati.",
+          "summary": "- **Partnership with Bitvavo:** Targeting a deal potentially worth 50 million euros, aiming for substantial growth with larger amounts next.  \n- **Sales Pipeline Structure:** Multi-tiered pipeline with 15-25 small deals, 10-15 medium, and 5-6 large deals focused on maximizing revenue.  \n- **Cold Caller Success:** New cold caller booked two demos in their first week; efficiency boosted by targeted lead lists for outreach.  \n- **Tool Automation:** Developing a dashboard integrating CRM and communication tools for real-time deal status and follow-up efficiency.  \n- **Networking Introductions:** Plans to leverage personal connections for introductions to family offices to enhance product pitching opportunities.",
           "actionItems": [
             "**Gaia Ferrero Regis**",
-            "Proseguire con la due diligence e le interazioni con Bitpanda, Bitvavo e Marex per consolidare le partnership e avanzare nello sviluppo dei prodotti (04:33)",
-            "Cercare e contattare eventuali nuovi contatti strategici a Amsterdam e Milano per facilitare collaborazioni future (11:20)",
-            "**Giovanni Ruggiero**",
-            "Organizzare la call con Bitvavo per avanzare l’integrazione con Byzantine e valutare la chiusura della collaborazione (06:35)"
+            "Share the detailed call script and ICP for cold caller outreach preparation (06:20)",
+            "Provide Timothée with access to Byzantine Claude dashboard for pipeline monitoring (36:30)",
+            "Provide a description of desired daily/weekly outputs for dashboard to Timothée (30:00)",
+            "**Timothée Colinet**"
           ],
-          "company": "Meet – GTM review: Givanni",
+          "company": "Weekly GTM",
           "external_domains": [],
           "external_emails": []
         },
         {
-          "date": "2026-04-24",
-          "title": "Meet – Co-Founder Catchup!",
+          "date": "2026-03-13",
+          "title": "Weekly GTM",
           "participants": [
             "gaia@byzantine.fi",
-            "benoit@byzantine.fi",
-            "alexandre@byzantine.fi"
+            "matteo@byzantine.fi",
+            "timothee@byzantine.fi"
           ],
-          "summary": "- **Transaction Getter Restructuring:** New design will provide six transaction types for improved UI filtering and backend handling.\n\n- **Vault ID Replacement:** Switching from vault ID to product ID to enhance security and simplify URLs is a low priority.\n\n- **April 28 Deadline:** Target set for updates to mainnet transactions and CGP info page for quicker system performance.\n\n- **Gas Estimation Bug Fix:** Immediate focus on automating gas estimation to prevent deposit failures and ensure smooth user experience.\n\n- **SoC2 Compliance Process:** Initiated to meet security standards, taking about five months to achieve certification for partnerships.\n\n- **Webhook Development in Rust:** Transaction and customer webhooks being designed for better data structure and integration within a month.",
+          "summary": "- **Partnership with Bitvavo**: Targeting €40-60 million deal; NDA to be sent soon; independent strategy proposal accepted.  \n- **Sales Pipeline Structure**: Focus on 70% of effort on large deals; segmented by size for risk balance and visibility.  \n- **Cold Calling Strategy**: New cold caller focusing on 120 leads; cost €1,000; prioritizing multifamily offices and CGPs.  \n- **Technology Integration**: Dashboard for tracking deal statuses and follow-ups in progress; aiming for automation in communication tracking.  \n- **Morning Brief System**: Proposed system to highlight follow-ups needed, streamlining daily task management for improved efficiency.  \n- **Content Strategy Alignment**: LinkedIn posts planned to boost visibility; emphasizes consistent messaging aligned with sales goals.",
           "actionItems": [
-            "**Jonas Bokelmann**",
-            "Move UI touch-ups to faster mainnet transaction integration by April 28 to meet the release deadline (06:58)",
-            "Inform Gaia about project updates and progress to keep stakeholders aligned (11:40)",
-            "Create a Telegram group for Pactol and request their necessary documents to advance integration efforts (21:29)",
-            "**Alexandre Sanson**"
+            "**Gaia Ferrero Regis**",
+            "Prepare and send out NDA to Bitvavo (01:39)",
+            "Review and update pipeline allocations and values to ensure at least 3x target AUM coverage (14:48)",
+            "Share detailed ICPs for cold caller outreach and integrate multi-family offices and independent CGPs lists (05:44)",
+            "Organize follow-up communications with sales leads and champions, ensuring clear tracking of tasks and next steps on a daily/weekly basis (26:33)"
           ],
-          "company": "Co-Founder Catchup!",
+          "company": "",
           "external_domains": [],
           "external_emails": []
         },
         {
-          "date": "2026-04-24",
-          "title": "Meet – Matte <> Gaia: review",
+          "date": "2026-03-12",
+          "title": "Meet – ABM ideas for earning programs",
           "participants": [
-            "gaia@byzantine.fi",
-            "jonas@byzantine.fi"
+            "timothee@byzantine.fi"
           ],
-          "summary": "- **Performance Feedback and Ownership Growth:** Matteo showed significant ownership and strategic impact, positively affecting workflow and satisfaction.\n\n- **Data Gathering and Process Standardization:** CGP data collection is prioritized to improve messaging effectiveness and conversion tracking, supporting sales playbook optimization.\n\n- **Interview and Hiring Strategy:** Freelance roles are preferred; internships will be considered based on cost implications and candidate interest.\n\n- **Culture and Team Alignment:** Positive team dynamics are improving; monthly bonus awarded for strong performance and cultural contributions.\n\n- **Strategic Vision and Future Plans:** Focus on standardizing sales workflows and testing new engagement formats like webinars with CGPs for market penetration.",
+          "summary": "- **Content Strategy Focus:** Develop diverse posts showing yield's role in customer acquisition and retention, aiming for 3 posts weekly.  \n- **Highlight DeFi Trends:** Emphasize competitor shifts toward DeFi, promoting the cost-effectiveness of in-house solutions versus white-label options.  \n- **Targeting & ICP Refinement:** Create a tiered ICP list and consolidate data for effective sales strategies, focusing on crypto brokers and neo banks.  \n- **AI Tools Integration:** Utilize AI for content creation efficiency, but maintain manual editing to enhance story depth and clarity.  \n- **Clear Internal Communication:** Ensure remote teams share contextual project backgrounds to enhance alignment and reduce stress.  \n- **Pipeline Management:** Regularly update lead status for streamlined sales efforts in June and facilitate accurate outreach prioritization.",
           "actionItems": [
             "**Matteo Maschio**",
-            "Provide Gaia with targeted questions to ask during initial CGP meetings to facilitate structured data collection and assign proper tags (13:39)",
-            "Prioritize structured data gathering for CGP processes before extending the approach to introducer data (14:50)",
-            "Explore possible partnership webinars or direct calls with CGPs to better understand their post-signature content needs (15:18)",
-            "Take full ownership and control over the introducer pipeline operations and data tracking, increasing engagement and managing without escalation unless contracts are involved (16:05)"
+            "Share photo and details of Kraken’s earning program with Timothée (07:48)",
+            "Assist Timothée with researching why banks benefit from higher balances and yield product mechanics (09:13)",
+            "Provide access or update on the pipeline and ICP list to Timothée, including tiers and contacts status (20:34)",
+            "Follow up with Gaia regarding introductions to Oliver and contacts in banking/retail for potential crypto partnerships (30:15)"
           ],
-          "company": "Meet – Matte",
+          "company": "ABM ideas for earning programs",
           "external_domains": [],
           "external_emails": []
         },
         {
-          "date": "2026-04-23",
-          "title": "Meet – Bitstack review",
+          "date": "2026-03-12",
+          "title": "ABM ideas for earning programs",
           "participants": [
-            "gaia@byzantine.fi",
-            "matteo@byzantine.fi"
+            "matteo@byzantine.fi",
+            "timothee@byzantine.fi"
           ],
-          "summary": "- **Client Communication Focus:** Finalizing CGPA content with lawyer input prioritized for compliance and timely contract delivery.  \n- **Formal Signature Process:** Details needed for NDAs to establish trust and support operational steps with partners.  \n- **Positive Outreach Responses:** Integration interest from Hudley indicates growing collaboration opportunities in the finance sector.  \n- **Insurance Limit Increases:** Projected limits expected from June, aligning with Firelight’s funding timeline for better client coverage.  \n- **Revenue Sharing Clarity:** Adjustments proposed to accurately represent revenue splits for Morpho vault, with closer alignment to actual earnings.  \n- **Enhanced Communication Practices:** Agreement to send Q&A via email for clarity and to improve document readability for partners.",
+          "summary": "- **Content Strategy Focus:** Create diverse, story-driven content on yield products, targeting three weekly publications to boost engagement.\n\n- **Market Targeting Improvement:** Segment companies into tiers to tailor marketing efforts, focusing on valuable prospects and avoiding duplication.\n\n- **Sales Outreach Plans:** Prepare for targeted outreach to tier 2 companies and explore partnerships with complementary firms for shared client access.\n\n- **AI Tools Utilization:** Leverage AI for data management and content refinement, balancing efficiency with maintaining quality in messaging.\n\n- **Strategic Positioning of Yield:** Emphasize yield as a key competitive advantage, driven by industry shifts in finance and demand for innovative solutions.",
           "actionItems": [
-            "**Jonas Bokelmann**",
-            "Conduct legal review of CGPA content and handle lawyer feedback before finalizing contract text (01:55)",
-            "Gather NDA signer information (name, email, company details) for Banker Sella and prepare NDA documents accordingly (03:06)",
-            "Incorporate Gaia’s feedback in Bitstack questionnaire responses; clarify questions versus answers visually using italics and color coding for clarity (06:51)",
-            "Note insurance coverage limits and projected increase by June upon Firelight’s onboarding in documentation (09:51)"
+            "**Timothée Colinet**",
+            "Research mechanics and benefits of high customer balances on platforms to create an explanatory post (03:00)",
+            "Prepare detailed subtopics for the yield-related themes and craft between five to ten content posts in advance, including potential videos with Gaia (12:41)",
+            "Organize the ICP target list with clear tier separation and include LinkedIn contacts for filtering and ease of targeting (16:15)",
+            "Complete and update the sales pipeline document with current opportunities to support go-to-market clarity for Gaia (24:26)"
           ],
-          "company": "Bitstack review",
+          "company": "",
           "external_domains": [],
           "external_emails": []
         },
         {
-          "date": "2026-04-23",
-          "title": "Meet – Bitstack review",
+          "date": "2026-03-06",
+          "title": "Meet – Gaia (Byzantine) -- Maxime (Tulyp)",
           "participants": [
-            "gaia@byzantine.fi",
-            "jonas@byzantine.fi"
+            "max@tulyp.io",
+            "antonio@tulyp.io"
           ],
-          "summary": "- **Contract Drafting:** Contract for CGPA is being reviewed; initial draft to be sent to the client promptly.\n\n- **NDA Preparation:** Signer details being compiled for NDA to enable Hudley integration and advance partnership discussions.\n\n- **Insurance Coverage Limits:** Current insurance limits noted; expansion projected for June to improve product risk profile.\n\n- **Integration Strategy:** Initial integration with Pactol chosen for its simplicity to manage early issues before larger clients.\n\n- **Revenue Model Clarity:** Revenue share clarification focused on accurate representation of charges to prevent misunderstandings.\n\n- **Document Quality Improvement:** Plans to enhance document readability and language accuracy to reduce client confusion.",
+          "summary": "- **Language preference set for smoother communication.** Maxime chose French, enhancing the discussion flow among participants.  \n\n- **Focus on monitoring capital top-ups and subscriptions.** Emphasized need for precise tracking of financial transactions for compliance.  \n\n- **Blockchain disruption identified as key market influence.** Strategies will align to address blockchain impacts and evolving asset trends.  \n\n- **October conference noted as a critical distribution milestone.** Important for showcasing solutions and building partnerships in the market.  \n\n- **User interface design and volume handling discussed.** Ensuring scalability for user adoption during high-traffic periods is essential.  \n\n- **Ongoing collaboration on product features and usability.** Active efforts in refining UI/UX to enhance overall product effectiveness.",
           "actionItems": [
-            "**Jonas Bokelmann**",
-            "Send an email with read-only access to the clarified Bitstack Q&A document, including formatting improvements to clearly distinguish questions and answers (32:40)",
-            "Draft the contract for CGPA for final legal review and prepare it for dispatch to the client (35:30)",
             "**Gaia Ferrero Regis**",
-            "Review the Bitstack document responses and provide real-time feedback during the review process (10:10)"
+            "Provide detailed compliance documentation as discussed during the meeting (05:27)",
+            "Share updates on blockchain impact on blue-chip disruption for further analysis (12:57)",
+            "Confirm front-end design specifications and collaborate with Maxime on implementation (26:38)",
+            "Prepare materials or summaries related to the October distribution conference participation (23:15)"
           ],
-          "company": "Bitstack review",
-          "external_domains": [],
-          "external_emails": []
-        },
-        {
-          "date": "2026-04-23",
-          "title": "Meet – Byzantine <> Hodli",
-          "participants": [
-            "gianluca.sommariva@hodli.com",
-            "gaia@byzantine.fi",
-            "filippo.anania@hodli.com",
-            "matteo.tamagno@hodli.com"
-          ],
-          "summary": "- **Partnership Focus:** Integrating digital asset management with legal compliance under MICA; aiming for June licensing milestone.\n  \n- **Technical Integration:** API-driven automation for wallet segregation; costs confirmed manageable; supports individual and institutional clients.\n\n- **Custody Management:** Future plans for Fireblocks; currently using exchange sub-custody; transfers require compatible custodial wallets for Vulture tokens.\n\n- **Risk Management:** Zero bad debt since 2017; liquidity limits set to 50% of available resources; security measures include a $5 million bug bounty.\n\n- **Regulatory Compliance:** Clear segregation for AML/KYC; European cybersecurity regulation DORA addressed; streamlined onboarding for retail clients.\n\n- **Next Steps:** Immediate onboarding as retail users; coordination for legal and integration details; continued communication prioritized.",
-          "actionItems": [
-            "**Lorenzo Maffia**",
-            "Share legal feedback from Hodli’s legal team on the documentation provided by Byzantine (01:27)",
-            "Investigate operational compliance regarding segregated client wallets and AML requirements with legal and regulators, including discussions with Derek Meters (20:00)",
-            "Onboard on Byzantine’s platform as retail user to test the product and flow (41:40)",
-            "Obtain and review the API documentation from Byzantine for integration planning (30:40)"
-          ],
-          "company": "Hodli",
+          "company": "",
           "external_domains": [
-            "hodli.com"
+            "tulyp.io"
           ],
           "external_emails": [
-            "gianluca.sommariva@hodli.com",
-            "filippo.anania@hodli.com",
-            "matteo.tamagno@hodli.com"
+            "max@tulyp.io",
+            "antonio@tulyp.io"
           ]
+        },
+        {
+          "date": "2026-02-20",
+          "title": "Matte<>Gaia, touchpoint",
+          "participants": [
+            "gaia@byzantine.fi",
+            "matteo@byzantine.fi",
+            "timothee@byzantine.fi"
+          ],
+          "summary": "- **Customer Success Process:** Building a structured onboarding process is crucial for retaining high-value clients and encouraging upsells.  \n- **Personalized Engagement:** Manual onboarding and feedback for key clients like Eric, who manages a €15-20 million fund, enhance experience.  \n- **Sales Process Improvement:** A structured deal roadmap will define clear next steps, improving sales efficiency and forecasting accuracy.  \n- **CRM Utilization:** Enhanced pipeline management with CRM tools will ensure visibility of deals and prioritize resource allocation effectively.  \n- **Accounting Integrations Priority:** Urgent development of integrations with accounting platforms like Penny Lane is essential for client satisfaction and operational ease.  \n- **Strategic Partnerships Expansion:** Fostering relationships with large financial institutions and targeting influential individuals is key for market growth.",
+          "actionItems": [
+            "**Gaia Ferrero Regis**",
+            "Send Eric’s LinkedIn profile and onboarding materials to Timothée for review (03:00)",
+            "Organize manual onboarding process with Eric and schedule a feedback call for next Friday (04:40)",
+            "Follow up with Sebastian from Moon Investment to prompt account setup (15:50)",
+            "Prepare for and conduct meeting with Thibaut Coulon next Tuesday to discuss distribution (29:40)"
+          ],
+          "company": "Matte",
+          "external_domains": [],
+          "external_emails": []
         }
       ]
     },
@@ -857,7 +795,7 @@
       "id": "holifya",
       "company": "Holifya",
       "stage": "Meeting",
-      "lastDays": 5,
+      "lastDays": 6,
       "lastContactDate": "2026-04-24",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -895,7 +833,7 @@
       "id": "sowefund",
       "company": "Sowefund",
       "stage": "Meeting",
-      "lastDays": 16,
+      "lastDays": 17,
       "lastContactDate": "2026-04-13",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -933,7 +871,7 @@
       "id": "capslock-global",
       "company": "Capslock Global",
       "stage": "Meeting",
-      "lastDays": 90,
+      "lastDays": 91,
       "lastContactDate": "2026-01-29",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -959,9 +897,9 @@
       "id": "the-moon-investments",
       "company": "The Moon Investments",
       "stage": "Meeting",
-      "lastDays": 6,
-      "lastContactDate": "2026-04-23",
-      "lastContactType": "transcript",
+      "lastDays": 56,
+      "lastContactDate": "2026-03-05",
+      "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
       "nextSteps": "Meeting tuesday, have him test",
@@ -993,20 +931,22 @@
       ],
       "transcripts": [
         {
-          "date": "2026-04-23",
-          "title": "Moonfare Integration Strategy and Collaboration",
+          "date": "2026-02-20",
+          "title": "Matte<>Gaia, touchpoint",
           "participants": [
-            "gaia@byzantine.fi"
+            "gaia@byzantine.fi",
+            "matteo@byzantine.fi",
+            "timothee@byzantine.fi"
           ],
-          "summary": "- **Phased custody integration with Moonfare** will start with turnkey wallets; custody capabilities depend on licensing timeline.\n\n- **Wallet authentication methods** debated; passkey preferred over email OTP despite older client demographic concerns.\n\n- **Deposit process requires fiat transfers** via Bridge accounts; transactions execute only after confirming money receipt.\n\n- **KYC/KYB integration is a top priority**; flexible approach needed to meet Moonfare's evolving requirements while addressing API accuracy issues.\n\n- **Deck updated for accuracy and clarity**; incorrect slides, client references, and insurance data are being corrected before finalization.",
+          "summary": "- **Customer Success Process:** Building a structured onboarding process is crucial for retaining high-value clients and encouraging upsells.  \n- **Personalized Engagement:** Manual onboarding and feedback for key clients like Eric, who manages a €15-20 million fund, enhance experience.  \n- **Sales Process Improvement:** A structured deal roadmap will define clear next steps, improving sales efficiency and forecasting accuracy.  \n- **CRM Utilization:** Enhanced pipeline management with CRM tools will ensure visibility of deals and prioritize resource allocation effectively.  \n- **Accounting Integrations Priority:** Urgent development of integrations with accounting platforms like Penny Lane is essential for client satisfaction and operational ease.  \n- **Strategic Partnerships Expansion:** Fostering relationships with large financial institutions and targeting influential individuals is key for market growth.",
           "actionItems": [
-            "**Gaia**",
-            "Verify and finalize accuracy of slides 9, 10, and 11 for Moonfare, especially concerning integration and custody details (00:00)",
-            "Remove the ‘selfie’ requirement from the KYC slide as it is not needed for Moonfare (14:31)",
-            "Shorten and refine the presentation deck before sending out to Moonfare, removing unnecessary or confusing slides like slide 13 and elements with incorrect fonts or placeholder data (19:56)",
-            "**Unassigned**"
+            "**Gaia Ferrero Regis**",
+            "Send Eric’s LinkedIn profile and onboarding materials to Timothée for review (03:00)",
+            "Organize manual onboarding process with Eric and schedule a feedback call for next Friday (04:40)",
+            "Follow up with Sebastian from Moon Investment to prompt account setup (15:50)",
+            "Prepare for and conduct meeting with Thibaut Coulon next Tuesday to discuss distribution (29:40)"
           ],
-          "company": "",
+          "company": "Matte",
           "external_domains": [],
           "external_emails": []
         }
@@ -1016,7 +956,7 @@
       "id": "thomas-rebaud",
       "company": "Thomas Rebaud",
       "stage": "Proposal / Negotiation",
-      "lastDays": 57,
+      "lastDays": 58,
       "lastContactDate": "2026-03-03",
       "lastContactType": "email_received",
       "priority": "High",
@@ -1054,7 +994,7 @@
       "id": "priscille-raynaud",
       "company": "Priscille Raynaud",
       "stage": "Meeting",
-      "lastDays": 60,
+      "lastDays": 61,
       "lastContactDate": "2026-02-28",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1092,7 +1032,7 @@
       "id": "mehdi-amara",
       "company": "Mehdi Amara",
       "stage": "Active",
-      "lastDays": 22,
+      "lastDays": 23,
       "lastContactDate": "2026-04-07",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1149,7 +1089,7 @@
       "id": "tutornow",
       "company": "Tutornow",
       "stage": "Paused",
-      "lastDays": 65,
+      "lastDays": 66,
       "lastContactDate": "2026-02-23",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1206,7 +1146,7 @@
       "id": "hercle",
       "company": "Hercle",
       "stage": "Paused",
-      "lastDays": 72,
+      "lastDays": 73,
       "lastContactDate": "2026-02-16",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1244,7 +1184,7 @@
       "id": "bpifrance",
       "company": "Bpifrance",
       "stage": "Meeting",
-      "lastDays": 217,
+      "lastDays": 218,
       "lastContactDate": "2025-09-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1339,8 +1279,8 @@
       "id": "rebind",
       "company": "Rebind",
       "stage": "Meeting",
-      "lastDays": 20,
-      "lastContactDate": "2026-04-09",
+      "lastDays": 52,
+      "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
@@ -1353,12 +1293,6 @@
       "weighted_value": 0.05,
       "emails": [
         {
-          "date": "2026-04-09",
-          "subject": "A lot has shipped on Rebind lately",
-          "direction": "received",
-          "snippet": "Tax reports, auto top-up, 5.5%+ on euros, and something big about to drop. ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏"
-        },
-        {
           "date": "2026-03-09",
           "subject": "❗️ Big update: a faster, simpler Rebind",
           "direction": "received",
@@ -1369,6 +1303,12 @@
           "subject": "Document shared with you: ‘Rebind discussion’",
           "direction": "received",
           "snippet": "Jonas Bokelmann shared a document Jonas Bokelmann (jonas@byzantine.fi) has invited you to edit the following document: Rebind discussion Open Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA"
+        },
+        {
+          "date": "2025-12-15",
+          "subject": "Invitation: 60 mins: Steven | Rebind and Jonas Bokelmann @ Tue 16 Dec 2025 5pm - 6pm (CET) (Gaia Ferrero Regis)",
+          "direction": "sent",
+          "snippet": "60 mins: Steven | Rebind and Jonas Bokelmann Join with Google Meet – Event Name 60 mins Location: This is a Google Meet web conference. You can join this meeting from your computer, tablet, or"
         }
       ],
       "transcripts": []
@@ -1377,7 +1317,7 @@
       "id": "bizaway",
       "company": "BizAway",
       "stage": "Meeting",
-      "lastDays": 64,
+      "lastDays": 65,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1415,12 +1355,12 @@
       "id": "banca-sella",
       "company": "Banca Sella",
       "stage": "Proposal / Negotiation",
-      "lastDays": 16,
+      "lastDays": 17,
       "lastContactDate": "2026-04-13",
       "lastContactType": "email_received",
       "priority": "High",
       "notes": "",
-      "nextSteps": "",
+      "nextSteps": "**Gaia** | Condividere materiale e documentazione tecnica e legale dettagliata sul prodotto Byzantine, focalizzandosi su sicurezza e gestione del collaterale (49:11) | Preparare documentazione dettagliata (workthru, video, one pager) per agevolare la comprensione e l’integrazione del prodotto in white label (52:15)",
       "contact": "Filippo Chiricozzi",
       "confidence": null,
       "expected_allocation": 20000000.0,
@@ -1441,13 +1381,73 @@
           "snippet": "Le informazioni contenute in questo messaggio di posta elettronica sono riservate, rivolte esclusivamente al destinatario e non comportano alcun vincolo ne&#39; creano obblighi per la societa&#39;"
         }
       ],
-      "transcripts": []
+      "transcripts": [
+        {
+          "date": "2026-03-04",
+          "title": "Banca sella",
+          "participants": [
+            "gaia@byzantine.fi"
+          ],
+          "summary": "- **Integrazione Stella e AIP:** Migrazione in corso, completamento previsto entro marzo-aprile 2026, unificazione dal 2027.  \n- **Progetti Pilota:** Focus su segmenti B2B2C, opzioni di custodia flessibili e graduali integrazioni.  \n- **Prodotti Byzantine:** Quattro prodotti lanciati, rendimenti netti del 5-9% e assicurazioni fino a 20 milioni per cliente.  \n- **Meccanismo di Lending:** Capitali prestati con collateral sovracollateralizzato al 150%; liquidazione automatica attivata al 120%.  \n- **Rischi e Compliance:** Assicurazioni, audit, e bug bounty da 5 milioni per garantire sicurezza.  \n- **Collaborazioni Strategiche:** Accordi con Intesa e neobanche francesi per prodotti B2C e soluzioni flessibili.",
+          "actionItems": [
+            "**Gaia**",
+            "Condividere materiale e documentazione tecnica e legale dettagliata sul prodotto Byzantine, focalizzandosi su sicurezza e gestione del collaterale (49:11)",
+            "Preparare documentazione dettagliata (workthru, video, one pager) per agevolare la comprensione e l’integrazione del prodotto in white label (52:15)",
+            "Fissare un incontro la settimana successiva per discutere approfondimenti e risolvere eventuali dubbi a seguito della revisione della documentazione (54:12)",
+            "**Riccardo**"
+          ],
+          "company": "",
+          "external_domains": [
+            "sella.it"
+          ],
+          "external_emails": [
+            "riccardo.donega@sella.it",
+            "mico.curatolo@sella.it",
+            "filippo.chiricozzi@sella.it"
+          ],
+          "gcal_linked": true,
+          "gcal_attendees": [
+            "gaia@byzantine.fi",
+            "Chiricozzi Filippo",
+            "Curatolo Mico",
+            "Donega Riccardo"
+          ]
+        },
+        {
+          "date": "2026-03-03",
+          "title": "Bruno tôt money",
+          "participants": [
+            "gaia@byzantine.fi"
+          ],
+          "summary": "- **Integrazione con Intesa:** Focus su prodotto white label per trading e clienti SMB, potenzialmente con Barcasella per Hype.\n\n- **Round di investimento:** Pre-seed di **3.7 milioni** previsto per gennaio 2025, con possibilità di round anticipato.\n\n- **Obiettivo clienti:** Raggiungere **50.000 clienti** entro il 2028-2029, focalizzandosi su liquidità e credito innovativo.\n\n- **Compliance e licenza bancaria:** Licenza prevista entro ottobre 2024, necessaria per crescita e cambiamenti infrastrutturali.\n\n- **Documentazione tecnica:** API e sandbox disponibili, con supporto continuo per facilitare integrazione e decisioni operative.",
+          "actionItems": [
+            "**Gaia Byzantine**",
+            "Inviare documentazione legale dettagliata e memo tecnico per supportare il dialogo con Banca d’Italia entro breve (38:56)",
+            "Fornire API, sandbox e chiavi di integrazione al team tecnico del partner per testare e valutare l’integrazione (37:08)",
+            "Preparare e condividere FAQ legali e policy assicurativa per rassicurare gli stakeholder interni del partner (47:28)",
+            "Organizzare gruppo Slack o canale di comunicazione tecnica con il team del partner per facilitare la collaborazione (38:56)"
+          ],
+          "company": "",
+          "external_domains": [
+            "tot.money"
+          ],
+          "external_emails": [
+            "bruno.reggiani@tot.money"
+          ],
+          "gcal_linked": true,
+          "gcal_attendees": [
+            "bruno.reggiani@tot.money",
+            "gaia@byzantine.fi",
+            "Milano Pergolesi-R-Sala Riunioni (8)"
+          ]
+        }
+      ]
     },
     {
       "id": "moonfare",
       "company": "Moonfare",
       "stage": "Proposal / Negotiation",
-      "lastDays": 4,
+      "lastDays": 5,
       "lastContactDate": "2026-04-25",
       "lastContactType": "email_received",
       "priority": "High",
@@ -1479,26 +1479,7 @@
           "snippet": "Hi Andrew, Mike, Thanks a lot for your time, I really enjoyed the conversation. As agreed, please find below the materials: Integration deck: what an integration with Moonfare would look like on the"
         }
       ],
-      "transcripts": [
-        {
-          "date": "2026-04-23",
-          "title": "Moonfare Integration Strategy and Collaboration",
-          "participants": [
-            "gaia@byzantine.fi"
-          ],
-          "summary": "- **Phased custody integration with Moonfare** will start with turnkey wallets; custody capabilities depend on licensing timeline.\n\n- **Wallet authentication methods** debated; passkey preferred over email OTP despite older client demographic concerns.\n\n- **Deposit process requires fiat transfers** via Bridge accounts; transactions execute only after confirming money receipt.\n\n- **KYC/KYB integration is a top priority**; flexible approach needed to meet Moonfare's evolving requirements while addressing API accuracy issues.\n\n- **Deck updated for accuracy and clarity**; incorrect slides, client references, and insurance data are being corrected before finalization.",
-          "actionItems": [
-            "**Gaia**",
-            "Verify and finalize accuracy of slides 9, 10, and 11 for Moonfare, especially concerning integration and custody details (00:00)",
-            "Remove the ‘selfie’ requirement from the KYC slide as it is not needed for Moonfare (14:31)",
-            "Shorten and refine the presentation deck before sending out to Moonfare, removing unnecessary or confusing slides like slide 13 and elements with incorrect fonts or placeholder data (19:56)",
-            "**Unassigned**"
-          ],
-          "company": "",
-          "external_domains": [],
-          "external_emails": []
-        }
-      ]
+      "transcripts": []
     },
     {
       "id": "mgv",
@@ -1523,7 +1504,7 @@
       "id": "etienne-variot",
       "company": "Etienne Variot",
       "stage": "Active",
-      "lastDays": 60,
+      "lastDays": 61,
       "lastContactDate": "2026-02-28",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1561,12 +1542,12 @@
       "id": "goin",
       "company": "GOin",
       "stage": "Meeting",
-      "lastDays": 5,
-      "lastContactDate": "2026-04-24",
+      "lastDays": 55,
+      "lastContactDate": "2026-03-06",
       "lastContactType": "transcript",
       "priority": "Med",
       "notes": "",
-      "nextSteps": "**Anis Maalej** | Clarify and document all tools and platforms referenced including Dropbox, Webflow, Mailchimp, PayFit, and Capsule for integration or monitoring purposes (08:37) | Verify and provide detailed accounting or explanations about travel expenses within financial records (12:18)",
+      "nextSteps": "**Gaia Ferrero Regis** | Provide detailed compliance documentation as discussed during the meeting (05:27) | Share updates on blockchain impact on blue-chip disruption for further analysis (12:57)",
       "contact": "Tangi Le Calvez",
       "confidence": null,
       "expected_allocation": 1.0,
@@ -1595,25 +1576,27 @@
       ],
       "transcripts": [
         {
-          "date": "2026-04-24",
-          "title": "Meet – Jonas Bokelmann et Anis Maalej",
+          "date": "2026-03-06",
+          "title": "Meet – Gaia (Byzantine) -- Maxime (Tulyp)",
           "participants": [
-            "a.maalej@coleadfinance.com"
+            "max@tulyp.io",
+            "antonio@tulyp.io"
           ],
-          "summary": "- **Distinction Between Gains:** Clarified differences between unrealized and realized losses to ensure accurate financial reporting.\n\n- **Average Cost Calculation:** Discussed using average cost for gain/loss calculations to improve asset valuation and reporting accuracy.\n\n- **Active Asset View:** Emphasized presenting accurate asset data to enhance financial health and decision-making for portfolios.\n\n- **Travel Expenses Tracking:** Mentioned ongoing efforts in managing travel expenses for better cost control and audit readiness.\n\n- **Vendor Management Awareness:** Acknowledged importance of managing relationships with key vendors like Dropbox and Mailchimp for operational continuity.\n\n- **Data Integrity Needs:** Discussed snapshot and depot data structures to ensure reliable historical data and support compliance.",
+          "summary": "- **Language preference set for smoother communication.** Maxime chose French, enhancing the discussion flow among participants.  \n\n- **Focus on monitoring capital top-ups and subscriptions.** Emphasized need for precise tracking of financial transactions for compliance.  \n\n- **Blockchain disruption identified as key market influence.** Strategies will align to address blockchain impacts and evolving asset trends.  \n\n- **October conference noted as a critical distribution milestone.** Important for showcasing solutions and building partnerships in the market.  \n\n- **User interface design and volume handling discussed.** Ensuring scalability for user adoption during high-traffic periods is essential.  \n\n- **Ongoing collaboration on product features and usability.** Active efforts in refining UI/UX to enhance overall product effectiveness.",
           "actionItems": [
-            "**Anis Maalej**",
-            "Clarify and document all tools and platforms referenced including Dropbox, Webflow, Mailchimp, PayFit, and Capsule for integration or monitoring purposes (08:37)",
-            "Verify and provide detailed accounting or explanations about travel expenses within financial records (12:18)",
-            "Provide a detailed breakdown or report on realized and unrealized gains and losses including average cost calculation methods (20:07)",
-            "Prepare a summary or review on the active asset side for financial reporting or auditing purposes (24:43)"
+            "**Gaia Ferrero Regis**",
+            "Provide detailed compliance documentation as discussed during the meeting (05:27)",
+            "Share updates on blockchain impact on blue-chip disruption for further analysis (12:57)",
+            "Confirm front-end design specifications and collaborate with Maxime on implementation (26:38)",
+            "Prepare materials or summaries related to the October distribution conference participation (23:15)"
           ],
-          "company": "Jonas Bokelmann et Anis Maalej",
+          "company": "",
           "external_domains": [
-            "coleadfinance.com"
+            "tulyp.io"
           ],
           "external_emails": [
-            "a.maalej@coleadfinance.com"
+            "max@tulyp.io",
+            "antonio@tulyp.io"
           ]
         }
       ]
@@ -1622,7 +1605,7 @@
       "id": "blackfin",
       "company": "BlackFin",
       "stage": "Meeting",
-      "lastDays": 7,
+      "lastDays": 8,
       "lastContactDate": "2026-04-22",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1679,7 +1662,7 @@
       "id": "blisce",
       "company": "Blisce",
       "stage": "Meeting",
-      "lastDays": 70,
+      "lastDays": 71,
       "lastContactDate": "2026-02-18",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1717,7 +1700,7 @@
       "id": "sorare",
       "company": "Sorare",
       "stage": "Paused",
-      "lastDays": 71,
+      "lastDays": 72,
       "lastContactDate": "2026-02-17",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1755,7 +1738,7 @@
       "id": "tomcat",
       "company": "Tomcat",
       "stage": "Meeting",
-      "lastDays": 41,
+      "lastDays": 42,
       "lastContactDate": "2026-03-19",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1793,12 +1776,12 @@
       "id": "bitpanda",
       "company": "Bitpanda",
       "stage": "Meeting",
-      "lastDays": 2,
-      "lastContactDate": "2026-04-27",
-      "lastContactType": "transcript",
+      "lastDays": 29,
+      "lastContactDate": "2026-04-01",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
-      "nextSteps": "**Gaia Ferrero Regis** | Proseguire con la due diligence e le interazioni con Bitpanda, Bitvavo e Marex per consolidare le partnership e avanzare nello sviluppo dei prodotti (04:33) | Cercare e contattare eventuali nuovi contatti strategici a Amsterdam e Milano per facilitare collaborazioni future (11:20)",
+      "nextSteps": "",
       "contact": null,
       "confidence": null,
       "expected_allocation": 30000.0,
@@ -1825,33 +1808,13 @@
           "snippet": "Marco Schoisinger and Gaia Ferrero Regis Marco Schoisinger has accepted this invitation. Join with Google Meet Meeting link meet.google.com/yog-gzud-xac Join by phone (FR) +33 1 87 40 15 98 PIN:"
         }
       ],
-      "transcripts": [
-        {
-          "date": "2026-04-27",
-          "title": "Meet – GTM review: Givanni <> Byzantine",
-          "participants": [
-            "matteo@byzantine.fi",
-            "giovanni.ruggiero10@gmail.com"
-          ],
-          "summary": "- **Sviluppo Partnership:** Collaborazioni con integratori chiave per espandere il mercato, impegno di **20 milioni di euro** in corso.\n\n- **Integrazioni Attive:** Collaborazione con Bitstack e incontri con Young Platform, Bitvavo e Bitpanda per aumentare le partnership.\n\n- **Gestione Rischi DeFi:** Zero esposizione a eventi recenti, stabilità del prodotto evidenziata come vantaggio competitivo.\n\n- **Strategia di Vendita:** Focus su call decisive con partner qualificati, obiettivo di finalizzare accordi con Bitvavo e Ted Republic.\n\n- **Networking Strategico:** Utilizzo di contatti personali per accedere a opportunità di mercato, incontri a Amsterdam e Vienna programmati.",
-          "actionItems": [
-            "**Gaia Ferrero Regis**",
-            "Proseguire con la due diligence e le interazioni con Bitpanda, Bitvavo e Marex per consolidare le partnership e avanzare nello sviluppo dei prodotti (04:33)",
-            "Cercare e contattare eventuali nuovi contatti strategici a Amsterdam e Milano per facilitare collaborazioni future (11:20)",
-            "**Giovanni Ruggiero**",
-            "Organizzare la call con Bitvavo per avanzare l’integrazione con Byzantine e valutare la chiusura della collaborazione (06:35)"
-          ],
-          "company": "Meet – GTM review: Givanni",
-          "external_domains": [],
-          "external_emails": []
-        }
-      ]
+      "transcripts": []
     },
     {
       "id": "simon-hulin",
       "company": "Simon Hulin",
       "stage": "Testing",
-      "lastDays": 47,
+      "lastDays": 48,
       "lastContactDate": "2026-03-13",
       "lastContactType": "email_received",
       "priority": "High",
@@ -1889,7 +1852,7 @@
       "id": "sopra-steria",
       "company": "Sopra Steria",
       "stage": "Meeting",
-      "lastDays": 36,
+      "lastDays": 37,
       "lastContactDate": "2026-03-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1927,7 +1890,7 @@
       "id": "bernat-family-office-sl",
       "company": "Bernat Family Office S.L.",
       "stage": "Meeting",
-      "lastDays": 205,
+      "lastDays": 206,
       "lastContactDate": "2025-10-06",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1953,7 +1916,7 @@
       "id": "alain-arthur-bloch",
       "company": "Alain & Arthur Bloch",
       "stage": "Proposal / Negotiation",
-      "lastDays": 77,
+      "lastDays": 78,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -1991,9 +1954,9 @@
       "id": "jump",
       "company": "Jump",
       "stage": "Meeting",
-      "lastDays": 6,
-      "lastContactDate": "2026-04-23",
-      "lastContactType": "email_received",
+      "lastDays": 0,
+      "lastContactDate": "2026-04-30",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
       "nextSteps": "Follow up with Oliver, share updated docs and help him with DD",
@@ -2005,76 +1968,31 @@
       "weighted_value": 3000000.0,
       "emails": [
         {
-          "date": "2026-04-23",
-          "subject": "Accepted: Oliver (Jump) <> Gaia (Byzantine Finance) @ Wed 29 Apr 2026 3pm - 3:30pm (CEST) (gaia@byzantine.fi)",
-          "direction": "received",
-          "snippet": "Oliver (Jump) &lt;&gt; Gaia (Byzantine Finance) Olivier Santos has accepted this invitation. Join with Google Meet Meeting link meet.google.com/jnp-mbuy-ozs Join by phone (FR) +33 1 87 40 27 27 PIN:"
-        },
-        {
-          "date": "2026-04-22",
-          "subject": "Here's $99 off ETHConf. Prices jump May 1",
-          "direction": "received",
-          "snippet": "ETHConf NYC June 8-10 5000+ Attendees 150+ Speakers 100+ Companies ETHCONF • JUNE 8–10, NYC One Week Left at Today&#39;s Price. Save an Extra $99. ETHConf ticket prices increase on May 1. Grab your"
-        },
-        {
-          "date": "2026-04-15",
+          "date": "2026-04-30",
           "subject": "Re: Byzantine x Jump",
           "direction": "sent",
-          "snippet": "Bonjour Olivier, Merci pour l&#39;échange hier après-midi, c&#39;était très utile d&#39;avoir ta vision sur vos besoins. Comme promis, voici les éléments : Factsheet investisseur sur les produits EUR"
-        }
-      ],
-      "transcripts": [
-        {
-          "date": "2026-04-23",
-          "title": "Meet – Oliver (Jump) <> Gaia (Byzantine Finance)",
-          "participants": [
-            "olivier@join-jump.com",
-            "gaia@byzantine.fi"
-          ],
-          "summary": "- **Contract Delivery Prioritized:** Contract for Francois is delayed but will be sent today, even without lawyer approval if necessary.\n\n- **Flexible Legal Review:** Team acknowledges the need for flexibility in legal processes to meet communication deadlines with clients.\n\n- **Effective Team Communication:** Open dialogue among team members supports quick updates and efficient handling of shifting priorities.\n\n- **Special Fee Clause Critical:** The special fee clause is essential for contract validity, requiring careful review to minimize legal risks.\n\n- **Operational Risk Management:** Sending the contract prior to legal approval is acceptable due to trust in internal controls and urgency.",
-          "actionItems": [
-            "**Jonas Bokelmann**",
-            "Finalize and send the contract document for Francois by today, prioritizing sending even if lawyers have yet to review the special fees clause (00:56)",
-            "Add the required clause on special fees to the contract document before sending (00:21)"
-          ],
-          "company": "Meet – Oliver (Jump)",
-          "external_domains": [
-            "join-jump.com"
-          ],
-          "external_emails": [
-            "olivier@join-jump.com"
-          ]
+          "snippet": "Bonjour Olivier, Merci, bien reçu. La team de conformité est en train de regarder le dossier, je te tiens au courant s&#39;il manque quoi que ce soit. À très vite, Gaia Gaia Ferrero Regis CEO |"
         },
         {
-          "date": "2026-04-23",
-          "title": "Meet – Oliver (Jump) <> Gaia (Byzantine Finance)",
-          "participants": [
-            "olivier@join-jump.com",
-            "jonas@byzantine.fi"
-          ],
-          "summary": "- **Lancement test client**: Un test de 100 000€ est validé pour évaluer la plateforme et ses fonctionnalités.\n\n- **Onboarding autonome**: Le client peut s'inscrire et accéder aux produits après un KYB classique.\n\n- **Contrôles bancaires**: Vérification des délais de 24 heures pour nouveaux bénéficiaires et preuves de source des fonds.\n\n- **Paiement des gains**: Les clients sont rémunérés chaque heure, dès 100 secondes après réception du remboursement.\n\n- **Support client réactif**: Accès à WhatsApp et vidéos pour guider les utilisateurs et lever les blocages.\n\n- **Documentation en ligne**: Ressources académiques disponibles pour accompagner l'apprentissage des utilisateurs.",
-          "actionItems": [
-            "**Jonas Bokelmann**",
-            "Finaliser le contrat pour François en intégrant la clause spécifique et obtenir une validation juridique, ou à défaut envoyer le contrat sans vérification extérieure (02:10)",
-            "**Gaia Ferrero Regis**",
-            "Envoyer à Olivier les guides vidéo pour la création de compte et l’utilisation de la plateforme Byzantine Finance (06:41)",
-            "Envoyer l’invitation pour le point de suivi fixé mercredi à 15h à Olivier (12:25)"
-          ],
-          "company": "Meet – Oliver (Jump)",
-          "external_domains": [
-            "join-jump.com"
-          ],
-          "external_emails": [
-            "olivier@join-jump.com"
-          ]
+          "date": "2026-04-30",
+          "subject": "Re: Byzantine x Jump",
+          "direction": "received",
+          "snippet": "Hello Gaia, Nous avons déposé les documents pour Jump Green pour la création du compte sur la plateforme N&#39;hésite pas à m&#39;appeler s&#39;il manque un document. Bien à toi, Olivier Olivier Santo"
+        },
+        {
+          "date": "2026-04-29",
+          "subject": "Nicolas Fayon just joined Entity for olivier@join-jump.com - Byzantine Finance",
+          "direction": "sent",
+          "snippet": "Dear Olivier, Nicolas Fayon just joined Entity for olivier@join-jump.com on the Byzantine Finance platform. ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌"
         }
-      ]
+      ],
+      "transcripts": []
     },
     {
       "id": "nilos",
       "company": "Nilos",
       "stage": "Meeting",
-      "lastDays": 127,
+      "lastDays": 128,
       "lastContactDate": "2025-12-23",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2100,9 +2018,9 @@
       "id": "dalma",
       "company": "Dalma.",
       "stage": "Lost",
-      "lastDays": 30,
-      "lastContactDate": "2026-03-30",
-      "lastContactType": "email_received",
+      "lastDays": 87,
+      "lastContactDate": "2026-02-02",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
       "nextSteps": "Re-engage in 3 months, or when we have an insurance client",
@@ -2114,12 +2032,6 @@
       "weighted_value": null,
       "emails": [
         {
-          "date": "2026-03-30",
-          "subject": "Gaia, connaissez-vous Animaute et Dalma ? 🏠👩‍⚕️",
-          "direction": "received",
-          "snippet": "Des services au poil et remisés avec Animalis + Si ce message ne s&#39;affiche pas correctement, vous pouvez le visualiser en version web Mon compte Nos magasins Ma cagnotte Numéro de carte :"
-        },
-        {
           "date": "2026-02-02",
           "subject": "Re: Gaia (Byzantine) <> Alban (Dalma)",
           "direction": "sent",
@@ -2130,6 +2042,12 @@
           "subject": "Re: Gaia (Byzantine) <> Alban (Dalma)",
           "direction": "received",
           "snippet": "Bonjour Gaia, Après réflexion de notre coté, je prefere ne pas avancer pour le moment sur un modèle dans lequel la perte en capital serait compensée par une demande de sinistre auprès d&#39;un assureu"
+        },
+        {
+          "date": "2026-02-02",
+          "subject": "Re: Gaia (Byzantine) <> Alban (Dalma)",
+          "direction": "sent",
+          "snippet": "Bonjour Thibault et Roxanne, J&#39;espère que tout se passe bien ! Petite mise à jour : nous avons lancé notre produit en euros avec des virements bancaires automatiques, simplifiant considérablement "
         }
       ],
       "transcripts": []
@@ -2138,7 +2056,7 @@
       "id": "sandwell-capital",
       "company": "Sandwell Capital",
       "stage": "Meeting",
-      "lastDays": 22,
+      "lastDays": 23,
       "lastContactDate": "2026-04-07",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2176,7 +2094,7 @@
       "id": "michael-osullivan",
       "company": "Michael OSullivan",
       "stage": "Proposal / Negotiation",
-      "lastDays": 72,
+      "lastDays": 73,
       "lastContactDate": "2026-02-16",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2208,7 +2126,7 @@
       "id": "fygr",
       "company": "Fygr",
       "stage": "Proposal / Negotiation",
-      "lastDays": 77,
+      "lastDays": 78,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2246,7 +2164,7 @@
       "id": "whitebit",
       "company": "WhiteBIT",
       "stage": "Qualification",
-      "lastDays": 665,
+      "lastDays": 666,
       "lastContactDate": "2024-07-03",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2278,7 +2196,7 @@
       "id": "coinhouse",
       "company": "Coinhouse",
       "stage": "Meeting",
-      "lastDays": 28,
+      "lastDays": 29,
       "lastContactDate": "2026-04-01",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2316,7 +2234,7 @@
       "id": "gaya",
       "company": "GAYA",
       "stage": "Meeting",
-      "lastDays": 16,
+      "lastDays": 17,
       "lastContactDate": "2026-04-13",
       "lastContactType": "meeting",
       "priority": "Med",
@@ -2373,7 +2291,7 @@
       "id": "carbone-farmers",
       "company": "Carbone Farmers",
       "stage": "Lost",
-      "lastDays": 76,
+      "lastDays": 77,
       "lastContactDate": "2026-02-12",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2411,7 +2329,7 @@
       "id": "jona-hauch",
       "company": "Jona Hauch",
       "stage": "Lost",
-      "lastDays": 64,
+      "lastDays": 65,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2437,7 +2355,7 @@
       "id": "cdp",
       "company": "CDP",
       "stage": "Meeting",
-      "lastDays": 0,
+      "lastDays": 1,
       "lastContactDate": "2026-04-29",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2494,7 +2412,7 @@
       "id": "charles-grosdidier",
       "company": "Charles Grosdidier",
       "stage": "Active",
-      "lastDays": 48,
+      "lastDays": 49,
       "lastContactDate": "2026-03-12",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2532,7 +2450,7 @@
       "id": "bitvavo",
       "company": "Bitvavo",
       "stage": "Proposal / Negotiation",
-      "lastDays": 0,
+      "lastDays": 1,
       "lastContactDate": "2026-04-29",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2547,6 +2465,12 @@
       "emails": [
         {
           "date": "2026-04-29",
+          "subject": "",
+          "direction": "received",
+          "snippet": "Hi Gijs, Just following up on my note from last week. I&#39;ll be at your offices on Tuesday and would love to lock in a 30-minute slot to catch up and align on where things stand. 10am still works"
+        },
+        {
+          "date": "2026-04-29",
           "subject": "Out of office Re: I need a confirmation",
           "direction": "received",
           "snippet": "I am currently on leave and will return on Monday 4th May 2026. If urgent please send me a text message or contact another member of the team. Coen"
@@ -2556,111 +2480,72 @@
           "subject": "I need a confirmation",
           "direction": "sent",
           "snippet": "Hi Coen, I know you&#39;re still on holiday, sorry to write to you here. Did you catch the Champions League last night? Listen, I have a feeling communication has been struggling to pick up since you"
-        },
-        {
-          "date": "2026-04-26",
-          "subject": "Re: April 2, quick thought",
-          "direction": "sent",
-          "snippet": "Hi Gijs, I sent a note to the team on Friday but wanted to follow up directly so it doesn&#39;t slip through. I&#39;ll be at your offices on Tuesday (Coen has me set up for the day) and was hoping we"
         }
       ],
       "transcripts": [
         {
-          "date": "2026-04-28",
-          "title": "Meet – Alexis <> Gaia (Proposal)",
+          "date": "2026-03-13",
+          "title": "Meet – Weekly GTM",
           "participants": [
-            "alexis.valentin@outlook.com"
+            "gaia@byzantine.fi",
+            "timothee@byzantine.fi"
           ],
-          "summary": "- **Développement commercial:** Accélérer la croissance par l'élargissement des cas d'utilisation bancaires et une prospection rigoureuse.\n\n- **Suivi des leads:** Appels réguliers et directs pour clarifier les positions des opportunités et éviter les pertes de deals.\n\n- **Embauches nécessaires:** Recruter rapidement un commercial junior CGP, visant à générer un million d’AUM par trimestre.\n\n- **Produits structurés:** Discussions en cours avec Marex et autres pour élargir la distribution et intégrer les produits dans les portefeuilles clients.\n\n- **Segmentation CGP:** Approche ciblée par région et profil client pour maximiser les efforts commerciaux et le taux de conversion.\n\n- **Suivi régulier:** Rencontres planifiées pour suivre les avancées commerciales et maintenir la dynamique de communication proactive.",
+          "summary": "- **Partnership with Bitvavo:** Targeting a deal potentially worth 50 million euros, aiming for substantial growth with larger amounts next.  \n- **Sales Pipeline Structure:** Multi-tiered pipeline with 15-25 small deals, 10-15 medium, and 5-6 large deals focused on maximizing revenue.  \n- **Cold Caller Success:** New cold caller booked two demos in their first week; efficiency boosted by targeted lead lists for outreach.  \n- **Tool Automation:** Developing a dashboard integrating CRM and communication tools for real-time deal status and follow-up efficiency.  \n- **Networking Introductions:** Plans to leverage personal connections for introductions to family offices to enhance product pitching opportunities.",
           "actionItems": [
             "**Gaia Ferrero Regis**",
-            "Segmenter les CGP par région et par type de clients (entrepreneurs, technophiles) afin d'affiner la prospection commerciale (01:40)",
-            "Relancer Coen, le champion chez Bitvavo, via WhatsApp ou appel téléphonique pour clarifier la situation et débloquer l'opportunité en suspens (32:35)",
-            "Appeler Reiss, autre contact clé chez Bitvavo, pour accélérer la communication et avancer sur le partenariat (32:55)",
-            "Tester l'embauche de deux commerciaux juniors en parallèle pour la prospection CGP afin de comparer leur efficacité et optimiser la stratégie de recrutement (31:50)"
+            "Share the detailed call script and ICP for cold caller outreach preparation (06:20)",
+            "Provide Timothée with access to Byzantine Claude dashboard for pipeline monitoring (36:30)",
+            "Provide a description of desired daily/weekly outputs for dashboard to Timothée (30:00)",
+            "**Timothée Colinet**"
           ],
-          "company": "Meet – Alexis",
-          "external_domains": [
-            "outlook.com"
-          ],
-          "external_emails": [
-            "alexis.valentin@outlook.com"
-          ]
+          "company": "Weekly GTM",
+          "external_domains": [],
+          "external_emails": []
         },
         {
-          "date": "2026-04-27",
-          "title": "Bitvavo Deal and Sales Strategy Update",
+          "date": "2026-03-13",
+          "title": "Weekly GTM",
           "participants": [
-            "gaia@byzantine.fi"
+            "gaia@byzantine.fi",
+            "matteo@byzantine.fi",
+            "timothee@byzantine.fi"
           ],
-          "summary": "- **Deal Stalled:** Bitvavo deal hampered by poor communication, complicating progress and raising doubts about its future viability.  \n- **Focus Shift:** Team pivoting to pursue broader outreach in Amsterdam, eyeing larger firms like Goldman Sachs for potential opportunities.  \n- **Morale Issues:** Emotional strain noted due to ghosting from clients; team discussed need for mutual support amidst frustrations.  \n- **Meeting Decision:** Plans to wait until 8:00 AM for updates on Bitvavo meetings; cautious approach favored over unproductive visits.  \n- **Process Weaknesses:** Lack of coordination in communication with Bitvavo indicates gaps in engagement processes; plan to improve internal clarity.  \n- **Learning Opportunity:** Focus on understanding Bitvavo's rejection reasons to refine strategies and strengthen future client targeting efforts.",
+          "summary": "- **Partnership with Bitvavo**: Targeting €40-60 million deal; NDA to be sent soon; independent strategy proposal accepted.  \n- **Sales Pipeline Structure**: Focus on 70% of effort on large deals; segmented by size for risk balance and visibility.  \n- **Cold Calling Strategy**: New cold caller focusing on 120 leads; cost €1,000; prioritizing multifamily offices and CGPs.  \n- **Technology Integration**: Dashboard for tracking deal statuses and follow-ups in progress; aiming for automation in communication tracking.  \n- **Morning Brief System**: Proposed system to highlight follow-ups needed, streamlining daily task management for improved efficiency.  \n- **Content Strategy Alignment**: LinkedIn posts planned to boost visibility; emphasizes consistent messaging aligned with sales goals.",
           "actionItems": [
-            "**Speaker 1**",
-            "Check the return date of the Bitvavo point of contact via email and update on their availability (03:05)",
-            "Consider reaching out to Goldman Sachs contacts as an alternative to Bitvavo and report on responses (05:32)",
-            "**Speaker 2**",
-            "Inquire internally about the hiring and introduction emails for candidates Mounir, Nebula, and Agrioznov and report back (07:29)"
+            "**Gaia Ferrero Regis**",
+            "Prepare and send out NDA to Bitvavo (01:39)",
+            "Review and update pipeline allocations and values to ensure at least 3x target AUM coverage (14:48)",
+            "Share detailed ICPs for cold caller outreach and integrate multi-family offices and independent CGPs lists (05:44)",
+            "Organize follow-up communications with sales leads and champions, ensuring clear tracking of tasks and next steps on a daily/weekly basis (26:33)"
           ],
           "company": "",
           "external_domains": [],
           "external_emails": []
         },
         {
-          "date": "2026-04-27",
-          "title": "Meet – GTM review: Givanni <> Byzantine",
+          "date": "2026-03-05",
+          "title": "Meet – Gijs handgraaf and Gaia Ferrero Regis",
           "participants": [
-            "matteo@byzantine.fi",
-            "giovanni.ruggiero10@gmail.com"
+            "gijs.handgraaf@bitvavo.com",
+            "coen.van.der.zanden@bitvavo.com",
+            "matteo@byzantine.fi"
           ],
-          "summary": "- **Sviluppo Partnership:** Collaborazioni con integratori chiave per espandere il mercato, impegno di **20 milioni di euro** in corso.\n\n- **Integrazioni Attive:** Collaborazione con Bitstack e incontri con Young Platform, Bitvavo e Bitpanda per aumentare le partnership.\n\n- **Gestione Rischi DeFi:** Zero esposizione a eventi recenti, stabilità del prodotto evidenziata come vantaggio competitivo.\n\n- **Strategia di Vendita:** Focus su call decisive con partner qualificati, obiettivo di finalizzare accordi con Bitvavo e Ted Republic.\n\n- **Networking Strategico:** Utilizzo di contatti personali per accedere a opportunità di mercato, incontri a Amsterdam e Vienna programmati.",
+          "summary": "- **Insured Yield Products Launch:** Byzantine raised **€3.7 million** for insured euro and dollar products yielding **4.5%** and **6%** respectively.  \n- **Risk Management Strategy:** Diversification across protocols, with dynamic monitoring to enable quick capital withdrawal when risks are high.  \n- **Insurance Coverage Insights:** Insurance covers operational risks but not blockchain disruptions; costs impact net yields; institutional feedback shaped offerings.  \n- **Custom Integration Support:** Integration with major custodians allows easy deposits; flexible options for collateral types cater to client needs.  \n- **Scalability Plans:** Byzantine targets scaling to hundreds of millions; currently has **€20 million** in assets since January launch.  \n- **Competitive Differentiation:** First insured protocol with institutional-grade off-chain insurance, enhancing credibility and attracting institutional clients.",
           "actionItems": [
-            "**Gaia Ferrero Regis**",
-            "Proseguire con la due diligence e le interazioni con Bitpanda, Bitvavo e Marex per consolidare le partnership e avanzare nello sviluppo dei prodotti (04:33)",
-            "Cercare e contattare eventuali nuovi contatti strategici a Amsterdam e Milano per facilitare collaborazioni future (11:20)",
-            "**Giovanni Ruggiero**",
-            "Organizzare la call con Bitvavo per avanzare l’integrazione con Byzantine e valutare la chiusura della collaborazione (06:35)"
+            "**Gijs Handgraaf**",
+            "Organize and send calendar invite for follow-up session on Thursday or Friday next week, confirmed for Friday 10-11 am (44:24)",
+            "Provide detailed documentation and diagrams on Byzantine’s fund flow, infrastructure, rights management, and hedge setup to Coen and team for internal review (31:49)",
+            "Run internal analysis to propose a low-risk vault strategy based on BTC, ETH, and staked ETH collateral with target yields around 4%-4.5%, and share results (24:04)",
+            "**Byzantine Team**"
           ],
-          "company": "Meet – GTM review: Givanni",
-          "external_domains": [],
-          "external_emails": []
-        },
-        {
-          "date": "2026-04-23",
-          "title": "Meet – Jonas Bokelmann and Alex",
-          "participants": [
-            "alexandre@kleros.io"
-          ],
-          "summary": "- **Funding Strategy Shift:** Decision to focus on money markets instead of prediction markets for enhanced stability and user trust.  \n- **Borrowing Models Discussion:** Targeting family offices and high-net-worth individuals with over-collateralized lending to manage risks effectively.  \n- **Compliance Updates:** Emphasis on regulatory adherence and bank integration for smoother operations and faster client onboarding.  \n- **Marketing Strategy:** Tailored campaigns for product features to increase user engagement and retention during next product rollout.  \n- **Risk Management Enhancement:** Improving prediction market accuracy to boost user confidence and meet compliance standards.  \n- **Connectivity Efforts:** Plans for seamless interoperability between platforms to enhance liquidity and market access.",
-          "actionItems": [
-            "**Jonas Bokelmann**",
-            "Further evaluate and report on the implications of prediction markets within deep funding frameworks (03:38)",
-            "Delve deeper into overcollateralized lending methods for individuals within the crypto ecosystem and coordinate compliance integration efforts with Bitvavo and Zotero platforms (13:17)",
-            "Review platform connectivity components including Safexa, Sassy, Marshe, and switch infrastructure; report on interoperability and technical issues (27:33)",
-            "**Alexandre**"
-          ],
-          "company": "Jonas Bokelmann",
+          "company": "Gijs handgraaf",
           "external_domains": [
-            "kleros.io"
+            "bitvavo.com"
           ],
           "external_emails": [
-            "alexandre@kleros.io"
+            "gijs.handgraaf@bitvavo.com",
+            "coen.van.der.zanden@bitvavo.com"
           ]
-        },
-        {
-          "date": "2026-04-23",
-          "title": "Meet – Emanuele <> Gaia",
-          "participants": [],
-          "summary": "- **Esperienza nel Settore Crypto:** Emanuele ha 13 anni di esperienza in aziende come PwC e Consensys, ora in Hercule.  \n- **Prodotti Bizantina:** Offre quattro prodotti DeFi con rendimenti netti del 4-6% APY, differenziati in assicurati e non.  \n- **Gestione Rischi:** Nessuna esposizione problematica durante eventi di mercato recenti; si mantiene una volatilità dei rendimenti entro il 1,5%.  \n- **Clientela Istituzionale:** Include Bitvavo e Intesa San Paolo, con 50 milioni di impegni confermati per note di credito.  \n- **Modello di Pricing:** Prevede un fee del 10% sulle performance generate, senza fee di gestione fissa.  \n- **Collaborazione Futuro:** Sinergie tra Hercule e Bizantina in \"banking as a service\" e prodotti corporate sono da esplorare.",
-          "actionItems": [
-            "**Gaia Ferrero Regis**",
-            "Mostrare la demo del prodotto Bizantina a Emanuele per approfondimenti funzionali (20:18)",
-            "Aggiornare Emanuele sugli sviluppi e sulle raccolte future, incluso il fundraising previsto per fine 2025 (27:08)",
-            "Supportare Emanuele con possibili contatti e investitori interessati nel settore (27:01)",
-            "**Emanuele C**"
-          ],
-          "company": "Meet – Emanuele",
-          "external_domains": [],
-          "external_emails": []
         }
       ]
     },
@@ -2668,7 +2553,7 @@
       "id": "flag-finance",
       "company": "Flag Finance",
       "stage": "Meeting",
-      "lastDays": 16,
+      "lastDays": 17,
       "lastContactDate": "2026-04-13",
       "lastContactType": "meeting",
       "priority": "Med",
@@ -2706,7 +2591,7 @@
       "id": "bitcoin-suisse",
       "company": "Bitcoin Suisse",
       "stage": "Meeting",
-      "lastDays": 28,
+      "lastDays": 29,
       "lastContactDate": "2026-04-01",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2744,7 +2629,7 @@
       "id": "titanbay",
       "company": "Titanbay",
       "stage": "Contacted",
-      "lastDays": 28,
+      "lastDays": 29,
       "lastContactDate": "2026-04-01",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2801,7 +2686,7 @@
       "id": "sibill",
       "company": "Sibill",
       "stage": "Proposal / Negotiation",
-      "lastDays": 22,
+      "lastDays": 23,
       "lastContactDate": "2026-04-07",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -2839,7 +2724,7 @@
       "id": "welara",
       "company": "Welara",
       "stage": "Meeting",
-      "lastDays": 68,
+      "lastDays": 69,
       "lastContactDate": "2026-02-20",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2877,7 +2762,7 @@
       "id": "eric-bouanich",
       "company": "Eric Bouanich",
       "stage": "Proposal / Negotiation",
-      "lastDays": 29,
+      "lastDays": 30,
       "lastContactDate": "2026-03-31",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2915,9 +2800,9 @@
       "id": "request-network",
       "company": "Request Network",
       "stage": "Proposal / Negotiation",
-      "lastDays": 5,
-      "lastContactDate": "2026-04-24",
-      "lastContactType": "transcript",
+      "lastDays": 63,
+      "lastContactDate": "2026-02-26",
+      "lastContactType": "email_sent",
       "priority": "High",
       "notes": "",
       "nextSteps": "Send blurb!",
@@ -2947,51 +2832,13 @@
           "snippet": "Hi, Thanks for getting back to me! There are four relevant service partners here: For on-/off-ramping, we use Bridge. For this, users sign your ToS directly. Clients are able to access insurance"
         }
       ],
-      "transcripts": [
-        {
-          "date": "2026-04-24",
-          "title": "Meet – Co-Founder Catchup!",
-          "participants": [
-            "gaia@byzantine.fi",
-            "benoit@byzantine.fi",
-            "alexandre@byzantine.fi"
-          ],
-          "summary": "- **Transaction Getter Restructuring:** New design will provide six transaction types for improved UI filtering and backend handling.\n\n- **Vault ID Replacement:** Switching from vault ID to product ID to enhance security and simplify URLs is a low priority.\n\n- **April 28 Deadline:** Target set for updates to mainnet transactions and CGP info page for quicker system performance.\n\n- **Gas Estimation Bug Fix:** Immediate focus on automating gas estimation to prevent deposit failures and ensure smooth user experience.\n\n- **SoC2 Compliance Process:** Initiated to meet security standards, taking about five months to achieve certification for partnerships.\n\n- **Webhook Development in Rust:** Transaction and customer webhooks being designed for better data structure and integration within a month.",
-          "actionItems": [
-            "**Jonas Bokelmann**",
-            "Move UI touch-ups to faster mainnet transaction integration by April 28 to meet the release deadline (06:58)",
-            "Inform Gaia about project updates and progress to keep stakeholders aligned (11:40)",
-            "Create a Telegram group for Pactol and request their necessary documents to advance integration efforts (21:29)",
-            "**Alexandre Sanson**"
-          ],
-          "company": "Co-Founder Catchup!",
-          "external_domains": [],
-          "external_emails": []
-        },
-        {
-          "date": "2026-04-24",
-          "title": "Apr 24, 10:22 AM",
-          "participants": [
-            "gaia@byzantine.fi"
-          ],
-          "summary": "- **USDC Vault Sharing:** Public link for USDC vault offers transparency while protecting sensitive strategy details.  \n- **Current APY:** USDC vault shows 0.6% APY due to transition from morpho V1 to V2, causing low yield.  \n- **Multi-Platform Strategy:** Vault liquidity allocated across Morpho, Aave, and Maker for diversification and risk management.  \n- **Stakeholder Narrative:** Simple narrative helps manage expectations and justifies low yield, reinforcing investor confidence.  \n- **Active Liquidity Deployment:** Clear platform exposure indicates active liquidity allocation, supporting consistent communication with stakeholders.",
-          "actionItems": [
-            "**Gaia**",
-            "Wait for Benoit's detailed response regarding the vault link to share (00:23)",
-            "Share the public Morpho USDC vault link with the requester while explaining the current low yield situation and partial visibility of Byzantine strategies (00:23)",
-            "Communicate that other components of Byzantine's strategy are staked in Aave and Maker protocols (01:17)"
-          ],
-          "company": "",
-          "external_domains": [],
-          "external_emails": []
-        }
-      ]
+      "transcripts": []
     },
     {
       "id": "gocanopy",
       "company": "GoCanopy",
       "stage": "Meeting",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-04-28",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3029,7 +2876,7 @@
       "id": "maki-people",
       "company": "Maki People",
       "stage": "Proposal / Negotiation",
-      "lastDays": 145,
+      "lastDays": 146,
       "lastContactDate": "2025-12-05",
       "lastContactType": "email_received",
       "priority": "High",
@@ -3055,7 +2902,7 @@
       "id": "samuel-mottais",
       "company": "Samuel Mottais",
       "stage": "Active",
-      "lastDays": 107,
+      "lastDays": 108,
       "lastContactDate": "2026-01-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3100,12 +2947,12 @@
       "id": "intesa-sanpaolo",
       "company": "Intesa Sanpaolo",
       "stage": "Proposal / Negotiation",
-      "lastDays": 1,
-      "lastContactDate": "2026-04-28",
-      "lastContactType": "transcript",
+      "lastDays": 10,
+      "lastContactDate": "2026-04-20",
+      "lastContactType": "email_received",
       "priority": "High",
       "notes": "",
-      "nextSteps": "**Gaia** | Share the risk framework and due diligence pack detailing strategy evaluation criteria with 21shares team (32:31) | Provide operational live product link(s) on Morpho or related protocols for technical and security review (33:14)",
+      "nextSteps": "",
       "contact": null,
       "confidence": null,
       "expected_allocation": 15000000.0,
@@ -3132,54 +2979,13 @@
           "snippet": "Ciao Gaia, in allegato il materiale relativo allo strumento sviluppato da Blackmanta. Qua invece il framework per il trattamento prudenziale che ha sviluppato la Bank of International Settlement e che"
         }
       ],
-      "transcripts": [
-        {
-          "date": "2026-04-28",
-          "title": "Byzantine & 21shares",
-          "participants": [
-            "gaia@byzantine.fi"
-          ],
-          "summary": "- **Product Launch Goal:** Targeting a launch in September/October, potentially pushed to June to meet client demand.\n\n- **Funding and Commitments:** Byzantine raised $3.7 million; Intesa Sanpaolo committed €20 million, with pipeline exceeding €130 million.\n\n- **Unique Product Features:** Offers banks a DeFi access strategy with 5-6% net returns, avoiding direct crypto exposure risks.\n\n- **Operational Strategy:** Utilizes USDC and EURC stablecoins, maintaining regulatory compliance without managing client funds directly.\n\n- **Client Benefits:** Provides flexible liquidity, instant fund access, and significantly better returns compared to traditional savings accounts.\n\n- **Collaboration Framework:** Clear communication lines established for due diligence and integration; follow-ups coordinated for effective information exchange.",
-          "actionItems": [
-            "**Gaia**",
-            "Share the risk framework and due diligence pack detailing strategy evaluation criteria with 21shares team (32:31)",
-            "Provide operational live product link(s) on Morpho or related protocols for technical and security review (33:14)",
-            "Coordinate with Kiara to organize follow-up meetings and support documentation delivery task (41:50)",
-            "**Karim**"
-          ],
-          "company": "",
-          "external_domains": [],
-          "external_emails": []
-        },
-        {
-          "date": "2026-04-23",
-          "title": "Meet – PARISET and Gaia Ferrero Regis",
-          "participants": [
-            "ypariset@fluence.eu"
-          ],
-          "summary": "- **Positionnement de Fluence** : Société indépendante depuis 2021, axée sur gestion financière et alignement des intérêts clients-fondateurs.\n\n- **Produits financiers de Byzantine** : Propose quatre produits sécurisés, rendements de **4-6%**, liquidité accessible 24/7 sans frais d'entrée/sortie.\n\n- **Capital sous gestion** : Byzantine gère actuellement **60 millions** d'euros, avec un deuxième produit auréole de **50 millions** et un pipeline de **200 millions**.\n\n- **Partenariats institutionnels** : Collaboration avec Intesa Sanpaolo et Bankacela pour une distribution intégrée via solutions white label.\n\n- **Vision à moyen terme** : Devenir leader dans la convergence finance traditionnelle et DeFi, en alliant sécurité et flexibilité produits.",
-          "actionItems": [
-            "**Gaia Ferrero Regis**",
-            "Envoyer la fact sheet produit et un pack détaillé sur la structuration et la gestion des risques à Yannig Pariset (22:13)",
-            "Envoyer une invitation pour une réunion de suivi le 12 mai à 10 heures (25:34)",
-            "**Yannig Pariset**",
-            "Examiner les documents produits transmis par Gaia pour se familiariser avec la technologie et la proposition de valeur de Byzantine (22:36)"
-          ],
-          "company": "PARISET",
-          "external_domains": [
-            "fluence.eu"
-          ],
-          "external_emails": [
-            "ypariset@fluence.eu"
-          ]
-        }
-      ]
+      "transcripts": []
     },
     {
       "id": "payflow",
       "company": "Payflow",
       "stage": "Meeting",
-      "lastDays": 55,
+      "lastDays": 56,
       "lastContactDate": "2026-03-05",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3205,7 +3011,7 @@
       "id": "jethr",
       "company": "JetHR",
       "stage": "Lost",
-      "lastDays": 63,
+      "lastDays": 64,
       "lastContactDate": "2026-02-25",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3243,7 +3049,7 @@
       "id": "arthur-bloch",
       "company": "Arthur Bloch",
       "stage": "Active",
-      "lastDays": 77,
+      "lastDays": 78,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3281,7 +3087,7 @@
       "id": "thibault-gimenez",
       "company": "Thibault Gimenez",
       "stage": "Qualification",
-      "lastDays": 51,
+      "lastDays": 52,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3435,7 +3241,7 @@
       "confidence": null,
       "expected_allocation": null,
       "pct_closing": null,
-      "days_to_close": 5,
+      "days_to_close": 4,
       "close_date": "2026-05-05",
       "weighted_value": null
     },
@@ -4914,760 +4720,235 @@
   "meetings": [],
   "all_transcripts": [
     {
-      "date": "2026-04-28",
-      "title": "Meet – Alexis <> Gaia (Proposal)",
-      "participants": [
-        "alexis.valentin@outlook.com"
-      ],
-      "summary": "- **Développement commercial:** Accélérer la croissance par l'élargissement des cas d'utilisation bancaires et une prospection rigoureuse.\n\n- **Suivi des leads:** Appels réguliers et directs pour clarifier les positions des opportunités et éviter les pertes de deals.\n\n- **Embauches nécessaires:** Recruter rapidement un commercial junior CGP, visant à générer un million d’AUM par trimestre.\n\n- **Produits structurés:** Discussions en cours avec Marex et autres pour élargir la distribution et intég",
-      "actionItems": [
-        "**Gaia Ferrero Regis**",
-        "Segmenter les CGP par région et par type de clients (entrepreneurs, technophiles) afin d'affiner la prospection commerciale (01:40)",
-        "Relancer Coen, le champion chez Bitvavo, via WhatsApp ou appel téléphonique pour clarifier la situation et débloquer l'opportunité en suspens (32:35)",
-        "Appeler Reiss, autre contact clé chez Bitvavo, pour accélérer la communication et avancer sur le partenariat (32:55)",
-        "Tester l'embauche de deux commerciaux juniors en parallèle pour la prospection CGP afin de comparer leur efficacité et optimiser la stratégie de recrutement (31:50)"
-      ],
-      "company": "Meet – Alexis",
-      "linked_deal": "Bitvavo"
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Contract Language and Commission Updates",
-      "participants": [
-        "gaia@byzantine.fi"
-      ],
-      "summary": "- **Language Change:** Contracts will be translated to French to meet CGP needs and reduce confusion.  \n- **Commission Flexibility:** Management fees can now range from 0 to 3%, allowing dynamic adjustments without contract changes.  \n- **No Retrospective Translations:** Existing contracts won’t be translated; focus is on future documents to improve communication.  \n- **Local Adaptation Importance:** Adapting contracts to French legal expectations strengthens client trust and operational efficie",
-      "actionItems": [
-        "**Gaia**",
-        "Ensure all future contracts sent to CGPs are translated into French to prevent misunderstandings (01:40)",
-        "Avoid sending any further contracts in English to CGPs to reduce confusion and incoming calls (01:31)",
-        "**Unassigned**",
-        "Monitor flexibility of commission settings on contracts and communicate any changes in commission rates to relevant parties without contract amendments (01:07)"
-      ],
-      "company": "",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Meet – Alexander Gryaznov and Jonas Bokelmann",
-      "participants": [
-        "hi@agryaznov.com",
-        "adgryaznov@gmail.com"
-      ],
-      "summary": "- **Shift to Institutional Focus:** Byzantine Finance now prioritizes borrowing and lending on Aave, Compound, and Maker, enhancing compliance for institutions.\n\n- **User-Friendly Experience:** The platform simplifies DeFi interactions by hiding blockchain complexities, making it accessible for Web2 clients.\n\n- **API Development Priority:** Building backend compatibility for multiple DeFi protocols to optimize interactions and support integrations is essential for growth.\n\n- **Regulatory Strateg",
-      "actionItems": [
-        "**Jonas Bokelmann**",
-        "Align with CTO to discuss candidate evaluation post-call (27:20)",
-        "Arrange the next step interview between candidate and CTO (27:20)",
-        "Send take-home assignment for API testing to the candidate (27:20)",
-        "Schedule debrief call with CTO after candidate’s coding assignment (27:20)"
-      ],
-      "company": "Alexander Gryaznov",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Meet – Follow-up OpSales x Byzantine",
-      "participants": [
-        "a.breteau@opsales.fr",
-        "g.barre@opsales.fr",
-        "gaia@byzantine.fi"
-      ],
-      "summary": "- **Global Objectives:** Focus on defining clear volume goals, targeting near 100 units by May to align team efforts.\n\n- **Project Tornado:** Emphasized strategic integration within existing proposals, potentially affecting resource allocation and volume efficiency.\n\n- **Distributor Engagement:** Critical for volume growth; integrating feedback and improving platform capabilities is essential for scaling.\n\n- **Improved Coordination:** Clear declarations of SKC International involvement necessary",
-      "actionItems": [
-        "**Alexis BRETEAU**",
-        "Define and finalize the global objective and volume targets for the sales or project framework (02:23)",
-        "Confirm proposals related to \"Project Tornado\" and ensure clarity on composition and donation-related aspects (17:51)",
-        "**Gaia Ferrero Regis**",
-        "Verify and correct information related to platform and distributor designations as part of project alignment (11:42)"
-      ],
-      "company": "",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Meet – Follow-up OpSales x Byzantine",
-      "participants": [
-        "a.breteau@opsales.fr",
-        "g.barre@opsales.fr",
-        "matteo@byzantine.fi"
-      ],
-      "summary": "- **Objectif de levée de fonds**: 30-40 millions d’euros d’AUM d’ici fin d’année pour CGP, avec une cible totale de 150 millions d’euros.\n\n- **Structure tarifaire**: Commission de 1% à 5% sur AUM, avec un système de paiement trimestriel basé sur la moyenne d'AUM.\n\n- **Acculturation CGP**: Phase de 20 jours en mai, démarrage opérationnel en juin; ciblage selon les profils conservateurs et innovants.\n\n- **Avantage compétitif**: Absence de concurrence directe sur les produits à rendements garantis ",
-      "actionItems": [
-        "**Gaia Ferrero Regis**",
-        "Mettre à disposition un accès à la plateforme Byzantine avec lien de parrainage pour Opsales afin de suivre en temps réel les apports des CGP et le versement des commissions (12:05)",
-        "Identifier et intégrer une nouvelle personne dédiée CGP pour assurer la continuité opérationnelle pendant la mobilisation de Gaia sur un projet bancaire majeur (20:00)",
-        "**Alexis Breteau et Matteo Maschio**",
-        "Analyser et modéliser le modèle de commissionnement proposé par Byzantine, puis revenir avec une proposition détaillée en fin de journée (23:20)"
-      ],
-      "company": "",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Meet – Stanislas Barthelemi and Gaia Ferrero Regis",
-      "participants": [
-        "stanislas.barthelemi@caceis.com"
-      ],
-      "summary": "- **Positionnement de KCIS :** Services crypto pour clients B2B et retail, en attente d'agrément d’exécution réglementaire MICA.  \n- **Lancement du stablecoin :** Crédit Agricole prévu en juin-juillet 2024, soutenu par des collatéraux en BCE.  \n- **Offre retail :** Attendue fin 2024 avec LCL, incluant conservation et livrets en stablecoin.  \n- **Produits Byzantine :** Quatre produits flagship offrant entre 4-6% net, avec partenariats majeurs pour gestion.  \n- **Innovation et réglementation :** B",
-      "actionItems": [
-        "**Gaia Ferrero Regis**",
-        "Partager les documents légaux et notes détaillées sur les produits Byzantine avec Stanislas Barthelemi (13:50)",
-        "Envoyer liens et articles sur l’analyse de l’impact des incidents Aave pour rassurer l’équipe KCIS (18:38)",
-        "Fournir les liens et détails sur les banques italiennes BankASL et Ripe travaillant avec Byzantine (20:50)",
-        "Préparer une session de travail approfondie avec les équipes Risk, Compliance et Trading Desk de KCIS, à planifier autour du début juin (29:00)"
-      ],
-      "company": "Stanislas Barthelemi",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-28",
-      "title": "Byzantine & 21shares",
-      "participants": [
-        "gaia@byzantine.fi"
-      ],
-      "summary": "- **Product Launch Goal:** Targeting a launch in September/October, potentially pushed to June to meet client demand.\n\n- **Funding and Commitments:** Byzantine raised $3.7 million; Intesa Sanpaolo committed €20 million, with pipeline exceeding €130 million.\n\n- **Unique Product Features:** Offers banks a DeFi access strategy with 5-6% net returns, avoiding direct crypto exposure risks.\n\n- **Operational Strategy:** Utilizes USDC and EURC stablecoins, maintaining regulatory compliance without manag",
-      "actionItems": [
-        "**Gaia**",
-        "Share the risk framework and due diligence pack detailing strategy evaluation criteria with 21shares team (32:31)",
-        "Provide operational live product link(s) on Morpho or related protocols for technical and security review (33:14)",
-        "Coordinate with Kiara to organize follow-up meetings and support documentation delivery task (41:50)",
-        "**Karim**"
-      ],
-      "company": "",
-      "linked_deal": "Intesa Sanpaolo"
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Meet-Jonas-Bokelmann-and-Alex_2026-04-23.mp3",
-      "participants": [],
-      "summary": "- **Pivot vers un produit de money market institutionnel** pour attirer institutions Web2 avec sécurité et simplicité.\n\n- **Partenariat avec Aion** pour assurer la sécurité des smart contracts, important pour gagner la confiance des clients institutionnels.\n\n- **Lancement d'un ETN DeFi en Europe prévu dans 6 à 9 mois** pour faciliter l'investissement via brokers classiques.\n\n- **Levée de fonds ciblant 40 à 50 millions d'euros** à la fin de l'année pour renforcer la croissance et la conformité.\n\n",
-      "actionItems": [
-        "**Alexandre**",
-        "Partager le dashboard des Prediction Markets et les visuels prévus avec l’équipe Kleros (24:30)",
-        "Transmettre les données publiques sur les vaults Morpho utilisées pour l’intégration dans le dashboard (26:30)",
-        "Discuter en interne avec Juan et l’équipe de Byzantine sur la faisabilité et les prochaines étapes du dashboard (26:45)",
-        "Participer à la gestion du groupe Telegram pour faciliter les échanges sur l’intégration et partager les liens (28:30)"
-      ],
-      "company": "Jonas-Bokelmann-",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Bitvavo Deal and Sales Strategy Update",
-      "participants": [
-        "gaia@byzantine.fi"
-      ],
-      "summary": "- **Deal Stalled:** Bitvavo deal hampered by poor communication, complicating progress and raising doubts about its future viability.  \n- **Focus Shift:** Team pivoting to pursue broader outreach in Amsterdam, eyeing larger firms like Goldman Sachs for potential opportunities.  \n- **Morale Issues:** Emotional strain noted due to ghosting from clients; team discussed need for mutual support amidst frustrations.  \n- **Meeting Decision:** Plans to wait until 8:00 AM for updates on Bitvavo meetings;",
-      "actionItems": [
-        "**Speaker 1**",
-        "Check the return date of the Bitvavo point of contact via email and update on their availability (03:05)",
-        "Consider reaching out to Goldman Sachs contacts as an alternative to Bitvavo and report on responses (05:32)",
-        "**Speaker 2**",
-        "Inquire internally about the hiring and introduction emails for candidates Mounir, Nebula, and Agrioznov and report back (07:29)"
-      ],
-      "company": "",
-      "linked_deal": "Bitvavo"
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Meet – Arnaud x Byzantine",
+      "date": "2026-04-10",
+      "title": "Gaia / Timothée : Bilan 3 mois",
       "participants": [
         "gaia@byzantine.fi",
-        "achanpeng614@gmail.com"
+        "timothee@byzantine.fi"
       ],
-      "summary": "- **Compensation Model:** Proposed €2000 monthly base plus increased revenue share to motivate proactive sales and improve forecasts.  \n\n- **Risk Sharing:** Variable pay linked to revenue aims to balance fixed security with incentives for proactive follow-ups.  \n\n- **Sales Triggers:** Focus on demo completions and signatures as key sales milestones to drive compensation and performance evaluation.  \n\n- **Revenue Sharing Transparency:** Clear revenue share terms and visibility on compensation nec",
+      "summary": "- **Cold Calling Priority:** Focus on cold calling CGPs and multi-family offices to generate qualified leads.  \n- **Budget Constraints:** Total monthly budget is 7K euros, with 4K allocated for SDR follow-up and sales outreach.  \n- **Compliance Costs:** SOC 2 Type 2 compliance estimated between 10K and 15K euros, affecting overall budget flexibility.  \n- **Workload Issues:** Gaia's workload is unsustainable with 7-11 calls daily; dedicated SDR or CSM support is needed.  \n- **Strategic Collaborat",
       "actionItems": [
         "**Gaia Ferrero Regis**",
-        "Confirm the final compensation structure incorporating base salary and variable components to clarify risk levels and incentives (02:40)",
-        "Follow up on details related to customer success upgrades and volume management to ensure service adjustments are properly handled (12:10)",
-        "Clarify and promote the messaging strategy for product or service names as discussed to align marketing efforts (19:52)",
-        "**Arnaud Chan Peng**"
-      ],
-      "company": "",
-      "linked_deal": "The Level Group"
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Meet – Arnaud x Byzantine",
-      "participants": [
-        "achanpeng614@gmail.com",
-        "matteo@byzantine.fi"
-      ],
-      "summary": "- **Modèle de rémunération assuré par un fixe de 3 500 euros et 100 leads** à traiter mensuellement pour garantir une charge de travail équilibrée.  \n- **Rémunération variable basée sur des dépôts clients**, avec un système de paliers et incitations sur 18 mois pour motiver les performances à long terme.  \n- **Gestion étendue du suivi des leads** pour maximiser les signatures, incluant confirmation des démos et relances post-démo.  \n- **Utilisation d’un titre de directeur commercial** validée po",
-      "actionItems": [
-        "**Gaia Ferrero Regis**",
-        "Vérifier et confirmer les modalités contractuelles avec Matteo et Moko, puis envoyer un retour à Arnaud d’ici demain (23:07)",
-        "Réexaminer et valider les listes de leads disponibles, notamment en Suisse, avant de reprendre les appels (24:50)",
-        "Mettre en place l’accès au dashboard blockchain pour Arnaud afin de lui permettre le suivi des leads et dépôts (21:50)",
-        "**Matteo Maschio**"
+        "Organize and finalize budget allocation focusing on cold calling and partial SDR support within €4K budget limit (18:16)",
+        "Begin process to search or hire a person (potentially Arno) for SDR tasks including cold calling and conversion follow-up, and discuss fair pricing with Timothée (18:35)",
+        "Coordinate follow-ups with Timothée post-month-end regarding any specific needs or consulting (16:45)",
+        "Continue leveraging LinkedIn and SEO to maintain pipeline alongside SDR and cold calling efforts (20:24)"
       ],
       "company": "",
       "linked_deal": null
     },
     {
-      "date": "2026-04-27",
-      "title": "Meet – Valentin <> Gaia",
+      "date": "2026-03-13",
+      "title": "Meet – Weekly GTM",
+      "participants": [
+        "gaia@byzantine.fi",
+        "timothee@byzantine.fi"
+      ],
+      "summary": "- **Partnership with Bitvavo:** Targeting a deal potentially worth 50 million euros, aiming for substantial growth with larger amounts next.  \n- **Sales Pipeline Structure:** Multi-tiered pipeline with 15-25 small deals, 10-15 medium, and 5-6 large deals focused on maximizing revenue.  \n- **Cold Caller Success:** New cold caller booked two demos in their first week; efficiency boosted by targeted lead lists for outreach.  \n- **Tool Automation:** Developing a dashboard integrating CRM and communi",
+      "actionItems": [
+        "**Gaia Ferrero Regis**",
+        "Share the detailed call script and ICP for cold caller outreach preparation (06:20)",
+        "Provide Timothée with access to Byzantine Claude dashboard for pipeline monitoring (36:30)",
+        "Provide a description of desired daily/weekly outputs for dashboard to Timothée (30:00)",
+        "**Timothée Colinet**"
+      ],
+      "company": "Weekly GTM",
+      "linked_deal": "OX Capital Partners"
+    },
+    {
+      "date": "2026-03-13",
+      "title": "Weekly GTM",
+      "participants": [
+        "gaia@byzantine.fi",
+        "matteo@byzantine.fi",
+        "timothee@byzantine.fi"
+      ],
+      "summary": "- **Partnership with Bitvavo**: Targeting €40-60 million deal; NDA to be sent soon; independent strategy proposal accepted.  \n- **Sales Pipeline Structure**: Focus on 70% of effort on large deals; segmented by size for risk balance and visibility.  \n- **Cold Calling Strategy**: New cold caller focusing on 120 leads; cost €1,000; prioritizing multifamily offices and CGPs.  \n- **Technology Integration**: Dashboard for tracking deal statuses and follow-ups in progress; aiming for automation in comm",
+      "actionItems": [
+        "**Gaia Ferrero Regis**",
+        "Prepare and send out NDA to Bitvavo (01:39)",
+        "Review and update pipeline allocations and values to ensure at least 3x target AUM coverage (14:48)",
+        "Share detailed ICPs for cold caller outreach and integrate multi-family offices and independent CGPs lists (05:44)",
+        "Organize follow-up communications with sales leads and champions, ensuring clear tracking of tasks and next steps on a daily/weekly basis (26:33)"
+      ],
+      "company": "",
+      "linked_deal": "OX Capital Partners"
+    },
+    {
+      "date": "2026-03-12",
+      "title": "Meet – ABM ideas for earning programs",
+      "participants": [
+        "timothee@byzantine.fi"
+      ],
+      "summary": "- **Content Strategy Focus:** Develop diverse posts showing yield's role in customer acquisition and retention, aiming for 3 posts weekly.  \n- **Highlight DeFi Trends:** Emphasize competitor shifts toward DeFi, promoting the cost-effectiveness of in-house solutions versus white-label options.  \n- **Targeting & ICP Refinement:** Create a tiered ICP list and consolidate data for effective sales strategies, focusing on crypto brokers and neo banks.  \n- **AI Tools Integration:** Utilize AI for conte",
+      "actionItems": [
+        "**Matteo Maschio**",
+        "Share photo and details of Kraken’s earning program with Timothée (07:48)",
+        "Assist Timothée with researching why banks benefit from higher balances and yield product mechanics (09:13)",
+        "Provide access or update on the pipeline and ICP list to Timothée, including tiers and contacts status (20:34)",
+        "Follow up with Gaia regarding introductions to Oliver and contacts in banking/retail for potential crypto partnerships (30:15)"
+      ],
+      "company": "ABM ideas for earning programs",
+      "linked_deal": "OX Capital Partners"
+    },
+    {
+      "date": "2026-03-12",
+      "title": "ABM ideas for earning programs",
       "participants": [
         "matteo@byzantine.fi",
-        "valentinhmd@gmail.com"
+        "timothee@byzantine.fi"
       ],
-      "summary": "- **Structuration de la pipeline commerciale :** Trois segments pour gérer clients : CGP, actifs de 15-25 millions, gros acteurs bancaires.\n\n- **Gestion des leads :** Charge de travail élevée, besoin d'un collaborateur dédié pour déléguer la gestion des contacts.\n\n- **Prospection géographique :** Base de données mise à jour, marché français avec 3 000 CGP, expansion vers Suisse, Luxembourg, Belgique.\n\n- **Objectifs d'appels :** 100 appels/mois, objectif de 500 appels, 4 à 5 clients signés en pha",
+      "summary": "- **Content Strategy Focus:** Create diverse, story-driven content on yield products, targeting three weekly publications to boost engagement.\n\n- **Market Targeting Improvement:** Segment companies into tiers to tailor marketing efforts, focusing on valuable prospects and avoiding duplication.\n\n- **Sales Outreach Plans:** Prepare for targeted outreach to tier 2 companies and explore partnerships with complementary firms for shared client access.\n\n- **AI Tools Utilization:** Leverage AI for data ",
       "actionItems": [
-        "**Valentin Hamida**",
-        "Évaluer ses disponibilités et capacités d’appels pour la prospection CGP en freelance, et donner un retour définitif d’ici fin de semaine ou lundi prochain (27:44)",
-        "Tester pendant une semaine la mise en place d’appels et de rendez-vous avec Gaia, pour établir un benchmark de performance (16:41)",
-        "Communiquer avec Matteo pour les questions en suspens (18:05)",
-        "**Gaia Ferrero Regis**"
-      ],
-      "company": "Meet – Valentin",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Meet – Omar Boubkry and Gaia Ferrero Regis",
-      "participants": [
-        "omar.boubkry@ramify.fr",
-        "paul.giraud@ramify.fr"
-      ],
-      "summary": "- **Byzantine et son expertise** : Fondée il y a 2 ans, elle propose des solutions de liquidité flexible et rendements attractifs.\n\n- **Produits phares** : Rendements nets entre 4-5% avec capital garanti sur certains produits, couvrant les risques jusqu'à 20 millions par client.\n\n- **Co-construction avec clients** : Produits adaptés aux besoins spécifiques des clients, intégrant régulations locales et profils de risque.\n\n- **Gestion des risques** : Partenariat avec Kirok pour sélectionner collat",
-      "actionItems": [
-        "**Gaia Ferrero Regis**",
-        "Envoyer la documentation technique et produit à Paul Giraud pour revue par l’équipe de recherche (29:00)",
-        "Planifier une session de suivi avec Paul Giraud le 26 mai à 10h pour approfondir la collaboration et répondre aux questions (28:50)",
-        "**Paul Giraud**",
-        "Partager la documentation avec l’équipe de recherche chez Ramify pour évaluation initiale (27:00)"
-      ],
-      "company": "Omar Boubkry",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Byzantine-BPCE Collaboration on Yield Products",
-      "participants": [
-        "gaia@byzantine.fi"
-      ],
-      "summary": "- **Byzantine’s Yield Products:** Four products; guaranteed yields of 4-5% and non-guaranteed yields of 5-6% net annually.  \n- **Risk Management Focus:** Zero historical bad debt; active collateral selection and portfolio management 24/7.  \n- **Exark Launch:** Created for 29 local banks, currently offers basic crypto services and expanding to more banks.  \n- **Potential Synergies:** Byzantine offers customizable yield and liquidity products; API integration supports client needs and compliance. ",
-      "actionItems": [
-        "**Gaïa**",
-        "Send technical and product documentation about Byzantine’s yield solutions and API integrations to the BPCE team (01:04:30)",
-        "Schedule follow-up meeting with BPCE/Ramify team research group for detailed discussion post-May holidays",
-        "**BPCE Innovation Team Participant**",
-        "Share Byzantine’s documentation with internal research team for initial feedback and prepare for integration discussions after summer timeframe (01:04:45)"
-      ],
-      "company": "BPCE Collaboration on Yield Products",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-27",
-      "title": "Meet – Vincent x Byzantine",
-      "participants": [
-        "vmaury@gmail.com"
-      ],
-      "summary": "- **Fee Negotiations:** Removing entry and exit fees critical for product viability; current 10 basis points hinder liquidity functionality.  \n- **Management Fee Target:** Aim below 50 basis points; currently at 1% per annum, significantly reducing returns needs substantial reduction.  \n- **Setup Costs Concern:** Target to lower €200,000 setup fee to encourage adoption; scaling fees with business growth discussed.  \n- **Client Interest:** Strong early interest from Italian banks and Swiss custod",
-      "actionItems": [
-        "**Vincent Maury**",
-        "Contact Marex to discuss fee structures, potential multi-currency structuring, and minimum ticket sizes; explore scope for negotiating lower fees and removing subscription/redemption fees (15:18)",
-        "Coordinate with sales team to gauge negotiation possibilities and maintain discretion around higher management to avoid organizational resistance (24:25)",
-        "Validate APY and yield calculation methodology with developer Claude and investigate data discrepancies on dashboard (48:44)",
-        "Follow up with plants on pressure towards Lutu family office client and copy Julien on correspondence (29:59)"
+        "**Timothée Colinet**",
+        "Research mechanics and benefits of high customer balances on platforms to create an explanatory post (03:00)",
+        "Prepare detailed subtopics for the yield-related themes and craft between five to ten content posts in advance, including potential videos with Gaia (12:41)",
+        "Organize the ICP target list with clear tier separation and include LinkedIn contacts for filtering and ease of targeting (16:15)",
+        "Complete and update the sales pipeline document with current opportunities to support go-to-market clarity for Gaia (24:26)"
       ],
       "company": "",
-      "linked_deal": null
+      "linked_deal": "OX Capital Partners"
     },
     {
-      "date": "2026-04-27",
-      "title": "Meet – Olric Ournac and Gaia Ferrero Regis",
+      "date": "2026-03-06",
+      "title": "Meet – Gaia (Byzantine) -- Maxime (Tulyp)",
       "participants": [
-        "olric.ournac@rockfi.fr"
+        "max@tulyp.io",
+        "antonio@tulyp.io"
       ],
-      "summary": "- **Levée de fonds :** Rockfee a levé 20 millions d'euros pour sa plateforme tech et a 120 banquiers indépendants.  \n- **Actifs sous gestion :** Le réseau gère 600 millions d'euros, avec un objectif de 1 milliard d'euros d'ici fin d'année.  \n- **Produits financiers :** Byzantine a lancé 4 produits avec des rendements nets entre 4% et 6%, avec liquidité 24/7.  \n- **Sécurité réglementaire :** Les produits Byzantine sont régulés par l’AMF, protégeant jusqu'à 20 millions d’euros par client.  \n- **On",
+      "summary": "- **Language preference set for smoother communication.** Maxime chose French, enhancing the discussion flow among participants.  \n\n- **Focus on monitoring capital top-ups and subscriptions.** Emphasized need for precise tracking of financial transactions for compliance.  \n\n- **Blockchain disruption identified as key market influence.** Strategies will align to address blockchain impacts and evolving asset trends.  \n\n- **October conference noted as a critical distribution milestone.** Important ",
       "actionItems": [
-        "**Olric Ournac**",
-        "Tester la solution Byzantine en souscrivant personnellement via la plateforme pour évaluer son fonctionnement et ses avantages (38:34)",
-        "Planifier une rencontre avec Gaïa Ferrero Regis autour du 20 mai pour discuter d'un partenariat potentiel et approfondir les questions soulevées (37:46)",
-        "**Gaïa Ferrero Regis**",
-        "Envoyer la documentation complète sur Byzantine à Olric Ournac pour lui permettre de tester et comprendre la solution en détail (38:28)"
+        "**Gaia Ferrero Regis**",
+        "Provide detailed compliance documentation as discussed during the meeting (05:27)",
+        "Share updates on blockchain impact on blue-chip disruption for further analysis (12:57)",
+        "Confirm front-end design specifications and collaborate with Maxime on implementation (26:38)",
+        "Prepare materials or summaries related to the October distribution conference participation (23:15)"
       ],
-      "company": "Olric Ournac",
-      "linked_deal": null
+      "company": "",
+      "linked_deal": "Tulyp"
     },
     {
-      "date": "2026-04-27",
-      "title": "Meet – GTM review: Givanni <> Byzantine",
+      "date": "2026-03-06",
+      "title": "Weekly GTM",
       "participants": [
+        "gaia@byzantine.fi",
         "matteo@byzantine.fi",
-        "giovanni.ruggiero10@gmail.com"
+        "timothee@byzantine.fi"
       ],
-      "summary": "- **Sviluppo Partnership:** Collaborazioni con integratori chiave per espandere il mercato, impegno di **20 milioni di euro** in corso.\n\n- **Integrazioni Attive:** Collaborazione con Bitstack e incontri con Young Platform, Bitvavo e Bitpanda per aumentare le partnership.\n\n- **Gestione Rischi DeFi:** Zero esposizione a eventi recenti, stabilità del prodotto evidenziata come vantaggio competitivo.\n\n- **Strategia di Vendita:** Focus su call decisive con partner qualificati, obiettivo di finalizzare",
+      "summary": "- **Enterprise Client Pipeline Growth:** Dutch Money aims for 50,000 clients, expecting €15-20 million; Vavo's earn program estimated at €40-50 million.\n\n- **Deal Tracking Importance:** Systematic tracking needed for size, probabilities, timelines; focus on high-potential opportunities with low-value deal clean-up.\n\n- **Short-term Revenue Strategy:** Target UHNWIs and exclusive clubs for quick investments; recent Exit Club interest noted for cash flow.\n\n- **Automation of Deal Processes:** Integr",
       "actionItems": [
         "**Gaia Ferrero Regis**",
-        "Proseguire con la due diligence e le interazioni con Bitpanda, Bitvavo e Marex per consolidare le partnership e avanzare nello sviluppo dei prodotti (04:33)",
-        "Cercare e contattare eventuali nuovi contatti strategici a Amsterdam e Milano per facilitare collaborazioni future (11:20)",
-        "**Giovanni Ruggiero**",
-        "Organizzare la call con Bitvavo per avanzare l’integrazione con Byzantine e valutare la chiusura della collaborazione (06:35)"
-      ],
-      "company": "Meet – GTM review: Givanni",
-      "linked_deal": "OX Capital Partners"
-    },
-    {
-      "date": "2026-04-24",
-      "title": "Meet – Co-Founder Catchup!",
-      "participants": [
-        "gaia@byzantine.fi",
-        "benoit@byzantine.fi",
-        "alexandre@byzantine.fi"
-      ],
-      "summary": "- **Transaction Getter Restructuring:** New design will provide six transaction types for improved UI filtering and backend handling.\n\n- **Vault ID Replacement:** Switching from vault ID to product ID to enhance security and simplify URLs is a low priority.\n\n- **April 28 Deadline:** Target set for updates to mainnet transactions and CGP info page for quicker system performance.\n\n- **Gas Estimation Bug Fix:** Immediate focus on automating gas estimation to prevent deposit failures and ensure smoo",
-      "actionItems": [
-        "**Jonas Bokelmann**",
-        "Move UI touch-ups to faster mainnet transaction integration by April 28 to meet the release deadline (06:58)",
-        "Inform Gaia about project updates and progress to keep stakeholders aligned (11:40)",
-        "Create a Telegram group for Pactol and request their necessary documents to advance integration efforts (21:29)",
-        "**Alexandre Sanson**"
-      ],
-      "company": "Co-Founder Catchup!",
-      "linked_deal": "OX Capital Partners"
-    },
-    {
-      "date": "2026-04-24",
-      "title": "Meet – Erik Ferrarese and Matteo Maschio",
-      "participants": [
-        "erik.ferrarese.ft@gmail.com"
-      ],
-      "summary": "- **Blockchain's Role:** Blockchain enhances risk management and asset placement in crypto and alternative investments, linked to wealth management.  \n- **Investment Placement Structure:** A three-tier structure for investment managers ensures regulatory alignment and includes family offices as key stakeholders.  \n- **Certification Process:** A three-level certification is vital for investment managers in crypto to ensure compliance and investor confidence.  \n- **Fundraising Mechanisms:** Certif",
-      "actionItems": [
-        "**Matteo Maschio**",
-        "Provide a detailed overview on blockchain and risk management protocols, including Holy protocol and trading desk specifics (01:45)",
-        "Outline broker and financial advisor functions with focus on blockchain and alternative investments minima (12:28)",
-        "**Erik Ferrarese**",
-        "Clarify alternative investment concepts and expand on roles of family offices and venture capitals linked to digital assets (07:50)"
-      ],
-      "company": "Erik Ferrarese",
-      "linked_deal": "The Level Group"
-    },
-    {
-      "date": "2026-04-24",
-      "title": "Lin performance feedback",
-      "participants": [
-        "benoit@byzantine.fi",
-        "lin@byzantine.fi",
-        "jonas@byzantine.fi",
-        "alexandre@byzantine.fi"
-      ],
-      "summary": "- **End-to-end integration testing** involves virtual authenticators and Webhook simulations, improving reliability without risking real funds.  \n- **CI/CD pipeline integration** automates tests, catching issues early and supporting rapid fixes while ensuring system stability.  \n- **Focus on performance challenges** addresses potential height limits and data span issues to maintain high performance under load.  \n- **Wiremock usage** enhances testing accuracy by simulating external dependencies, ",
-      "actionItems": [
-        "**Alexandre Sanson**",
-        "Complete documentation on the integration test setup and Webhook simulation environments for broader team understanding (07:26)",
-        "Extend virtual authenticator tests covering edge cases related to fund manipulation scenarios (07:26)",
-        "**Benoît de Dieuleveult**",
-        "Review and approve integration of virtual authenticators in the test framework, ensuring compliance and robustness (05:27)"
+        "Provide a list of items to automate in the CRM and workflows for review on Tuesday with Matteo and Timothée (13:03)",
+        "Define key metrics and desired dashboard outputs to support AUM and client monitoring (14:42)",
+        "Finalize output requirements for the automation tool pulling data from Fireflies, emails, calendar, and CRM (27:59)",
+        "Conduct pipeline cleaning to prioritize high-value deals and realistic forecasting (21:33)"
       ],
       "company": "",
       "linked_deal": null
     },
     {
-      "date": "2026-04-24",
-      "title": "Meet – Gustave Pelletier and Matteo Maschio",
+      "date": "2026-03-05",
+      "title": "Meet – Gijs handgraaf and Gaia Ferrero Regis",
       "participants": [
-        "gustave@pelletier.se"
-      ],
-      "summary": "- **Clear Messaging:** Avoid mixing messages in videos to enhance clarity and viewer comprehension.  \n- **Reference Points:** Use clear references within videos to strengthen context and link to relevant data.  \n- **Communication Clarity:** Prioritize precise, modality-specific communication for better audience connection and trust.  \n- **WhatsApp Focus:** Recognize WhatsApp as a key platform for video sharing, optimizing formats for engagement.  \n- **Quality Standards:** Maintain simplicity in ",
-      "actionItems": [
-        "**Matteo Maschio**",
-        "Provide clear context and avoid compounding information when presenting the video case study to ensure clarity and effective communication (01:31)",
-        "Clarify and incorporate the term \"super capital\" within the video case study materials to enhance understanding and thematic consistency (03:01)",
-        "Reference the correspondent video tip appropriately in future presentations to improve modality and specificity in video content delivery (08:33)",
-        "Define and finalize the modality specifics for video presentation to ensure clarity and consistency in delivery (11:20)"
-      ],
-      "company": "Gustave Pelletier",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-24",
-      "title": "Meet – Loris GASTREIN and Matteo Maschio",
-      "participants": [
-        "loris.gastrein@edu.em-lyon.com"
-      ],
-      "summary": "- **Candidate Background:** Loris Gastrein has diverse sales experience across food, retail, automotive, and startups, with strong tool usage skills.\n\n- **Understanding Byzantine Product:** Loris recognizes Byzantine’s value in time-saving, efficiency, and secure investment opportunities, linking these to improved returns.\n\n- **Internship Role Fit:** Eager to engage in sales and marketing, Loris values cold calling and is open to flexible tasks in a small team.\n\n- **Post-Internship Plans:** Inte",
-      "actionItems": [
-        "**Matteo Maschio**",
-        "Check with CEO Jonas about the feasibility and timing for an apprenticeship (alternance) starting in September (21:50)",
-        "Follow up with Loris regarding the possibility of summer freelance work and apprenticeship options based on CEO feedback (21:50)",
-        "Provide Loris with updates on the freelance contract proposal and alternance possibilities next week (23:00)",
-        "**Loris Gastrein**"
-      ],
-      "company": "Loris GASTREIN",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-24",
-      "title": "Meet – Matte <> Gaia: review",
-      "participants": [
-        "gaia@byzantine.fi",
+        "gijs.handgraaf@bitvavo.com",
+        "coen.van.der.zanden@bitvavo.com",
         "matteo@byzantine.fi"
       ],
-      "summary": "- **Culture Improvement:** Ownership and prioritization have improved, reflected in positive feedback scores and proactive team engagement.  \n- **Data Standardization:** Urgent need to systematize sales data collection to track messaging effectiveness and conversion rates effectively.  \n- **Introducer Pipeline Management:** Matteo fully entrusted with managing the introducer pipeline, emphasizing autonomy in decision-making.  \n- **Freelance Hiring Preference:** Preference for freelance hires wit",
+      "summary": "- **Insured Yield Products Launch:** Byzantine raised **€3.7 million** for insured euro and dollar products yielding **4.5%** and **6%** respectively.  \n- **Risk Management Strategy:** Diversification across protocols, with dynamic monitoring to enable quick capital withdrawal when risks are high.  \n- **Insurance Coverage Insights:** Insurance covers operational risks but not blockchain disruptions; costs impact net yields; institutional feedback shaped offerings.  \n- **Custom Integration Suppor",
       "actionItems": [
-        "**Matteo Maschio**",
-        "Develop targeted questions for Gaia to ask CGP during initial meetings to gather structured data via Fireflies transcripts (11:40)",
-        "Prioritize implementing structured data collection among CGP, then extend similar process to introducers sequentially (12:35)",
-        "Explore feasibility of inter-calls or webinars with CGP post-contract signing to understand content needs and enhance sales support (12:35)",
-        "Take full ownership of introducer pipeline management and data tracking without needing escalation except for contract negotiations (13:57)"
+        "**Gijs Handgraaf**",
+        "Organize and send calendar invite for follow-up session on Thursday or Friday next week, confirmed for Friday 10-11 am (44:24)",
+        "Provide detailed documentation and diagrams on Byzantine’s fund flow, infrastructure, rights management, and hedge setup to Coen and team for internal review (31:49)",
+        "Run internal analysis to propose a low-risk vault strategy based on BTC, ETH, and staked ETH collateral with target yields around 4%-4.5%, and share results (24:04)",
+        "**Byzantine Team**"
       ],
-      "company": "Meet – Matte",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-24",
-      "title": "Meet – Matte <> Gaia: review",
-      "participants": [
-        "gaia@byzantine.fi",
-        "jonas@byzantine.fi"
-      ],
-      "summary": "- **Performance Feedback and Ownership Growth:** Matteo showed significant ownership and strategic impact, positively affecting workflow and satisfaction.\n\n- **Data Gathering and Process Standardization:** CGP data collection is prioritized to improve messaging effectiveness and conversion tracking, supporting sales playbook optimization.\n\n- **Interview and Hiring Strategy:** Freelance roles are preferred; internships will be considered based on cost implications and candidate interest.\n\n- **Cul",
-      "actionItems": [
-        "**Matteo Maschio**",
-        "Provide Gaia with targeted questions to ask during initial CGP meetings to facilitate structured data collection and assign proper tags (13:39)",
-        "Prioritize structured data gathering for CGP processes before extending the approach to introducer data (14:50)",
-        "Explore possible partnership webinars or direct calls with CGPs to better understand their post-signature content needs (15:18)",
-        "Take full ownership and control over the introducer pipeline operations and data tracking, increasing engagement and managing without escalation unless contracts are involved (16:05)"
-      ],
-      "company": "Meet – Matte",
-      "linked_deal": "OX Capital Partners"
-    },
-    {
-      "date": "2026-04-24",
-      "title": "Meet – Jonas Bokelmann et Anis Maalej",
-      "participants": [
-        "a.maalej@coleadfinance.com"
-      ],
-      "summary": "- **Distinction Between Gains:** Clarified differences between unrealized and realized losses to ensure accurate financial reporting.\n\n- **Average Cost Calculation:** Discussed using average cost for gain/loss calculations to improve asset valuation and reporting accuracy.\n\n- **Active Asset View:** Emphasized presenting accurate asset data to enhance financial health and decision-making for portfolios.\n\n- **Travel Expenses Tracking:** Mentioned ongoing efforts in managing travel expenses for bet",
-      "actionItems": [
-        "**Anis Maalej**",
-        "Clarify and document all tools and platforms referenced including Dropbox, Webflow, Mailchimp, PayFit, and Capsule for integration or monitoring purposes (08:37)",
-        "Verify and provide detailed accounting or explanations about travel expenses within financial records (12:18)",
-        "Provide a detailed breakdown or report on realized and unrealized gains and losses including average cost calculation methods (20:07)",
-        "Prepare a summary or review on the active asset side for financial reporting or auditing purposes (24:43)"
-      ],
-      "company": "Jonas Bokelmann et Anis Maalej",
-      "linked_deal": "GOin"
-    },
-    {
-      "date": "2026-04-24",
-      "title": "Apr 24, 10:22 AM",
-      "participants": [
-        "gaia@byzantine.fi"
-      ],
-      "summary": "- **USDC Vault Sharing:** Public link for USDC vault offers transparency while protecting sensitive strategy details.  \n- **Current APY:** USDC vault shows 0.6% APY due to transition from morpho V1 to V2, causing low yield.  \n- **Multi-Platform Strategy:** Vault liquidity allocated across Morpho, Aave, and Maker for diversification and risk management.  \n- **Stakeholder Narrative:** Simple narrative helps manage expectations and justifies low yield, reinforcing investor confidence.  \n- **Active ",
-      "actionItems": [
-        "**Gaia**",
-        "Wait for Benoit's detailed response regarding the vault link to share (00:23)",
-        "Share the public Morpho USDC vault link with the requester while explaining the current low yield situation and partial visibility of Byzantine strategies (00:23)",
-        "Communicate that other components of Byzantine's strategy are staked in Aave and Maker protocols (01:17)"
-      ],
-      "company": "",
-      "linked_deal": "Request Network"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Meet – Bitstack review",
-      "participants": [
-        "gaia@byzantine.fi",
-        "matteo@byzantine.fi"
-      ],
-      "summary": "- **Client Communication Focus:** Finalizing CGPA content with lawyer input prioritized for compliance and timely contract delivery.  \n- **Formal Signature Process:** Details needed for NDAs to establish trust and support operational steps with partners.  \n- **Positive Outreach Responses:** Integration interest from Hudley indicates growing collaboration opportunities in the finance sector.  \n- **Insurance Limit Increases:** Projected limits expected from June, aligning with Firelight’s funding ",
-      "actionItems": [
-        "**Jonas Bokelmann**",
-        "Conduct legal review of CGPA content and handle lawyer feedback before finalizing contract text (01:55)",
-        "Gather NDA signer information (name, email, company details) for Banker Sella and prepare NDA documents accordingly (03:06)",
-        "Incorporate Gaia’s feedback in Bitstack questionnaire responses; clarify questions versus answers visually using italics and color coding for clarity (06:51)",
-        "Note insurance coverage limits and projected increase by June upon Firelight’s onboarding in documentation (09:51)"
-      ],
-      "company": "Bitstack review",
-      "linked_deal": "OX Capital Partners"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Meet – Bitstack review",
-      "participants": [
-        "gaia@byzantine.fi",
-        "jonas@byzantine.fi"
-      ],
-      "summary": "- **Contract Drafting:** Contract for CGPA is being reviewed; initial draft to be sent to the client promptly.\n\n- **NDA Preparation:** Signer details being compiled for NDA to enable Hudley integration and advance partnership discussions.\n\n- **Insurance Coverage Limits:** Current insurance limits noted; expansion projected for June to improve product risk profile.\n\n- **Integration Strategy:** Initial integration with Pactol chosen for its simplicity to manage early issues before larger clients.\n",
-      "actionItems": [
-        "**Jonas Bokelmann**",
-        "Send an email with read-only access to the clarified Bitstack Q&A document, including formatting improvements to clearly distinguish questions and answers (32:40)",
-        "Draft the contract for CGPA for final legal review and prepare it for dispatch to the client (35:30)",
-        "**Gaia Ferrero Regis**",
-        "Review the Bitstack document responses and provide real-time feedback during the review process (10:10)"
-      ],
-      "company": "Bitstack review",
-      "linked_deal": "OX Capital Partners"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Meet – Bitstack review",
-      "participants": [
-        "jonas@byzantine.fi",
-        "matteo@byzantine.fi"
-      ],
-      "summary": "- **Contract Draft Development:** New contract draft needs legal review; balancing speed and compliance for client response and legal safety.  \n- **Service Level Agreement:** Proposed 48-hour notification limit for lost money clarified; safeguards clients and limits liability.  \n- **Client Document Clarity:** Improved formatting in documents essential for client understanding; using italics for answers to enhance readability.  \n- **Phased Integration Approach:** Starting with Pactol for early is",
-      "actionItems": [
-        "**Jonas Bokelmann**",
-        "Draft contract for CGPA and send intern’s draft with lawyer review before finalizing (05:33)",
-        "Clarify and send NDA signer details for Bancacella with name, email, and company info (06:29)",
-        "Review and finalize responses document refinements with Gaia’s input, ensuring question-answer clarity in italics (10:24)",
-        "Incorporate updated insurance limit language indicating potential increase from June (13:25)"
-      ],
-      "company": "Bitstack review",
-      "linked_deal": "The Level Group"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Meet – Byzantine <> Hodli",
-      "participants": [
-        "gianluca.sommariva@hodli.com",
-        "gaia@byzantine.fi",
-        "filippo.anania@hodli.com",
-        "matteo.tamagno@hodli.com"
-      ],
-      "summary": "- **Partnership Focus:** Integrating digital asset management with legal compliance under MICA; aiming for June licensing milestone.\n  \n- **Technical Integration:** API-driven automation for wallet segregation; costs confirmed manageable; supports individual and institutional clients.\n\n- **Custody Management:** Future plans for Fireblocks; currently using exchange sub-custody; transfers require compatible custodial wallets for Vulture tokens.\n\n- **Risk Management:** Zero bad debt since 2017; liq",
-      "actionItems": [
-        "**Lorenzo Maffia**",
-        "Share legal feedback from Hodli’s legal team on the documentation provided by Byzantine (01:27)",
-        "Investigate operational compliance regarding segregated client wallets and AML requirements with legal and regulators, including discussions with Derek Meters (20:00)",
-        "Onboard on Byzantine’s platform as retail user to test the product and flow (41:40)",
-        "Obtain and review the API documentation from Byzantine for integration planning (30:40)"
-      ],
-      "company": "Hodli",
-      "linked_deal": "OX Capital Partners"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Meet – Byzantine <> Hodli",
-      "participants": [
-        "gianluca.sommariva@hodli.com",
-        "filippo.anania@hodli.com",
-        "matteo.tamagno@hodli.com",
-        "jonas@byzantine.fi"
-      ],
-      "summary": "- **Custody and Liquidity Model:** Confirmed dual-step custody model for managing liquidity with Vulture tokens as proof of deposit.\n\n- **API-driven Wallet Management:** API support for creating subaccounts enhances compliance and segregates client assets for flexibility.\n\n- **Risk Mitigation Measures:** Technical failures covered by audits and a bug bounty; insurance protects against hacks and exploits.\n\n- **Portfolio Management Strategy:** AI-driven asset allocation across risk levels; diversi",
-      "actionItems": [
-        "**Lorenzo Maffia**",
-        "Review Byzantine API documentation and risk fact sheets with Hodli's legal and risk teams to ensure compliance and understand integration requirements (41:10)",
-        "Provide real-time feedback and questions from Hodli's legal team regarding MICA licensing and compliance issues to Byzantine (02:00)",
-        "Decide on custody solution preference between Byzantine turnkey wallet and Fireblocks institutional solution after internal discussion (43:40)",
-        "Assess necessity and feasibility of client wallet segregation to comply with AML and licensing requirements (23:45)"
-      ],
-      "company": "Hodli",
-      "linked_deal": "The Level Group"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Meet – Oliver (Jump) <> Gaia (Byzantine Finance)",
-      "participants": [
-        "olivier@join-jump.com",
-        "gaia@byzantine.fi"
-      ],
-      "summary": "- **Contract Delivery Prioritized:** Contract for Francois is delayed but will be sent today, even without lawyer approval if necessary.\n\n- **Flexible Legal Review:** Team acknowledges the need for flexibility in legal processes to meet communication deadlines with clients.\n\n- **Effective Team Communication:** Open dialogue among team members supports quick updates and efficient handling of shifting priorities.\n\n- **Special Fee Clause Critical:** The special fee clause is essential for contract ",
-      "actionItems": [
-        "**Jonas Bokelmann**",
-        "Finalize and send the contract document for Francois by today, prioritizing sending even if lawyers have yet to review the special fees clause (00:56)",
-        "Add the required clause on special fees to the contract document before sending (00:21)"
-      ],
-      "company": "Meet – Oliver (Jump)",
-      "linked_deal": "Jump"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Meet – Oliver (Jump) <> Gaia (Byzantine Finance)",
-      "participants": [
-        "olivier@join-jump.com",
-        "jonas@byzantine.fi"
-      ],
-      "summary": "- **Lancement test client**: Un test de 100 000€ est validé pour évaluer la plateforme et ses fonctionnalités.\n\n- **Onboarding autonome**: Le client peut s'inscrire et accéder aux produits après un KYB classique.\n\n- **Contrôles bancaires**: Vérification des délais de 24 heures pour nouveaux bénéficiaires et preuves de source des fonds.\n\n- **Paiement des gains**: Les clients sont rémunérés chaque heure, dès 100 secondes après réception du remboursement.\n\n- **Support client réactif**: Accès à What",
-      "actionItems": [
-        "**Jonas Bokelmann**",
-        "Finaliser le contrat pour François en intégrant la clause spécifique et obtenir une validation juridique, ou à défaut envoyer le contrat sans vérification extérieure (02:10)",
-        "**Gaia Ferrero Regis**",
-        "Envoyer à Olivier les guides vidéo pour la création de compte et l’utilisation de la plateforme Byzantine Finance (06:41)",
-        "Envoyer l’invitation pour le point de suivi fixé mercredi à 15h à Olivier (12:25)"
-      ],
-      "company": "Meet – Oliver (Jump)",
-      "linked_deal": "Jump"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Meet – Eric x Byzantine - introduction CGP",
-      "participants": [
-        "benoit@byzantine.fi",
-        "eric_bouanich@yahoo.com",
-        "matteo@byzantine.fi"
-      ],
-      "summary": "- **Commercial Function Upgrade:** Team aims to enhance market outreach and customer trust post-pandemic through refining commercial roles.\n\n- **Blockchain Technology Adoption:** Decision to integrate blockchain for improved transparency, client trust, and future regulatory compliance.\n\n- **Simplified Fee Structure:** Plan to remove performance fees linked to blockchain, promoting easier client billing and satisfaction.\n\n- **Client Wellbeing Focus:** Addressing mental health issues to enhance cl",
-      "actionItems": [
-        "**Benoît de Dieuleveult**",
-        "Address sanitary and global customer health concerns as part of the commercial offerings or upgrade execution (02:22)",
-        "Follow up on organizational input regarding financial brokerage and Bastion Capital setup (09:21)",
-        "**Jonas Bokelmann**",
-        "Provide clarity and further details on the blockchain integration and its exact nature/application (12:18)"
-      ],
-      "company": "",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Meet – Gaia (Byzantine) <> Fabiano (Coinbar)",
-      "participants": [
-        "fabiano.taliani@coinbar.io"
-      ],
-      "summary": "- **Posizionamento di Coinbar:** Coinbar si concentra su clienti ad alto patrimonio, evitando concorrenza diretta con giganti come Binance.\n\n- **Evoluzione dall'informazione all'exchange:** Da media e consulenza nel 2015-2016, Coinbar è ora un exchange con focus su clienti Networth.\n\n- **Licenza Micar come opportunità:** Ottenere la licenza da Consob e Banca d'Italia apre opportunità per prodotti istituzionali e collaborazioni.\n\n- **Byzantine e rendimenti DeFi:** Byzantine è un collegamento tra ",
-      "actionItems": [
-        "**Gaia Ferrero Regis**",
-        "Inviare a Fabiano Taliani la documentazione tecnica e l'overview dei prodotti e integrazioni di Byzantine (18:00)",
-        "Fornire il RISC framework e ulteriori dettagli sui meccanismi di sicurezza e assurance dei prodotti Byzantine (16:24)",
-        "Offrire supporto e facilitare eventuali contatti con investitori o clienti comuni tra Byzantine e Coinbar (25:00)",
-        "**Fabiano Taliani**"
-      ],
-      "company": "Fabiano (Coinbar)",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Moonfare Integration Strategy and Collaboration",
-      "participants": [
-        "gaia@byzantine.fi"
-      ],
-      "summary": "- **Phased custody integration with Moonfare** will start with turnkey wallets; custody capabilities depend on licensing timeline.\n\n- **Wallet authentication methods** debated; passkey preferred over email OTP despite older client demographic concerns.\n\n- **Deposit process requires fiat transfers** via Bridge accounts; transactions execute only after confirming money receipt.\n\n- **KYC/KYB integration is a top priority**; flexible approach needed to meet Moonfare's evolving requirements while add",
-      "actionItems": [
-        "**Gaia**",
-        "Verify and finalize accuracy of slides 9, 10, and 11 for Moonfare, especially concerning integration and custody details (00:00)",
-        "Remove the ‘selfie’ requirement from the KYC slide as it is not needed for Moonfare (14:31)",
-        "Shorten and refine the presentation deck before sending out to Moonfare, removing unnecessary or confusing slides like slide 13 and elements with incorrect fonts or placeholder data (19:56)",
-        "**Unassigned**"
-      ],
-      "company": "",
-      "linked_deal": "The Moon Investments"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Meet – Paktol <> Byzantine",
-      "participants": [],
-      "summary": "- **Intégration simplifiée :** Utilisation directe des smart contracts via vault Pactol, réduisant complexité et délais de déploiement.\n\n- **Flexibilité monétaire :** Conversion EUR vers USD automatisée pour maximiser rendements tout en maintenant la stabilité des EURC.\n\n- **Groupe de support technique :** Création d’un groupe Telegram pour échanges rapides entre équipes, facilitant le support technique.\n\n- **Processus de due diligence rapide :** Documents KYB requis pour whitelist, garantissant",
-      "actionItems": [
-        "**Gaia Ferrero Regis**",
-        "Organiser l’envoi des documents KYB/KYC à Paktol et assister dans la vérification due diligence (15:30)",
-        "Étudier et fournir un cadre contractuel encadrant la durée de préavis avant désengagement (20:45)",
-        "Créer et partager un groupe WhatsApp/Télégram pour faciliter la communication technique (21:40)",
-        "**Maxence Fournier**"
-      ],
-      "company": "Meet – Paktol",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Meet – Paktol <> Byzantine",
-      "participants": [],
-      "summary": "- **Euro Market Performance:** Product metrics at 4.5%; competitors at 5-6% highlight improvement areas needed to surpass rivals.  \n- **Data Clarity:** Distinction between actual and objective metrics supports better decision-making and ensures aligned reporting standards.  \n- **Infrastructure Readiness:** Updates on Kote and Stepmont systems identified integration points and bottlenecks for upcoming deployments.  \n- **USDC Dependencies:** Delay in USDC confirmation affects payment processing ti",
-      "actionItems": [
-        "**Gaia Ferrero Regis**",
-        "Review and verify Euro-related financial rate data accuracy and implications discussed at the start of the meeting (00:06)",
-        "Confirm and support the integration or discussion of USDC within the project or financial context (05:21)",
-        "Facilitate clarification or elaboration on references to \"Antigravity,\" project names or personnel mentioned during the middle session (09:57)",
-        "Validate the business scenario \"Carte commercial\" and ensure action plans are aligned with the commercial strategy (16:52)"
-      ],
-      "company": "Meet – Paktol",
-      "linked_deal": null
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Meet – Jonas Bokelmann and Alex",
-      "participants": [
-        "alexandre@kleros.io"
-      ],
-      "summary": "- **Funding Strategy Shift:** Decision to focus on money markets instead of prediction markets for enhanced stability and user trust.  \n- **Borrowing Models Discussion:** Targeting family offices and high-net-worth individuals with over-collateralized lending to manage risks effectively.  \n- **Compliance Updates:** Emphasis on regulatory adherence and bank integration for smoother operations and faster client onboarding.  \n- **Marketing Strategy:** Tailored campaigns for product features to incr",
-      "actionItems": [
-        "**Jonas Bokelmann**",
-        "Further evaluate and report on the implications of prediction markets within deep funding frameworks (03:38)",
-        "Delve deeper into overcollateralized lending methods for individuals within the crypto ecosystem and coordinate compliance integration efforts with Bitvavo and Zotero platforms (13:17)",
-        "Review platform connectivity components including Safexa, Sassy, Marshe, and switch infrastructure; report on interoperability and technical issues (27:33)",
-        "**Alexandre**"
-      ],
-      "company": "Jonas Bokelmann",
+      "company": "Gijs handgraaf",
       "linked_deal": "Bitvavo"
     },
     {
-      "date": "2026-04-23",
-      "title": "Meet – Emanuele <> Gaia",
-      "participants": [],
-      "summary": "- **Esperienza nel Settore Crypto:** Emanuele ha 13 anni di esperienza in aziende come PwC e Consensys, ora in Hercule.  \n- **Prodotti Bizantina:** Offre quattro prodotti DeFi con rendimenti netti del 4-6% APY, differenziati in assicurati e non.  \n- **Gestione Rischi:** Nessuna esposizione problematica durante eventi di mercato recenti; si mantiene una volatilità dei rendimenti entro il 1,5%.  \n- **Clientela Istituzionale:** Include Bitvavo e Intesa San Paolo, con 50 milioni di impegni confermat",
-      "actionItems": [
-        "**Gaia Ferrero Regis**",
-        "Mostrare la demo del prodotto Bizantina a Emanuele per approfondimenti funzionali (20:18)",
-        "Aggiornare Emanuele sugli sviluppi e sulle raccolte future, incluso il fundraising previsto per fine 2025 (27:08)",
-        "Supportare Emanuele con possibili contatti e investitori interessati nel settore (27:01)",
-        "**Emanuele C**"
-      ],
-      "company": "Meet – Emanuele",
-      "linked_deal": "Bitvavo"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Meet – PARISET and Gaia Ferrero Regis",
-      "participants": [
-        "ypariset@fluence.eu"
-      ],
-      "summary": "- **Positionnement de Fluence** : Société indépendante depuis 2021, axée sur gestion financière et alignement des intérêts clients-fondateurs.\n\n- **Produits financiers de Byzantine** : Propose quatre produits sécurisés, rendements de **4-6%**, liquidité accessible 24/7 sans frais d'entrée/sortie.\n\n- **Capital sous gestion** : Byzantine gère actuellement **60 millions** d'euros, avec un deuxième produit auréole de **50 millions** et un pipeline de **200 millions**.\n\n- **Partenariats institutionne",
-      "actionItems": [
-        "**Gaia Ferrero Regis**",
-        "Envoyer la fact sheet produit et un pack détaillé sur la structuration et la gestion des risques à Yannig Pariset (22:13)",
-        "Envoyer une invitation pour une réunion de suivi le 12 mai à 10 heures (25:34)",
-        "**Yannig Pariset**",
-        "Examiner les documents produits transmis par Gaia pour se familiariser avec la technologie et la proposition de valeur de Byzantine (22:36)"
-      ],
-      "company": "PARISET",
-      "linked_deal": "Intesa Sanpaolo"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "Apr 23, 10:18 AM",
+      "date": "2026-03-04",
+      "title": "Banca sella",
       "participants": [
         "gaia@byzantine.fi"
       ],
-      "summary": "- **Innovazione nei prodotti finanziari:** Target di prodotti con rendimento superiore e rischi bassi per attrarre nuovi clienti.  \n- **Supporto alle crypto:** Investimento di **36 milioni** dall'amministratore delegato, accelerando le decisioni grazie a struttura meno burocratica.  \n- **Redemption rapida per istituzionali:** Garanzia di redemption istantanea fino al **100%** in 5 secondi, senza impatti su APY.  \n- **Strategie unique in Euro:** Offerte non disponibili da concorrenti, rivolte a c",
+      "summary": "- **Integrazione Stella e AIP:** Migrazione in corso, completamento previsto entro marzo-aprile 2026, unificazione dal 2027.  \n- **Progetti Pilota:** Focus su segmenti B2B2C, opzioni di custodia flessibili e graduali integrazioni.  \n- **Prodotti Byzantine:** Quattro prodotti lanciati, rendimenti netti del 5-9% e assicurazioni fino a 20 milioni per cliente.  \n- **Meccanismo di Lending:** Capitali prestati con collateral sovracollateralizzato al 150%; liquidazione automatica attivata al 120%.  \n- ",
       "actionItems": [
         "**Gaia**",
-        "Inviare le strategie dettagliate con breakdown completi, incluse informazioni sulle assicurazioni e i cap delle coperture (04:50)",
-        "Preparare e girare il deck di integrazione tecnica al team wallet (09:40)",
-        "Fornire tutta la documentazione tecnica inclusiva di API, SDK e smart contract al team wallet (10:45)",
-        "Coordinare e organizzare la call tecnica di integrazione entro due settimane, possibilmente fissata per il 5 maggio alle 18:00 (12:55)"
+        "Condividere materiale e documentazione tecnica e legale dettagliata sul prodotto Byzantine, focalizzandosi su sicurezza e gestione del collaterale (49:11)",
+        "Preparare documentazione dettagliata (workthru, video, one pager) per agevolare la comprensione e l’integrazione del prodotto in white label (52:15)",
+        "Fissare un incontro la settimana successiva per discutere approfondimenti e risolvere eventuali dubbi a seguito della revisione della documentazione (54:12)",
+        "**Riccardo**"
       ],
       "company": "",
-      "linked_deal": null
+      "linked_deal": "Banca Sella"
     },
     {
-      "date": "2026-04-22",
-      "title": "Meet – ydp-axqt-jmp",
-      "participants": [],
-      "summary": "- **Ressources commerciales limitées :** L’équipe se compose d’un stagiaire et d’un freelance, freinant les ventes.  \n- **Objectifs de croissance :** Chaque verticale vise un million d’ARR, mais la validation des ventes est prioritaire.  \n- **Sourcing manuel de leads :** Pas de campagnes automatisées, le cold call est privilégié pour un meilleur taux de conversion.  \n- **Nouveau Topo V2 :** Séparation entre recherche de leads et campagnes, améliorant le ciblage et le contrôle utilisateur.  \n- **",
-      "actionItems": [
-        "**Interlocuteur Topo**",
-        "Organiser une démo de 15 minutes pour présenter la nouvelle version de la plateforme Topo et ses fonctionnalités améliorées à Matteo (16:23)",
-        "Activer la nouvelle fonctionnalité FIND sur l’organisation de Byzantine pour permettre le test des listes de leads et le monitoring (15:50)",
-        "**Byzantine**",
-        "Tester la qualité des données téléphoniques sur les CGP français via la plateforme Topo afin de vérifier la pertinence et le bon fonctionnement de l'outil (15:50)"
+      "date": "2026-03-03",
+      "title": "Bruno tôt money",
+      "participants": [
+        "gaia@byzantine.fi"
       ],
-      "company": "ydp-axqt-jmp",
-      "linked_deal": null
+      "summary": "- **Integrazione con Intesa:** Focus su prodotto white label per trading e clienti SMB, potenzialmente con Barcasella per Hype.\n\n- **Round di investimento:** Pre-seed di **3.7 milioni** previsto per gennaio 2025, con possibilità di round anticipato.\n\n- **Obiettivo clienti:** Raggiungere **50.000 clienti** entro il 2028-2029, focalizzandosi su liquidità e credito innovativo.\n\n- **Compliance e licenza bancaria:** Licenza prevista entro ottobre 2024, necessaria per crescita e cambiamenti infrastrut",
+      "actionItems": [
+        "**Gaia Byzantine**",
+        "Inviare documentazione legale dettagliata e memo tecnico per supportare il dialogo con Banca d’Italia entro breve (38:56)",
+        "Fornire API, sandbox e chiavi di integrazione al team tecnico del partner per testare e valutare l’integrazione (37:08)",
+        "Preparare e condividere FAQ legali e policy assicurativa per rassicurare gli stakeholder interni del partner (47:28)",
+        "Organizzare gruppo Slack o canale di comunicazione tecnica con il team del partner per facilitare la collaborazione (38:56)"
+      ],
+      "company": "",
+      "linked_deal": "Banca Sella"
+    },
+    {
+      "date": "2026-02-20",
+      "title": "Matte<>Gaia, touchpoint",
+      "participants": [
+        "gaia@byzantine.fi",
+        "matteo@byzantine.fi",
+        "timothee@byzantine.fi"
+      ],
+      "summary": "- **Customer Success Process:** Building a structured onboarding process is crucial for retaining high-value clients and encouraging upsells.  \n- **Personalized Engagement:** Manual onboarding and feedback for key clients like Eric, who manages a €15-20 million fund, enhance experience.  \n- **Sales Process Improvement:** A structured deal roadmap will define clear next steps, improving sales efficiency and forecasting accuracy.  \n- **CRM Utilization:** Enhanced pipeline management with CRM tools",
+      "actionItems": [
+        "**Gaia Ferrero Regis**",
+        "Send Eric’s LinkedIn profile and onboarding materials to Timothée for review (03:00)",
+        "Organize manual onboarding process with Eric and schedule a feedback call for next Friday (04:40)",
+        "Follow up with Sebastian from Moon Investment to prompt account setup (15:50)",
+        "Prepare for and conduct meeting with Thibaut Coulon next Tuesday to discuss distribution (29:40)"
+      ],
+      "company": "Matte",
+      "linked_deal": "OX Capital Partners"
     }
   ],
   "activity_feed": [
+    {
+      "date": "2026-04-30",
+      "type": "email_sent",
+      "company": "Jump",
+      "summary": "Sent: Re: Byzantine x Jump"
+    },
+    {
+      "date": "2026-04-30",
+      "type": "email_received",
+      "company": "Jump",
+      "summary": "Received: Re: Byzantine x Jump"
+    },
+    {
+      "date": "2026-04-29",
+      "type": "email_sent",
+      "company": "Jump",
+      "summary": "Sent: Nicolas Fayon just joined Entity for olivier@join-jump.com - Byzantine Finance"
+    },
     {
       "date": "2026-04-29",
       "type": "email_sent",
       "company": "CDP",
       "summary": "Sent: Byzantine x CDP: documentazione e use case"
+    },
+    {
+      "date": "2026-04-29",
+      "type": "email_received",
+      "company": "Bitvavo",
+      "summary": "Received: "
     },
     {
       "date": "2026-04-29",
@@ -5689,69 +4970,45 @@
     },
     {
       "date": "2026-04-28",
-      "type": "transcript",
-      "company": "Bitvavo",
-      "summary": "- **Développement commercial:** Accélérer la croissance par l'élargissement des cas d'utilisation bancaires et une prospection rigoureuse.\n\n- **Suivi des leads:** Appels réguliers et directs pour clar"
-    },
-    {
-      "date": "2026-04-28",
       "type": "email_sent",
       "company": "GoCanopy",
       "summary": "Sent: Re: GoCanopy <> Byzantine"
     },
     {
-      "date": "2026-04-28",
-      "type": "transcript",
-      "company": "Intesa Sanpaolo",
-      "summary": "- **Product Launch Goal:** Targeting a launch in September/October, potentially pushed to June to meet client demand.\n\n- **Funding and Commitments:** Byzantine raised $3.7 million; Intesa Sanpaolo com"
-    },
-    {
-      "date": "2026-04-28",
-      "type": "transcript",
-      "company": "Contract Language and Commission Updates",
-      "summary": "- **Language Change:** Contracts will be translated to French to meet CGP needs and reduce confusion.  \n- **Commission Flexibility:** Management fees can now range from 0 to 3%, allowing dynamic adjus"
-    },
-    {
-      "date": "2026-04-28",
-      "type": "transcript",
-      "company": "Alexander Gryaznov",
-      "summary": "- **Shift to Institutional Focus:** Byzantine Finance now prioritizes borrowing and lending on Aave, Compound, and Maker, enhancing compliance for institutions.\n\n- **User-Friendly Experience:** The pl"
-    },
-    {
-      "date": "2026-04-28",
-      "type": "transcript",
-      "company": "Meet – Follow-up OpSales x Byzantine",
-      "summary": "- **Global Objectives:** Focus on defining clear volume goals, targeting near 100 units by May to align team efforts.\n\n- **Project Tornado:** Emphasized strategic integration within existing proposals"
-    },
-    {
-      "date": "2026-04-28",
-      "type": "transcript",
-      "company": "Meet – Follow-up OpSales x Byzantine",
-      "summary": "- **Objectif de levée de fonds**: 30-40 millions d’euros d’AUM d’ici fin d’année pour CGP, avec une cible totale de 150 millions d’euros.\n\n- **Structure tarifaire**: Commission de 1% à 5% sur AUM, ave"
-    },
-    {
-      "date": "2026-04-28",
-      "type": "transcript",
-      "company": "Stanislas Barthelemi",
-      "summary": "- **Positionnement de KCIS :** Services crypto pour clients B2B et retail, en attente d'agrément d’exécution réglementaire MICA.  \n- **Lancement du stablecoin :** Crédit Agricole prévu en juin-juillet"
-    },
-    {
-      "date": "2026-04-27",
+      "date": "2026-04-25",
       "type": "email_received",
-      "company": "The Level Group",
-      "summary": "Received: GPT-5.5 \"Spud\" Arrives + Google's $40B Anthropic Bet + The Sovereign AI Era"
+      "company": "Moonfare",
+      "summary": "Received: Accepted: Andrew Quan and Gaia Ferrero Regis (Byzantine) @ Wed 6 May 2026 4pm - 4:30pm (CEST) (gaia@byzantine.fi)"
     },
     {
-      "date": "2026-04-27",
-      "type": "transcript",
-      "company": "The Level Group",
-      "summary": "- **Compensation Model:** Proposed €2000 monthly base plus increased revenue share to motivate proactive sales and improve forecasts.  \n\n- **Risk Sharing:** Variable pay linked to revenue aims to bala"
+      "date": "2026-04-25",
+      "type": "email_received",
+      "company": "Moonfare",
+      "summary": "Received: Proposed new time: Andrew Quan and Gaia Ferrero Regis (Byzantine) @ Wed 6 May 2026 2:30pm - 3pm (CEST) (gaia@byzantine.fi)"
     },
     {
-      "date": "2026-04-27",
-      "type": "transcript",
-      "company": "OX Capital Partners",
-      "summary": "- **Sviluppo Partnership:** Collaborazioni con integratori chiave per espandere il mercato, impegno di **20 milioni di euro** in corso.\n\n- **Integrazioni Attive:** Collaborazione con Bitstack e incont"
+      "date": "2026-04-24",
+      "type": "email_sent",
+      "company": "Holifya",
+      "summary": "Sent: Re: Holifya <> Byzantine: documenti e accesso app"
+    },
+    {
+      "date": "2026-04-23",
+      "type": "email_received",
+      "company": "Holifya",
+      "summary": "Received: Re: Holifya <> Byzantine: documenti e accesso app"
+    },
+    {
+      "date": "2026-04-23",
+      "type": "email_sent",
+      "company": "Holifya",
+      "summary": "Sent: Re: Holifya <> Byzantine: documenti e accesso app"
+    },
+    {
+      "date": "2026-04-23",
+      "type": "email_sent",
+      "company": "Moonfare",
+      "summary": "Sent: Re: Byzantine"
     }
   ]
 }
