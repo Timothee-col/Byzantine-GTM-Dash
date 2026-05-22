@@ -1,13 +1,13 @@
 {
-  "sync_time": "2026-05-21T10:41:28+00:00",
+  "sync_time": "2026-05-22T10:26:01+00:00",
   "sources": {
-    "fireflies": {
-      "status": "ok",
-      "count": 13
-    },
     "gcal": {
       "status": "ok",
       "count": 500
+    },
+    "fireflies": {
+      "status": "ok",
+      "count": 12
     },
     "attio": {
       "status": "ok",
@@ -27,7 +27,7 @@
       "id": "skill-hunter",
       "company": "Skill Hunter",
       "stage": "Active",
-      "lastDays": 52,
+      "lastDays": 53,
       "lastContactDate": "2026-03-30",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -65,7 +65,7 @@
       "id": "thibault-coulon",
       "company": "Thibault Coulon",
       "stage": "Proposal / Negotiation",
-      "lastDays": 73,
+      "lastDays": 74,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "High",
@@ -103,7 +103,7 @@
       "id": "bleap-finance",
       "company": "Bleap Finance",
       "stage": "Meeting",
-      "lastDays": 21,
+      "lastDays": 22,
       "lastContactDate": "2026-04-30",
       "lastContactType": "meeting",
       "priority": "Med",
@@ -141,7 +141,7 @@
       "id": "jeremy-giraud",
       "company": "Jeremy Giraud",
       "stage": "Qualification",
-      "lastDays": 71,
+      "lastDays": 72,
       "lastContactDate": "2026-03-11",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -179,7 +179,7 @@
       "id": "athletico-ventures",
       "company": "Athletico Ventures",
       "stage": "Active",
-      "lastDays": 65,
+      "lastDays": 66,
       "lastContactDate": "2026-03-17",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -217,7 +217,7 @@
       "id": "the-level-group",
       "company": "The Level Group",
       "stage": "Paused",
-      "lastDays": 14,
+      "lastDays": 15,
       "lastContactDate": "2026-05-07",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -255,7 +255,7 @@
       "id": "pennylane",
       "company": "Pennylane",
       "stage": "Meeting",
-      "lastDays": 84,
+      "lastDays": 85,
       "lastContactDate": "2026-02-26",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -293,7 +293,7 @@
       "id": "nicolas-bacca",
       "company": "Nicolas Bacca",
       "stage": "Active",
-      "lastDays": 17,
+      "lastDays": 18,
       "lastContactDate": "2026-05-04",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -350,7 +350,7 @@
       "id": "node-capital",
       "company": "Node Capital",
       "stage": "Paused",
-      "lastDays": 13,
+      "lastDays": 14,
       "lastContactDate": "2026-05-08",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -388,7 +388,7 @@
       "id": "jean-david-curiel",
       "company": "Jean-David Curiel",
       "stage": "Meeting",
-      "lastDays": 88,
+      "lastDays": 89,
       "lastContactDate": "2026-02-22",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -414,7 +414,7 @@
       "id": "tulyp",
       "company": "Tulyp",
       "stage": "Proposal / Negotiation",
-      "lastDays": 17,
+      "lastDays": 18,
       "lastContactDate": "2026-05-04",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -477,7 +477,7 @@
       "id": "hugues-de-braucourt",
       "company": "Hugues de Braucourt",
       "stage": "Lost",
-      "lastDays": 101,
+      "lastDays": 102,
       "lastContactDate": "2026-02-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -515,7 +515,7 @@
       "id": "jonathan-jean-baptiste",
       "company": "Jonathan JEAN-BAPTISTE",
       "stage": "Meeting",
-      "lastDays": 115,
+      "lastDays": 116,
       "lastContactDate": "2026-01-26",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -541,7 +541,7 @@
       "id": "martino-grasselli",
       "company": "Martino Grasselli",
       "stage": "Qualification",
-      "lastDays": 69,
+      "lastDays": 70,
       "lastContactDate": "2026-03-13",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -598,7 +598,7 @@
       "id": "cyrille-jerabek",
       "company": "Cyrille Jerabek",
       "stage": "Meeting",
-      "lastDays": 93,
+      "lastDays": 94,
       "lastContactDate": "2026-02-17",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -636,7 +636,7 @@
       "id": "ox-capital-partners",
       "company": "OX Capital Partners",
       "stage": "Proposal / Negotiation",
-      "lastDays": 44,
+      "lastDays": 45,
       "lastContactDate": "2026-04-07",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -768,26 +768,6 @@
             "max@tulyp.io",
             "antonio@tulyp.io"
           ]
-        },
-        {
-          "date": "2026-02-20",
-          "title": "Matte<>Gaia, touchpoint",
-          "participants": [
-            "gaia@byzantine.fi",
-            "matteo@byzantine.fi",
-            "timothee@byzantine.fi"
-          ],
-          "summary": "- **Customer Success Process:** Building a structured onboarding process is crucial for retaining high-value clients and encouraging upsells.  \n- **Personalized Engagement:** Manual onboarding and feedback for key clients like Eric, who manages a €15-20 million fund, enhance experience.  \n- **Sales Process Improvement:** A structured deal roadmap will define clear next steps, improving sales efficiency and forecasting accuracy.  \n- **CRM Utilization:** Enhanced pipeline management with CRM tools will ensure visibility of deals and prioritize resource allocation effectively.  \n- **Accounting Integrations Priority:** Urgent development of integrations with accounting platforms like Penny Lane is essential for client satisfaction and operational ease.  \n- **Strategic Partnerships Expansion:** Fostering relationships with large financial institutions and targeting influential individuals is key for market growth.",
-          "actionItems": [
-            "**Gaia Ferrero Regis**",
-            "Send Eric’s LinkedIn profile and onboarding materials to Timothée for review (03:00)",
-            "Organize manual onboarding process with Eric and schedule a feedback call for next Friday (04:40)",
-            "Follow up with Sebastian from Moon Investment to prompt account setup (15:50)",
-            "Prepare for and conduct meeting with Thibaut Coulon next Tuesday to discuss distribution (29:40)"
-          ],
-          "company": "Matte",
-          "external_domains": [],
-          "external_emails": []
         }
       ]
     },
@@ -795,7 +775,7 @@
       "id": "holifya",
       "company": "Holifya",
       "stage": "Meeting",
-      "lastDays": 27,
+      "lastDays": 28,
       "lastContactDate": "2026-04-24",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -833,7 +813,7 @@
       "id": "sowefund",
       "company": "Sowefund",
       "stage": "Meeting",
-      "lastDays": 38,
+      "lastDays": 39,
       "lastContactDate": "2026-04-13",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -871,7 +851,7 @@
       "id": "capslock-global",
       "company": "Capslock Global",
       "stage": "Meeting",
-      "lastDays": 112,
+      "lastDays": 113,
       "lastContactDate": "2026-01-29",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -897,7 +877,7 @@
       "id": "the-moon-investments",
       "company": "The Moon Investments",
       "stage": "Meeting",
-      "lastDays": 77,
+      "lastDays": 78,
       "lastContactDate": "2026-03-05",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -929,34 +909,13 @@
           "snippet": "Join us for Consensus &amp; Solana Accelerate View this email in your browser This spring, Caladan is making a strong showing across the US, with our team attending key industry events and meeting wit"
         }
       ],
-      "transcripts": [
-        {
-          "date": "2026-02-20",
-          "title": "Matte<>Gaia, touchpoint",
-          "participants": [
-            "gaia@byzantine.fi",
-            "matteo@byzantine.fi",
-            "timothee@byzantine.fi"
-          ],
-          "summary": "- **Customer Success Process:** Building a structured onboarding process is crucial for retaining high-value clients and encouraging upsells.  \n- **Personalized Engagement:** Manual onboarding and feedback for key clients like Eric, who manages a €15-20 million fund, enhance experience.  \n- **Sales Process Improvement:** A structured deal roadmap will define clear next steps, improving sales efficiency and forecasting accuracy.  \n- **CRM Utilization:** Enhanced pipeline management with CRM tools will ensure visibility of deals and prioritize resource allocation effectively.  \n- **Accounting Integrations Priority:** Urgent development of integrations with accounting platforms like Penny Lane is essential for client satisfaction and operational ease.  \n- **Strategic Partnerships Expansion:** Fostering relationships with large financial institutions and targeting influential individuals is key for market growth.",
-          "actionItems": [
-            "**Gaia Ferrero Regis**",
-            "Send Eric’s LinkedIn profile and onboarding materials to Timothée for review (03:00)",
-            "Organize manual onboarding process with Eric and schedule a feedback call for next Friday (04:40)",
-            "Follow up with Sebastian from Moon Investment to prompt account setup (15:50)",
-            "Prepare for and conduct meeting with Thibaut Coulon next Tuesday to discuss distribution (29:40)"
-          ],
-          "company": "Matte",
-          "external_domains": [],
-          "external_emails": []
-        }
-      ]
+      "transcripts": []
     },
     {
       "id": "thomas-rebaud",
       "company": "Thomas Rebaud",
       "stage": "Proposal / Negotiation",
-      "lastDays": 79,
+      "lastDays": 80,
       "lastContactDate": "2026-03-03",
       "lastContactType": "email_received",
       "priority": "High",
@@ -994,7 +953,7 @@
       "id": "priscille-raynaud",
       "company": "Priscille Raynaud",
       "stage": "Meeting",
-      "lastDays": 82,
+      "lastDays": 83,
       "lastContactDate": "2026-02-28",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1032,7 +991,7 @@
       "id": "mehdi-amara",
       "company": "Mehdi Amara",
       "stage": "Active",
-      "lastDays": 44,
+      "lastDays": 45,
       "lastContactDate": "2026-04-07",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1089,7 +1048,7 @@
       "id": "tutornow",
       "company": "Tutornow",
       "stage": "Paused",
-      "lastDays": 87,
+      "lastDays": 88,
       "lastContactDate": "2026-02-23",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1146,7 +1105,7 @@
       "id": "hercle",
       "company": "Hercle",
       "stage": "Paused",
-      "lastDays": 94,
+      "lastDays": 95,
       "lastContactDate": "2026-02-16",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1184,7 +1143,7 @@
       "id": "bpifrance",
       "company": "Bpifrance",
       "stage": "Meeting",
-      "lastDays": 239,
+      "lastDays": 240,
       "lastContactDate": "2025-09-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1279,7 +1238,7 @@
       "id": "rebind",
       "company": "Rebind",
       "stage": "Meeting",
-      "lastDays": 73,
+      "lastDays": 74,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1317,7 +1276,7 @@
       "id": "bizaway",
       "company": "BizAway",
       "stage": "Meeting",
-      "lastDays": 86,
+      "lastDays": 87,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1355,7 +1314,7 @@
       "id": "banca-sella",
       "company": "Banca Sella",
       "stage": "Proposal / Negotiation",
-      "lastDays": 8,
+      "lastDays": 9,
       "lastContactDate": "2026-05-13",
       "lastContactType": "email_received",
       "priority": "High",
@@ -1430,7 +1389,7 @@
       "id": "moonfare",
       "company": "Moonfare",
       "stage": "Proposal / Negotiation",
-      "lastDays": 8,
+      "lastDays": 9,
       "lastContactDate": "2026-05-13",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -1468,7 +1427,7 @@
       "id": "mgv",
       "company": "MGV",
       "stage": "Lost",
-      "lastDays": 6,
+      "lastDays": 7,
       "lastContactDate": "2026-05-15",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1500,7 +1459,7 @@
       "id": "etienne-variot",
       "company": "Etienne Variot",
       "stage": "Active",
-      "lastDays": 82,
+      "lastDays": 83,
       "lastContactDate": "2026-02-28",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1538,7 +1497,7 @@
       "id": "goin",
       "company": "GOin",
       "stage": "Meeting",
-      "lastDays": 76,
+      "lastDays": 77,
       "lastContactDate": "2026-03-06",
       "lastContactType": "transcript",
       "priority": "Med",
@@ -1601,7 +1560,7 @@
       "id": "blackfin",
       "company": "BlackFin",
       "stage": "Meeting",
-      "lastDays": 29,
+      "lastDays": 30,
       "lastContactDate": "2026-04-22",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1658,7 +1617,7 @@
       "id": "blisce",
       "company": "Blisce",
       "stage": "Meeting",
-      "lastDays": 92,
+      "lastDays": 93,
       "lastContactDate": "2026-02-18",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1696,7 +1655,7 @@
       "id": "sorare",
       "company": "Sorare",
       "stage": "Paused",
-      "lastDays": 93,
+      "lastDays": 94,
       "lastContactDate": "2026-02-17",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1734,7 +1693,7 @@
       "id": "tomcat",
       "company": "Tomcat",
       "stage": "Meeting",
-      "lastDays": 63,
+      "lastDays": 64,
       "lastContactDate": "2026-03-19",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1772,7 +1731,7 @@
       "id": "bitpanda",
       "company": "Bitpanda",
       "stage": "Meeting",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-05-20",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1810,7 +1769,7 @@
       "id": "simon-hulin",
       "company": "Simon Hulin",
       "stage": "Testing",
-      "lastDays": 69,
+      "lastDays": 70,
       "lastContactDate": "2026-03-13",
       "lastContactType": "email_received",
       "priority": "High",
@@ -1848,7 +1807,7 @@
       "id": "sopra-steria",
       "company": "Sopra Steria",
       "stage": "Meeting",
-      "lastDays": 58,
+      "lastDays": 59,
       "lastContactDate": "2026-03-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1886,7 +1845,7 @@
       "id": "bernat-family-office-sl",
       "company": "Bernat Family Office S.L.",
       "stage": "Meeting",
-      "lastDays": 227,
+      "lastDays": 228,
       "lastContactDate": "2025-10-06",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1912,7 +1871,7 @@
       "id": "alain-arthur-bloch",
       "company": "Alain & Arthur Bloch",
       "stage": "Proposal / Negotiation",
-      "lastDays": 99,
+      "lastDays": 100,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -1950,8 +1909,8 @@
       "id": "jump",
       "company": "Jump",
       "stage": "Meeting",
-      "lastDays": 2,
-      "lastContactDate": "2026-05-19",
+      "lastDays": 0,
+      "lastContactDate": "2026-05-22",
       "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
@@ -1964,22 +1923,22 @@
       "weighted_value": 3000000.0,
       "emails": [
         {
+          "date": "2026-05-22",
+          "subject": "Re: Accepted: Olivier <> Gaia @ Fri 22 May 2026 4:30pm - 5pm (CEST) (gaia@byzantine.fi)",
+          "direction": "sent",
+          "snippet": "Bonjour Olivier, Petit imprévu de mon côté pour notre call de tout à l&#39;heure : mon vol a été annulé et reprogrammé, je serai en avion sur le créneau. Est-ce qu&#39;on peut décaler en début de"
+        },
+        {
+          "date": "2026-05-22",
+          "subject": "Anthony Simon just joined JUMP GREEN - Byzantine Finance",
+          "direction": "sent",
+          "snippet": "Dear Olivier, Anthony Simon just joined JUMP GREEN on the Byzantine Finance platform. ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​"
+        },
+        {
           "date": "2026-05-19",
           "subject": "You started earning - Byzantine Finance",
           "direction": "sent",
           "snippet": "Dear Olivier, your funds are now securely deposited and generating returns. ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏"
-        },
-        {
-          "date": "2026-05-19",
-          "subject": "You started earning - Byzantine Finance",
-          "direction": "sent",
-          "snippet": "Dear Anthony, your funds are now securely deposited and generating returns. ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏"
-        },
-        {
-          "date": "2026-05-19",
-          "subject": "You started earning - Byzantine Finance",
-          "direction": "sent",
-          "snippet": "Dear Nicolas, your funds are now securely deposited and generating returns. ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏"
         }
       ],
       "transcripts": []
@@ -1988,7 +1947,7 @@
       "id": "nilos",
       "company": "Nilos",
       "stage": "Meeting",
-      "lastDays": 149,
+      "lastDays": 150,
       "lastContactDate": "2025-12-23",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2014,7 +1973,7 @@
       "id": "dalma",
       "company": "Dalma.",
       "stage": "Lost",
-      "lastDays": 108,
+      "lastDays": 109,
       "lastContactDate": "2026-02-02",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2052,7 +2011,7 @@
       "id": "sandwell-capital",
       "company": "Sandwell Capital",
       "stage": "Meeting",
-      "lastDays": 13,
+      "lastDays": 14,
       "lastContactDate": "2026-05-08",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2090,7 +2049,7 @@
       "id": "michael-osullivan",
       "company": "Michael OSullivan",
       "stage": "Proposal / Negotiation",
-      "lastDays": 94,
+      "lastDays": 95,
       "lastContactDate": "2026-02-16",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2122,7 +2081,7 @@
       "id": "fygr",
       "company": "Fygr",
       "stage": "Proposal / Negotiation",
-      "lastDays": 99,
+      "lastDays": 100,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2160,7 +2119,7 @@
       "id": "whitebit",
       "company": "WhiteBIT",
       "stage": "Qualification",
-      "lastDays": 687,
+      "lastDays": 688,
       "lastContactDate": "2024-07-03",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2192,9 +2151,9 @@
       "id": "coinhouse",
       "company": "Coinhouse",
       "stage": "Meeting",
-      "lastDays": 8,
-      "lastContactDate": "2026-05-13",
-      "lastContactType": "email_received",
+      "lastDays": 1,
+      "lastContactDate": "2026-05-21",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
       "nextSteps": "Warm intro via Damien (Blockwall). Meeting 29 jan (33 min) con Nicolas Louvet + Ugo Cathelina. Coinhouse studia strutturazione prodotti DeFi per clienti — interessati a capire come Byzantine funziona come layer di yield. Nicolas doveva testare la piattaforma e discutere con avvocati sulla struttura regolamentare. Gaia ha inviato docs post-call. Nessuna email di follow-up trovata dopo jan. Meeting Apr 1 (nessun transcript). Relancer Nicolas per update su test e struttura legale.",
@@ -2206,22 +2165,22 @@
       "weighted_value": null,
       "emails": [
         {
+          "date": "2026-05-21",
+          "subject": "Byzantine <> Coinhouse – documentation d'intégration",
+          "direction": "sent",
+          "snippet": "Bonjour Nicolas, Ravie d&#39;avoir échangé la semaine dernière. Je t&#39;envoie comme promis notre documentation d&#39;intégration, elle couvre l&#39;architecture technique, le flux de dépôt/retrait,"
+        },
+        {
+          "date": "2026-05-21",
+          "subject": "Byzantine <> Coinhouse – integration doc",
+          "direction": "sent",
+          "snippet": "Hi Nicolas, Great to speak last week. Sending over our integration doc as promised — should cover everything you and Matthias needed on the technical side. [integration doc attached] Happy to jump on "
+        },
+        {
           "date": "2026-05-13",
           "subject": "Someone viewed the document Coinhouse",
           "direction": "received",
           "snippet": "DocSend Hey GaiaFerrero, Mac visitor viewed the document Coinhouse! Byzantine&#39;s Example Account Paris, France VIEWED Coinhouse Byzantine&#39;s Example Account 02:13​ View all stats Don&#39;t want"
-        },
-        {
-          "date": "2026-05-06",
-          "subject": "Accepted: Gaia (Byzantine) <> Nicolas @ Wed 13 May 2026 10:30am - 11am (CEST) (gaia@byzantine.fi)",
-          "direction": "received",
-          "snippet": "Gaia (Byzantine) &lt;&gt; Nicolas Stéphane IFRAH has accepted this invitation. Join with Google Meet Meeting link meet.google.com/aqc-biik-tps Join by phone (FR) +33 1 87 40 34 40 PIN: 447449171 More"
-        },
-        {
-          "date": "2026-05-06",
-          "subject": "Accepted: Gaia (Byzantine) <> Nicolas @ Wed 13 May 2026 10:30am - 11am (CEST) (gaia@byzantine.fi)",
-          "direction": "received",
-          "snippet": "Gaia (Byzantine) &lt;&gt; Nicolas Ugo CATHELINA has accepted this invitation. Join with Google Meet Meeting link meet.google.com/aqc-biik-tps Join by phone (FR) +33 1 87 40 34 40 PIN: 447449171 More"
         }
       ],
       "transcripts": []
@@ -2230,7 +2189,7 @@
       "id": "gaya",
       "company": "GAYA",
       "stage": "Meeting",
-      "lastDays": 10,
+      "lastDays": 11,
       "lastContactDate": "2026-05-11",
       "lastContactType": "meeting",
       "priority": "Med",
@@ -2287,7 +2246,7 @@
       "id": "carbone-farmers",
       "company": "Carbone Farmers",
       "stage": "Lost",
-      "lastDays": 98,
+      "lastDays": 99,
       "lastContactDate": "2026-02-12",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2325,7 +2284,7 @@
       "id": "jona-hauch",
       "company": "Jona Hauch",
       "stage": "Lost",
-      "lastDays": 86,
+      "lastDays": 87,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2351,7 +2310,7 @@
       "id": "cdp",
       "company": "CDP",
       "stage": "Meeting",
-      "lastDays": 2,
+      "lastDays": 3,
       "lastContactDate": "2026-05-19",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2408,7 +2367,7 @@
       "id": "charles-grosdidier",
       "company": "Charles Grosdidier",
       "stage": "Active",
-      "lastDays": 70,
+      "lastDays": 71,
       "lastContactDate": "2026-03-12",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2446,7 +2405,7 @@
       "id": "bitvavo",
       "company": "Bitvavo",
       "stage": "Proposal / Negotiation",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-05-20",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -2549,7 +2508,7 @@
       "id": "flag-finance",
       "company": "Flag Finance",
       "stage": "Meeting",
-      "lastDays": 21,
+      "lastDays": 22,
       "lastContactDate": "2026-04-30",
       "lastContactType": "meeting",
       "priority": "Med",
@@ -2587,9 +2546,9 @@
       "id": "bitcoin-suisse",
       "company": "Bitcoin Suisse",
       "stage": "Meeting",
-      "lastDays": 8,
-      "lastContactDate": "2026-05-13",
-      "lastContactType": "email_received",
+      "lastDays": 1,
+      "lastContactDate": "2026-05-21",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
       "nextSteps": "Organis Follow-up meeting in 3-4 months to discuss investment strategy and regulatory alignment",
@@ -2601,22 +2560,22 @@
       "weighted_value": 0.5,
       "emails": [
         {
+          "date": "2026-05-21",
+          "subject": "Byzantine <> Coinhouse – documentation d'intégration",
+          "direction": "sent",
+          "snippet": "Bonjour Nicolas, Ravie d&#39;avoir échangé la semaine dernière. Je t&#39;envoie comme promis notre documentation d&#39;intégration, elle couvre l&#39;architecture technique, le flux de dépôt/retrait,"
+        },
+        {
+          "date": "2026-05-21",
+          "subject": "Byzantine <> Coinhouse – integration doc",
+          "direction": "sent",
+          "snippet": "Hi Nicolas, Great to speak last week. Sending over our integration doc as promised — should cover everything you and Matthias needed on the technical side. [integration doc attached] Happy to jump on "
+        },
+        {
           "date": "2026-05-13",
           "subject": "Someone viewed the document Coinhouse",
           "direction": "received",
           "snippet": "DocSend Hey GaiaFerrero, Mac visitor viewed the document Coinhouse! Byzantine&#39;s Example Account Paris, France VIEWED Coinhouse Byzantine&#39;s Example Account 02:13​ View all stats Don&#39;t want"
-        },
-        {
-          "date": "2026-05-06",
-          "subject": "Accepted: Gaia (Byzantine) <> Nicolas @ Wed 13 May 2026 10:30am - 11am (CEST) (gaia@byzantine.fi)",
-          "direction": "received",
-          "snippet": "Gaia (Byzantine) &lt;&gt; Nicolas Stéphane IFRAH has accepted this invitation. Join with Google Meet Meeting link meet.google.com/aqc-biik-tps Join by phone (FR) +33 1 87 40 34 40 PIN: 447449171 More"
-        },
-        {
-          "date": "2026-05-06",
-          "subject": "Accepted: Gaia (Byzantine) <> Nicolas @ Wed 13 May 2026 10:30am - 11am (CEST) (gaia@byzantine.fi)",
-          "direction": "received",
-          "snippet": "Gaia (Byzantine) &lt;&gt; Nicolas Ugo CATHELINA has accepted this invitation. Join with Google Meet Meeting link meet.google.com/aqc-biik-tps Join by phone (FR) +33 1 87 40 34 40 PIN: 447449171 More"
         }
       ],
       "transcripts": []
@@ -2625,7 +2584,7 @@
       "id": "titanbay",
       "company": "Titanbay",
       "stage": "Contacted",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-05-20",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2682,7 +2641,7 @@
       "id": "sibill",
       "company": "Sibill",
       "stage": "Proposal / Negotiation",
-      "lastDays": 44,
+      "lastDays": 45,
       "lastContactDate": "2026-04-07",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -2720,7 +2679,7 @@
       "id": "welara",
       "company": "Welara",
       "stage": "Meeting",
-      "lastDays": 90,
+      "lastDays": 91,
       "lastContactDate": "2026-02-20",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2758,8 +2717,8 @@
       "id": "eric-bouanich",
       "company": "Eric Bouanich",
       "stage": "Proposal / Negotiation",
-      "lastDays": 17,
-      "lastContactDate": "2026-05-04",
+      "lastDays": 0,
+      "lastContactDate": "2026-05-22",
       "lastContactType": "email_received",
       "priority": "High",
       "notes": "",
@@ -2772,22 +2731,22 @@
       "weighted_value": 250000.0,
       "emails": [
         {
+          "date": "2026-05-22",
+          "subject": "Accepted: Eric <> Gaia @ Mon 25 May 2026 4pm - 4:30pm (CEST) (gaia@byzantine.fi)",
+          "direction": "received",
+          "snippet": "Eric &lt;&gt; Gaia Bouanich Eric has accepted this invitation. Join with Google Meet Meeting link meet.google.com/zed-bqtj-qxd Join by phone (FR) +33 1 87 40 08 27 PIN: 796923781 More phone numbers"
+        },
+        {
+          "date": "2026-05-22",
+          "subject": "Accepted: Eric <> Gaia @ Fri 22 May 2026 3:45pm - 4:15pm (CEST) (gaia@byzantine.fi)",
+          "direction": "received",
+          "snippet": "Eric &lt;&gt; Gaia Bouanich Eric has accepted this invitation. Join with Google Meet Meeting link meet.google.com/zed-bqtj-qxd Join by phone (FR) +33 1 87 40 08 27 PIN: 796923781 More phone numbers"
+        },
+        {
           "date": "2026-05-04",
           "subject": "Accepted: Eric<>Byzantine, (distribution de produits structurés) @ Wed 6 May 2026 9:30am - 10am (CEST) (gaia@byzantine.fi)",
           "direction": "received",
           "snippet": "Eric&lt;&gt;Byzantine, (distribution de produits structurés) Bouanich Eric has accepted this invitation. Join with Google Meet Meeting link meet.google.com/fdp-hdgt-ffc Join by phone (FR) +33 1 87 40"
-        },
-        {
-          "date": "2026-05-04",
-          "subject": "Accepted: Eric<>Byzantine, (distribution de produits structurés)",
-          "direction": "received",
-          "snippet": ""
-        },
-        {
-          "date": "2026-03-31",
-          "subject": "Accepted: Eric <> Gaia",
-          "direction": "received",
-          "snippet": ""
         }
       ],
       "transcripts": []
@@ -2796,7 +2755,7 @@
       "id": "request-network",
       "company": "Request Network",
       "stage": "Proposal / Negotiation",
-      "lastDays": 10,
+      "lastDays": 11,
       "lastContactDate": "2026-05-11",
       "lastContactType": "email_sent",
       "priority": "High",
@@ -2834,7 +2793,7 @@
       "id": "gocanopy",
       "company": "GoCanopy",
       "stage": "Meeting",
-      "lastDays": 23,
+      "lastDays": 24,
       "lastContactDate": "2026-04-28",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2872,7 +2831,7 @@
       "id": "maki-people",
       "company": "Maki People",
       "stage": "Proposal / Negotiation",
-      "lastDays": 167,
+      "lastDays": 168,
       "lastContactDate": "2025-12-05",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2898,7 +2857,7 @@
       "id": "samuel-mottais",
       "company": "Samuel Mottais",
       "stage": "Active",
-      "lastDays": 129,
+      "lastDays": 130,
       "lastContactDate": "2026-01-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2943,7 +2902,7 @@
       "id": "intesa-sanpaolo",
       "company": "Intesa Sanpaolo",
       "stage": "Proposal / Negotiation",
-      "lastDays": 3,
+      "lastDays": 4,
       "lastContactDate": "2026-05-18",
       "lastContactType": "email_received",
       "priority": "High",
@@ -2981,7 +2940,7 @@
       "id": "payflow",
       "company": "Payflow",
       "stage": "Meeting",
-      "lastDays": 77,
+      "lastDays": 78,
       "lastContactDate": "2026-03-05",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3007,7 +2966,7 @@
       "id": "jethr",
       "company": "JetHR",
       "stage": "Lost",
-      "lastDays": 85,
+      "lastDays": 86,
       "lastContactDate": "2026-02-25",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3045,7 +3004,7 @@
       "id": "arthur-bloch",
       "company": "Arthur Bloch",
       "stage": "Active",
-      "lastDays": 99,
+      "lastDays": 100,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3083,7 +3042,7 @@
       "id": "thibault-gimenez",
       "company": "Thibault Gimenez",
       "stage": "Qualification",
-      "lastDays": 73,
+      "lastDays": 74,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -4894,28 +4853,57 @@
       ],
       "company": "",
       "linked_deal": "Banca Sella"
-    },
-    {
-      "date": "2026-02-20",
-      "title": "Matte<>Gaia, touchpoint",
-      "participants": [
-        "gaia@byzantine.fi",
-        "matteo@byzantine.fi",
-        "timothee@byzantine.fi"
-      ],
-      "summary": "- **Customer Success Process:** Building a structured onboarding process is crucial for retaining high-value clients and encouraging upsells.  \n- **Personalized Engagement:** Manual onboarding and feedback for key clients like Eric, who manages a €15-20 million fund, enhance experience.  \n- **Sales Process Improvement:** A structured deal roadmap will define clear next steps, improving sales efficiency and forecasting accuracy.  \n- **CRM Utilization:** Enhanced pipeline management with CRM tools",
-      "actionItems": [
-        "**Gaia Ferrero Regis**",
-        "Send Eric’s LinkedIn profile and onboarding materials to Timothée for review (03:00)",
-        "Organize manual onboarding process with Eric and schedule a feedback call for next Friday (04:40)",
-        "Follow up with Sebastian from Moon Investment to prompt account setup (15:50)",
-        "Prepare for and conduct meeting with Thibaut Coulon next Tuesday to discuss distribution (29:40)"
-      ],
-      "company": "Matte",
-      "linked_deal": "OX Capital Partners"
     }
   ],
   "activity_feed": [
+    {
+      "date": "2026-05-22",
+      "type": "email_sent",
+      "company": "Jump",
+      "summary": "Sent: Re: Accepted: Olivier <> Gaia @ Fri 22 May 2026 4:30pm - 5pm (CEST) (gaia@byzantine.fi)"
+    },
+    {
+      "date": "2026-05-22",
+      "type": "email_sent",
+      "company": "Jump",
+      "summary": "Sent: Anthony Simon just joined JUMP GREEN - Byzantine Finance"
+    },
+    {
+      "date": "2026-05-22",
+      "type": "email_received",
+      "company": "Eric Bouanich",
+      "summary": "Received: Accepted: Eric <> Gaia @ Mon 25 May 2026 4pm - 4:30pm (CEST) (gaia@byzantine.fi)"
+    },
+    {
+      "date": "2026-05-22",
+      "type": "email_received",
+      "company": "Eric Bouanich",
+      "summary": "Received: Accepted: Eric <> Gaia @ Fri 22 May 2026 3:45pm - 4:15pm (CEST) (gaia@byzantine.fi)"
+    },
+    {
+      "date": "2026-05-21",
+      "type": "email_sent",
+      "company": "Coinhouse",
+      "summary": "Sent: Byzantine <> Coinhouse – documentation d'intégration"
+    },
+    {
+      "date": "2026-05-21",
+      "type": "email_sent",
+      "company": "Coinhouse",
+      "summary": "Sent: Byzantine <> Coinhouse – integration doc"
+    },
+    {
+      "date": "2026-05-21",
+      "type": "email_sent",
+      "company": "Bitcoin Suisse",
+      "summary": "Sent: Byzantine <> Coinhouse – documentation d'intégration"
+    },
+    {
+      "date": "2026-05-21",
+      "type": "email_sent",
+      "company": "Bitcoin Suisse",
+      "summary": "Sent: Byzantine <> Coinhouse – integration doc"
+    },
     {
       "date": "2026-05-20",
       "type": "email_received",
@@ -4957,54 +4945,6 @@
       "type": "email_received",
       "company": "Titanbay",
       "summary": "Received: Accepted: Leon Bruyneel and Gaia Ferrero Regis @ Mon 1 Jun 2026 2pm - 2:30pm (CEST) (gaia@byzantine.fi)"
-    },
-    {
-      "date": "2026-05-19",
-      "type": "email_sent",
-      "company": "Jump",
-      "summary": "Sent: You started earning - Byzantine Finance"
-    },
-    {
-      "date": "2026-05-19",
-      "type": "email_sent",
-      "company": "Jump",
-      "summary": "Sent: You started earning - Byzantine Finance"
-    },
-    {
-      "date": "2026-05-19",
-      "type": "email_sent",
-      "company": "Jump",
-      "summary": "Sent: You started earning - Byzantine Finance"
-    },
-    {
-      "date": "2026-05-19",
-      "type": "email_sent",
-      "company": "CDP",
-      "summary": "Sent: Re: Byzantine x CDP: documentazione e use case"
-    },
-    {
-      "date": "2026-05-18",
-      "type": "email_received",
-      "company": "Bitpanda",
-      "summary": "Received: Asseto Finance | We need some advice from you"
-    },
-    {
-      "date": "2026-05-18",
-      "type": "email_received",
-      "company": "Titanbay",
-      "summary": "Received: Asseto Finance | We need some advice from you"
-    },
-    {
-      "date": "2026-05-18",
-      "type": "email_received",
-      "company": "Intesa Sanpaolo",
-      "summary": "Received: Accepted: Marco <> Gaia"
-    },
-    {
-      "date": "2026-05-15",
-      "type": "email_received",
-      "company": "MGV",
-      "summary": "Received: "
     }
   ]
 }
