@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-09-15T12:32:24+00:00",
+  "sync_time": "2026-09-16T12:30:28+00:00",
   "sources": {
     "fireflies": {
       "status": "ok",
@@ -7,7 +7,7 @@
     },
     "gcal": {
       "status": "ok",
-      "count": 367
+      "count": 376
     },
     "cgps": {
       "status": "ok",
@@ -15,11 +15,11 @@
     },
     "attio": {
       "status": "ok",
-      "count": 258
+      "count": 261
     },
     "gmail": {
       "status": "ok",
-      "count": 147
+      "count": 150
     }
   },
   "deals": [
@@ -27,7 +27,7 @@
       "id": "free-work",
       "company": "Free-Work",
       "stage": "Qualification",
-      "lastDays": 85,
+      "lastDays": 86,
       "lastContactDate": "2026-06-22",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -72,7 +72,7 @@
       "id": "skill-hunter",
       "company": "Skill Hunter",
       "stage": "Qualification",
-      "lastDays": 169,
+      "lastDays": 170,
       "lastContactDate": "2026-03-30",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -148,7 +148,7 @@
       "id": "beamy",
       "company": "Beamy",
       "stage": "Qualification",
-      "lastDays": 76,
+      "lastDays": 77,
       "lastContactDate": "2026-07-01",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -193,7 +193,7 @@
       "id": "vanilla-estate",
       "company": "Vanilla Estate",
       "stage": "Qualification",
-      "lastDays": 235,
+      "lastDays": 236,
       "lastContactDate": "2026-01-23",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -231,7 +231,7 @@
       "id": "thibault-coulon",
       "company": "Thibault Coulon",
       "stage": "Qualification",
-      "lastDays": 39,
+      "lastDays": 40,
       "lastContactDate": "2026-08-07",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -288,7 +288,7 @@
       "id": "stanislas-dandlau-hombourg-individual",
       "company": "Stanislas d'Andlau-Hombourg – Individual",
       "stage": "Qualification",
-      "lastDays": 34,
+      "lastDays": 35,
       "lastContactDate": "2026-08-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -314,7 +314,7 @@
       "id": "finanz",
       "company": "finanz",
       "stage": "Qualification",
-      "lastDays": 3,
+      "lastDays": 4,
       "lastContactDate": "2026-09-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -352,7 +352,7 @@
       "id": "rcube",
       "company": "Rcube",
       "stage": "Qualification",
-      "lastDays": 98,
+      "lastDays": 99,
       "lastContactDate": "2026-06-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -409,7 +409,7 @@
       "id": "mailinblack",
       "company": "Mailinblack",
       "stage": "Qualification",
-      "lastDays": 83,
+      "lastDays": 84,
       "lastContactDate": "2026-06-24",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -466,7 +466,7 @@
       "id": "athletico-ventures",
       "company": "Athletico Ventures",
       "stage": "Qualification",
-      "lastDays": 182,
+      "lastDays": 183,
       "lastContactDate": "2026-03-17",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -504,7 +504,7 @@
       "id": "the-level-group",
       "company": "The Level Group",
       "stage": "Qualification",
-      "lastDays": 57,
+      "lastDays": 58,
       "lastContactDate": "2026-07-20",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -581,7 +581,7 @@
       "company": "Pennylane",
       "stage": "Qualification",
       "lastDays": 0,
-      "lastContactDate": "2026-09-15",
+      "lastContactDate": "2026-09-16",
       "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
@@ -594,6 +594,12 @@
       "weighted_value": null,
       "emails": [
         {
+          "date": "2026-09-16",
+          "subject": "1 unread notification on Pennylane",
+          "direction": "received",
+          "snippet": "1 unread notification Hello Gaia, You have 1 unread notification BYZANTINE FINANCE Mentions (1) Firas Ouesleti mentioned your name on Supplier invoice from wework FO @Gaia Ferrer Regis je ne trouve pa"
+        },
+        {
           "date": "2026-09-15",
           "subject": "1 unread notification on Pennylane",
           "direction": "received",
@@ -604,12 +610,6 @@
           "subject": "BYZANTINE FINANCE: Bookkeeping - Documents and supporting documents to provide",
           "direction": "received",
           "snippet": "Bookkeeping - September 2026 Hello Gaia, This month, your accountant needs several actions from you to maintain smooth bookkeeping operations. 32 bank transactions require a receipt or clarification."
-        },
-        {
-          "date": "2026-09-14",
-          "subject": "1 unread notification on Pennylane",
-          "direction": "received",
-          "snippet": "1 unread notification Hello Gaia, You have 1 unread notification BYZANTINE FINANCE Mentions (1) Firas Ouesleti mentioned your name on Supplier invoice from wework FO @Gaia Ferrer Regis je ne trouve pa"
         }
       ],
       "transcripts": []
@@ -618,7 +618,7 @@
       "id": "nicolas-bacca",
       "company": "Nicolas Bacca",
       "stage": "Qualification",
-      "lastDays": 6,
+      "lastDays": 7,
       "lastContactDate": "2026-09-09",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -653,10 +653,36 @@
       "transcripts": []
     },
     {
+      "id": "joko",
+      "company": "Joko",
+      "stage": "Contacted",
+      "lastDays": 1,
+      "lastContactDate": "2026-09-15",
+      "lastContactType": "email_sent",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "Follow up if Xavier has not replied",
+      "contact": "Xavier Starkloff <xstarkloff@joko.com>",
+      "confidence": null,
+      "expected_allocation": null,
+      "pct_closing": null,
+      "days_to_close": null,
+      "weighted_value": null,
+      "emails": [
+        {
+          "date": "2026-09-15",
+          "subject": "Joko / Byzantine",
+          "direction": "sent",
+          "snippet": "Bonjour Xavier, Je me permets de vous contacter dans le cadre de votre rôle de CEO chez Joko. Chez Byzantine, nous proposons aux plateformes de shopping et de cashback comme vous (ou comme iGraal) une"
+        }
+      ],
+      "transcripts": []
+    },
+    {
       "id": "aelis",
       "company": "Aelis",
       "stage": "Qualification",
-      "lastDays": 120,
+      "lastDays": 121,
       "lastContactDate": "2026-05-18",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -682,7 +708,7 @@
       "id": "lef-conseil-francois-martineau",
       "company": "LEF Conseil — François Martineau",
       "stage": "Qualification",
-      "lastDays": 95,
+      "lastDays": 96,
       "lastContactDate": "2026-06-12",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -739,7 +765,7 @@
       "id": "meyon",
       "company": "Meyon",
       "stage": "Qualification",
-      "lastDays": 119,
+      "lastDays": 120,
       "lastContactDate": "2026-05-19",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -765,7 +791,7 @@
       "id": "super-capital-soma",
       "company": "SUPER CAPITAL SOMA",
       "stage": "Qualification",
-      "lastDays": 8,
+      "lastDays": 9,
       "lastContactDate": "2026-09-07",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -803,7 +829,7 @@
       "id": "node-capital",
       "company": "Node Capital",
       "stage": "Qualification",
-      "lastDays": 12,
+      "lastDays": 13,
       "lastContactDate": "2026-09-03",
       "lastContactType": "meeting",
       "priority": "Med",
@@ -860,9 +886,9 @@
       "id": "solid",
       "company": "Solid",
       "stage": "Qualification",
-      "lastDays": 1,
-      "lastContactDate": "2026-09-14",
-      "lastContactType": "email_sent",
+      "lastDays": 0,
+      "lastContactDate": "2026-09-16",
+      "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
       "nextSteps": "Mark's team to review docs and begin testing in the sandbox; reconnect next week (week of Sep 14) to review questions and scope the euro pilot. Gaia offered a quick call with the CTO if needed.",
@@ -874,6 +900,12 @@
       "weighted_value": null,
       "emails": [
         {
+          "date": "2026-09-16",
+          "subject": "",
+          "direction": "received",
+          "snippet": "Hi Mark, Just checking in to see if you&#39;ve had a chance to test the sandbox or if there are any questions from your team. Happy to arrange a quick call with our CTO to keep things moving. Looking"
+        },
+        {
           "date": "2026-09-14",
           "subject": "Re: Solid × Byzantine - euro yield and next steps",
           "direction": "sent",
@@ -884,12 +916,6 @@
           "subject": "Re: Re: Solid × Byzantine - euro yield and next steps",
           "direction": "sent",
           "snippet": "🔔 Slashy Reminder This is your scheduled reminder about this email thread. Slashy - Your Email Assistant"
-        },
-        {
-          "date": "2026-09-10",
-          "subject": "Solid Weekly Update: Earn rebuilt, USDC card spending and more",
-          "direction": "received",
-          "snippet": "What shipped in the app recently‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ "
         }
       ],
       "transcripts": []
@@ -898,7 +924,7 @@
       "id": "incard",
       "company": "Incard",
       "stage": "Qualification",
-      "lastDays": 0,
+      "lastDays": 1,
       "lastContactDate": "2026-09-15",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -943,7 +969,7 @@
       "id": "jean-david-curiel",
       "company": "Jean-David Curiel",
       "stage": "Qualification",
-      "lastDays": 205,
+      "lastDays": 206,
       "lastContactDate": "2026-02-22",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -969,7 +995,7 @@
       "id": "tulyp",
       "company": "Tulyp",
       "stage": "Qualification",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-09-14",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1026,7 +1052,7 @@
       "id": "horos-capital",
       "company": "Horos Capital",
       "stage": "Qualification",
-      "lastDays": 40,
+      "lastDays": 41,
       "lastContactDate": "2026-08-06",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1064,7 +1090,7 @@
       "id": "taurus",
       "company": "Taurus",
       "stage": "Qualification",
-      "lastDays": 110,
+      "lastDays": 111,
       "lastContactDate": "2026-05-28",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1102,7 +1128,7 @@
       "id": "hugues-de-braucourt",
       "company": "Hugues de Braucourt",
       "stage": "Lost",
-      "lastDays": 218,
+      "lastDays": 219,
       "lastContactDate": "2026-02-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1140,7 +1166,7 @@
       "id": "antoine-godfroy",
       "company": "Antoine Godfroy",
       "stage": "Qualification",
-      "lastDays": 71,
+      "lastDays": 72,
       "lastContactDate": "2026-07-06",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1210,7 +1236,7 @@
       "id": "valentin-korsougne",
       "company": "Valentin Korsougne",
       "stage": "Qualification",
-      "lastDays": 96,
+      "lastDays": 97,
       "lastContactDate": "2026-06-11",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1280,7 +1306,7 @@
       "id": "jonathan-jean-baptiste",
       "company": "Jonathan JEAN-BAPTISTE",
       "stage": "Qualification",
-      "lastDays": 232,
+      "lastDays": 233,
       "lastContactDate": "2026-01-26",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1306,7 +1332,7 @@
       "id": "115k",
       "company": "115K",
       "stage": "Qualification",
-      "lastDays": 15,
+      "lastDays": 16,
       "lastContactDate": "2026-08-31",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1344,7 +1370,7 @@
       "id": "defacto-charlotte-gounot",
       "company": "Defacto  Charlotte Gounot",
       "stage": "Qualification",
-      "lastDays": 12,
+      "lastDays": 13,
       "lastContactDate": "2026-09-03",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1401,7 +1427,7 @@
       "id": "benjamin-chiche",
       "company": "Benjamin Chiche",
       "stage": "Qualification",
-      "lastDays": 78,
+      "lastDays": 79,
       "lastContactDate": "2026-06-29",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1439,7 +1465,7 @@
       "id": "sv-conseil",
       "company": "SV Conseil",
       "stage": "Qualification",
-      "lastDays": 105,
+      "lastDays": 106,
       "lastContactDate": "2026-06-02",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1534,7 +1560,7 @@
       "id": "cgp-conseils",
       "company": "CGP conseils",
       "stage": "Qualification",
-      "lastDays": 105,
+      "lastDays": 106,
       "lastContactDate": "2026-06-02",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1572,7 +1598,7 @@
       "id": "nicolas-martin",
       "company": "Nicolas Martin",
       "stage": "Qualification",
-      "lastDays": 6,
+      "lastDays": 7,
       "lastContactDate": "2026-09-09",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1629,7 +1655,7 @@
       "id": "ox-capital-partners",
       "company": "OX Capital Partners",
       "stage": "Qualification",
-      "lastDays": 161,
+      "lastDays": 162,
       "lastContactDate": "2026-04-07",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1667,7 +1693,7 @@
       "id": "criptan",
       "company": "Criptan",
       "stage": "Qualification",
-      "lastDays": 0,
+      "lastDays": 1,
       "lastContactDate": "2026-09-15",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1743,7 +1769,7 @@
       "id": "rezult",
       "company": "REZULT®",
       "stage": "Lost",
-      "lastDays": 75,
+      "lastDays": 76,
       "lastContactDate": "2026-07-02",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1838,7 +1864,7 @@
       "id": "coinmotion",
       "company": "Coinmotion",
       "stage": "Contacted",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-09-14",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1876,7 +1902,7 @@
       "id": "capslock-global",
       "company": "Capslock Global",
       "stage": "Qualification",
-      "lastDays": 229,
+      "lastDays": 230,
       "lastContactDate": "2026-01-29",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1902,7 +1928,7 @@
       "id": "the-moon-investments",
       "company": "The Moon Investments",
       "stage": "Lost",
-      "lastDays": 194,
+      "lastDays": 195,
       "lastContactDate": "2026-03-05",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -1940,7 +1966,7 @@
       "id": "manaslu",
       "company": "Manaslu",
       "stage": "Qualification",
-      "lastDays": 34,
+      "lastDays": 35,
       "lastContactDate": "2026-08-12",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -1978,7 +2004,7 @@
       "id": "thomas-rebaud",
       "company": "Thomas Rebaud",
       "stage": "Qualification",
-      "lastDays": 196,
+      "lastDays": 197,
       "lastContactDate": "2026-03-03",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2016,7 +2042,7 @@
       "id": "365talents",
       "company": "365talents",
       "stage": "Qualification",
-      "lastDays": 57,
+      "lastDays": 58,
       "lastContactDate": "2026-07-20",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2061,7 +2087,7 @@
       "id": "priscille-raynaud",
       "company": "Priscille Raynaud",
       "stage": "Qualification",
-      "lastDays": 199,
+      "lastDays": 200,
       "lastContactDate": "2026-02-28",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2119,7 +2145,7 @@
       "company": "JDM Aviation",
       "stage": "Qualification",
       "lastDays": 0,
-      "lastContactDate": "2026-09-15",
+      "lastContactDate": "2026-09-16",
       "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
@@ -2132,22 +2158,22 @@
       "weighted_value": null,
       "emails": [
         {
-          "date": "2026-09-15",
-          "subject": "Re: Pièce identité Gérald DUCOIN - JDM Aviation",
+          "date": "2026-09-16",
+          "subject": "Re: KYB request for JDM AVIATION",
           "direction": "sent",
-          "snippet": "🔔 Slashy Reminder This is your scheduled reminder about this email thread. Slashy - Your Email Assistant"
+          "snippet": "Dear Bridge Compliance Team, In response to your request for evidence of JDM AVIATION&#39;s wholesaler/distributor activity, please consider the following information. 1. Business and distribution"
         },
         {
-          "date": "2026-09-14",
+          "date": "2026-09-16",
+          "subject": "[SUPERSEDED, DO NOT SEND] JDM Aviation - justificatifs d’activité",
+          "direction": "sent",
+          "snippet": "Superseded: an evidence-based reply to Bridge has been drafted using the documents held and the manufacturer&#39;s public confirmation. Do not send this client request at this stage. Bonjour Thomas,"
+        },
+        {
+          "date": "2026-09-16",
           "subject": "Applicant JDM AVIATION requires investigation",
           "direction": "received",
           "snippet": "Dear Gaia Ferrero Regis Applicant JDM AVIATION requires investigation Follow the link to take further actions. Telegram LinkedIN Facebook Youtube Sumsub is the first AI-powered trust infrastructure fo"
-        },
-        {
-          "date": "2026-09-14",
-          "subject": "Jean Philippe Mathy just joined JDM Aviation - Byzantine Finance",
-          "direction": "sent",
-          "snippet": "Dear Thomas, Jean Philippe Mathy just joined JDM Aviation on the Byzantine Finance platform. ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​"
         }
       ],
       "transcripts": []
@@ -2161,7 +2187,7 @@
       "lastContactType": null,
       "priority": "Med",
       "notes": "",
-      "nextSteps": "Last completed on-ramp 2026-06-06 (>2 months ago) — reconnect and confirm whether another allocation is planned.",
+      "nextSteps": "Send Rémi the full AON coverage documentation (he confirmed he wants it on Sep 15) clarifying technical-incident/principal+interest cover vs. uninsured market/depeg risk; he will book a call slot in coming weeks. Then confirm his intent to transfer several tens of k EUR to the EUR product.",
       "contact": "remidalise@gmail.com",
       "confidence": null,
       "expected_allocation": null,
@@ -2194,7 +2220,7 @@
       "id": "mehdi-amara",
       "company": "Mehdi Amara",
       "stage": "Qualification",
-      "lastDays": 32,
+      "lastDays": 33,
       "lastContactDate": "2026-08-14",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2232,7 +2258,7 @@
       "id": "letus-private-office",
       "company": "Letus Private Office",
       "stage": "Qualification",
-      "lastDays": 15,
+      "lastDays": 16,
       "lastContactDate": "2026-08-31",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2302,7 +2328,7 @@
       "id": "tutornow",
       "company": "Tutornow",
       "stage": "Qualification",
-      "lastDays": 204,
+      "lastDays": 205,
       "lastContactDate": "2026-02-23",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2378,12 +2404,12 @@
       "id": "algoan",
       "company": "Algoan",
       "stage": "Qualification",
-      "lastDays": 0,
+      "lastDays": 1,
       "lastContactDate": "2026-09-15",
-      "lastContactType": "email_received",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
-      "nextSteps": "Lunch with Michael today Tue Sep 15 12:30, venue moved to Madonna, 52 Rue La Fayette (near Michael's neighborhood, 34 rue Laffitte). Michael to resume company onboarding after, potentially using AI to complete the 4 required documents. Gaia to remain available if he gets blocked. Next action: follow up after lunch on onboarding progress.",
+      "nextSteps": "Lunch with Michael completed Sep 15 at Madonna, 52 Rue La Fayette. After lunch, Gaia noted Michael's Byzantine account creation has not yet been submitted and offered to finalize it for him or via app.byzantine.fi. Next action: follow up with Michael on completing/submitting his account onboarding (KYB).",
       "contact": "Michael Diguet (michael.diguet@algoan.com)",
       "confidence": null,
       "expected_allocation": null,
@@ -2391,6 +2417,12 @@
       "days_to_close": null,
       "weighted_value": null,
       "emails": [
+        {
+          "date": "2026-09-15",
+          "subject": "Re: [EXT] Re: Gaia - Michael",
+          "direction": "sent",
+          "snippet": "Hello Michael, Un grand merci pour le déjeuner de ce midi ! J&#39;ai vraiment passé un très bon moment avec toi et beaucoup apprécié tes conseils et tes suggestions. Merci d&#39;avoir pris ce temps"
+        },
         {
           "date": "2026-09-15",
           "subject": "Re: [EXT] Re: Gaia - Michael",
@@ -2402,12 +2434,6 @@
           "subject": "Re: [EXT] Re: Gaia - Michael",
           "direction": "sent",
           "snippet": "Hello Michael, Parfait ! On peut se retrouver à Madonna, 52 Rue La Fayette, à deux pas de chez toi. À tout&#39;, Gaia Gaia Ferrero Regis CEO | Byzantine Finance Book a meeting +33 6 22 23 87 79 Sent"
-        },
-        {
-          "date": "2026-09-15",
-          "subject": "Re: [EXT] Re: Gaia - Michael",
-          "direction": "received",
-          "snippet": "C&#39;est sympa ! Je suis au 34 rue Laffitte 75009 Paris. 12h30, pas de problème. Best Regards, With photo Michael Diguet CEO +33 6 28 07 60 77 linkedin web calendrier RegTech Day Le mar. 15 sept. 202"
         }
       ],
       "transcripts": []
@@ -2416,7 +2442,7 @@
       "id": "young-platform",
       "company": "Young Platform",
       "stage": "Qualification",
-      "lastDays": 21,
+      "lastDays": 22,
       "lastContactDate": "2026-08-25",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2454,7 +2480,7 @@
       "id": "21shares",
       "company": "21Shares",
       "stage": "Qualification",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-09-14",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2492,7 +2518,7 @@
       "id": "hercle",
       "company": "Hercle",
       "stage": "Qualification",
-      "lastDays": 20,
+      "lastDays": 21,
       "lastContactDate": "2026-08-26",
       "lastContactType": "meeting",
       "priority": "Med",
@@ -2530,7 +2556,7 @@
       "id": "bpifrance",
       "company": "Bpifrance",
       "stage": "Qualification",
-      "lastDays": 356,
+      "lastDays": 357,
       "lastContactDate": "2025-09-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2568,7 +2594,7 @@
       "id": "ryseup-studios",
       "company": "RyseUp Studios",
       "stage": "Qualification",
-      "lastDays": 12,
+      "lastDays": 13,
       "lastContactDate": "2026-09-03",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2682,7 +2708,7 @@
       "id": "bit2me",
       "company": "Bit2Me",
       "stage": "Qualification",
-      "lastDays": 56,
+      "lastDays": 57,
       "lastContactDate": "2026-07-21",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2720,7 +2746,7 @@
       "id": "wework",
       "company": "WeWork",
       "stage": "Qualification",
-      "lastDays": 85,
+      "lastDays": 86,
       "lastContactDate": "2026-06-22",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2746,7 +2772,7 @@
       "id": "rebind",
       "company": "Rebind",
       "stage": "Lost",
-      "lastDays": 190,
+      "lastDays": 191,
       "lastContactDate": "2026-03-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -2803,7 +2829,7 @@
       "id": "young-platform",
       "company": "Young Platform",
       "stage": "Qualification",
-      "lastDays": 21,
+      "lastDays": 22,
       "lastContactDate": "2026-08-25",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2860,7 +2886,7 @@
       "id": "shopmium",
       "company": "Shopmium",
       "stage": "Qualification",
-      "lastDays": 75,
+      "lastDays": 76,
       "lastContactDate": "2026-07-02",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2930,7 +2956,7 @@
       "id": "ablc-invest",
       "company": "ABLC INVEST",
       "stage": "Qualification",
-      "lastDays": 46,
+      "lastDays": 47,
       "lastContactDate": "2026-07-31",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -2987,7 +3013,7 @@
       "id": "bizaway",
       "company": "BizAway",
       "stage": "Qualification",
-      "lastDays": 203,
+      "lastDays": 204,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3025,12 +3051,12 @@
       "id": "banca-sella",
       "company": "Banca Sella",
       "stage": "Qualification",
-      "lastDays": 125,
+      "lastDays": 126,
       "lastContactDate": "2026-05-13",
       "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
-      "nextSteps": "Follow up with the Banca Sella/Hype team on Sep 1 and prepare the Sep 9 Sella–Tot pilot meeting. Confirm the Hype use-case status and internal pilot owner; align custody, wallet and on/off-ramp responsibilities; close Compliance, reputational-risk and crypto-risk profiling questions; bring the MNDA, risk framework and product/regulatory materials.",
+      "nextSteps": "Gaia to send Filippo the Sep 16 recap, capital-flow/custody/NAV explanation and supporting integration examples. Follow up the week of Sep 21: Filippo will map assumptions, check B2B custody feasibility and the 2027 delivery timeline with Riccardo, and initiate Sella's business/risk/compliance assessment including Keyrock. Arrange a technical call with Riccardo if needed; relay the outcome to Tot to assess the Sella route versus direct Tot–Byzantine fallback. Sep 21 is an internal follow-up target, not a committed delivery date. Existing wider Sella/Hype workstreams remain open.",
       "contact": "Riccardo Donega (riccardo.donega@sella.it); Filippo Chiricozzi (filippo.chiricozzi@sella.it); Mico Curatolo (mico.curatolo@sella.it); Luca Piermarini (luca.piermarini@sella.it)",
       "confidence": null,
       "expected_allocation": 20000000.0,
@@ -3063,7 +3089,7 @@
       "id": "moonfare",
       "company": "Moonfare",
       "stage": "Qualification",
-      "lastDays": 91,
+      "lastDays": 92,
       "lastContactDate": "2026-06-16",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3101,7 +3127,7 @@
       "id": "mgv",
       "company": "MGV",
       "stage": "Lost",
-      "lastDays": 123,
+      "lastDays": 124,
       "lastContactDate": "2026-05-15",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3127,7 +3153,7 @@
       "id": "etienne-variot",
       "company": "Etienne Variot",
       "stage": "Qualification",
-      "lastDays": 199,
+      "lastDays": 200,
       "lastContactDate": "2026-02-28",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3165,7 +3191,7 @@
       "id": "heloise-jeantet",
       "company": "Héloïse Jeantet",
       "stage": "Qualification",
-      "lastDays": 40,
+      "lastDays": 41,
       "lastContactDate": "2026-08-06",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3197,7 +3223,7 @@
       "id": "lemon",
       "company": "Lemon",
       "stage": "Qualification",
-      "lastDays": 48,
+      "lastDays": 49,
       "lastContactDate": "2026-07-29",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3223,7 +3249,7 @@
       "id": "ateliers-berger",
       "company": "Ateliers Berger",
       "stage": "Qualification",
-      "lastDays": 106,
+      "lastDays": 107,
       "lastContactDate": "2026-06-01",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3280,7 +3306,7 @@
       "id": "goin",
       "company": "GOin",
       "stage": "Lost",
-      "lastDays": 216,
+      "lastDays": 217,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3318,7 +3344,7 @@
       "id": "fluence-family-office",
       "company": "Fluence Family Office",
       "stage": "Qualification",
-      "lastDays": 344,
+      "lastDays": 345,
       "lastContactDate": "2025-10-06",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3363,7 +3389,7 @@
       "id": "sorare",
       "company": "Sorare",
       "stage": "Qualification",
-      "lastDays": 210,
+      "lastDays": 211,
       "lastContactDate": "2026-02-17",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3401,7 +3427,7 @@
       "id": "gdt-ventures",
       "company": "GDT VENTURES",
       "stage": "Qualification",
-      "lastDays": 182,
+      "lastDays": 183,
       "lastContactDate": "2026-03-17",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3439,12 +3465,12 @@
       "id": "tot",
       "company": "Tot",
       "stage": "Qualification",
-      "lastDays": 5,
-      "lastContactDate": "2026-09-10",
+      "lastDays": 0,
+      "lastContactDate": "2026-09-16",
       "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
-      "nextSteps": "Reschedule Sella x Tot Money x Byzantine meeting to Wed Sep 16 at 10:00 (proposed to Salvatore, Luca and Riccardo on Sep 9). Await confirmation; then continue business-case development with Tot; align with Sella on custody/on-off-ramp, Compliance and crypto-risk profiling.",
+      "nextSteps": "Follow up with Salvatore on Thu Sep 24 (existing CRM target) on Tot's business case: current Sella deposit remuneration, yield/fee simulations, customer plan upgrades, additional revenue and launch priority/timing. Gaia to share Filippo's feedback on Sella B2B custody feasibility and 2027 timing after his internal check with Riccardo, then assess Sella custody versus the direct Tot–Byzantine fallback. Coordinate a technical call with Riccardo if needed. Sep 21 in the shared meeting note refers to the initial Sella follow-up; no business-case completion deadline or next meeting was committed on the call.",
       "contact": "Salvatore Salvo (salvatore.salvo@tot.money); Alessandro Falconi (alessandro.falconi@tot.money); Bruno Reggiani (bruno.reggiani@tot.money)",
       "confidence": null,
       "expected_allocation": 10000000.0,
@@ -3453,22 +3479,22 @@
       "weighted_value": null,
       "emails": [
         {
-          "date": "2026-09-10",
-          "subject": "Provvisorio:  Sella x Tot Money x Byzantine",
-          "direction": "received",
-          "snippet": "Le informazioni contenute in questo messaggio di posta elettronica sono riservate, rivolte esclusivamente al destinatario e non comportano alcun vincolo ne&#39; creano obblighi per la societa&#39;"
-        },
-        {
-          "date": "2026-09-09",
+          "date": "2026-09-16",
           "subject": "Accettata:  Sella x Tot Money x Byzantine",
           "direction": "received",
           "snippet": "Le informazioni contenute in questo messaggio di posta elettronica sono riservate, rivolte esclusivamente al destinatario e non comportano alcun vincolo ne&#39; creano obblighi per la societa&#39;"
         },
         {
-          "date": "2026-09-09",
-          "subject": "Declined:  Sella x Tot Money x Byzantine",
+          "date": "2026-09-16",
+          "subject": "Problem with the notes: ‘ Sella x Tot Money x Byzantine’ 16 Sept 2026",
           "direction": "received",
-          "snippet": "Le informazioni contenute in questo messaggio di posta elettronica sono riservate, rivolte esclusivamente al destinatario e non comportano alcun vincolo ne&#39; creano obblighi per la societa&#39;"
+          "snippet": "There was a problem producing the notes for &#39; Sella x Tot Money x Byzantine&#39; Open meeting notes You can still access any transcription and attachments that may be in the notes document."
+        },
+        {
+          "date": "2026-09-16",
+          "subject": "Briefing: Sella x Tot Money x Byzantine (Wed 16 Sept, 10:00)",
+          "direction": "sent",
+          "snippet": "MEETING BRIEFING - Sella x Tot Money x Byzantine Wednesday 16 September, 10:00-10:45 CEST. Meet link: meet.google.com/uhi-rgzw-mpv. This is the rescheduled session (originally 9 Sept, moved here at"
         }
       ],
       "transcripts": []
@@ -3477,8 +3503,8 @@
       "id": "tomcat",
       "company": "Tomcat",
       "stage": "Qualification",
-      "lastDays": 5,
-      "lastContactDate": "2026-09-10",
+      "lastDays": 0,
+      "lastContactDate": "2026-09-16",
       "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
@@ -3491,22 +3517,22 @@
       "weighted_value": null,
       "emails": [
         {
-          "date": "2026-09-10",
-          "subject": "Provvisorio:  Sella x Tot Money x Byzantine",
-          "direction": "received",
-          "snippet": "Le informazioni contenute in questo messaggio di posta elettronica sono riservate, rivolte esclusivamente al destinatario e non comportano alcun vincolo ne&#39; creano obblighi per la societa&#39;"
-        },
-        {
-          "date": "2026-09-09",
+          "date": "2026-09-16",
           "subject": "Accettata:  Sella x Tot Money x Byzantine",
           "direction": "received",
           "snippet": "Le informazioni contenute in questo messaggio di posta elettronica sono riservate, rivolte esclusivamente al destinatario e non comportano alcun vincolo ne&#39; creano obblighi per la societa&#39;"
         },
         {
-          "date": "2026-09-09",
-          "subject": "Declined:  Sella x Tot Money x Byzantine",
+          "date": "2026-09-16",
+          "subject": "Problem with the notes: ‘ Sella x Tot Money x Byzantine’ 16 Sept 2026",
           "direction": "received",
-          "snippet": "Le informazioni contenute in questo messaggio di posta elettronica sono riservate, rivolte esclusivamente al destinatario e non comportano alcun vincolo ne&#39; creano obblighi per la societa&#39;"
+          "snippet": "There was a problem producing the notes for &#39; Sella x Tot Money x Byzantine&#39; Open meeting notes You can still access any transcription and attachments that may be in the notes document."
+        },
+        {
+          "date": "2026-09-16",
+          "subject": "Briefing: Sella x Tot Money x Byzantine (Wed 16 Sept, 10:00)",
+          "direction": "sent",
+          "snippet": "MEETING BRIEFING - Sella x Tot Money x Byzantine Wednesday 16 September, 10:00-10:45 CEST. Meet link: meet.google.com/uhi-rgzw-mpv. This is the rescheduled session (originally 9 Sept, moved here at"
         }
       ],
       "transcripts": []
@@ -3553,7 +3579,7 @@
       "id": "jump",
       "company": "Jump",
       "stage": "Qualification",
-      "lastDays": 4,
+      "lastDays": 5,
       "lastContactDate": "2026-09-11",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3591,7 +3617,7 @@
       "id": "bitpanda",
       "company": "Bitpanda",
       "stage": "Qualification",
-      "lastDays": 98,
+      "lastDays": 99,
       "lastContactDate": "2026-06-09",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3648,7 +3674,7 @@
       "id": "delubac",
       "company": "Delubac",
       "stage": "Qualification",
-      "lastDays": 5,
+      "lastDays": 6,
       "lastContactDate": "2026-09-10",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3686,7 +3712,7 @@
       "id": "simon-hulin",
       "company": "Simon Hulin",
       "stage": "Qualification",
-      "lastDays": 186,
+      "lastDays": 187,
       "lastContactDate": "2026-03-13",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3762,7 +3788,7 @@
       "id": "mooncard",
       "company": "Mooncard",
       "stage": "Qualification",
-      "lastDays": 91,
+      "lastDays": 92,
       "lastContactDate": "2026-06-16",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3800,7 +3826,7 @@
       "id": "htdigital",
       "company": "ht.digital",
       "stage": "Qualification",
-      "lastDays": 0,
+      "lastDays": 1,
       "lastContactDate": "2026-09-15",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -3857,7 +3883,7 @@
       "id": "stairling",
       "company": "Stairling",
       "stage": "Qualification",
-      "lastDays": 12,
+      "lastDays": 13,
       "lastContactDate": "2026-09-03",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3914,7 +3940,7 @@
       "id": "bernat-family-office-sl",
       "company": "Bernat Family Office S.L.",
       "stage": "Qualification",
-      "lastDays": 344,
+      "lastDays": 345,
       "lastContactDate": "2025-10-06",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -3978,7 +4004,7 @@
       "id": "alain-arthur-bloch",
       "company": "Alain & Arthur Bloch",
       "stage": "Qualification",
-      "lastDays": 216,
+      "lastDays": 217,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -4016,7 +4042,7 @@
       "id": "jump",
       "company": "Jump",
       "stage": "Qualification",
-      "lastDays": 4,
+      "lastDays": 5,
       "lastContactDate": "2026-09-11",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -4073,7 +4099,7 @@
       "id": "heitz-system",
       "company": "Heitz System",
       "stage": "Qualification",
-      "lastDays": 69,
+      "lastDays": 70,
       "lastContactDate": "2026-07-08",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -4149,7 +4175,7 @@
       "id": "pgs-conseils",
       "company": "PGS Conseils",
       "stage": "Qualification",
-      "lastDays": 105,
+      "lastDays": 106,
       "lastContactDate": "2026-06-02",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -4187,9 +4213,9 @@
       "id": "hodli",
       "company": "Hodli",
       "stage": "Qualification",
-      "lastDays": 1,
-      "lastContactDate": "2026-09-14",
-      "lastContactType": "email_sent",
+      "lastDays": 0,
+      "lastContactDate": "2026-09-16",
+      "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
       "nextSteps": "Send Byzantine complete answers to Hodli's 5 operational/legal questions and full Nexus Mutual coverage breakdown",
@@ -4201,6 +4227,12 @@
       "weighted_value": null,
       "emails": [
         {
+          "date": "2026-09-16",
+          "subject": "",
+          "direction": "received",
+          "snippet": "Ciao Gianluca, un rapido check-in: hai avuto modo di rivedere i dettagli della copertura? Se ti fa comodo, possiamo fissare una call per chiarire eventuali dubbi o approfondire qualche punto. Resto a"
+        },
+        {
           "date": "2026-09-14",
           "subject": "Re: Follow-up e documentazione assicurazione",
           "direction": "sent",
@@ -4211,12 +4243,6 @@
           "subject": "Re: Follow-up e documentazione assicurazione",
           "direction": "sent",
           "snippet": "Ciao Gianluca, Spero tutto bene! Perdonami di nuovo, eccomi con i dettagli! Ho verificato nel dettaglio il wording della copertura Aon/Relm e Nexus Mutual, ecco i dettagli: 1. Copertura regolamentata"
-        },
-        {
-          "date": "2026-09-04",
-          "subject": "Hodli replied - only insurance left to close",
-          "direction": "sent",
-          "snippet": "Hodli (Gianluca Boleto) replied - and the news is positive and the ball is with us on one thing. Technical/BitGo: still being finalized on their side with BitGo (burocracy), they&#39;ll come back to"
         }
       ],
       "transcripts": []
@@ -4244,7 +4270,7 @@
       "id": "dalma",
       "company": "Dalma.",
       "stage": "Qualification",
-      "lastDays": 225,
+      "lastDays": 226,
       "lastContactDate": "2026-02-02",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -4282,7 +4308,7 @@
       "id": "marine-ruiz-individual",
       "company": "Marine Ruiz – Individual",
       "stage": "Qualification",
-      "lastDays": 34,
+      "lastDays": 35,
       "lastContactDate": "2026-08-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -4308,7 +4334,7 @@
       "id": "sandwell-capital",
       "company": "Sandwell Capital",
       "stage": "Qualification",
-      "lastDays": 40,
+      "lastDays": 41,
       "lastContactDate": "2026-08-06",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -4346,7 +4372,7 @@
       "id": "michael-osullivan",
       "company": "Michael OSullivan",
       "stage": "Qualification",
-      "lastDays": 211,
+      "lastDays": 212,
       "lastContactDate": "2026-02-16",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -4378,7 +4404,7 @@
       "id": "pigment",
       "company": "Pigment",
       "stage": "Qualification",
-      "lastDays": 344,
+      "lastDays": 345,
       "lastContactDate": "2025-10-06",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -4410,7 +4436,7 @@
       "id": "elljy-patrimoine-jean-yves-louis",
       "company": "Elljy Patrimoine — Jean-Yves Louis",
       "stage": "Qualification",
-      "lastDays": 103,
+      "lastDays": 104,
       "lastContactDate": "2026-06-04",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -4455,7 +4481,7 @@
       "id": "fygr",
       "company": "Fygr",
       "stage": "Qualification",
-      "lastDays": 21,
+      "lastDays": 22,
       "lastContactDate": "2026-08-25",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -4512,7 +4538,7 @@
       "id": "t3tris-labs",
       "company": "T3tris Labs",
       "stage": "Qualification",
-      "lastDays": 201,
+      "lastDays": 202,
       "lastContactDate": "2026-02-26",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -4569,7 +4595,7 @@
       "id": "thomas-ammar",
       "company": "Thomas ammar",
       "stage": "Qualification",
-      "lastDays": 196,
+      "lastDays": 197,
       "lastContactDate": "2026-03-03",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -4607,7 +4633,7 @@
       "id": "roma-capital",
       "company": "ROMA CAPITAL",
       "stage": "Qualification",
-      "lastDays": 40,
+      "lastDays": 41,
       "lastContactDate": "2026-08-06",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -4645,9 +4671,9 @@
       "id": "alan",
       "company": "Alan",
       "stage": "Qualification",
-      "lastDays": 0,
+      "lastDays": 1,
       "lastContactDate": "2026-09-15",
-      "lastContactType": "email_received",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
       "nextSteps": "Map the warm-introduction path and verify treasury suitability before outreach.",
@@ -4661,6 +4687,12 @@
         {
           "date": "2026-09-15",
           "subject": "Re: [EXT] Re: Gaia - Michael",
+          "direction": "sent",
+          "snippet": "Hello Michael, Un grand merci pour le déjeuner de ce midi ! J&#39;ai vraiment passé un très bon moment avec toi et beaucoup apprécié tes conseils et tes suggestions. Merci d&#39;avoir pris ce temps"
+        },
+        {
+          "date": "2026-09-15",
+          "subject": "Re: [EXT] Re: Gaia - Michael",
           "direction": "received",
           "snippet": "super sympa, merci ! Best Regards, With photo Michael Diguet CEO +33 6 28 07 60 77 linkedin web calendrier RegTech Day Le mar. 15 sept. 2026 à 11:14, Gaia Ferrero Regis &lt;gaia@byzantine.fi&gt; a"
         },
@@ -4669,12 +4701,6 @@
           "subject": "Re: [EXT] Re: Gaia - Michael",
           "direction": "sent",
           "snippet": "Hello Michael, Parfait ! On peut se retrouver à Madonna, 52 Rue La Fayette, à deux pas de chez toi. À tout&#39;, Gaia Gaia Ferrero Regis CEO | Byzantine Finance Book a meeting +33 6 22 23 87 79 Sent"
-        },
-        {
-          "date": "2026-09-15",
-          "subject": "Re: [EXT] Re: Gaia - Michael",
-          "direction": "received",
-          "snippet": "C&#39;est sympa ! Je suis au 34 rue Laffitte 75009 Paris. 12h30, pas de problème. Best Regards, With photo Michael Diguet CEO +33 6 28 07 60 77 linkedin web calendrier RegTech Day Le mar. 15 sept. 202"
         }
       ],
       "transcripts": []
@@ -4683,7 +4709,7 @@
       "id": "115k",
       "company": "115K",
       "stage": "Qualification",
-      "lastDays": 15,
+      "lastDays": 16,
       "lastContactDate": "2026-08-31",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -4740,7 +4766,7 @@
       "id": "joseph-bouanich",
       "company": "Joseph Bouanich",
       "stage": "Qualification",
-      "lastDays": 32,
+      "lastDays": 33,
       "lastContactDate": "2026-08-14",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -4778,7 +4804,7 @@
       "id": "whitebit",
       "company": "WhiteBIT",
       "stage": "Qualification",
-      "lastDays": 804,
+      "lastDays": 805,
       "lastContactDate": "2024-07-03",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -4810,7 +4836,7 @@
       "id": "coinhouse",
       "company": "Coinhouse",
       "stage": "Qualification",
-      "lastDays": 117,
+      "lastDays": 118,
       "lastContactDate": "2026-05-21",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -4848,7 +4874,7 @@
       "id": "nicolas-breil-nadal-individual",
       "company": "Nicolas Breil Nadal – Individual",
       "stage": "Qualification",
-      "lastDays": 34,
+      "lastDays": 35,
       "lastContactDate": "2026-08-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -4874,7 +4900,7 @@
       "id": "gaya",
       "company": "GAYA",
       "stage": "Qualification",
-      "lastDays": 0,
+      "lastDays": 1,
       "lastContactDate": "2026-09-15",
       "lastContactType": "meeting",
       "priority": "Med",
@@ -5007,7 +5033,7 @@
       "id": "yael-hirsch",
       "company": "Yael Hirsch",
       "stage": "Qualification",
-      "lastDays": 120,
+      "lastDays": 121,
       "lastContactDate": "2026-05-18",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -5033,7 +5059,7 @@
       "id": "cdp-venture-capital",
       "company": "CDP Venture Capital",
       "stage": "Qualification",
-      "lastDays": 40,
+      "lastDays": 41,
       "lastContactDate": "2026-08-06",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -5071,9 +5097,9 @@
       "id": "foryield",
       "company": "ForYield",
       "stage": "Qualification",
-      "lastDays": 8,
-      "lastContactDate": "2026-09-07",
-      "lastContactType": "email_received",
+      "lastDays": 0,
+      "lastContactDate": "2026-09-16",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
       "nextSteps": "",
@@ -5084,6 +5110,12 @@
       "days_to_close": null,
       "weighted_value": null,
       "emails": [
+        {
+          "date": "2026-09-16",
+          "subject": "Briefing - Quentin (ForYield) lunch, Wed Sep 16 at 12:30",
+          "direction": "sent",
+          "snippet": "Here is your briefing for lunch with Quentin Hopp today at 12:30 at Giusé Trattoria, 125 Rue du Faubourg Saint-Honoré, 75008 Paris. Quentin Hopp Co-founder and Président/Associé gérant of ForYield, a"
+        },
         {
           "date": "2026-09-07",
           "subject": "Accepted: Quentin (ForYield) <> Gaia (Byzantine) @ Wed 16 Sept 2026 12:30pm - 1:30pm (CEST) (gaia@byzantine.fi)",
@@ -5097,7 +5129,7 @@
       "id": "carbone-farmers",
       "company": "Carbone Farmers",
       "stage": "Lost",
-      "lastDays": 215,
+      "lastDays": 216,
       "lastContactDate": "2026-02-12",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -5135,7 +5167,7 @@
       "id": "smart-valor",
       "company": "SMART VALOR",
       "stage": "Contacted",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-09-14",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -5173,7 +5205,7 @@
       "id": "finoa",
       "company": "Finoa",
       "stage": "Qualification",
-      "lastDays": 3,
+      "lastDays": 4,
       "lastContactDate": "2026-09-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -5208,10 +5240,36 @@
       "transcripts": []
     },
     {
+      "id": "kymono",
+      "company": "Kymono",
+      "stage": "Contacted",
+      "lastDays": 1,
+      "lastContactDate": "2026-09-15",
+      "lastContactType": "email_sent",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "Follow up on initial outreach",
+      "contact": "Olivier Ramel <olivier@kymono.co>",
+      "confidence": null,
+      "expected_allocation": null,
+      "pct_closing": null,
+      "days_to_close": null,
+      "weighted_value": null,
+      "emails": [
+        {
+          "date": "2026-09-15",
+          "subject": "Kymono / Byzantine",
+          "direction": "sent",
+          "snippet": "Bonjour Olivier, Je me permets de vous contacter dans le cadre de votre rôle de CEO chez Kymono. Chez Byzantine, nous proposons une solution pour rémunérer la trésorerie d&#39;acteurs du merchandising"
+        }
+      ],
+      "transcripts": []
+    },
+    {
       "id": "payfit",
       "company": "PayFit",
       "stage": "Qualification",
-      "lastDays": 0,
+      "lastDays": 1,
       "lastContactDate": "2026-09-15",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -5249,7 +5307,7 @@
       "id": "valentine-bensimhon",
       "company": "Valentine Bensimhon",
       "stage": "Qualification",
-      "lastDays": 49,
+      "lastDays": 50,
       "lastContactDate": "2026-07-28",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -5306,7 +5364,7 @@
       "id": "ibex",
       "company": "IBEX",
       "stage": "Qualification",
-      "lastDays": 111,
+      "lastDays": 112,
       "lastContactDate": "2026-05-27",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -5344,7 +5402,7 @@
       "id": "jona-hauch",
       "company": "Jona Hauch",
       "stage": "Lost",
-      "lastDays": 203,
+      "lastDays": 204,
       "lastContactDate": "2026-02-24",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -5370,7 +5428,7 @@
       "id": "cdp",
       "company": "CDP",
       "stage": "Qualification",
-      "lastDays": 99,
+      "lastDays": 100,
       "lastContactDate": "2026-06-08",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -5408,7 +5466,7 @@
       "id": "sabrina-sabbah-pages",
       "company": "Sabrina Sabbah Pagès",
       "stage": "Qualification",
-      "lastDays": 34,
+      "lastDays": 35,
       "lastContactDate": "2026-08-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -5472,7 +5530,7 @@
       "id": "charles-grosdidier",
       "company": "Charles Grosdidier",
       "stage": "Qualification",
-      "lastDays": 55,
+      "lastDays": 56,
       "lastContactDate": "2026-07-22",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -5510,7 +5568,7 @@
       "id": "bitvavo",
       "company": "Bitvavo",
       "stage": "Qualification",
-      "lastDays": 3,
+      "lastDays": 4,
       "lastContactDate": "2026-09-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -5548,7 +5606,7 @@
       "id": "flag-finance",
       "company": "Flag Finance",
       "stage": "Qualification",
-      "lastDays": 250,
+      "lastDays": 251,
       "lastContactDate": "2026-01-08",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -5602,6 +5660,44 @@
       "transcripts": []
     },
     {
+      "id": "mycater",
+      "company": "MyCater",
+      "stage": "Contacted",
+      "lastDays": 13,
+      "lastContactDate": "2026-09-03",
+      "lastContactType": "email_received",
+      "priority": "Med",
+      "notes": "",
+      "nextSteps": "Follow up on initial outreach",
+      "contact": "Mathieu Hordesseaux <mathieu@mycater.fr>",
+      "confidence": null,
+      "expected_allocation": null,
+      "pct_closing": null,
+      "days_to_close": null,
+      "weighted_value": null,
+      "emails": [
+        {
+          "date": "2026-09-03",
+          "subject": "",
+          "direction": "received",
+          "snippet": "Hello Guillaume, Je reviens vers toi, on est déjà dans le dernier trimestre, comment ça avance de ton côté ? Est-ce que les startups à qui tu as transmis la présentation sont intéressées ? N&#39;hésit"
+        },
+        {
+          "date": "2026-09-01",
+          "subject": "Open alert: Guillaume Siffelet (Tomcat) opened \"Intro Tomcat <> Byzantine\"",
+          "direction": "sent",
+          "snippet": "Heads up: Guillaume Siffelet (CFO &amp; Partner, Tomcat Invest) opened your follow-up &quot;Intro Tomcat &lt;&gt; Byzantine&quot; about 21 minutes after you sent it (first open). Since the email"
+        },
+        {
+          "date": "2026-09-01",
+          "subject": "Re: Intro Tomcat <> Byzantine",
+          "direction": "sent",
+          "snippet": "Hello Guillaume, J&#39;espère que tu vas bien et que tu as passé un bel été. Cela fait un moment que nous n&#39;avons pas échangé, alors je voulais reprendre contact et prendre de tes nouvelles."
+        }
+      ],
+      "transcripts": []
+    },
+    {
       "id": "fabrizio-iosa-wealth-management-partnership",
       "company": "Fabrizio Iosa — wealth-management partnership",
       "stage": "Qualification",
@@ -5624,7 +5720,7 @@
       "id": "elodie-jolibert---finallia",
       "company": "Elodie Jolibert - finallia",
       "stage": "Qualification",
-      "lastDays": 42,
+      "lastDays": 43,
       "lastContactDate": "2026-08-04",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -5662,7 +5758,7 @@
       "id": "consilium-patrimoine",
       "company": "Consilium Patrimoine",
       "stage": "Qualification",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-09-14",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -5738,7 +5834,7 @@
       "id": "vincent-leclerc",
       "company": "Vincent Leclerc",
       "stage": "Qualification",
-      "lastDays": 8,
+      "lastDays": 9,
       "lastContactDate": "2026-09-07",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -5764,7 +5860,7 @@
       "id": "trufin-truyields",
       "company": "TruFin / TruYields",
       "stage": "Qualification",
-      "lastDays": 167,
+      "lastDays": 168,
       "lastContactDate": "2026-04-01",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -5809,7 +5905,7 @@
       "id": "cloudflare",
       "company": "Cloudflare",
       "stage": "Qualification",
-      "lastDays": 13,
+      "lastDays": 14,
       "lastContactDate": "2026-09-02",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -5923,7 +6019,7 @@
       "id": "sibill",
       "company": "Sibill",
       "stage": "Qualification",
-      "lastDays": 161,
+      "lastDays": 162,
       "lastContactDate": "2026-04-07",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -5999,7 +6095,7 @@
       "id": "welara",
       "company": "WELARA",
       "stage": "Qualification",
-      "lastDays": 6,
+      "lastDays": 7,
       "lastContactDate": "2026-09-09",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -6037,7 +6133,7 @@
       "id": "eric-bouanich",
       "company": "Eric Bouanich",
       "stage": "Qualification",
-      "lastDays": 32,
+      "lastDays": 33,
       "lastContactDate": "2026-08-14",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -6075,7 +6171,7 @@
       "id": "manaslu",
       "company": "Manaslu",
       "stage": "Qualification",
-      "lastDays": 34,
+      "lastDays": 35,
       "lastContactDate": "2026-08-12",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -6132,7 +6228,7 @@
       "id": "back-market",
       "company": "Back Market",
       "stage": "Qualification",
-      "lastDays": 32,
+      "lastDays": 33,
       "lastContactDate": "2026-08-14",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -6189,7 +6285,7 @@
       "id": "sillage-patrimoine",
       "company": "Sillage Patrimoine",
       "stage": "Qualification",
-      "lastDays": 1,
+      "lastDays": 2,
       "lastContactDate": "2026-09-14",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -6265,8 +6361,8 @@
       "id": "request-network",
       "company": "Request Network",
       "stage": "Qualification",
-      "lastDays": 67,
-      "lastContactDate": "2026-07-10",
+      "lastDays": 0,
+      "lastContactDate": "2026-09-16",
       "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
@@ -6279,6 +6375,12 @@
       "weighted_value": 15000.0,
       "emails": [
         {
+          "date": "2026-09-16",
+          "subject": "Re: KYB request for JDM AVIATION",
+          "direction": "sent",
+          "snippet": "Dear Bridge Compliance Team, In response to your request for evidence of JDM AVIATION&#39;s wholesaler/distributor activity, please consider the following information. 1. Business and distribution"
+        },
+        {
           "date": "2026-07-10",
           "subject": "Re: KYB Request for TEJIKA",
           "direction": "sent",
@@ -6289,12 +6391,6 @@
           "subject": "Re: KYB request for  TEJIKA",
           "direction": "sent",
           "snippet": "Hi Bridge team, Thank you for your review. Please find the requested information below. 1. Website / business generation TEJIKA does not operate a website. The company is a supply chain consultancy"
-        },
-        {
-          "date": "2026-05-11",
-          "subject": "Re: KYB request for KEREN HOLDING",
-          "direction": "sent",
-          "snippet": "Dear Bridge Compliance Team, Please find attached an invoice from the entity to a client. The entity&#39;s business model is simple - it introduces funds to high net worth individuals within its"
         }
       ],
       "transcripts": []
@@ -6322,9 +6418,9 @@
       "id": "agora",
       "company": "Agora",
       "stage": "Qualification",
-      "lastDays": 0,
+      "lastDays": 1,
       "lastContactDate": "2026-09-15",
-      "lastContactType": "email_received",
+      "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
       "nextSteps": "Follow up 2026-07-08. To be re-engaged",
@@ -6338,6 +6434,12 @@
         {
           "date": "2026-09-15",
           "subject": "Re: [EXT] Re: Gaia - Michael",
+          "direction": "sent",
+          "snippet": "Hello Michael, Un grand merci pour le déjeuner de ce midi ! J&#39;ai vraiment passé un très bon moment avec toi et beaucoup apprécié tes conseils et tes suggestions. Merci d&#39;avoir pris ce temps"
+        },
+        {
+          "date": "2026-09-15",
+          "subject": "Re: [EXT] Re: Gaia - Michael",
           "direction": "received",
           "snippet": "super sympa, merci ! Best Regards, With photo Michael Diguet CEO +33 6 28 07 60 77 linkedin web calendrier RegTech Day Le mar. 15 sept. 2026 à 11:14, Gaia Ferrero Regis &lt;gaia@byzantine.fi&gt; a"
         },
@@ -6346,12 +6448,6 @@
           "subject": "Re: [EXT] Re: Gaia - Michael",
           "direction": "sent",
           "snippet": "Hello Michael, Parfait ! On peut se retrouver à Madonna, 52 Rue La Fayette, à deux pas de chez toi. À tout&#39;, Gaia Gaia Ferrero Regis CEO | Byzantine Finance Book a meeting +33 6 22 23 87 79 Sent"
-        },
-        {
-          "date": "2026-09-15",
-          "subject": "Re: [EXT] Re: Gaia - Michael",
-          "direction": "received",
-          "snippet": "C&#39;est sympa ! Je suis au 34 rue Laffitte 75009 Paris. 12h30, pas de problème. Best Regards, With photo Michael Diguet CEO +33 6 28 07 60 77 linkedin web calendrier RegTech Day Le mar. 15 sept. 202"
         }
       ],
       "transcripts": []
@@ -6360,7 +6456,7 @@
       "id": "allcolibri",
       "company": "allcolibri",
       "stage": "Qualification",
-      "lastDays": 6,
+      "lastDays": 7,
       "lastContactDate": "2026-09-09",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -6436,7 +6532,7 @@
       "id": "big-time-labs",
       "company": "Big Time Labs",
       "stage": "Qualification",
-      "lastDays": 7,
+      "lastDays": 8,
       "lastContactDate": "2026-09-08",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -6512,12 +6608,12 @@
       "id": "raizo",
       "company": "RAIZO",
       "stage": "Qualification",
-      "lastDays": 11,
+      "lastDays": 12,
       "lastContactDate": "2026-09-04",
       "lastContactType": "email_sent",
       "priority": "Med",
       "notes": "",
-      "nextSteps": "Sep 14 follow-up sent asking if Renaud looked at the Byzantine platform and offering a first test allocation together via Gaia's Calendly. Next: Renaud to book a first test allocation slot.",
+      "nextSteps": "Sep 15, 2026: Renaud deposited EUR 20,000 into his Byzantine account, confirming his first deployment. Next: confirm the funds are active/earning, support him with the first test allocation, and follow up on whether RAIZO/holding companies intend to increase the allocation.",
       "contact": "Renaud Garnier",
       "confidence": null,
       "expected_allocation": null,
@@ -6569,7 +6665,7 @@
       "id": "gocanopy",
       "company": "GoCanopy",
       "stage": "Lost",
-      "lastDays": 140,
+      "lastDays": 141,
       "lastContactDate": "2026-04-28",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -6607,7 +6703,7 @@
       "id": "dust",
       "company": "Dust",
       "stage": "Qualification",
-      "lastDays": 136,
+      "lastDays": 137,
       "lastContactDate": "2026-05-02",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -6645,7 +6741,7 @@
       "id": "mazal-ey-ltd",
       "company": "Mazal E&Y LTD",
       "stage": "Qualification",
-      "lastDays": 207,
+      "lastDays": 208,
       "lastContactDate": "2026-02-20",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -6683,7 +6779,7 @@
       "id": "maki-people",
       "company": "Maki People",
       "stage": "Qualification",
-      "lastDays": 284,
+      "lastDays": 285,
       "lastContactDate": "2025-12-05",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -6709,7 +6805,7 @@
       "id": "kido-holdings-ltd",
       "company": "KIDO HOLDINGS LTD",
       "stage": "Qualification",
-      "lastDays": 46,
+      "lastDays": 47,
       "lastContactDate": "2026-07-31",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -6785,7 +6881,7 @@
       "id": "samuel-mottais",
       "company": "Samuel Mottais",
       "stage": "Qualification",
-      "lastDays": 246,
+      "lastDays": 247,
       "lastContactDate": "2026-01-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -6887,7 +6983,7 @@
       "id": "mada-strategies-mathieu-dantonio",
       "company": "Mada Strategies — Mathieu D'Antonio",
       "stage": "Qualification",
-      "lastDays": 55,
+      "lastDays": 56,
       "lastContactDate": "2026-07-22",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -6919,7 +7015,7 @@
       "id": "centralesupelec",
       "company": "CentraleSupélec",
       "stage": "Qualification",
-      "lastDays": 82,
+      "lastDays": 83,
       "lastContactDate": "2026-06-25",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -6945,7 +7041,7 @@
       "id": "intesa-sanpaolo",
       "company": "Intesa Sanpaolo",
       "stage": "Qualification",
-      "lastDays": 7,
+      "lastDays": 8,
       "lastContactDate": "2026-09-08",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -6984,7 +7080,7 @@
       "company": "Qonto",
       "stage": "Qualification",
       "lastDays": 0,
-      "lastContactDate": "2026-09-15",
+      "lastContactDate": "2026-09-16",
       "lastContactType": "email_received",
       "priority": "Med",
       "notes": "",
@@ -6997,22 +7093,22 @@
       "weighted_value": null,
       "emails": [
         {
-          "date": "2026-09-15",
+          "date": "2026-09-16",
+          "subject": "Mise à jour de votre Contrat : la transition de Qonto vers un agrément d’établissement de crédit",
+          "direction": "received",
+          "snippet": "Qonto Proposition de modification unilatérale du Contrat-cadre de services de paiement Bonjour Gaia, Nous vous écrivons pour vous informer d&#39;une mise à jour obligatoire de votre Contrat. En 2025,"
+        },
+        {
+          "date": "2026-09-16",
+          "subject": "You received a transfer",
+          "direction": "received",
+          "snippet": "Hello Gaia, You&#39;ve just received a new transfer: Amount: 50000.00 EUR From: BYZANTINE FINANCE Account: Compte principal You can add an attachment such as an invoice to this transfer to save time o"
+        },
+        {
+          "date": "2026-09-16",
           "subject": "You’ve made a payment",
           "direction": "received",
-          "snippet": "Hello Gaia, Here&#39;s a summary of your transaction. Merchant: Madonna Paris Amount: 57.00 EUR Card name: X (ending in 3684) Merchant: Madonna Paris Amount: 57.00 EUR Card name: X (ending in 3684)"
-        },
-        {
-          "date": "2026-09-15",
-          "subject": "PayFit SAS has sent you a new invoice in Qonto.",
-          "direction": "received",
-          "snippet": "You&#39;ve received a new invoice | Hello Gaia, You&#39;ve received a new invoice from PayFit SAS directly in Qonto via e-invoicing. You&#39;ll find the invoice in the Supplier Invoices section of you"
-        },
-        {
-          "date": "2026-09-15",
-          "subject": "Your direct debit payment to FLEET has been processed",
-          "direction": "received",
-          "snippet": "Hello Gaia, The following direct debit payment has been processed successfully: Creditor: FLEET Amount: 66.24 EUR Transaction date: Sep 15, 2026 If you haven&#39;t already, add a receipt and save time"
+          "snippet": "Hello Gaia, Here&#39;s a summary of your transaction. Merchant: Apple Amount: 229.00 EUR Card name: X (ending in 3684) Merchant: Apple Amount: 229.00 EUR Card name: X (ending in 3684) Merchant: Apple"
         }
       ],
       "transcripts": []
@@ -7021,7 +7117,7 @@
       "id": "equance",
       "company": "Equance",
       "stage": "Lost",
-      "lastDays": 131,
+      "lastDays": 132,
       "lastContactDate": "2026-05-07",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -7047,7 +7143,7 @@
       "id": "rcube",
       "company": "Rcube",
       "stage": "Qualification",
-      "lastDays": 98,
+      "lastDays": 99,
       "lastContactDate": "2026-06-09",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -7085,7 +7181,7 @@
       "id": "payflow",
       "company": "Payflow",
       "stage": "Lost",
-      "lastDays": 0,
+      "lastDays": 1,
       "lastContactDate": "2026-09-15",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -7123,7 +7219,7 @@
       "id": "nathanael-amar",
       "company": "Nathanael Amar",
       "stage": "Qualification",
-      "lastDays": 99,
+      "lastDays": 100,
       "lastContactDate": "2026-06-08",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -7174,7 +7270,7 @@
       "id": "samuel-rahmine",
       "company": "Samuel Rahmine",
       "stage": "Qualification",
-      "lastDays": 246,
+      "lastDays": 247,
       "lastContactDate": "2026-01-12",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -7200,7 +7296,7 @@
       "id": "ct2-conseil",
       "company": "CT2 Conseil",
       "stage": "Qualification",
-      "lastDays": 105,
+      "lastDays": 106,
       "lastContactDate": "2026-06-02",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -7238,7 +7334,7 @@
       "id": "wobee",
       "company": "Wobee",
       "stage": "Qualification",
-      "lastDays": 0,
+      "lastDays": 1,
       "lastContactDate": "2026-09-15",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -7283,7 +7379,7 @@
       "id": "jethr",
       "company": "JetHR",
       "stage": "Lost",
-      "lastDays": 202,
+      "lastDays": 203,
       "lastContactDate": "2026-02-25",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -7340,7 +7436,7 @@
       "id": "arthur-bloch",
       "company": "Arthur Bloch",
       "stage": "Qualification",
-      "lastDays": 216,
+      "lastDays": 217,
       "lastContactDate": "2026-02-11",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -7378,7 +7474,7 @@
       "id": "heyteam",
       "company": "HeyTeam",
       "stage": "Lost",
-      "lastDays": 69,
+      "lastDays": 70,
       "lastContactDate": "2026-07-08",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -7416,7 +7512,7 @@
       "id": "kleos-capital",
       "company": "Kleos Capital",
       "stage": "Qualification",
-      "lastDays": 40,
+      "lastDays": 41,
       "lastContactDate": "2026-08-06",
       "lastContactType": "email_sent",
       "priority": "Med",
@@ -7473,7 +7569,7 @@
       "id": "thibault-gimenez",
       "company": "Thibault Gimenez",
       "stage": "Qualification",
-      "lastDays": 39,
+      "lastDays": 40,
       "lastContactDate": "2026-08-07",
       "lastContactType": "email_received",
       "priority": "Med",
@@ -7509,7 +7605,7 @@
     }
   ],
   "pipeline_metrics": {
-    "pipeline_count": 235,
+    "pipeline_count": 238,
     "total_allocation": 265727003.0,
     "time_weighted_pipeline_mo": 0.0,
     "avg_pct_closing": 47.2,
@@ -7539,6 +7635,7 @@
       "Pedro Simão De Miranda",
       "Pennylane",
       "Nicolas Bacca",
+      "Joko",
       "Aelis",
       "LEF Conseil — François Martineau",
       "Meyon",
@@ -7681,6 +7778,7 @@
       "ForYield",
       "SMART VALOR",
       "Finoa",
+      "Kymono",
       "PayFit",
       "Valentine Bensimhon",
       "YesWeHack",
@@ -7693,6 +7791,7 @@
       "Bitvavo",
       "Flag Finance",
       "Michaël Braka",
+      "MyCater",
       "Fabrizio Iosa — wealth-management partnership",
       "Elodie Jolibert - finallia",
       "Consilium Patrimoine",
@@ -9338,124 +9437,20 @@
   },
   "meetings": [
     {
-      "date": "2026-09-15",
-      "time": "08:00",
-      "title": "",
-      "company": "",
-      "attendees": [],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "time": "09:00",
-      "title": "Romain Monget and Gaia Ferrero Regis",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi",
-        "romain@wobee.fr"
-      ],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-09-15",
-      "time": "09:30",
-      "title": "Travel to Eric <> Gaia",
-      "company": "Gaia",
-      "attendees": [],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-09-15",
-      "time": "10:00",
-      "title": "Eric <> Gaia",
-      "company": "Gaia",
-      "attendees": [
-        "gaia@byzantine.fi",
-        "eric_bouanich@yahoo.com"
-      ],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-09-15",
-      "time": "10:30",
-      "title": "Travel from Eric <> Gaia",
-      "company": "Gaia",
-      "attendees": [],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-09-15",
-      "time": "12:00",
-      "title": "Travel to Michael / Gaia: Dej",
+      "title": "Submit Lin Huang’s departure dossier via TéléRC",
       "company": "",
       "attendees": [],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-09-15",
-      "time": "12:30",
-      "title": "Michael / Gaia: Dej",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi",
-        "michael.diguet@algoan.com"
-      ],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-09-15",
-      "time": "13:30",
-      "title": "Weekly RP Byzantine x Linker",
-      "company": "",
-      "attendees": [
-        "valentine@linker-agency.com",
-        "gaia@byzantine.fi",
-        "matteo@byzantine.fi",
-        "lea.linker@coudac.com",
-        "lea@linker-agency.com"
-      ],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-09-15",
-      "time": "13:30",
-      "title": "Travel from Michael / Gaia: Dej",
-      "company": "",
-      "attendees": [],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-09-15",
-      "time": "15:30",
-      "title": "Byzantine <> Circle Kickoff Call ",
-      "company": "Circle Kickoff Call",
-      "attendees": [
-        "haider.bhatti@circle.com",
-        "rebecca.wald@circle.com",
-        "gaia@byzantine.fi",
-        "nicholas.priestley@circle.com",
-        "julie.mckenna@circle.com"
-      ],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-09-15",
-      "time": "17:00",
-      "title": "Bridge Account Management Sync (Gaia Ferrero Regis)",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi",
-        "joekoech@bridge.xyz"
-      ],
       "prepNeeded": false
     },
     {
       "date": "2026-09-16",
-      "time": "08:00",
-      "title": "",
+      "time": "09:30",
+      "title": "Follow up with Michael Diguet about his account",
       "company": "",
       "attendees": [],
-      "prepNeeded": true
+      "prepNeeded": false
     },
     {
       "date": "2026-09-16",
@@ -9482,14 +9477,6 @@
     },
     {
       "date": "2026-09-16",
-      "time": "12:00",
-      "title": "Travel to Quentin (ForYield) <> Gaia (Byzantine)",
-      "company": "Gaia (Byzantine)",
-      "attendees": [],
-      "prepNeeded": true
-    },
-    {
-      "date": "2026-09-16",
       "time": "12:30",
       "title": "Quentin (ForYield) <> Gaia (Byzantine)",
       "company": "Gaia (Byzantine)",
@@ -9509,6 +9496,14 @@
     },
     {
       "date": "2026-09-16",
+      "time": "14:00",
+      "title": "",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-09-16",
       "time": "16:00",
       "title": "Travel to Session Calling JAB x Super Capital",
       "company": "",
@@ -9529,16 +9524,6 @@
       "title": "Session Calling JAB x Super Capital",
       "company": "",
       "attendees": [],
-      "prepNeeded": false
-    },
-    {
-      "date": "2026-09-16",
-      "time": "16:30",
-      "title": "Session Calling JAB x Super Capital",
-      "company": "",
-      "attendees": [
-        "gaia@byzantine.fi"
-      ],
       "prepNeeded": false
     },
     {
@@ -9564,6 +9549,19 @@
       "company": "",
       "attendees": [],
       "prepNeeded": true
+    },
+    {
+      "date": "2026-09-17",
+      "time": "11:00",
+      "title": "Portofino <> Byzantine ",
+      "company": "Byzantine",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "adrien.bertholom@portofino.tech",
+        "jonas@byzantine.fi",
+        "alexandre@byzantine.fi"
+      ],
+      "prepNeeded": false
     },
     {
       "date": "2026-09-17",
@@ -9715,6 +9713,17 @@
     {
       "date": "2026-09-18",
       "time": "16:00",
+      "title": "Bridge Account Management Sync (Gaia Ferrero Regis)",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "joekoech@bridge.xyz"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-09-18",
+      "time": "17:00",
       "title": "Co-founders catch up",
       "company": "",
       "attendees": [
@@ -9829,9 +9838,107 @@
       "prepNeeded": false
     },
     {
+      "date": "2026-09-22",
+      "time": "15:30",
+      "title": "[15-minute buffer before Byzantine Finance event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-09-22",
+      "time": "15:45",
+      "title": "Axel Sabban - d&a partners and Gaia Ferrero Regis",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "a.sabban@dnapartners.fr"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-09-23",
+      "time": "09:30",
+      "title": "Travel to Quentin ForYield <> Byzantine",
+      "company": "Byzantine",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-09-23",
+      "time": "10:00",
+      "title": "Quentin ForYield <> Byzantine",
+      "company": "Byzantine",
+      "attendees": [
+        "quentin.hopp@for-yield.com",
+        "gaia@byzantine.fi",
+        "benoit@byzantine.fi",
+        "alexandre@byzantine.fi",
+        "matteo@byzantine.fi"
+      ],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-09-23",
+      "time": "10:45",
+      "title": "Travel from Quentin ForYield <> Byzantine",
+      "company": "Byzantine",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-09-24",
+      "time": "08:00",
+      "title": "Travel to Cash That Moves, Cash That Earns: Onchain for Treasurers",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-09-24",
+      "time": "08:30",
+      "title": "Cash That Moves, Cash That Earns: Onchain for Treasurers",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-09-24",
+      "time": "10:15",
+      "title": "[15-minute buffer before Byzantine Finance event]",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi"
+      ],
+      "prepNeeded": false
+    },
+    {
+      "date": "2026-09-24",
+      "time": "10:30",
+      "title": "Axel Sabban and Gaia Ferrero Regis",
+      "company": "",
+      "attendees": [
+        "gaia@byzantine.fi",
+        "a.sabban@dnapartners.fr"
+      ],
+      "prepNeeded": false
+    },
+    {
       "date": "2026-09-24",
       "time": "11:00",
       "title": "Coach",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
+    },
+    {
+      "date": "2026-09-24",
+      "time": "11:00",
+      "title": "Travel from Cash That Moves, Cash That Earns: Onchain for Treasurers",
       "company": "",
       "attendees": [],
       "prepNeeded": true
@@ -9897,7 +10004,7 @@
     },
     {
       "date": "2026-09-25",
-      "time": "16:00",
+      "time": "17:00",
       "title": "Co-founders catch up",
       "company": "",
       "attendees": [
@@ -9960,99 +10067,107 @@
         "lea@linker-agency.com"
       ],
       "prepNeeded": true
+    },
+    {
+      "date": "2026-09-30",
+      "time": "11:00",
+      "title": "Coach",
+      "company": "",
+      "attendees": [],
+      "prepNeeded": true
     }
   ],
   "all_transcripts": [],
   "activity_feed": [
     {
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "type": "email_received",
       "company": "Pennylane",
       "summary": "Received: 1 unread notification on Pennylane"
     },
     {
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "type": "email_received",
-      "company": "Pennylane",
-      "summary": "Received: BYZANTINE FINANCE: Bookkeeping - Documents and supporting documents to provide"
+      "company": "Solid",
+      "summary": "Received: "
     },
     {
-      "date": "2026-09-15",
-      "type": "email_sent",
-      "company": "Incard",
-      "summary": "Sent: Mooncard / Byzantine"
-    },
-    {
-      "date": "2026-09-15",
-      "type": "email_received",
-      "company": "Criptan",
-      "summary": "Received: Criptan / Byzantine Prime - Due diligence response draft"
-    },
-    {
-      "date": "2026-09-15",
-      "type": "email_received",
-      "company": "Criptan",
-      "summary": "Received: Criptan / Byzanti... - @benoit@byzantine.fi"
-    },
-    {
-      "date": "2026-09-15",
-      "type": "email_received",
-      "company": "Criptan",
-      "summary": "Received: Criptan / Byzantine Prime — Due diligence response draft"
-    },
-    {
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "type": "email_sent",
       "company": "JDM Aviation",
-      "summary": "Sent: Re: Pièce identité Gérald DUCOIN - JDM Aviation"
+      "summary": "Sent: Re: KYB request for JDM AVIATION"
     },
     {
-      "date": "2026-09-15",
-      "type": "email_received",
-      "company": "Algoan",
-      "summary": "Received: Re: [EXT] Re: Gaia - Michael"
-    },
-    {
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "type": "email_sent",
-      "company": "Algoan",
-      "summary": "Sent: Re: [EXT] Re: Gaia - Michael"
+      "company": "JDM Aviation",
+      "summary": "Sent: [SUPERSEDED, DO NOT SEND] JDM Aviation - justificatifs d’activité"
     },
     {
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "type": "email_received",
-      "company": "Algoan",
-      "summary": "Received: Re: [EXT] Re: Gaia - Michael"
+      "company": "JDM Aviation",
+      "summary": "Received: Applicant JDM AVIATION requires investigation"
     },
     {
-      "date": "2026-09-15",
+      "date": "2026-09-16",
+      "type": "email_received",
+      "company": "Tot",
+      "summary": "Received: Accettata:  Sella x Tot Money x Byzantine"
+    },
+    {
+      "date": "2026-09-16",
+      "type": "email_received",
+      "company": "Tot",
+      "summary": "Received: Problem with the notes: ‘ Sella x Tot Money x Byzantine’ 16 Sept 2026"
+    },
+    {
+      "date": "2026-09-16",
       "type": "email_sent",
-      "company": "ht.digital",
-      "summary": "Sent: Follow-up: Ian Taylor (HT Digital) - no reply"
+      "company": "Tot",
+      "summary": "Sent: Briefing: Sella x Tot Money x Byzantine (Wed 16 Sept, 10:00)"
     },
     {
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "type": "email_received",
-      "company": "Alan",
-      "summary": "Received: Re: [EXT] Re: Gaia - Michael"
+      "company": "Tomcat",
+      "summary": "Received: Accettata:  Sella x Tot Money x Byzantine"
     },
     {
-      "date": "2026-09-15",
+      "date": "2026-09-16",
+      "type": "email_received",
+      "company": "Tomcat",
+      "summary": "Received: Problem with the notes: ‘ Sella x Tot Money x Byzantine’ 16 Sept 2026"
+    },
+    {
+      "date": "2026-09-16",
       "type": "email_sent",
-      "company": "Alan",
-      "summary": "Sent: Re: [EXT] Re: Gaia - Michael"
+      "company": "Tomcat",
+      "summary": "Sent: Briefing: Sella x Tot Money x Byzantine (Wed 16 Sept, 10:00)"
     },
     {
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "type": "email_received",
-      "company": "Alan",
-      "summary": "Received: Re: [EXT] Re: Gaia - Michael"
+      "company": "Hodli",
+      "summary": "Received: "
     },
     {
-      "date": "2026-09-15",
-      "type": "meeting",
-      "company": "GAYA",
-      "summary": "Travel to Eric <> Gaia"
+      "date": "2026-09-16",
+      "type": "email_sent",
+      "company": "ForYield",
+      "summary": "Sent: Briefing - Quentin (ForYield) lunch, Wed Sep 16 at 12:30"
+    },
+    {
+      "date": "2026-09-16",
+      "type": "email_sent",
+      "company": "Request Network",
+      "summary": "Sent: Re: KYB request for JDM AVIATION"
+    },
+    {
+      "date": "2026-09-16",
+      "type": "email_received",
+      "company": "Qonto",
+      "summary": "Received: Mise à jour de votre Contrat : la transition de Qonto vers un agrément d’établissement de crédit"
     }
   ]
 }
